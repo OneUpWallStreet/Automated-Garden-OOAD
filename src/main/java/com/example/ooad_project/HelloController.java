@@ -23,11 +23,11 @@ public class HelloController {
     @FXML
     private GridPane gridPane;
     @FXML
-    private MenuButton vegetableMenuButton; // Add Flower
+    private MenuButton vegetableMenuButton;
+    @FXMLg
+    private MenuButton flowerMenuButton;
     @FXML
-    private MenuButton flowerMenuButton;  // Add Tree
-    @FXML
-    private MenuButton treeMenuButton; // Add Vegetable
+    private MenuButton treeMenuButton;
 
     private final int numRows = 10;
     private final int numCols = 10;
