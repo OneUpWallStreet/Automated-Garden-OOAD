@@ -1,0 +1,19 @@
+{
+  "trees": [
+    {"name": "Oak", "waterRequirement": 20, "growthRate": "Medium"},
+    {"name": "Maple", "waterRequirement": 15, "growthRate": "Medium"},
+    {"name": "Pine", "waterRequirement": 10, "growthRate": "Fast"},
+    {"name": "Cedar", "waterRequirement": 12, "growthRate": "Slow"}
+  ],
+  "vegetables": [
+    {"name": "Tomato", "waterRequirement": 8, "growthRate": "Fast"},
+    {"name": "Carrot", "waterRequirement": 5, "growthRate": "Medium"},
+    {"name": "Lettuce", "waterRequirement": 6, "growthRate": "Fast"}
+  ],
+  "flowers": [
+    {"name": "Sunflower", "waterRequirement": 6, "growthRate": "Fast"},
+    {"name": "Rose", "waterRequirement": 7, "growthRate": "Medium"},
+    {"name": "Lily", "waterRequirement": 5, "growthRate": "Medium"},
+    {"name": "Jasmine", "waterRequirement": 5, "growthRate": "Medium"}
+  ]
+}
