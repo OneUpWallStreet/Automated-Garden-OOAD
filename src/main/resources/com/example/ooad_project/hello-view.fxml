@@ -10,35 +10,24 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="641.0" prefWidth="1216.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ooad_project.HelloController">
     <children>
-        <MenuButton fx:id="flowerMenuButton" layoutX="550.0" layoutY="61.0" mnemonicParsing="false" text="Add Tree" textAlignment="CENTER" textFill="#056b25">
-            <items>
-                <MenuItem onAction="#addRandomFlower" text="Add Random Flower" />
-            </items>
-        </MenuButton>
+        <MenuButton fx:id="treeMenuButton" layoutX="550.0" layoutY="61.0" mnemonicParsing="false" text="Add Tree" textAlignment="CENTER" textFill="#056b25" />
         <GridPane fx:id="gridPane" gridLinesVisible="true" layoutX="14.0" layoutY="114.0">
             <!-- Column and Row constraints will be added dynamically in the controller -->
         </GridPane>
-      <MenuButton fx:id="flowerMenuButton1" layoutX="550.0" layoutY="108.0" mnemonicParsing="false" text="Add Flower" textAlignment="CENTER" textFill="#ae5cad">
-         <items>
-            <MenuItem onAction="#addRandomFlower" text="Add Random Flower" />
-         </items>
-      </MenuButton>
-      <MenuButton fx:id="flowerMenuButton11" layoutX="550.0" layoutY="158.0" mnemonicParsing="false" text="Add Vegetable" textFill="#24ab4a">
-         <items>
-            <MenuItem onAction="#addRandomFlower" text="Add Random Flower" />
-         </items>
-      </MenuButton>
-      <Text fill="#5b9066" layoutX="550.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+ve Actions" wrappingWidth="123.3662109375">
-         <font>
-            <Font name="System Bold" size="22.0" />
-         </font>
-      </Text>
-      <Button layoutX="550.0" layoutY="208.0" mnemonicParsing="false" text="Insert Bee" textFill="#83902b" />
-      <Button layoutX="550.0" layoutY="260.0" mnemonicParsing="false" text="Add Scarecrow" textFill="#8a8383" />
-      <Text fill="#b91414" layoutX="745.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-ve Actions" wrappingWidth="123.3662109375">
-         <font>
-            <Font name="System Bold" size="22.0" />
-         </font>
-      </Text>
+        <MenuButton fx:id="flowerMenuButton" layoutX="550.0" layoutY="108.0" mnemonicParsing="false" text="Add Flower" textAlignment="CENTER" textFill="#ae5cad" />
+        <MenuButton fx:id="vegetableMenuButton" layoutX="550.0" layoutY="158.0" mnemonicParsing="false" text="Add Vegetable" textFill="#24ab4a" />
+        <Text fill="#5b9066" layoutX="550.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+ve Actions" wrappingWidth="123.3662109375">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Text>
+        <Button layoutX="550.0" layoutY="208.0" mnemonicParsing="false" text="Insert Bee" textFill="#83902b" />
+        <Button layoutX="550.0" layoutY="260.0" mnemonicParsing="false" text="Add Scarecrow" textFill="#8a8383" />
+        <Text fill="#b91414" layoutX="745.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-ve Actions" wrappingWidth="123.3662109375">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Text>
     </children>
 </AnchorPane>
+
