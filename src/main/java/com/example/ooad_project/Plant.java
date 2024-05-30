@@ -8,14 +8,16 @@ package com.example.ooad_project;
  */
 public abstract class Plant {
 
-    protected String name;
-    protected double health;
-    protected int waterRequirement;
+    private String name;
+    private double health;
+    private int waterRequirement;
+    private String imageName;
 
-    public Plant(String name, double health, int waterRequirement) {
+    public Plant(String name, double health, int waterRequirement, String imageName) {
         this.name = name;
         this.health = health;
         this.waterRequirement = waterRequirement;
+        this.imageName = imageName;
     }
 
     // Standard getters and setters
@@ -41,6 +43,14 @@ public abstract class Plant {
 
     public void setWaterRequirement(int waterRequirement) {
         this.waterRequirement = waterRequirement;
+    }
+
+    public String getImageName() {
+        return imageName;
+    }
+
+    public void setImageName(String imageName) {
+        this.imageName = imageName;
     }
 
 

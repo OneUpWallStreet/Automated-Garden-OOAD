@@ -1,19 +1,19 @@
 {
   "trees": [
-    {"name": "Oak", "waterRequirement": 20, "growthRate": "Medium"},
-    {"name": "Maple", "waterRequirement": 15, "growthRate": "Medium"},
-    {"name": "Pine", "waterRequirement": 10, "growthRate": "Fast"},
-    {"name": "Cedar", "waterRequirement": 12, "growthRate": "Slow"}
+    {"name": "Oak", "waterRequirement": 20, "growthRate": "Medium", "imageName": "tree.png"},
+    {"name": "Maple", "waterRequirement": 15, "growthRate": "Medium", "imageName": "maple.png"},
+    {"name": "Pine", "waterRequirement": 10, "growthRate": "Fast", "imageName": "pine.png"},
+    {"name": "Cedar", "waterRequirement": 12, "growthRate": "Slow", "imageName": "tree.png"}
   ],
   "vegetables": [
-    {"name": "Tomato", "waterRequirement": 8, "growthRate": "Fast"},
-    {"name": "Carrot", "waterRequirement": 5, "growthRate": "Medium"},
-    {"name": "Lettuce", "waterRequirement": 6, "growthRate": "Fast"}
+    {"name": "Tomato", "waterRequirement": 8, "growthRate": "Fast", "imageName": "vegetable.png"},
+    {"name": "Carrot", "waterRequirement": 5, "growthRate": "Medium", "imageName": "carrot.png"},
+    {"name": "Lettuce", "waterRequirement": 6, "growthRate": "Fast", "imageName": "vegetable.png"}
   ],
   "flowers": [
-    {"name": "Sunflower", "waterRequirement": 6, "growthRate": "Fast"},
-    {"name": "Rose", "waterRequirement": 7, "growthRate": "Medium"},
-    {"name": "Lily", "waterRequirement": 5, "growthRate": "Medium"},
-    {"name": "Jasmine", "waterRequirement": 5, "growthRate": "Medium"}
+    {"name": "Sunflower", "waterRequirement": 6, "growthRate": "Fast", "imageName": "flower.png"},
+    {"name": "Rose", "waterRequirement": 7, "growthRate": "Medium", "imageName": "flower.png"},
+    {"name": "Lily", "waterRequirement": 5, "growthRate": "Medium", "imageName": "lily.png"},
+    {"name": "Jasmine", "waterRequirement": 5, "growthRate": "Medium", "imageName": "flower.png"}
   ]
 }

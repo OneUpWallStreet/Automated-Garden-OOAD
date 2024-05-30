@@ -45,21 +45,21 @@ public class PlantManager {
     private void loadFlowers(JSONArray flowerData) {
         for (int i = 0; i < flowerData.length(); i++) {
             JSONObject flower = flowerData.getJSONObject(i);
-            flowers.add(new Flower(flower.getString("name"), 100, flower.getInt("waterRequirement")));
+            flowers.add(new Flower(flower.getString("name"), 100, flower.getInt("waterRequirement"), flower.getString("imageName")));
         }
     }
 
     private void loadTrees(JSONArray treeData) {
         for (int i = 0; i < treeData.length(); i++) {
             JSONObject tree = treeData.getJSONObject(i);
-            trees.add(new Tree(tree.getString("name"), 100, tree.getInt("waterRequirement")));
+            trees.add(new Tree(tree.getString("name"), 100, tree.getInt("waterRequirement"), tree.getString("imageName")));
         }
     }
 
     private void loadVegetables(JSONArray vegetableData) {
         for (int i = 0; i < vegetableData.length(); i++) {
             JSONObject vegetable = vegetableData.getJSONObject(i);
-            vegetables.add(new Vegetable(vegetable.getString("name"), 100, vegetable.getInt("waterRequirement")));
+            vegetables.add(new Vegetable(vegetable.getString("name"), 100, vegetable.getInt("waterRequirement"), vegetable.getString("imageName")));
         }
     }
 

@@ -9,8 +9,8 @@ package com.example.ooad_project;
  */
 public class Flower extends Plant{
 
-    Flower(String name, double health, int waterRequirement){
-        super(name, health, waterRequirement);
+    Flower(String name, double health, int waterRequirement, String imageName){
+        super(name, health, waterRequirement, imageName);
     }
 
 }

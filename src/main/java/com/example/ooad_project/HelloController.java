@@ -58,19 +58,19 @@ public class HelloController {
         PlantManager plantManager = PlantManager.getInstance();
         for (Flower flower : plantManager.getFlowers()) {
             MenuItem menuItem = new MenuItem(flower.getName());
-            menuItem.setOnAction(e -> addPlantToGrid(flower.getName(), "flower.png"));
+            menuItem.setOnAction(e -> addPlantToGrid(flower.getName(), flower.getImageName()));
             flowerMenuButton.getItems().add(menuItem);
         }
 
         for (Tree tree : plantManager.getTrees()) {
             MenuItem menuItem = new MenuItem(tree.getName());
-            menuItem.setOnAction(e -> addPlantToGrid(tree.getName(), "tree.png"));
+            menuItem.setOnAction(e -> addPlantToGrid(tree.getName(), tree.getImageName()));
             treeMenuButton.getItems().add(menuItem);
         }
 
         for (Vegetable vegetable : plantManager.getVegetables()) {
             MenuItem menuItem = new MenuItem(vegetable.getName());
-            menuItem.setOnAction(e -> addPlantToGrid(vegetable.getName(), "vegetable.png"));
+            menuItem.setOnAction(e -> addPlantToGrid(vegetable.getName(), vegetable.getImageName()));
             vegetableMenuButton.getItems().add(menuItem);
         }
 
