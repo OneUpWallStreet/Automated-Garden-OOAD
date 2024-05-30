@@ -54,40 +54,27 @@ public class HelloController {
     }
 
     private void loadPlantsData() {
-        try {
-            String content = new String(Files.readAllBytes(Paths.get("plants.json")));
-            JSONObject jsonObject = new JSONObject(content);
 
-            JSONArray flowers = jsonObject.getJSONArray("flowers");
-            for (int i = 0; i < flowers.length(); i++) {
-                JSONObject flower = flowers.getJSONObject(i);
-                String name = flower.getString("name");
-                MenuItem menuItem = new MenuItem(name);
-                menuItem.setOnAction(e -> addPlantToGrid(name, "flower.png"));
-                flowerMenuButton.getItems().add(menuItem);
-            }
-
-            JSONArray trees = jsonObject.getJSONArray("trees");
-            for (int i = 0; i < trees.length(); i++) {
-                JSONObject tree = trees.getJSONObject(i);
-                String name = tree.getString("name");
-                MenuItem menuItem = new MenuItem(name);
-                menuItem.setOnAction(e -> addPlantToGrid(name, "flower.png"));
-                treeMenuButton.getItems().add(menuItem);
-            }
-
-            JSONArray vegetables = jsonObject.getJSONArray("vegetables");
-            for (int i = 0; i < vegetables.length(); i++) {
-                JSONObject vegetable = vegetables.getJSONObject(i);
-                String name = vegetable.getString("name");
-                MenuItem menuItem = new MenuItem(name);
-                menuItem.setOnAction(e -> addPlantToGrid(name, "flower.png"));
-                vegetableMenuButton.getItems().add(menuItem);
-            }
-
-        } catch (IOException e) {
-            e.printStackTrace();
+        PlantManager plantManager = PlantManager.getInstance();
+        for (Flower flower : plantManager.getFlowers()) {
+            MenuItem menuItem = new MenuItem(flower.getName());
+            menuItem.setOnAction(e -> addPlantToGrid(flower.getName(), "flower.png"));
+            flowerMenuButton.getItems().add(menuItem);
         }
+
+        for (Tree tree : plantManager.getTrees()) {
+            MenuItem menuItem = new MenuItem(tree.getName());
+            menuItem.setOnAction(e -> addPlantToGrid(tree.getName(), "tree.png"));
+            treeMenuButton.getItems().add(menuItem);
+        }
+
+        for (Vegetable vegetable : plantManager.getVegetables()) {
+            MenuItem menuItem = new MenuItem(vegetable.getName());
+            menuItem.setOnAction(e -> addPlantToGrid(vegetable.getName(), "vegetable.png"));
+            vegetableMenuButton.getItems().add(menuItem);
+        }
+
+
     }
 
     private void addPlantToGrid(String name, String imageFile) {
