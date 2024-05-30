@@ -24,7 +24,7 @@ public class HelloController {
     private GridPane gridPane;
     @FXML
     private MenuButton vegetableMenuButton;
-    @FXMLg
+    @FXML
     private MenuButton flowerMenuButton;
     @FXML
     private MenuButton treeMenuButton;
