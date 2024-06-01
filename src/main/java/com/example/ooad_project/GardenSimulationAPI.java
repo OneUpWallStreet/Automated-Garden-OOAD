@@ -16,12 +16,21 @@ public class GardenSimulationAPI {
 
     void rain(int amount) {
 
+//
     }
 
 
     void temperature(int amount) {
+// 40 - 120
+
+//        150
+        if(amount < 40 || amount > 120){
+            System.out.println("Invalid temperature");
+            return;
+        }
 
     }
+
 
     void parasite(String name) {
 
