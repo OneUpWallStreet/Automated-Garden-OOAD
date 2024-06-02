@@ -1,5 +1,10 @@
 package com.example.ooad_project;
 
+import com.example.ooad_project.Plant.Children.Flower;
+import com.example.ooad_project.Plant.Plant;
+import com.example.ooad_project.Plant.Children.Tree;
+import com.example.ooad_project.Plant.Children.Vegetable;
+import com.example.ooad_project.Plant.PlantManager;
 import javafx.fxml.FXML;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.MenuItem;
@@ -25,8 +30,8 @@ public class GardenUIController {
     private MenuButton treeMenuButton;
 
 
-    private final int numRows = 10;
-    private final int numCols = 10;
+    private final int numRows = 4;
+    private final int numCols = 4;
     private final Random random = new Random();
     private GardenGrid gardenGrid;
     private PlantManager plantManager = PlantManager.getInstance();
@@ -45,14 +50,14 @@ public class GardenUIController {
         // Add ColumnConstraints
         for (int col = 0; col < numCols; col++) {
             ColumnConstraints colConst = new ColumnConstraints();
-            colConst.setPrefWidth(30); // Adjust the width as needed
+            colConst.setPrefWidth(60); // Adjust the width as needed
             gridPane.getColumnConstraints().add(colConst);
         }
 
         // Add RowConstraints
         for (int row = 0; row < numRows; row++) {
             RowConstraints rowConst = new RowConstraints();
-            rowConst.setPrefHeight(30); // Adjust the height as needed
+            rowConst.setPrefHeight(60); // Adjust the height as needed
             gridPane.getRowConstraints().add(rowConst);
         }
 

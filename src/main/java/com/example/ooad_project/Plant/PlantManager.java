@@ -1,5 +1,8 @@
-package com.example.ooad_project;
+package com.example.ooad_project.Plant;
 
+import com.example.ooad_project.Plant.Children.Flower;
+import com.example.ooad_project.Plant.Children.Tree;
+import com.example.ooad_project.Plant.Children.Vegetable;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.nio.file.Files;

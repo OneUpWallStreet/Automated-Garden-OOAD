@@ -1,5 +1,7 @@
 package com.example.ooad_project;
 
+import com.example.ooad_project.Plant.Plant;
+
 public class GardenGrid {
     private static GardenGrid instance = null;
     private Plant[][] plantGrid;
@@ -36,6 +38,7 @@ public class GardenGrid {
         if (plantGrid[row][col] == null) {
             plantGrid[row][col] = plant;
         } else {
+            System.out.println("Spot is already occupied" + "in row: " + row + " col: " + col);
             throw new IllegalArgumentException("Spot is already occupied");
         }
     }

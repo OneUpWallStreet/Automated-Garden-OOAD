@@ -1,4 +1,6 @@
-package com.example.ooad_project;
+package com.example.ooad_project.Parasite;
+
+import com.example.ooad_project.Plant.Plant;
 
 public abstract class Parasite {
     protected double damage;
