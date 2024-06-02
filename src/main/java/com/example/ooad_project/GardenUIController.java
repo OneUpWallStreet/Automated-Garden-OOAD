@@ -34,10 +34,12 @@ public class GardenUIController {
     private GardenGrid gardenGrid;
     private PlantManager plantManager = PlantManager.getInstance();
 
+
     public GardenUIController() {
         gardenGrid = GardenGrid.getInstance();
     }
 
+//    This is the method that will print the grid
     @FXML
     public void printGrid(){
         gardenGrid.printGrid();
@@ -63,6 +65,8 @@ public class GardenUIController {
         loadPlantsData();
     }
 
+
+//    This is the method that will populate the menu buttons with the plant data
     private void loadPlantsData() {
 
         PlantManager plantManager = PlantManager.getInstance();

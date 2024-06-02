@@ -33,11 +33,14 @@ public class HelloApplication extends Application {
         runAPIScheduledTasks();
     }
 
+//    We should start all of our background services here
     private void initializeBackgroundServices() {
         Runnable wateringSystem = new WateringSystem();
         ThreadManager.run(wateringSystem);
     }
 
+//    This is for testing the API
+//    I assume Prof is going to do something similar
     private void runAPIScheduledTasks() {
         GardenSimulationAPI api = new GardenSimulationAPI();
 

@@ -7,6 +7,8 @@ import java.util.ArrayList;
 public class GardenGrid {
     private static GardenGrid instance = null;
     private Plant[][] plantGrid;
+
+//    4x4 for now
     private final int numRows = 4;
     private final int numCols = 4;
 
@@ -15,12 +17,19 @@ public class GardenGrid {
         plantGrid = new Plant[numRows][numCols];
     }
 
+
+//    Singleton pattern
     public static GardenGrid getInstance() {
         if (instance == null) {
             instance = new GardenGrid();
         }
         return instance;
     }
+
+
+//    Just prints the grid to the console
+//    If possible we need to make it better
+//    For testing.
     public void printGrid() {
 
         System.out.println("\nGarden Grid: \n");
@@ -49,6 +58,8 @@ public class GardenGrid {
     }
 
 
+//    It is important that we synchronize this method
+//    Because we are accessing the grid via multiple threadsg
     public synchronized Plant getPlant(int row, int col) {
         if (row >= 0 && row < getNumRows() && col >= 0 && col < getNumCols()) {
             return plantGrid[row][col];
