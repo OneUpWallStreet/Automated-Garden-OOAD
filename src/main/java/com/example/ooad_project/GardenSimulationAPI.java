@@ -6,48 +6,36 @@ import java.util.Map;
 
 
 
-public class GardenSimulationAPI {
+public class GardenSimulationAPI  implements GardenSimulationAPIInterface{
 
 
-    void initializeGarden() {
-
-
-    }
-
-    Map<String, Object> getPlants(){
-        return null;
-    }
-
-    void rain(int amount) {
-
-//
-    }
-
-
-    void temperature(int amount) {
-// 40 - 120
-
-//        150
-        if(amount < 40 || amount > 120){
-            System.out.println("Invalid temperature");
-            return;
-        }
+    @Override
+    public void initializeGarden() {
 
     }
 
+    @Override
+    public Map<String, Object> getPlants() {
+        return Map.of();
+    }
 
-    void parasite(String name) {
+    @Override
+    public void rain(int amount) {
 
     }
 
-    void getState(){
+    @Override
+    public void temperature(int amount) {
 
     }
 
+    @Override
+    public void parasite(String name) {
 
+    }
 
+    @Override
+    public void getState() {
 
-
-
-
+    }
 }
