@@ -90,23 +90,31 @@ public class GardenUIController {
     }
 
     private void addPlantToGrid(String name, String imageFile) {
-        Plant plant = plantManager.getPlantByName(name); // This method needs to be implemented
+        Plant plant = plantManager.getPlantByName(name); // Assume this method retrieves the correct plant
         if (plant != null) {
-            int row = random.nextInt(numRows);
-            int col = random.nextInt(numCols);
-            try {
+            boolean placed = false;
+            int attempts = 0;
+            while (!placed && attempts < 100) { // Limit attempts to avoid potential infinite loop
+                int row = random.nextInt(numRows);
+                int col = random.nextInt(numCols);
                 if (!gardenGrid.isSpotOccupied(row, col)) {
                     gardenGrid.addPlant(plant, row, col);
                     ImageView plantView = new ImageView(new Image(getClass().getResourceAsStream("/images/" + imageFile)));
                     plantView.setFitHeight(30);
                     plantView.setFitWidth(30);
                     gridPane.add(plantView, col, row);
+                    placed = true;
                 }
-            } catch (IllegalArgumentException e) {
-                System.err.println("Spot at " + row + ", " + col + " is already occupied.");
+                attempts++;
             }
+            if (!placed) {
+                System.err.println("Failed to place the plant after 100 attempts, grid might be full.");
+            }
+        } else {
+            System.err.println("Plant not found: " + name);
         }
     }
+
 
 
 }
