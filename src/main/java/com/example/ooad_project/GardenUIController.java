@@ -8,17 +8,12 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.RowConstraints;
-import org.json.JSONArray;
-import org.json.JSONObject;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.Random;
 
 
 
-public class HelloController {
+public class GardenUIController {
 
     @FXML
     private GridPane gridPane;
@@ -36,7 +31,7 @@ public class HelloController {
     private GardenGrid gardenGrid;
     private PlantManager plantManager = PlantManager.getInstance();
 
-    public HelloController() {
+    public GardenUIController() {
         gardenGrid = GardenGrid.getInstance(numRows, numCols);
     }
 
