@@ -2,21 +2,25 @@ package com.example.ooad_project;
 
 import com.example.ooad_project.Plant.Plant;
 
+import java.util.ArrayList;
+
 public class GardenGrid {
     private static GardenGrid instance = null;
     private Plant[][] plantGrid;
+    private final int numRows = 4;
+    private final int numCols = 4;
 
-    private GardenGrid(int numRows, int numCols) {
+
+    private GardenGrid() {
         plantGrid = new Plant[numRows][numCols];
     }
 
-    public static GardenGrid getInstance(int numRows, int numCols) {
+    public static GardenGrid getInstance() {
         if (instance == null) {
-            instance = new GardenGrid(numRows, numCols);
+            instance = new GardenGrid();
         }
         return instance;
     }
-
     public void printGrid() {
 
         System.out.println("\nGarden Grid: \n");
@@ -31,17 +35,36 @@ public class GardenGrid {
             }
             System.out.println();
         }
+
+
     }
 
 
-    public void addPlant(Plant plant, int row, int col) {
+    public synchronized void addPlant(Plant plant, int row, int col) {
         if (plantGrid[row][col] == null) {
             plantGrid[row][col] = plant;
         } else {
-            System.out.println("Spot is already occupied" + "in row: " + row + " col: " + col);
-            throw new IllegalArgumentException("Spot is already occupied");
+            throw new IllegalArgumentException("Spot at row " + row + " col " + col + " is already occupied");
         }
     }
+
+
+    public synchronized Plant getPlant(int row, int col) {
+        if (row >= 0 && row < getNumRows() && col >= 0 && col < getNumCols()) {
+            return plantGrid[row][col];
+        }
+        return null;
+    }
+
+    public int getNumRows() {
+        return numRows;
+    }
+
+    public int getNumCols() {
+        return numCols;
+    }
+
+
 
     public boolean isSpotOccupied(int row, int col) {
         return plantGrid[row][col] != null;

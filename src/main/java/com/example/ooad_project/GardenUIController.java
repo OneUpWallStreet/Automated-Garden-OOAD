@@ -30,14 +30,12 @@ public class GardenUIController {
     private MenuButton treeMenuButton;
 
 
-    private final int numRows = 4;
-    private final int numCols = 4;
     private final Random random = new Random();
     private GardenGrid gardenGrid;
     private PlantManager plantManager = PlantManager.getInstance();
 
     public GardenUIController() {
-        gardenGrid = GardenGrid.getInstance(numRows, numCols);
+        gardenGrid = GardenGrid.getInstance();
     }
 
     @FXML
@@ -48,14 +46,14 @@ public class GardenUIController {
     @FXML
     public void initialize() {
         // Add ColumnConstraints
-        for (int col = 0; col < numCols; col++) {
+        for (int col = 0; col < gardenGrid.getNumCols(); col++) {
             ColumnConstraints colConst = new ColumnConstraints();
             colConst.setPrefWidth(60); // Adjust the width as needed
             gridPane.getColumnConstraints().add(colConst);
         }
 
         // Add RowConstraints
-        for (int row = 0; row < numRows; row++) {
+        for (int row = 0; row < gardenGrid.getNumRows(); row++) {
             RowConstraints rowConst = new RowConstraints();
             rowConst.setPrefHeight(60); // Adjust the height as needed
             gridPane.getRowConstraints().add(rowConst);
@@ -95,13 +93,13 @@ public class GardenUIController {
             boolean placed = false;
             int attempts = 0;
             while (!placed && attempts < 100) { // Limit attempts to avoid potential infinite loop
-                int row = random.nextInt(numRows);
-                int col = random.nextInt(numCols);
+                int row = random.nextInt(gardenGrid.getNumRows());
+                int col = random.nextInt(gardenGrid.getNumCols());
                 if (!gardenGrid.isSpotOccupied(row, col)) {
                     gardenGrid.addPlant(plant, row, col);
                     ImageView plantView = new ImageView(new Image(getClass().getResourceAsStream("/images/" + imageFile)));
-                    plantView.setFitHeight(30);
-                    plantView.setFitWidth(30);
+                    plantView.setFitHeight(60);
+                    plantView.setFitWidth(60);
                     gridPane.add(plantView, col, row);
                     placed = true;
                 }

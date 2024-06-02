@@ -30,7 +30,7 @@ public class HelloApplication extends Application {
         initializeBackgroundServices();
 
         // Schedule API rain calls using JavaFX Timeline
-        scheduleRainEvents();
+        runAPIScheduledTasks();
     }
 
     private void initializeBackgroundServices() {
@@ -38,8 +38,9 @@ public class HelloApplication extends Application {
         ThreadManager.run(wateringSystem);
     }
 
-    private void scheduleRainEvents() {
+    private void runAPIScheduledTasks() {
         GardenSimulationAPI api = new GardenSimulationAPI();
+
         Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(20), ev -> {
             api.rain(10);
         }));
@@ -47,13 +48,6 @@ public class HelloApplication extends Application {
         timeline.play();
     }
 
-//    Old implementation using ScheduledExecutorService
-    //    private ScheduledExecutorService scheduler;
-    //    private void scheduleRainEvents() {
-//        GardenSimulationAPI api = new GardenSimulationAPI();
-//        scheduler = Executors.newSingleThreadScheduledExecutor();
-//        scheduler.scheduleAtFixedRate(() -> api.rain(10), 0, 20, TimeUnit.SECONDS);
-//    }
 
     public static void main(String[] args) {
         launch();

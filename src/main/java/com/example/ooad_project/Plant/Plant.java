@@ -12,6 +12,8 @@ public abstract class Plant {
     private double health;
     private int waterRequirement;
     private String imageName;
+    private Boolean isWatered = false;
+    private int currentWater = 0;
 
     public Plant(String name, double health, int waterRequirement, String imageName) {
         this.name = name;
@@ -20,6 +22,11 @@ public abstract class Plant {
         this.imageName = imageName;
     }
 
+    public synchronized void addWater(int amount) {
+        System.out.println("Adding " + amount + " water to " + name);
+        this.currentWater = Math.min(currentWater + amount, waterRequirement);
+        this.isWatered = currentWater >= waterRequirement;
+    }
 
     // Standard getters and setters
     public String getName() {
@@ -28,6 +35,22 @@ public abstract class Plant {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Boolean getIsWatered() {
+        return isWatered;
+    }
+
+    public void setIsWatered(Boolean isWatered) {
+        this.isWatered = isWatered;
+    }
+
+    public int getCurrentWater() {
+        return currentWater;
+    }
+
+    public void setCurrentWater(int currentWater) {
+        this.currentWater = currentWater;
     }
 
     public double getHealth() {
