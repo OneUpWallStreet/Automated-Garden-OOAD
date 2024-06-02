@@ -1,5 +1,8 @@
 package com.example.ooad_project.API;
 
+import com.example.ooad_project.RainEvent;
+import com.example.ooad_project.ThreadUtils.EventBus;
+
 import java.util.Map;
 
 
@@ -21,7 +24,7 @@ public class GardenSimulationAPI  implements GardenSimulationAPIInterface{
 
     @Override
     public void rain(int amount) {
-
+        EventBus.publish("RainEvent", new RainEvent(amount));
     }
 
     @Override
