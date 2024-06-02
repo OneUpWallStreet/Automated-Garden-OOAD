@@ -29,9 +29,21 @@ public class HelloController {
     @FXML
     private MenuButton treeMenuButton;
 
+
     private final int numRows = 10;
     private final int numCols = 10;
     private final Random random = new Random();
+    private GardenGrid gardenGrid;
+    private PlantManager plantManager = PlantManager.getInstance();
+
+    public HelloController() {
+        gardenGrid = GardenGrid.getInstance(numRows, numCols);
+    }
+
+    @FXML
+    public void printGrid(){
+        gardenGrid.printGrid();
+    }
 
     @FXML
     public void initialize() {
@@ -78,17 +90,23 @@ public class HelloController {
     }
 
     private void addPlantToGrid(String name, String imageFile) {
-        // Load plant image (make sure the image path is correct)
-        Image plantImage = new Image(getClass().getResourceAsStream("/images/" + imageFile));
-        ImageView imageView = new ImageView(plantImage);
-        imageView.setFitWidth(30);
-        imageView.setFitHeight(30);
-
-        // Find a random cell in the grid
-        int row = random.nextInt(numRows);
-        int col = random.nextInt(numCols);
-
-        // Add the plant image to the grid
-        gridPane.add(imageView, col, row);
+        Plant plant = plantManager.getPlantByName(name); // This method needs to be implemented
+        if (plant != null) {
+            int row = random.nextInt(numRows);
+            int col = random.nextInt(numCols);
+            try {
+                if (!gardenGrid.isSpotOccupied(row, col)) {
+                    gardenGrid.addPlant(plant, row, col);
+                    ImageView plantView = new ImageView(new Image(getClass().getResourceAsStream("/images/" + imageFile)));
+                    plantView.setFitHeight(30);
+                    plantView.setFitWidth(30);
+                    gridPane.add(plantView, col, row);
+                }
+            } catch (IllegalArgumentException e) {
+                System.err.println("Spot at " + row + ", " + col + " is already occupied.");
+            }
+        }
     }
+
+
 }

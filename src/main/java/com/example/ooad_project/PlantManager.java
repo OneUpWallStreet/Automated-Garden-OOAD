@@ -8,6 +8,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+
+// Plant Manager will get plant data from the JSON file and store it in lists of flowers, trees, and vegetables
 public class PlantManager {
     private static PlantManager instance;
     private List<Flower> flowers;
@@ -27,6 +29,24 @@ public class PlantManager {
         }
         return instance;
     }
+
+
+    public Plant getPlantByName(String name) {
+        // Check in flowers
+        for (Flower flower : flowers) {
+            if (flower.getName().equals(name)) return flower;
+        }
+        // Check in trees
+        for (Tree tree : trees) {
+            if (tree.getName().equals(name)) return tree;
+        }
+        // Check in vegetables
+        for (Vegetable vegetable : vegetables) {
+            if (vegetable.getName().equals(name)) return vegetable;
+        }
+        return null; // Or throw an exception if preferred
+    }
+
 
     private void loadPlantsData() {
         try {

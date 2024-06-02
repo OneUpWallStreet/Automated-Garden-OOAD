@@ -20,6 +20,7 @@ public abstract class Plant {
         this.imageName = imageName;
     }
 
+
     // Standard getters and setters
     public String getName() {
         return name;
