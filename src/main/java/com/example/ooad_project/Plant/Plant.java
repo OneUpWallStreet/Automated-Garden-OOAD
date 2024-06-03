@@ -14,12 +14,14 @@ public abstract class Plant {
     private String imageName;
     private Boolean isWatered = false;
     private int currentWater = 0;
+    private int temperatureRequirement;
 
-    public Plant(String name, double health, int waterRequirement, String imageName) {
+    public Plant(String name, double health, int waterRequirement, String imageName, int temperatureRequirement) {
         this.name = name;
         this.health = health;
         this.waterRequirement = waterRequirement;
         this.imageName = imageName;
+        this.temperatureRequirement = temperatureRequirement;
     }
 
     public synchronized void addWater(int amount) {
@@ -75,6 +77,14 @@ public abstract class Plant {
 
     public void setImageName(String imageName) {
         this.imageName = imageName;
+    }
+
+    public int getTemperatureRequirement() {
+        return temperatureRequirement;
+    }
+
+    public void setTemperatureRequirement(int temperatureRequirement) {
+        this.temperatureRequirement = temperatureRequirement;
     }
 
 

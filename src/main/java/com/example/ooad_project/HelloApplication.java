@@ -54,9 +54,10 @@ public class HelloApplication extends Application {
         timeline.play();
 
 
+        Random rand = new Random();
 //        Schedule temperature every 10 seconds
         Timeline timeline2 = new Timeline(new KeyFrame(Duration.seconds(5), ev -> {
-            api.temperature(78);
+            api.temperature(rand.nextInt(70));
         }));
         timeline2.setCycleCount(Timeline.INDEFINITE);
         timeline2.play();

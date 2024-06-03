@@ -10,8 +10,8 @@ import com.example.ooad_project.Plant.Plant;
  */
 public class Flower extends Plant {
 
-    public Flower(String name, double health, int waterRequirement, String imageName){
-        super(name, health, waterRequirement, imageName);
+    public Flower(String name, double health, int waterRequirement, String imageName, int temperatureRequirement){
+        super(name, health, waterRequirement, imageName, temperatureRequirement);
     }
 
 }

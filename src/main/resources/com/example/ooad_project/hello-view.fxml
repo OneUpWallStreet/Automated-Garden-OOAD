@@ -35,5 +35,6 @@
             <Font name="System Bold Italic" size="14.0" />
          </font>
       </Text>
+      <Text layoutX="550.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Day 0 " />
     </children>
 </AnchorPane>

@@ -4,8 +4,8 @@ import com.example.ooad_project.Plant.Plant;
 
 public class Vegetable extends Plant {
 
-    public Vegetable(String name, double health, int waterRequirement, String imageName){
-        super(name, health, waterRequirement, imageName);
+    public Vegetable(String name, double health, int waterRequirement, String imageName , int temperatureRequirement) {
+        super(name, health, waterRequirement, imageName, temperatureRequirement);
     }
 
 }
