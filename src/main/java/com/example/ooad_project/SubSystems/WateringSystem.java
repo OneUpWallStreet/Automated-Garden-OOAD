@@ -3,7 +3,7 @@ package com.example.ooad_project.SubSystems;
 import com.example.ooad_project.GardenGrid;
 import com.example.ooad_project.Plant.Plant;
 import com.example.ooad_project.ThreadUtils.EventBus;
-import com.example.ooad_project.RainEvent;
+import com.example.ooad_project.Events.RainEvent;
 
 import java.time.LocalDateTime;
 import java.util.concurrent.atomic.AtomicBoolean;

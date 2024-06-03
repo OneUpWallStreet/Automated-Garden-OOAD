@@ -1,4 +1,4 @@
-package com.example.ooad_project;
+package com.example.ooad_project.Events;
 
 public class RainEvent {
     private final int amount;

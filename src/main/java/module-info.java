@@ -14,4 +14,6 @@ module com.example.ooad_project {
     opens com.example.ooad_project.Plant.Children to javafx.fxml;
     exports com.example.ooad_project.API;
     opens com.example.ooad_project.API to javafx.fxml;
+    exports com.example.ooad_project.Events;
+    opens com.example.ooad_project.Events to javafx.fxml;
 }

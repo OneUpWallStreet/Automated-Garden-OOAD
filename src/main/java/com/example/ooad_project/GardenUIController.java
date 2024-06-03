@@ -1,5 +1,6 @@
 package com.example.ooad_project;
 
+import com.example.ooad_project.Events.RainEvent;
 import com.example.ooad_project.Plant.Children.Flower;
 import com.example.ooad_project.Plant.Plant;
 import com.example.ooad_project.Plant.Children.Tree;

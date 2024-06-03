@@ -1,6 +1,6 @@
 package com.example.ooad_project.API;
 
-import com.example.ooad_project.RainEvent;
+import com.example.ooad_project.Events.RainEvent;
 import com.example.ooad_project.ThreadUtils.EventBus;
 
 import java.util.Map;
