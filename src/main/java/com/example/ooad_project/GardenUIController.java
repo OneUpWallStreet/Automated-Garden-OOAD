@@ -5,7 +5,9 @@ import com.example.ooad_project.Plant.Plant;
 import com.example.ooad_project.Plant.Children.Tree;
 import com.example.ooad_project.Plant.Children.Vegetable;
 import com.example.ooad_project.Plant.PlantManager;
+import com.example.ooad_project.ThreadUtils.EventBus;
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.MenuItem;
 import javafx.scene.image.Image;
@@ -20,6 +22,8 @@ import java.util.Random;
 
 public class GardenUIController {
 
+    @FXML
+    private Label rainStatusLabel;
     @FXML
     private GridPane gridPane;
     @FXML
@@ -63,8 +67,20 @@ public class GardenUIController {
 
         // Load plants data from JSON file and populate MenuButtons
         loadPlantsData();
+        EventBus.subscribe("RainEvent", event -> changeRainUI((RainEvent) event));
     }
 
+    private void changeRainUI(RainEvent event) {
+//        Platform.runLater(() -> {
+            // Example: Update a label or change the UI appearance to reflect it's raining
+            System.out.println("Changing UI to reflect rain event");
+            rainStatusLabel.setText("Rain Amount: " + event.getAmount() + "mm");
+
+            // You might want to change the color or visibility of certain UI elements
+//            rainIndicator.setVisible(true);
+//            rainIndicator.setStyle("-fx-background-color: blue;");  // Example of changing style
+//        });
+    }
 
 //    This is the method that will populate the menu buttons with the plant data
     private void loadPlantsData() {

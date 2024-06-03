@@ -9,9 +9,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
+import java.util.Random;
 
 
 import javafx.animation.KeyFrame;
@@ -44,8 +42,8 @@ public class HelloApplication extends Application {
     private void runAPIScheduledTasks() {
         GardenSimulationAPI api = new GardenSimulationAPI();
 
-        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(10), ev -> {
-            api.rain(5);
+        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(15), ev -> {
+            api.rain(4);
         }));
         timeline.setCycleCount(Timeline.INDEFINITE);
         timeline.play();
