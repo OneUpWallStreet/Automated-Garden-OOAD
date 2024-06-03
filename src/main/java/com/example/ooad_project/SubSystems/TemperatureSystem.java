@@ -4,10 +4,13 @@ import com.example.ooad_project.Events.TemperatureEvent;
 import com.example.ooad_project.GardenGrid;
 import com.example.ooad_project.Plant.Plant;
 import com.example.ooad_project.ThreadUtils.EventBus;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class TemperatureSystem implements Runnable{
 
     private final GardenGrid gardenGrid;
+    private static final Logger logger = LogManager.getLogger("TemperatureSystemLogger");
 
 
 
@@ -21,7 +24,8 @@ public class TemperatureSystem implements Runnable{
 
     private void handleTemperatureEvent(TemperatureEvent event) {
         int currentTemperature = event.getAmount();
-        System.out.println("Temperature Event Handled: Current Temp = " + currentTemperature);
+        logger.info("Temperature Event Handled: Current Temp = {}", currentTemperature);
+        System.out.println("Here");
 
         for (int i = 0; i < gardenGrid.getNumRows(); i++) {
             for (int j = 0; j < gardenGrid.getNumCols(); j++) {
@@ -29,11 +33,11 @@ public class TemperatureSystem implements Runnable{
                 if (plant != null) {
                     int tempDiff = currentTemperature - plant.getTemperatureRequirement();
                     if (tempDiff > 0) {
-                        System.out.println("Temperature system cooled " + plant.getName() + " by " + Math.abs(tempDiff) + " degrees F.");
+                        logger.info("Temperature system cooled {} by {} degrees F.", plant.getName(), Math.abs(tempDiff));
                     } else if (tempDiff < 0) {
-                        System.out.println("Temperature system heated " + plant.getName() + " by " + Math.abs(tempDiff) + " degrees F.");
+                        logger.info("Temperature system heated {} by {} degrees F.", plant.getName(), Math.abs(tempDiff));
                     } else {
-                        System.out.println(plant.getName() + " is at optimal temperature.");
+                        logger.info("{} is at optimal temperature.", plant.getName());
                     }
                 }
             }
