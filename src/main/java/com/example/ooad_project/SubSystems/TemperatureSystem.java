@@ -1,6 +1,6 @@
 package com.example.ooad_project.SubSystems;
 
-public class TempratureSystem implements Runnable{
+public class TemperatureSystem implements Runnable{
 
 
     public void run() {
