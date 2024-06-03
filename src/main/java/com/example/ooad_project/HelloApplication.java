@@ -1,6 +1,7 @@
 package com.example.ooad_project;
 
 import com.example.ooad_project.API.GardenSimulationAPI;
+import com.example.ooad_project.SubSystems.TemperatureSystem;
 import com.example.ooad_project.SubSystems.WateringSystem;
 import com.example.ooad_project.ThreadUtils.ThreadManager;
 import javafx.application.Application;
@@ -34,7 +35,10 @@ public class HelloApplication extends Application {
 //    We should start all of our background services here
     private void initializeBackgroundServices() {
         Runnable wateringSystem = new WateringSystem();
+        Runnable temperatureSystem = new TemperatureSystem();
         ThreadManager.run(wateringSystem);
+        ThreadManager.run(temperatureSystem);
+
     }
 
 //    This is for testing the API
@@ -42,11 +46,21 @@ public class HelloApplication extends Application {
     private void runAPIScheduledTasks() {
         GardenSimulationAPI api = new GardenSimulationAPI();
 
-        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(15), ev -> {
+//        Schedule rain every 15 seconds
+        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(8), ev -> {
             api.rain(4);
         }));
         timeline.setCycleCount(Timeline.INDEFINITE);
         timeline.play();
+
+
+//        Schedule temperature every 10 seconds
+        Timeline timeline2 = new Timeline(new KeyFrame(Duration.seconds(5), ev -> {
+            api.temperature(78);
+        }));
+        timeline2.setCycleCount(Timeline.INDEFINITE);
+        timeline2.play();
+
     }
 
 

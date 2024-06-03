@@ -6,10 +6,6 @@ import com.example.ooad_project.ThreadUtils.EventBus;
 
 import java.util.Map;
 
-
-
-
-
 public class GardenSimulationAPI  implements GardenSimulationAPIInterface{
 
 

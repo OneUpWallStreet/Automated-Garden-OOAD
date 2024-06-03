@@ -23,7 +23,7 @@ public class WateringSystem implements Runnable {
                 }
 
                 Thread.sleep(1000); // Check every second
-                System.out.println("Watering System is running");
+//                System.out.println("Watering System is running");
             } catch (InterruptedException e) {
                 System.out.println("Watering System interrupted");
                 return; // Exit if interrupted
