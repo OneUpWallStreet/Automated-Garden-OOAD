@@ -32,13 +32,20 @@ public class WateringSystem implements Runnable {
     }
 
     public WateringSystem() {
+//        So our watering system is subscribed to the RainEvent
+//        When a rain event is published, the watering system will handle it
         EventBus.subscribe("RainEvent", event -> handleRain((RainEvent) event));
+
+//        Get the garden grid instance
+//        This is the grid that holds all the plants
         this.gardenGrid = GardenGrid.getInstance();
     }
 
+//    This method is called when a rain event is published
+//    It waters all the plants in the garden grid
+//    The amount of water each plant gets is the same
     private void handleRain(RainEvent event) {
         System.out.println("Handling rain event with amount: " + event.getAmount());
-//        waterPlants(event.getAmount());
         int counter = 0;
 
         for (int i = 0; i < gardenGrid.getNumRows(); i++) {
@@ -51,13 +58,14 @@ public class WateringSystem implements Runnable {
             }
         }
 
-//        System.out.println("\nAfter Watering: ");
-//        gardenGrid.printAllPlantStats();
-
         System.out.println("Watered " + counter + " plants");
     }
 
 
+
+//    This method is called when the sprinklers are activated
+//    It waters all the plants in the garden grid
+//    The amount of water each plant gets depends on how much water it needs
     private void sprinkle() {
         System.out.println("Sprinklers activated!");
         int counter = 0; // Counter to keep track of how many plants are watered
