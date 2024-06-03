@@ -44,8 +44,8 @@ public class HelloApplication extends Application {
     private void runAPIScheduledTasks() {
         GardenSimulationAPI api = new GardenSimulationAPI();
 
-        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(20), ev -> {
-            api.rain(10);
+        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(10), ev -> {
+            api.rain(5);
         }));
         timeline.setCycleCount(Timeline.INDEFINITE);
         timeline.play();

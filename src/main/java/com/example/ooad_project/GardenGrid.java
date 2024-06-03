@@ -57,7 +57,6 @@ public class GardenGrid {
         }
     }
 
-
 //    It is important that we synchronize this method
 //    Because we are accessing the grid via multiple threadsg
     public synchronized Plant getPlant(int row, int col) {
@@ -65,6 +64,35 @@ public class GardenGrid {
             return plantGrid[row][col];
         }
         return null;
+    }
+
+
+    public void printAllPlantStats() {
+
+        for (int i = 0; i < plantGrid.length; i++) {
+            for (int j = 0; j < plantGrid[i].length; j++) {
+                Plant plant = getPlant(i, j);
+                if (plant != null) {
+                    System.out.println("Plant Name: " + plant.getName() + " at row " + i + " col " + j);
+//                    System.out.println("Row: " + i + " Col: " + j);
+//                    System.out.println("Health: " + plant.getHealth());
+                    System.out.println("Water Requirement: " + plant.getWaterRequirement());
+                    System.out.println("Current Water: " + plant.getCurrentWater());
+                    System.out.println("Is Watered: " + plant.getIsWatered());
+                }
+            }
+        }
+
+//        Plant plant = getPlant(row, col);
+//        if (plant != null) {
+//            System.out.println("Plant Name: " + plant.getName());
+//            System.out.println("Health: " + plant.getHealth());
+//            System.out.println("Water Requirement: " + plant.getWaterRequirement());
+//            System.out.println("Current Water: " + plant.getCurrentWater());
+//            System.out.println("Is Watered: " + plant.getIsWatered());
+//        } else {
+//            System.out.println("No plant at row " + row + " col " + col);
+//        }
     }
 
     public int getNumRows() {

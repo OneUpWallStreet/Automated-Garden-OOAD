@@ -46,6 +46,9 @@ public class WateringSystem implements Runnable {
 
         int counter = 0;
 
+        System.out.println("Before Watering: ");
+        gardenGrid.printAllPlantStats();
+
         for (int i = 0; i < gardenGrid.getNumRows(); i++) {
             for (int j = 0; j < gardenGrid.getNumCols(); j++) {
                 Plant plant = gardenGrid.getPlant(i, j);
@@ -55,6 +58,9 @@ public class WateringSystem implements Runnable {
                 }
             }
         }
+
+        System.out.println("\nAfter Watering: ");
+        gardenGrid.printAllPlantStats();
 
         System.out.println("Watered " + counter + " plants");
     }
