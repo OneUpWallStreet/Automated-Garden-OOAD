@@ -6,4 +6,12 @@ module com.example.ooad_project {
 
     opens com.example.ooad_project to javafx.fxml;
     exports com.example.ooad_project;
+    exports com.example.ooad_project.Plant;
+    opens com.example.ooad_project.Plant to javafx.fxml;
+    exports com.example.ooad_project.Parasite;
+    opens com.example.ooad_project.Parasite to javafx.fxml;
+    exports com.example.ooad_project.Plant.Children;
+    opens com.example.ooad_project.Plant.Children to javafx.fxml;
+    exports com.example.ooad_project.API;
+    opens com.example.ooad_project.API to javafx.fxml;
 }
