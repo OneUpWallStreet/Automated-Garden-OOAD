@@ -38,29 +38,21 @@ public class WateringSystem implements Runnable {
 
     private void handleRain(RainEvent event) {
         System.out.println("Handling rain event with amount: " + event.getAmount());
-        waterPlants(event.getAmount());
-    }
-
-//    I dont pass Garden grid need to get instance and do it
-    private void waterPlants(int waterAmount) {
-
+//        waterPlants(event.getAmount());
         int counter = 0;
-
-        System.out.println("Before Watering: ");
-        gardenGrid.printAllPlantStats();
 
         for (int i = 0; i < gardenGrid.getNumRows(); i++) {
             for (int j = 0; j < gardenGrid.getNumCols(); j++) {
                 Plant plant = gardenGrid.getPlant(i, j);
                 if (plant != null) {
-                    plant.addWater(waterAmount);
+                    plant.addWater(event.getAmount());
                     counter++;
                 }
             }
         }
 
-        System.out.println("\nAfter Watering: ");
-        gardenGrid.printAllPlantStats();
+//        System.out.println("\nAfter Watering: ");
+//        gardenGrid.printAllPlantStats();
 
         System.out.println("Watered " + counter + " plants");
     }
@@ -68,11 +60,23 @@ public class WateringSystem implements Runnable {
 
     private void sprinkle() {
         System.out.println("Sprinklers activated!");
-    }
+        int counter = 0; // Counter to keep track of how many plants are watered
 
-    private void simulateRain(int amount) {
-        System.out.println("Simulating rain with amount: " + amount);
-        // Logic to adjust water levels with the specified amount
+        for (int i = 0; i < gardenGrid.getNumRows(); i++) {
+            for (int j = 0; j < gardenGrid.getNumCols(); j++) {
+                Plant plant = gardenGrid.getPlant(i, j);
+                if (plant != null && !plant.getIsWatered()) {
+                    int waterNeeded = plant.getWaterRequirement() - plant.getCurrentWater();
+                    if (waterNeeded > 0) {
+                        plant.addWater(waterNeeded);
+                        counter++;
+                    }
+                }
+            }
+        }
+
+        System.out.println("Sprinkled " + counter + " plants.");
+        gardenGrid.printAllPlantStats();
     }
 }
 

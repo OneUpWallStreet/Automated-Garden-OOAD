@@ -74,8 +74,6 @@ public class GardenGrid {
                 Plant plant = getPlant(i, j);
                 if (plant != null) {
                     System.out.println("Plant Name: " + plant.getName() + " at row " + i + " col " + j);
-//                    System.out.println("Row: " + i + " Col: " + j);
-//                    System.out.println("Health: " + plant.getHealth());
                     System.out.println("Water Requirement: " + plant.getWaterRequirement());
                     System.out.println("Current Water: " + plant.getCurrentWater());
                     System.out.println("Is Watered: " + plant.getIsWatered());
@@ -83,16 +81,6 @@ public class GardenGrid {
             }
         }
 
-//        Plant plant = getPlant(row, col);
-//        if (plant != null) {
-//            System.out.println("Plant Name: " + plant.getName());
-//            System.out.println("Health: " + plant.getHealth());
-//            System.out.println("Water Requirement: " + plant.getWaterRequirement());
-//            System.out.println("Current Water: " + plant.getCurrentWater());
-//            System.out.println("Is Watered: " + plant.getIsWatered());
-//        } else {
-//            System.out.println("No plant at row " + row + " col " + col);
-//        }
     }
 
     public int getNumRows() {
