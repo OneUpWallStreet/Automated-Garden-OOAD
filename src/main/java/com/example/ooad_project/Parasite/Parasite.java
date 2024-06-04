@@ -1,6 +1,8 @@
 package com.example.ooad_project.Parasite;
 
 import com.example.ooad_project.Plant.Plant;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
@@ -9,6 +11,7 @@ public abstract class Parasite {
     private int damage;
     private String imageName;
     private ArrayList<String> affectedPlants;
+    private static final Logger logger = LogManager.getLogger("PesticideSystemLogger");
 
     public Parasite(String name, int damage, String imageName, ArrayList<String> affectedPlants) {
         this.name = name;

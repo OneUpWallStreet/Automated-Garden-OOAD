@@ -13,6 +13,9 @@
         <File name="WateringSystemLogFile" fileName="logs/WateringSystem.log">
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"/>
         </File>
+        <File name="PesticideSystemLogFile" fileName="logs/PesticideSystem.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"/>
+        </File>
     </Appenders>
     <Loggers>
         <Logger name="TemperatureSystemLogger" level="info" additivity="false">
@@ -24,6 +27,9 @@
         </Logger>
         <Logger name="GardenSimulationAPILogger" level="info" additivity="false">
             <AppenderRef ref="GardenAPILogFile"/>
+        </Logger>
+        <Logger name="PesticideSystemLogger" level="info" additivity="false">
+            <AppenderRef ref="PesticideSystemLogFile"/>
         </Logger>
         <Root level="error">
             <AppenderRef ref="Console"/>

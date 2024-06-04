@@ -2,6 +2,8 @@ package com.example.ooad_project.Parasite.Children;
 
 import com.example.ooad_project.Parasite.Parasite;
 import com.example.ooad_project.Plant.Plant;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -10,6 +12,7 @@ import java.util.Random;
 public class Locust extends Parasite {
     private static final double MISS_CHANCE = 0.05;  // 5% chance to miss
     private Random random = new Random();
+    private static final Logger logger = LogManager.getLogger("PesticideSystemLogger");
 
     public Locust(String name, int damage, String imageName, ArrayList<String> affectedPlants) {
         super(name, damage, imageName, affectedPlants);
@@ -18,11 +21,18 @@ public class Locust extends Parasite {
     @Override
     public void affectPlant(Plant plant) {
         if (random.nextDouble() >= MISS_CHANCE) {
+            // If not missed, apply the damage
+            int oldHealth = plant.getCurrentHealth();
             int newHealth = Math.max(0, plant.getCurrentHealth() - this.getDamage());
+
             plant.setCurrentHealth(newHealth);
-            System.out.println("Locust has successfully damaged the plant " + plant.getName() + ". New health: " + newHealth);
+            logger.info("Locust has successfully damaged the plant {} at position ({}, {}). Old health: {}. New health: {}",
+                    plant.getName(), plant.getRow(), plant.getCol(), oldHealth, newHealth);
+
         } else {
-            System.out.println("Locust attempted to damage the plant " + plant.getName() + " but missed.");
+            // If missed, do nothing
+            logger.info("Locust attempted to damage the plant {} at position ({}, {}) but missed.",
+                    plant.getName(), plant.getRow(), plant.getCol());
         }
     }
 }

@@ -17,6 +17,7 @@ public class TemperatureSystem implements Runnable{
 //        Subscribe to the TemperatureEvent
 //        Published from GardenSimulationAPI
         this.gardenGrid = GardenGrid.getInstance();
+        logger.info("Temperature System Initialized");
         EventBus.subscribe("TemperatureEvent", event -> handleTemperatureEvent((TemperatureEvent) event));
     }
 

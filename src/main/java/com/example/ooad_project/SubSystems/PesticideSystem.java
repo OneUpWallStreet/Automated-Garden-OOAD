@@ -5,14 +5,18 @@ import com.example.ooad_project.GardenGrid;
 import com.example.ooad_project.Parasite.Parasite;
 import com.example.ooad_project.Plant.Plant;
 import com.example.ooad_project.ThreadUtils.EventBus;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class PesticideSystem implements Runnable{
 
     private final GardenGrid gardenGrid;
+    private static final Logger logger = LogManager.getLogger("PesticideSystemLogger");
 
     public PesticideSystem() {
         this.gardenGrid = GardenGrid.getInstance();
-        System.out.println("Pesticide System Initialized");
+//        System.out.println("Pesticide System Initialized");
+        logger.info("Pesticide System Initialized");
         EventBus.subscribe("ParasiteEvent", event -> handlePesticideEvent((ParasiteEvent) event));
     }
 
@@ -25,10 +29,13 @@ public class PesticideSystem implements Runnable{
             for (int j = 0; j < gardenGrid.getNumCols(); j++) {
                 Plant plant = gardenGrid.getPlant(i, j);
                 if (plant != null && parasite.getAffectedPlants().contains(plant.getName())) {
+                    logger.info("Pesticide system applied {} to {} at position ({}, {})", parasite.getName(), plant.getName(), i, j);
                     parasite.affectPlant(plant);
                 }
             }
         }
+
+//        After the parasite attack, we will heal the plants
     }
 
 

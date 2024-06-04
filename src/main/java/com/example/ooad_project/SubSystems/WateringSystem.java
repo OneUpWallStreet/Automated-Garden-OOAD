@@ -36,6 +36,7 @@ public class WateringSystem implements Runnable {
     }
 
     public WateringSystem() {
+        logger.info("Watering System Initialized");
 //        So our watering system is subscribed to the RainEvent
 //        When a rain event is published, the watering system will handle it
         EventBus.subscribe("RainEvent", event -> handleRain((RainEvent) event));
@@ -49,7 +50,6 @@ public class WateringSystem implements Runnable {
 //    It waters all the plants in the garden grid
 //    The amount of water each plant gets is the same
     private void handleRain(RainEvent event) {
-        logger.info("API called rain with amount: {}", event.getAmount());
 
         for (int i = 0; i < gardenGrid.getNumRows(); i++) {
             for (int j = 0; j < gardenGrid.getNumCols(); j++) {
