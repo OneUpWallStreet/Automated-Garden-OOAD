@@ -69,6 +69,8 @@ public class GardenGrid {
 
     public void printAllPlantStats() {
 
+        int count = 0;
+
         for (int i = 0; i < plantGrid.length; i++) {
             for (int j = 0; j < plantGrid[i].length; j++) {
                 Plant plant = getPlant(i, j);
@@ -77,9 +79,18 @@ public class GardenGrid {
                     System.out.println("Water Requirement: " + plant.getWaterRequirement());
                     System.out.println("Current Water: " + plant.getCurrentWater());
                     System.out.println("Is Watered: " + plant.getIsWatered());
+                    System.out.println("Row: " + plant.getRow());
+                    System.out.println("Col: " + plant.getCol());
+                    System.out.println("Ith Row: " + i);
+                    System.out.println("Jth Col: " + j);
+                    System.out.println();
+                    count++;
                 }
             }
         }
+
+        System.out.println("Total plants: " + count);
+        System.out.println();
 
     }
 

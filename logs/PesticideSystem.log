@@ -2914,3 +2914,127 @@
 2024-06-04 16:42:40 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (3, 0). Old health: 0. New health: 0
 2024-06-04 16:42:40 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 2)
 2024-06-04 16:42:40 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (3, 0) but missed.
+2024-06-04 16:47:39 INFO  PesticideSystemLogger - Pesticide System Initialized
+2024-06-04 16:47:59 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-04 16:47:59 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 20. New health: 5
+2024-06-04 16:47:59 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:47:59 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 5. New health: 0
+2024-06-04 16:47:59 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:47:59 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:48:19 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-04 16:48:19 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:48:19 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:48:19 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:48:19 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:48:19 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:48:39 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-04 16:48:39 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:48:39 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:48:39 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:48:39 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:48:39 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:48:56 INFO  PesticideSystemLogger - Pesticide System Initialized
+2024-06-04 16:49:16 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 0)
+2024-06-04 16:49:16 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 0). Old health: 20. New health: 5
+2024-06-04 16:49:16 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 1)
+2024-06-04 16:49:16 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 0). Old health: 5. New health: 0
+2024-06-04 16:49:16 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:49:16 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 0). Old health: 0. New health: 0
+2024-06-04 16:49:42 INFO  PesticideSystemLogger - Pesticide System Initialized
+2024-06-04 16:50:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:50:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 20. New health: 5
+2024-06-04 16:50:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:50:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 5. New health: 0
+2024-06-04 16:50:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:50:02 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (1, 3) but missed.
+2024-06-04 16:50:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:50:22 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:50:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:50:22 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:50:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:50:22 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:50:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:50:42 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:50:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:50:42 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:50:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:50:42 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (1, 3) but missed.
+2024-06-04 16:51:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:51:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:51:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:51:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:51:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:51:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:51:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:51:22 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (1, 3) but missed.
+2024-06-04 16:51:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:51:22 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:51:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:51:22 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:51:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:51:42 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:51:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:51:42 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (1, 3) but missed.
+2024-06-04 16:51:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:51:42 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:52:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:52:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:52:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:52:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:52:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:52:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:52:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:52:22 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:52:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:52:22 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:52:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:52:22 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (1, 3) but missed.
+2024-06-04 16:52:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:52:42 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:52:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:52:42 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:52:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:52:42 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:53:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:53:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:53:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:53:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:53:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:53:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:53:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:53:22 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:53:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:53:22 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:53:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:53:22 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (1, 3) but missed.
+2024-06-04 16:53:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:53:42 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:53:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:53:42 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:53:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:53:42 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:54:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:54:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:54:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:54:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:54:02 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:54:02 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:54:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:54:22 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:54:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:54:22 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:54:22 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:54:22 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:54:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-04 16:54:42 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:54:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 3)
+2024-06-04 16:54:42 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:54:42 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 3)
+2024-06-04 16:54:42 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 3). Old health: 0. New health: 0
+2024-06-04 16:55:04 INFO  PesticideSystemLogger - Pesticide System Initialized
+2024-06-04 16:55:24 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 2)
+2024-06-04 16:55:24 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (0, 2). Old health: 20. New health: 5
+2024-06-04 16:55:24 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 1)
+2024-06-04 16:55:24 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 1). Old health: 20. New health: 5
+2024-06-04 16:55:24 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (3, 2)
+2024-06-04 16:55:24 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (3, 2). Old health: 20. New health: 5

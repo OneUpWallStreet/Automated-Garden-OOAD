@@ -5,6 +5,7 @@ import com.example.ooad_project.Events.ParasiteEvent;
 import com.example.ooad_project.GardenGrid;
 import com.example.ooad_project.Parasite.Parasite;
 import com.example.ooad_project.Plant.Plant;
+import com.example.ooad_project.Plant.PlantManager;
 import com.example.ooad_project.ThreadUtils.EventBus;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -25,15 +26,13 @@ public class PesticideSystem implements Runnable{
         Parasite parasite = event.getParasite();
 //        System.out.println("Parasite attack on plant: " + parasite.getName() + " with damage: " + parasite.getDamage());
 
+        GardenGrid.getInstance().printAllPlantStats();
+
         // Loop through all the plants in the garden grid
         for (int i = 0; i < gardenGrid.getNumRows(); i++) {
             for (int j = 0; j < gardenGrid.getNumCols(); j++) {
                 Plant plant = gardenGrid.getPlant(i, j);
                 if (plant != null && parasite.getAffectedPlants().contains(plant.getName())) {
-
-                    System.out.println("Plant.getrow(): " + plant.getRow() + " Plant.getCol(): " + plant.getCol());
-                    System.out.println("i: " + i + " j: " + j);
-                    System.out.println("\n");
 
 
                     logger.info("Pesticide system applied {} to {} at position ({}, {})", parasite.getName(), plant.getName(), i, j);

@@ -431,3 +431,87 @@
 2024-06-04 16:42:40 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 17 degrees F.
 2024-06-04 16:42:40 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 0) by 17 degrees F.
 2024-06-04 16:42:40 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 2) by 17 degrees F.
+2024-06-04 16:47:39 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-04 16:47:59 INFO  TemperatureSystemLogger - API called temperature set to: 22
+2024-06-04 16:47:59 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 3) by 38 degrees F.
+2024-06-04 16:47:59 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 38 degrees F.
+2024-06-04 16:47:59 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 38 degrees F.
+2024-06-04 16:48:19 INFO  TemperatureSystemLogger - API called temperature set to: 23
+2024-06-04 16:48:19 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 3) by 37 degrees F.
+2024-06-04 16:48:19 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 37 degrees F.
+2024-06-04 16:48:19 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 37 degrees F.
+2024-06-04 16:48:39 INFO  TemperatureSystemLogger - API called temperature set to: 67
+2024-06-04 16:48:39 INFO  TemperatureSystemLogger - Temperature system cooled Carrot at position (0, 3) by 7 degrees F.
+2024-06-04 16:48:39 INFO  TemperatureSystemLogger - Temperature system cooled Carrot at position (1, 3) by 7 degrees F.
+2024-06-04 16:48:39 INFO  TemperatureSystemLogger - Temperature system cooled Carrot at position (3, 3) by 7 degrees F.
+2024-06-04 16:48:56 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-04 16:49:16 INFO  TemperatureSystemLogger - API called temperature set to: 0
+2024-06-04 16:49:16 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 0) by 60 degrees F.
+2024-06-04 16:49:16 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 1) by 60 degrees F.
+2024-06-04 16:49:16 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 60 degrees F.
+2024-06-04 16:49:42 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-04 16:50:02 INFO  TemperatureSystemLogger - API called temperature set to: 44
+2024-06-04 16:50:02 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 16 degrees F.
+2024-06-04 16:50:02 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 16 degrees F.
+2024-06-04 16:50:02 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 16 degrees F.
+2024-06-04 16:50:22 INFO  TemperatureSystemLogger - API called temperature set to: 59
+2024-06-04 16:50:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 1 degrees F.
+2024-06-04 16:50:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 1 degrees F.
+2024-06-04 16:50:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 1 degrees F.
+2024-06-04 16:50:42 INFO  TemperatureSystemLogger - API called temperature set to: 47
+2024-06-04 16:50:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 13 degrees F.
+2024-06-04 16:50:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 13 degrees F.
+2024-06-04 16:50:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 13 degrees F.
+2024-06-04 16:51:02 INFO  TemperatureSystemLogger - API called temperature set to: 36
+2024-06-04 16:51:02 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 24 degrees F.
+2024-06-04 16:51:02 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 24 degrees F.
+2024-06-04 16:51:02 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 24 degrees F.
+2024-06-04 16:51:22 INFO  TemperatureSystemLogger - API called temperature set to: 2
+2024-06-04 16:51:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 58 degrees F.
+2024-06-04 16:51:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 58 degrees F.
+2024-06-04 16:51:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 58 degrees F.
+2024-06-04 16:51:42 INFO  TemperatureSystemLogger - API called temperature set to: 56
+2024-06-04 16:51:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 4 degrees F.
+2024-06-04 16:51:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 4 degrees F.
+2024-06-04 16:51:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 4 degrees F.
+2024-06-04 16:52:02 INFO  TemperatureSystemLogger - API called temperature set to: 7
+2024-06-04 16:52:02 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 53 degrees F.
+2024-06-04 16:52:02 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 53 degrees F.
+2024-06-04 16:52:02 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 53 degrees F.
+2024-06-04 16:52:22 INFO  TemperatureSystemLogger - API called temperature set to: 8
+2024-06-04 16:52:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 52 degrees F.
+2024-06-04 16:52:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 52 degrees F.
+2024-06-04 16:52:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 52 degrees F.
+2024-06-04 16:52:42 INFO  TemperatureSystemLogger - API called temperature set to: 57
+2024-06-04 16:52:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 3 degrees F.
+2024-06-04 16:52:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 3 degrees F.
+2024-06-04 16:52:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 3 degrees F.
+2024-06-04 16:53:02 INFO  TemperatureSystemLogger - API called temperature set to: 43
+2024-06-04 16:53:02 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 17 degrees F.
+2024-06-04 16:53:02 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 17 degrees F.
+2024-06-04 16:53:02 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 17 degrees F.
+2024-06-04 16:53:22 INFO  TemperatureSystemLogger - API called temperature set to: 17
+2024-06-04 16:53:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 43 degrees F.
+2024-06-04 16:53:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 43 degrees F.
+2024-06-04 16:53:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 43 degrees F.
+2024-06-04 16:53:42 INFO  TemperatureSystemLogger - API called temperature set to: 20
+2024-06-04 16:53:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 40 degrees F.
+2024-06-04 16:53:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 40 degrees F.
+2024-06-04 16:53:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 40 degrees F.
+2024-06-04 16:54:02 INFO  TemperatureSystemLogger - API called temperature set to: 67
+2024-06-04 16:54:02 INFO  TemperatureSystemLogger - Temperature system cooled Carrot at position (0, 1) by 7 degrees F.
+2024-06-04 16:54:02 INFO  TemperatureSystemLogger - Temperature system cooled Carrot at position (1, 3) by 7 degrees F.
+2024-06-04 16:54:02 INFO  TemperatureSystemLogger - Temperature system cooled Carrot at position (3, 3) by 7 degrees F.
+2024-06-04 16:54:22 INFO  TemperatureSystemLogger - API called temperature set to: 0
+2024-06-04 16:54:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 60 degrees F.
+2024-06-04 16:54:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 60 degrees F.
+2024-06-04 16:54:22 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 60 degrees F.
+2024-06-04 16:54:42 INFO  TemperatureSystemLogger - API called temperature set to: 31
+2024-06-04 16:54:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 29 degrees F.
+2024-06-04 16:54:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 3) by 29 degrees F.
+2024-06-04 16:54:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 29 degrees F.
+2024-06-04 16:55:04 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-04 16:55:24 INFO  TemperatureSystemLogger - API called temperature set to: 62
+2024-06-04 16:55:24 INFO  TemperatureSystemLogger - Temperature system cooled Carrot at position (0, 2) by 2 degrees F.
+2024-06-04 16:55:24 INFO  TemperatureSystemLogger - Temperature system cooled Carrot at position (2, 1) by 2 degrees F.
+2024-06-04 16:55:24 INFO  TemperatureSystemLogger - Temperature system cooled Carrot at position (3, 2) by 2 degrees F.

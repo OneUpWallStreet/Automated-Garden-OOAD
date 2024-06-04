@@ -37,18 +37,34 @@ public class PlantManager {
     public Plant getPlantByName(String name) {
         // Check in flowers
         for (Flower flower : flowers) {
-            if (flower.getName().equals(name)) return flower;
+            if (flower.getName().equals(name)) {
+                // Create a new Flower instance with the same properties
+                return new Flower(flower.getName(), flower.getWaterRequirement(), flower.getImageName(),
+                        flower.getTemperatureRequirement(), new ArrayList<>(flower.getVulnerableTo()),
+                        flower.getHealthSmall(), flower.getHealthMedium(), flower.getHealthFull());
+            }
         }
         // Check in trees
         for (Tree tree : trees) {
-            if (tree.getName().equals(name)) return tree;
+            if (tree.getName().equals(name)) {
+                // Create a new Tree instance with the same properties
+                return new Tree(tree.getName(), tree.getWaterRequirement(), tree.getImageName(),
+                        tree.getTemperatureRequirement(), new ArrayList<>(tree.getVulnerableTo()),
+                        tree.getHealthSmall(), tree.getHealthMedium(), tree.getHealthFull());
+            }
         }
         // Check in vegetables
         for (Vegetable vegetable : vegetables) {
-            if (vegetable.getName().equals(name)) return vegetable;
+            if (vegetable.getName().equals(name)) {
+                // Create a new Vegetable instance with the same properties
+                return new Vegetable(vegetable.getName(), vegetable.getWaterRequirement(), vegetable.getImageName(),
+                        vegetable.getTemperatureRequirement(), new ArrayList<>(vegetable.getVulnerableTo()),
+                        vegetable.getHealthSmall(), vegetable.getHealthMedium(), vegetable.getHealthFull());
+            }
         }
         return null; // Or throw an exception if preferred
     }
+
 
 
     private void loadPlantsData() {
