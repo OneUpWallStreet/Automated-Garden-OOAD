@@ -1,5 +1,0 @@
-2024-06-03 18:24:43 INFO  TemperatureSystemLogger - Temperature Event Handled: Current Temp = 27
-2024-06-03 18:25:03 INFO  TemperatureSystemLogger - Temperature Event Handled: Current Temp = 58
-2024-06-03 18:25:03 INFO  TemperatureSystemLogger - Temperature system heated Carrot by 2 degrees F.
-2024-06-03 18:25:03 INFO  TemperatureSystemLogger - Temperature system heated Lily by 7 degrees F.
-2024-06-03 18:25:03 INFO  TemperatureSystemLogger - Temperature system heated Maple by 2 degrees F.

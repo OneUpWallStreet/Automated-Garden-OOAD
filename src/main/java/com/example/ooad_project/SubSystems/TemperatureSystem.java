@@ -30,11 +30,11 @@ public class TemperatureSystem implements Runnable{
                 if (plant != null) {
                     int tempDiff = currentTemperature - plant.getTemperatureRequirement();
                     if (tempDiff > 0) {
-                        logger.info("Temperature system cooled {} by {} degrees F.", plant.getName(), Math.abs(tempDiff));
+                        logger.info("Temperature system cooled {} at position ({}, {}) by {} degrees F.", plant.getName(), i, j, Math.abs(tempDiff));
                     } else if (tempDiff < 0) {
-                        logger.info("Temperature system heated {} by {} degrees F.", plant.getName(), Math.abs(tempDiff));
+                        logger.info("Temperature system heated {} at position ({}, {}) by {} degrees F.", plant.getName(), i, j, Math.abs(tempDiff));
                     } else {
-                        logger.info("{} is at optimal temperature.", plant.getName());
+                        logger.info("{} at position ({}, {}) is at optimal temperature.", plant.getName(), i, j);
                     }
                 }
             }

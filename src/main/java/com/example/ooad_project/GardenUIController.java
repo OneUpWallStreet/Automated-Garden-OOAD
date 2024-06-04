@@ -117,6 +117,10 @@ public class GardenUIController {
                 int row = random.nextInt(gardenGrid.getNumRows());
                 int col = random.nextInt(gardenGrid.getNumCols());
                 if (!gardenGrid.isSpotOccupied(row, col)) {
+//                    Need row and col for logging
+                    System.out.println("Placing " + name + " at row " + row + " col " + col);
+                    plant.setRow(row);
+                    plant.setCol(col);
                     gardenGrid.addPlant(plant, row, col);
                     ImageView plantView = new ImageView(new Image(getClass().getResourceAsStream("/images/" + imageFile)));
                     plantView.setFitHeight(60);

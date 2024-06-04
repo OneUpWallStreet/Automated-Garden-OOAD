@@ -16,6 +16,11 @@ public abstract class Plant {
     private int currentWater = 0;
     private int temperatureRequirement;
 
+//    Default row and col are -1
+//    i.e. the plant is not in the garden
+    private int row = -1;
+    private int col = -1;
+
     public Plant(String name, double health, int waterRequirement, String imageName, int temperatureRequirement) {
         this.name = name;
         this.health = health;
@@ -25,7 +30,6 @@ public abstract class Plant {
     }
 
     public synchronized void addWater(int amount) {
-        System.out.println("Adding " + amount + " water to " + name);
         this.currentWater = Math.min(currentWater + amount, waterRequirement);
         this.isWatered = currentWater >= waterRequirement;
     }
@@ -85,6 +89,22 @@ public abstract class Plant {
 
     public void setTemperatureRequirement(int temperatureRequirement) {
         this.temperatureRequirement = temperatureRequirement;
+    }
+
+    public int getRow() {
+        return row;
+    }
+
+    public void setRow(int row) {
+        this.row = row;
+    }
+
+    public int getCol() {
+        return col;
+    }
+
+    public void setCol(int col) {
+        this.col = col;
     }
 
 

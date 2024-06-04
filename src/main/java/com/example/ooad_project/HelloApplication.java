@@ -45,16 +45,16 @@ public class HelloApplication extends Application {
 //    I assume Prof is going to do something similar
     private void runAPIScheduledTasks() {
         GardenSimulationAPI api = new GardenSimulationAPI();
+        Random rand = new Random();
 
 //        Schedule rain every 15 seconds
         Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(8), ev -> {
-            api.rain(4);
+            api.rain(rand.nextInt(10));
         }));
         timeline.setCycleCount(Timeline.INDEFINITE);
         timeline.play();
 
 
-        Random rand = new Random();
 //        Schedule temperature every 10 seconds
         Timeline timeline2 = new Timeline(new KeyFrame(Duration.seconds(20), ev -> {
             api.temperature(rand.nextInt(70));

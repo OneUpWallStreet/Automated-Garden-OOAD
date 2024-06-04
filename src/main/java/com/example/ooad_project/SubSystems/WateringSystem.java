@@ -4,12 +4,15 @@ import com.example.ooad_project.GardenGrid;
 import com.example.ooad_project.Plant.Plant;
 import com.example.ooad_project.ThreadUtils.EventBus;
 import com.example.ooad_project.Events.RainEvent;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.time.LocalDateTime;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class WateringSystem implements Runnable {
     private final AtomicBoolean rainRequested = new AtomicBoolean(false);
+    private static final Logger logger = LogManager.getLogger("WateringSystemLogger");
     private int rainAmount = 0;
     private final GardenGrid gardenGrid;
 
@@ -17,15 +20,16 @@ public class WateringSystem implements Runnable {
     public void run() {
         while (true) {
             try {
+
                 // Handle scheduled sprinkling every hour at the 59th minute
                 if (LocalDateTime.now().getMinute() == 59) {
+                    logger.info("Scheduled sprinkling at {}", LocalDateTime.now());
                     sprinkle();
                 }
 
                 Thread.sleep(1000); // Check every second
-//                System.out.println("Watering System is running");
             } catch (InterruptedException e) {
-                System.out.println("Watering System interrupted");
+                logger.error("Watering System interrupted");
                 return; // Exit if interrupted
             }
         }
@@ -45,20 +49,19 @@ public class WateringSystem implements Runnable {
 //    It waters all the plants in the garden grid
 //    The amount of water each plant gets is the same
     private void handleRain(RainEvent event) {
-        System.out.println("Handling rain event with amount: " + event.getAmount());
-        int counter = 0;
+        logger.info("API called rain with amount: {}", event.getAmount());
 
         for (int i = 0; i < gardenGrid.getNumRows(); i++) {
             for (int j = 0; j < gardenGrid.getNumCols(); j++) {
                 Plant plant = gardenGrid.getPlant(i, j);
                 if (plant != null) {
+//                    Want to specify that the water is from rain
+                    logger.info("Watered {} at position ({}, {}) with {} water from rain", plant.getName(), i, j, event.getAmount());
                     plant.addWater(event.getAmount());
-                    counter++;
                 }
             }
         }
 
-        System.out.println("Watered " + counter + " plants");
     }
 
 
@@ -67,7 +70,8 @@ public class WateringSystem implements Runnable {
 //    It waters all the plants in the garden grid
 //    The amount of water each plant gets depends on how much water it needs
     private void sprinkle() {
-        System.out.println("Sprinklers activated!");
+//        System.out.println("Sprinklers activated!");
+        logger.info("Sprinklers activated!");
         int counter = 0; // Counter to keep track of how many plants are watered
 
         for (int i = 0; i < gardenGrid.getNumRows(); i++) {
@@ -77,13 +81,17 @@ public class WateringSystem implements Runnable {
                     int waterNeeded = plant.getWaterRequirement() - plant.getCurrentWater();
                     if (waterNeeded > 0) {
                         plant.addWater(waterNeeded);
+//                        Want to specify that the water is from sprinklers
+                        logger.info("Sprinkled {} at position ({}, {}) with {} water from sprinklers", plant.getName(), i, j, waterNeeded);
                         counter++;
+                    }else {
+                        logger.info("{} at position ({}, {}) does not need water", plant.getName(), i, j);
                     }
                 }
             }
         }
 
-        System.out.println("Sprinkled " + counter + " plants.");
+        logger.info("In total Sprinkled {} plants", counter);
         gardenGrid.printAllPlantStats();
     }
 }
