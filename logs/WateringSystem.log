@@ -169,3 +169,917 @@
 2024-06-04 15:25:03 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 8 water from rain
 2024-06-04 15:25:03 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 8 water from rain
 2024-06-04 15:25:03 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 8 water from rain
+2024-06-04 15:31:36 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 15:37:47 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 15:37:55 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 4 water from rain
+2024-06-04 15:38:03 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 7 water from rain
+2024-06-04 15:38:03 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 7 water from rain
+2024-06-04 15:38:03 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 7 water from rain
+2024-06-04 15:38:03 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 7 water from rain
+2024-06-04 15:38:03 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 7 water from rain
+2024-06-04 15:38:03 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 7 water from rain
+2024-06-04 15:38:03 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 7 water from rain
+2024-06-04 15:38:03 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 7 water from rain
+2024-06-04 15:38:11 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 3 water from rain
+2024-06-04 15:38:11 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 3 water from rain
+2024-06-04 15:38:11 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 3 water from rain
+2024-06-04 15:38:11 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 3 water from rain
+2024-06-04 15:38:11 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 3 water from rain
+2024-06-04 15:38:11 INFO  WateringSystemLogger - Watered Carrot at position (2, 1) with 3 water from rain
+2024-06-04 15:38:11 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 3 water from rain
+2024-06-04 15:38:11 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 3 water from rain
+2024-06-04 15:38:11 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 3 water from rain
+2024-06-04 15:38:11 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 3 water from rain
+2024-06-04 15:38:19 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 2 water from rain
+2024-06-04 15:38:19 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 2 water from rain
+2024-06-04 15:38:19 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 2 water from rain
+2024-06-04 15:38:19 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 2 water from rain
+2024-06-04 15:38:19 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 2 water from rain
+2024-06-04 15:38:19 INFO  WateringSystemLogger - Watered Carrot at position (2, 1) with 2 water from rain
+2024-06-04 15:38:19 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 2 water from rain
+2024-06-04 15:38:19 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 2 water from rain
+2024-06-04 15:38:19 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 2 water from rain
+2024-06-04 15:38:19 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 2 water from rain
+2024-06-04 15:38:27 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 4 water from rain
+2024-06-04 15:38:27 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 4 water from rain
+2024-06-04 15:38:27 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 4 water from rain
+2024-06-04 15:38:27 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 4 water from rain
+2024-06-04 15:38:27 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 4 water from rain
+2024-06-04 15:38:27 INFO  WateringSystemLogger - Watered Carrot at position (2, 1) with 4 water from rain
+2024-06-04 15:38:27 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 4 water from rain
+2024-06-04 15:38:27 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 4 water from rain
+2024-06-04 15:38:27 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 4 water from rain
+2024-06-04 15:38:27 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 4 water from rain
+2024-06-04 15:38:35 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 4 water from rain
+2024-06-04 15:38:35 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 4 water from rain
+2024-06-04 15:38:35 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 4 water from rain
+2024-06-04 15:38:35 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 4 water from rain
+2024-06-04 15:38:35 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 4 water from rain
+2024-06-04 15:38:35 INFO  WateringSystemLogger - Watered Carrot at position (2, 1) with 4 water from rain
+2024-06-04 15:38:35 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 4 water from rain
+2024-06-04 15:38:35 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 4 water from rain
+2024-06-04 15:38:35 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 4 water from rain
+2024-06-04 15:38:35 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 4 water from rain
+2024-06-04 15:38:43 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 1 water from rain
+2024-06-04 15:38:43 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 1 water from rain
+2024-06-04 15:38:43 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 1 water from rain
+2024-06-04 15:38:43 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 1 water from rain
+2024-06-04 15:38:43 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 1 water from rain
+2024-06-04 15:38:43 INFO  WateringSystemLogger - Watered Carrot at position (2, 1) with 1 water from rain
+2024-06-04 15:38:43 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 1 water from rain
+2024-06-04 15:38:43 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 1 water from rain
+2024-06-04 15:38:43 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 1 water from rain
+2024-06-04 15:38:43 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 1 water from rain
+2024-06-04 15:38:51 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 6 water from rain
+2024-06-04 15:38:51 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 6 water from rain
+2024-06-04 15:38:51 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 6 water from rain
+2024-06-04 15:38:51 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 6 water from rain
+2024-06-04 15:38:51 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 6 water from rain
+2024-06-04 15:38:51 INFO  WateringSystemLogger - Watered Carrot at position (2, 1) with 6 water from rain
+2024-06-04 15:38:51 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 6 water from rain
+2024-06-04 15:38:51 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 6 water from rain
+2024-06-04 15:38:51 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 6 water from rain
+2024-06-04 15:38:51 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 6 water from rain
+2024-06-04 15:38:59 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 6 water from rain
+2024-06-04 15:38:59 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 6 water from rain
+2024-06-04 15:38:59 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 6 water from rain
+2024-06-04 15:38:59 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 6 water from rain
+2024-06-04 15:38:59 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 6 water from rain
+2024-06-04 15:38:59 INFO  WateringSystemLogger - Watered Carrot at position (2, 1) with 6 water from rain
+2024-06-04 15:38:59 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 6 water from rain
+2024-06-04 15:38:59 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 6 water from rain
+2024-06-04 15:38:59 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 6 water from rain
+2024-06-04 15:38:59 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 6 water from rain
+2024-06-04 15:39:07 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 8 water from rain
+2024-06-04 15:39:07 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 8 water from rain
+2024-06-04 15:39:07 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 8 water from rain
+2024-06-04 15:39:07 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 8 water from rain
+2024-06-04 15:39:07 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 8 water from rain
+2024-06-04 15:39:07 INFO  WateringSystemLogger - Watered Carrot at position (2, 1) with 8 water from rain
+2024-06-04 15:39:07 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 8 water from rain
+2024-06-04 15:39:07 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 8 water from rain
+2024-06-04 15:39:07 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 8 water from rain
+2024-06-04 15:39:07 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 8 water from rain
+2024-06-04 15:39:15 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 6 water from rain
+2024-06-04 15:39:15 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 6 water from rain
+2024-06-04 15:39:15 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 6 water from rain
+2024-06-04 15:39:15 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 6 water from rain
+2024-06-04 15:39:15 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 6 water from rain
+2024-06-04 15:39:15 INFO  WateringSystemLogger - Watered Carrot at position (2, 1) with 6 water from rain
+2024-06-04 15:39:15 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 6 water from rain
+2024-06-04 15:39:15 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 6 water from rain
+2024-06-04 15:39:15 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 6 water from rain
+2024-06-04 15:39:15 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 6 water from rain
+2024-06-04 15:39:23 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 9 water from rain
+2024-06-04 15:39:23 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 9 water from rain
+2024-06-04 15:39:23 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 9 water from rain
+2024-06-04 15:39:23 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 9 water from rain
+2024-06-04 15:39:23 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 9 water from rain
+2024-06-04 15:39:23 INFO  WateringSystemLogger - Watered Carrot at position (2, 1) with 9 water from rain
+2024-06-04 15:39:23 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 9 water from rain
+2024-06-04 15:39:23 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 9 water from rain
+2024-06-04 15:39:23 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 9 water from rain
+2024-06-04 15:39:23 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 9 water from rain
+2024-06-04 15:39:31 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 5 water from rain
+2024-06-04 15:39:31 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 5 water from rain
+2024-06-04 15:39:31 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 5 water from rain
+2024-06-04 15:39:31 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 5 water from rain
+2024-06-04 15:39:31 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 5 water from rain
+2024-06-04 15:39:31 INFO  WateringSystemLogger - Watered Carrot at position (2, 1) with 5 water from rain
+2024-06-04 15:39:31 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 5 water from rain
+2024-06-04 15:39:31 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 5 water from rain
+2024-06-04 15:39:31 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 5 water from rain
+2024-06-04 15:39:31 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 5 water from rain
+2024-06-04 15:39:39 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 2 water from rain
+2024-06-04 15:39:39 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 2 water from rain
+2024-06-04 15:39:39 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 2 water from rain
+2024-06-04 15:39:39 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 2 water from rain
+2024-06-04 15:39:39 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 2 water from rain
+2024-06-04 15:39:39 INFO  WateringSystemLogger - Watered Carrot at position (2, 1) with 2 water from rain
+2024-06-04 15:39:39 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 2 water from rain
+2024-06-04 15:39:39 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 2 water from rain
+2024-06-04 15:39:39 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 2 water from rain
+2024-06-04 15:39:39 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 2 water from rain
+2024-06-04 15:39:45 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 15:40:01 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 9 water from rain
+2024-06-04 15:40:01 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 9 water from rain
+2024-06-04 15:40:01 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 9 water from rain
+2024-06-04 15:40:09 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 9 water from rain
+2024-06-04 15:40:09 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 9 water from rain
+2024-06-04 15:40:09 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 9 water from rain
+2024-06-04 15:40:17 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 0 water from rain
+2024-06-04 15:40:17 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 0 water from rain
+2024-06-04 15:40:17 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 0 water from rain
+2024-06-04 15:40:25 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 0 water from rain
+2024-06-04 15:40:25 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 0 water from rain
+2024-06-04 15:40:25 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 0 water from rain
+2024-06-04 15:40:33 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 4 water from rain
+2024-06-04 15:40:33 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 4 water from rain
+2024-06-04 15:40:33 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 4 water from rain
+2024-06-04 15:40:41 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 7 water from rain
+2024-06-04 15:40:41 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 7 water from rain
+2024-06-04 15:40:41 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 7 water from rain
+2024-06-04 15:40:49 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 5 water from rain
+2024-06-04 15:40:49 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 5 water from rain
+2024-06-04 15:40:49 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 5 water from rain
+2024-06-04 15:40:57 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 1 water from rain
+2024-06-04 15:40:57 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 1 water from rain
+2024-06-04 15:40:57 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 1 water from rain
+2024-06-04 15:41:05 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 9 water from rain
+2024-06-04 15:41:05 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 9 water from rain
+2024-06-04 15:41:05 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 9 water from rain
+2024-06-04 15:41:13 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 1 water from rain
+2024-06-04 15:41:13 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 1 water from rain
+2024-06-04 15:41:13 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 1 water from rain
+2024-06-04 15:41:21 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 6 water from rain
+2024-06-04 15:41:21 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 6 water from rain
+2024-06-04 15:41:21 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 6 water from rain
+2024-06-04 15:41:29 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 2 water from rain
+2024-06-04 15:41:29 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 2 water from rain
+2024-06-04 15:41:29 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 2 water from rain
+2024-06-04 15:41:37 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 7 water from rain
+2024-06-04 15:41:37 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 7 water from rain
+2024-06-04 15:41:37 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 7 water from rain
+2024-06-04 15:41:45 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 2 water from rain
+2024-06-04 15:41:45 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 2 water from rain
+2024-06-04 15:41:45 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 2 water from rain
+2024-06-04 15:41:53 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 7 water from rain
+2024-06-04 15:41:53 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 7 water from rain
+2024-06-04 15:41:53 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 7 water from rain
+2024-06-04 15:42:01 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 3 water from rain
+2024-06-04 15:42:01 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 3 water from rain
+2024-06-04 15:42:01 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 3 water from rain
+2024-06-04 15:42:09 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 9 water from rain
+2024-06-04 15:42:09 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 9 water from rain
+2024-06-04 15:42:09 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 9 water from rain
+2024-06-04 15:42:17 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 2 water from rain
+2024-06-04 15:42:17 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 2 water from rain
+2024-06-04 15:42:17 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 2 water from rain
+2024-06-04 15:42:25 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 5 water from rain
+2024-06-04 15:42:25 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 5 water from rain
+2024-06-04 15:42:25 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 5 water from rain
+2024-06-04 15:42:33 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 5 water from rain
+2024-06-04 15:42:33 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 5 water from rain
+2024-06-04 15:42:33 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 5 water from rain
+2024-06-04 15:42:41 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 8 water from rain
+2024-06-04 15:42:41 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 8 water from rain
+2024-06-04 15:42:41 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 8 water from rain
+2024-06-04 15:42:49 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 4 water from rain
+2024-06-04 15:42:49 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 4 water from rain
+2024-06-04 15:42:49 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 4 water from rain
+2024-06-04 15:42:57 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 6 water from rain
+2024-06-04 15:42:57 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 6 water from rain
+2024-06-04 15:42:57 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 6 water from rain
+2024-06-04 15:43:05 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 7 water from rain
+2024-06-04 15:43:05 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 7 water from rain
+2024-06-04 15:43:05 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 7 water from rain
+2024-06-04 15:43:13 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 9 water from rain
+2024-06-04 15:43:13 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 9 water from rain
+2024-06-04 15:43:13 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 9 water from rain
+2024-06-04 15:43:21 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 1 water from rain
+2024-06-04 15:43:21 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 1 water from rain
+2024-06-04 15:43:21 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 1 water from rain
+2024-06-04 15:43:29 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 1 water from rain
+2024-06-04 15:43:29 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 1 water from rain
+2024-06-04 15:43:29 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 1 water from rain
+2024-06-04 15:43:37 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 9 water from rain
+2024-06-04 15:43:37 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 9 water from rain
+2024-06-04 15:43:37 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 9 water from rain
+2024-06-04 15:43:45 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 8 water from rain
+2024-06-04 15:43:45 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 8 water from rain
+2024-06-04 15:43:45 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 8 water from rain
+2024-06-04 15:43:53 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 3 water from rain
+2024-06-04 15:43:53 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 3 water from rain
+2024-06-04 15:43:53 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 3 water from rain
+2024-06-04 15:44:01 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 4 water from rain
+2024-06-04 15:44:01 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 4 water from rain
+2024-06-04 15:44:01 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 4 water from rain
+2024-06-04 15:44:09 INFO  WateringSystemLogger - Watered Lily at position (0, 1) with 8 water from rain
+2024-06-04 15:44:09 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 8 water from rain
+2024-06-04 15:44:09 INFO  WateringSystemLogger - Watered Lily at position (3, 2) with 8 water from rain
+2024-06-04 15:44:16 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 15:44:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:44:32 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 15:44:32 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 15:44:40 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 15:44:40 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 15:44:48 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:44:48 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:44:56 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 15:44:56 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 15:45:04 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:45:04 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:45:12 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 15:45:12 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 15:45:20 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 15:45:20 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 15:45:28 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 15:45:28 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 15:45:36 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 15:45:36 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 3 water from rain
+2024-06-04 15:45:44 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:45:44 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:45:52 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:45:52 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:46:00 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 15:46:00 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 15:46:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:46:08 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:46:16 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 15:46:16 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 3 water from rain
+2024-06-04 15:46:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 15:46:24 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 15:46:32 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 15:46:32 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 15:46:40 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 15:46:40 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 15:46:48 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 15:46:48 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 15:46:56 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 15:46:56 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 15:47:04 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 15:47:04 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 15:47:12 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 15:47:12 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 15:47:20 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:47:20 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:47:28 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 15:47:28 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 15:47:36 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 15:47:36 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 15:47:44 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:47:44 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:47:52 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 15:47:52 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 3 water from rain
+2024-06-04 15:48:00 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:48:00 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:48:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:48:08 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:48:16 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 15:48:16 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 15:48:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 15:48:24 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 15:48:32 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 15:48:32 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 15:48:40 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 15:48:40 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 15:48:48 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 15:48:48 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 15:48:56 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 15:48:56 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 3 water from rain
+2024-06-04 15:49:04 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:49:04 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:49:12 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 15:49:12 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 15:49:20 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 15:49:20 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 15:49:28 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 15:49:28 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 15:49:36 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 15:49:36 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 15:49:44 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 15:49:44 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 15:49:52 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 15:49:52 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 15:50:00 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 15:50:00 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 15:50:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 15:50:08 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 15:50:16 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 15:50:16 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 15:50:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:50:24 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:50:32 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 15:50:32 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 15:50:40 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 15:50:40 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 15:50:48 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 15:50:48 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 15:50:56 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:50:56 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:51:04 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 15:51:04 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 15:51:12 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 15:51:12 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 15:51:20 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:51:20 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:51:28 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 15:51:28 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 15:51:36 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 15:51:36 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 15:51:44 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:51:44 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:51:52 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 15:51:52 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 15:52:00 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 15:52:00 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 15:52:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 15:52:08 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 15:52:16 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:52:16 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:52:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 15:52:24 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 15:52:32 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 15:52:32 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 15:52:40 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 15:52:40 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 15:52:48 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 15:52:48 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 15:52:56 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 15:52:56 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 3 water from rain
+2024-06-04 15:53:04 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 15:53:04 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 15:53:12 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 15:53:12 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 15:53:20 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 15:53:20 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 15:53:28 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:53:28 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:53:36 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:53:36 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:53:44 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 15:53:44 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 15:53:52 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 15:53:52 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 15:54:00 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 15:54:00 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 15:54:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 15:54:08 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 15:54:16 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 15:54:16 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 3 water from rain
+2024-06-04 15:54:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:54:24 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:54:32 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 15:54:32 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 15:54:40 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 15:54:40 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 15:54:48 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 15:54:48 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 15:54:56 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:54:56 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:55:04 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:55:04 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:55:12 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:55:12 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:55:20 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:55:20 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:55:28 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 15:55:28 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 15:55:36 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 15:55:36 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 15:55:44 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:55:44 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:55:52 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 15:55:52 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 15:56:00 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 15:56:00 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 3 water from rain
+2024-06-04 15:56:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 15:56:08 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 15:56:16 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 15:56:16 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 15:56:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 15:56:24 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 15:56:32 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:56:32 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:56:40 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 15:56:40 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 15:56:48 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 15:56:48 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 15:56:56 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:56:56 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:57:04 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 15:57:04 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 15:57:12 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:57:12 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:57:20 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 15:57:20 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 15:57:28 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 15:57:28 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 15:57:36 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 15:57:36 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 15:57:44 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 15:57:44 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 15:57:52 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 15:57:52 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 15:58:00 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 15:58:00 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 3 water from rain
+2024-06-04 15:58:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 15:58:08 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 3 water from rain
+2024-06-04 15:58:16 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 15:58:16 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 15:58:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 15:58:24 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 15:58:32 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:58:32 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:58:40 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 15:58:40 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 15:58:48 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 15:58:48 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 15:58:56 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:58:56 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:59:00 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:00.624018
+2024-06-04 15:59:00 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:00 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:01 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:01.642814
+2024-06-04 15:59:01 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:01 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:02 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:02.647503
+2024-06-04 15:59:02 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:02 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:03 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:03.653242
+2024-06-04 15:59:03 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:03 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:04 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 15:59:04 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 15:59:04 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:04.656575
+2024-06-04 15:59:04 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:04 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:05 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:05.663599
+2024-06-04 15:59:05 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:05 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:06 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:06.668816
+2024-06-04 15:59:06 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:06 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:07 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:07.675054
+2024-06-04 15:59:07 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:07 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:08 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:08.680963
+2024-06-04 15:59:08 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:08 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:09 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:09.682276
+2024-06-04 15:59:09 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:09 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:10 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:10.685864
+2024-06-04 15:59:10 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:10 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:11 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:11.691443
+2024-06-04 15:59:11 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:11 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:12 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:59:12 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:59:12 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:12.695591
+2024-06-04 15:59:12 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:12 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:13 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:13.701833
+2024-06-04 15:59:13 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:13 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:14 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:14.706759
+2024-06-04 15:59:14 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:14 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:15 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:15.712217
+2024-06-04 15:59:15 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:15 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:16 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:16.717145
+2024-06-04 15:59:16 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:16 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:17 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:17.721140
+2024-06-04 15:59:17 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:17 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:18 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:18.726798
+2024-06-04 15:59:18 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:18 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:19 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:19.729393
+2024-06-04 15:59:19 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:19 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:20 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:59:20 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:59:20 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:20.735266
+2024-06-04 15:59:20 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:20 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:21 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:21.736856
+2024-06-04 15:59:21 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:21 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:22 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:22.742012
+2024-06-04 15:59:22 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:22 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:23 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:23.747025
+2024-06-04 15:59:23 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:23 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:24 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:24.752779
+2024-06-04 15:59:24 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:24 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:25 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:25.758616
+2024-06-04 15:59:25 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:25 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:26 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:26.764202
+2024-06-04 15:59:26 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:26 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:27 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:27.765620
+2024-06-04 15:59:27 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:27 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:28 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 15:59:28 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 15:59:28 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:28.770941
+2024-06-04 15:59:28 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:28 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:29.775869
+2024-06-04 15:59:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:30 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:30.781063
+2024-06-04 15:59:30 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:30 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:31 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:31.787284
+2024-06-04 15:59:31 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:31 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:32 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:32.789405
+2024-06-04 15:59:32 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:32 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:33 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:33.795456
+2024-06-04 15:59:33 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:33 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:34 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:34.800916
+2024-06-04 15:59:34 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:34 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:35 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:35.806622
+2024-06-04 15:59:35 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:35 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:36 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 15:59:36 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 15:59:36 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:36.811993
+2024-06-04 15:59:36 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:36 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:37 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:37.813097
+2024-06-04 15:59:37 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:37 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:38 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:38.814353
+2024-06-04 15:59:38 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:38 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:39 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:39.815827
+2024-06-04 15:59:39 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:39 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:40 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:40.821702
+2024-06-04 15:59:40 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:40 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:41 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:41.828378
+2024-06-04 15:59:41 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:41 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:42 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:42.833698
+2024-06-04 15:59:42 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:42 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:43 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:43.839053
+2024-06-04 15:59:43 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:43 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:44 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 15:59:44 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 15:59:44 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:44.844776
+2024-06-04 15:59:44 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:44 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:45 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:45.850255
+2024-06-04 15:59:45 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:45 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:46 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:46.856291
+2024-06-04 15:59:46 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:46 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:47 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:47.858433
+2024-06-04 15:59:47 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:47 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:48 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:48.865065
+2024-06-04 15:59:48 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:48 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:49 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:49.868557
+2024-06-04 15:59:49 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:49 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:50 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:50.874111
+2024-06-04 15:59:50 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:50 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:51 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:51.880291
+2024-06-04 15:59:51 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:51 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:52 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 15:59:52 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 15:59:52 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:52.885955
+2024-06-04 15:59:52 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:52 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:53 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:53.893540
+2024-06-04 15:59:53 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:53 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:54 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:54.900385
+2024-06-04 15:59:54 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:54 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:55 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:55.906298
+2024-06-04 15:59:55 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:55 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:56 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:56.911984
+2024-06-04 15:59:56 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:56 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:57 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:57.913022
+2024-06-04 15:59:57 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:57 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:58 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:58.918476
+2024-06-04 15:59:58 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:58 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 15:59:59 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-04T15:59:59.920974
+2024-06-04 15:59:59 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-04 15:59:59 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-04 16:00:00 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 16:00:00 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 16:00:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 16:00:08 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 16:00:16 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 16:00:16 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 16:00:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 16:00:24 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 16:00:32 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 16:00:32 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 16:00:40 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 16:00:40 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 16:00:48 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 16:00:48 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 16:00:56 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 16:00:56 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 16:01:04 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 16:01:04 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 16:01:12 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 16:01:12 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 16:01:20 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 16:01:20 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 16:01:28 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 16:01:28 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 16:01:36 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 16:01:36 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 16:01:44 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 16:01:44 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 16:01:52 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 16:01:52 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 16:02:00 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 16:02:00 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 16:02:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 16:02:08 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 16:02:16 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 16:02:16 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 16:02:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 16:02:24 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 16:02:32 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 16:02:32 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 16:02:40 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 16:02:40 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 16:02:48 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 16:02:48 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 16:02:56 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 16:02:56 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 16:03:04 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 16:03:04 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 16:03:12 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 16:03:12 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 16:03:20 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 16:03:20 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 9 water from rain
+2024-06-04 16:03:28 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 16:03:28 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 16:03:36 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 16:03:36 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 16:03:44 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 16:03:44 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 16:03:52 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 16:03:52 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 16:04:00 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 16:04:00 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 16:04:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 16:04:08 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 16:04:16 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 16:04:16 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 16:04:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 16:04:24 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 16:04:32 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 16:04:32 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 16:04:40 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 16:04:40 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 3 water from rain
+2024-06-04 16:04:48 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 16:04:48 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 16:04:56 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 16:04:56 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 2 water from rain
+2024-06-04 16:05:04 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 16:05:04 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 16:05:12 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 16:05:12 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 16:05:20 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 16:05:20 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 16:05:28 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 16:05:28 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 16:05:36 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 16:05:36 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 1 water from rain
+2024-06-04 16:05:44 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 16:05:44 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 16:05:52 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 8 water from rain
+2024-06-04 16:05:52 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 8 water from rain
+2024-06-04 16:06:00 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 16:06:00 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 16:06:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 16:06:08 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 16:06:16 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 16:06:16 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 16:06:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 0 water from rain
+2024-06-04 16:06:24 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 0 water from rain
+2024-06-04 16:06:32 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 16:06:32 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 6 water from rain
+2024-06-04 16:06:40 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 16:06:40 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 4 water from rain
+2024-06-04 16:06:48 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 16:06:48 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 3 water from rain
+2024-06-04 16:06:56 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 16:06:56 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 5 water from rain
+2024-06-04 16:07:04 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 16:07:04 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 7 water from rain
+2024-06-04 16:07:12 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 16:07:12 INFO  WateringSystemLogger - Watered Lily at position (1, 3) with 3 water from rain
+2024-06-04 16:07:21 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 16:07:37 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 4 water from rain
+2024-06-04 16:07:37 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 4 water from rain
+2024-06-04 16:07:37 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 4 water from rain
+2024-06-04 16:07:37 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 4 water from rain
+2024-06-04 16:07:45 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 16:07:45 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 2 water from rain
+2024-06-04 16:07:45 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 2 water from rain
+2024-06-04 16:07:45 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 2 water from rain
+2024-06-04 16:07:59 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 16:08:15 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 5 water from rain
+2024-06-04 16:08:15 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 5 water from rain
+2024-06-04 16:18:57 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 16:19:05 INFO  WateringSystemLogger - Watered Carrot at position (1, 2) with 6 water from rain
+2024-06-04 16:19:05 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 6 water from rain
+2024-06-04 16:19:55 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 16:20:03 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 8 water from rain
+2024-06-04 16:20:03 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 8 water from rain
+2024-06-04 16:20:03 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 8 water from rain
+2024-06-04 16:20:11 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 6 water from rain
+2024-06-04 16:20:11 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 6 water from rain
+2024-06-04 16:20:11 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 6 water from rain
+2024-06-04 16:20:19 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 0 water from rain
+2024-06-04 16:20:19 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 0 water from rain
+2024-06-04 16:20:19 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 0 water from rain
+2024-06-04 16:20:27 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 9 water from rain
+2024-06-04 16:20:27 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 9 water from rain
+2024-06-04 16:20:27 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 9 water from rain
+2024-06-04 16:20:35 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 8 water from rain
+2024-06-04 16:20:35 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 8 water from rain
+2024-06-04 16:20:35 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 8 water from rain
+2024-06-04 16:20:43 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 9 water from rain
+2024-06-04 16:20:43 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 9 water from rain
+2024-06-04 16:20:43 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 9 water from rain
+2024-06-04 16:21:44 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 16:21:52 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 16:21:52 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 1 water from rain
+2024-06-04 16:21:52 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 1 water from rain
+2024-06-04 16:22:00 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 16:22:00 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 3 water from rain
+2024-06-04 16:22:00 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 3 water from rain
+2024-06-04 16:22:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 16:22:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 3 water from rain
+2024-06-04 16:22:08 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 3 water from rain
+2024-06-04 16:26:06 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 16:26:14 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 5 water from rain
+2024-06-04 16:26:14 INFO  WateringSystemLogger - Watered Carrot at position (3, 2) with 5 water from rain
+2024-06-04 16:26:14 INFO  WateringSystemLogger - Watered Carrot at position (3, 3) with 5 water from rain
+2024-06-04 16:26:22 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 3 water from rain
+2024-06-04 16:26:22 INFO  WateringSystemLogger - Watered Carrot at position (3, 2) with 3 water from rain
+2024-06-04 16:26:22 INFO  WateringSystemLogger - Watered Carrot at position (3, 3) with 3 water from rain
+2024-06-04 16:26:30 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 4 water from rain
+2024-06-04 16:26:30 INFO  WateringSystemLogger - Watered Carrot at position (3, 2) with 4 water from rain
+2024-06-04 16:26:30 INFO  WateringSystemLogger - Watered Carrot at position (3, 3) with 4 water from rain
+2024-06-04 16:27:35 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 16:27:43 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 1 water from rain
+2024-06-04 16:27:43 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 1 water from rain
+2024-06-04 16:27:43 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 1 water from rain
+2024-06-04 16:27:51 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 16:27:51 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 3 water from rain
+2024-06-04 16:27:51 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 3 water from rain
+2024-06-04 16:27:59 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 16:27:59 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 7 water from rain
+2024-06-04 16:27:59 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 7 water from rain
+2024-06-04 16:28:07 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 6 water from rain
+2024-06-04 16:28:07 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 6 water from rain
+2024-06-04 16:28:07 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 6 water from rain
+2024-06-04 16:28:15 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 7 water from rain
+2024-06-04 16:28:15 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 7 water from rain
+2024-06-04 16:28:15 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 7 water from rain
+2024-06-04 16:28:23 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 16:28:23 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 3 water from rain
+2024-06-04 16:28:23 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 3 water from rain
+2024-06-04 16:31:57 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 16:32:05 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 9 water from rain
+2024-06-04 16:32:05 INFO  WateringSystemLogger - Watered Carrot at position (1, 3) with 9 water from rain
+2024-06-04 16:32:05 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 9 water from rain
+2024-06-04 16:32:13 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 6 water from rain
+2024-06-04 16:32:13 INFO  WateringSystemLogger - Watered Carrot at position (1, 3) with 6 water from rain
+2024-06-04 16:32:13 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 6 water from rain
+2024-06-04 16:32:21 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 2 water from rain
+2024-06-04 16:32:21 INFO  WateringSystemLogger - Watered Carrot at position (1, 3) with 2 water from rain
+2024-06-04 16:32:21 INFO  WateringSystemLogger - Watered Carrot at position (3, 1) with 2 water from rain
+2024-06-04 16:32:54 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 16:33:02 INFO  WateringSystemLogger - Watered Lettuce at position (0, 1) with 3 water from rain
+2024-06-04 16:33:02 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 3 water from rain
+2024-06-04 16:33:02 INFO  WateringSystemLogger - Watered Carrot at position (1, 3) with 3 water from rain
+2024-06-04 16:33:02 INFO  WateringSystemLogger - Watered Carrot at position (3, 2) with 3 water from rain
+2024-06-04 16:33:10 INFO  WateringSystemLogger - Watered Lettuce at position (0, 1) with 2 water from rain
+2024-06-04 16:33:10 INFO  WateringSystemLogger - Watered Carrot at position (1, 0) with 2 water from rain
+2024-06-04 16:33:10 INFO  WateringSystemLogger - Watered Carrot at position (1, 3) with 2 water from rain
+2024-06-04 16:33:10 INFO  WateringSystemLogger - Watered Carrot at position (3, 2) with 2 water from rain
+2024-06-04 16:35:50 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 16:35:58 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 1 water from rain
+2024-06-04 16:35:58 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 1 water from rain
+2024-06-04 16:35:58 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 1 water from rain
+2024-06-04 16:36:06 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 2 water from rain
+2024-06-04 16:36:06 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 2 water from rain
+2024-06-04 16:36:06 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 2 water from rain
+2024-06-04 16:36:14 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 8 water from rain
+2024-06-04 16:36:14 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 8 water from rain
+2024-06-04 16:36:14 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 8 water from rain
+2024-06-04 16:36:22 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 2 water from rain
+2024-06-04 16:36:22 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 2 water from rain
+2024-06-04 16:36:22 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 2 water from rain
+2024-06-04 16:36:30 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 8 water from rain
+2024-06-04 16:36:30 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 8 water from rain
+2024-06-04 16:36:30 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 8 water from rain
+2024-06-04 16:36:38 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 6 water from rain
+2024-06-04 16:36:38 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 6 water from rain
+2024-06-04 16:36:38 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 6 water from rain
+2024-06-04 16:36:46 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 5 water from rain
+2024-06-04 16:36:46 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 5 water from rain
+2024-06-04 16:36:46 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 5 water from rain
+2024-06-04 16:36:54 INFO  WateringSystemLogger - Watered Carrot at position (0, 0) with 1 water from rain
+2024-06-04 16:36:54 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 1 water from rain
+2024-06-04 16:36:54 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 1 water from rain
+2024-06-04 16:38:19 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 16:38:27 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 16:38:35 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 4 water from rain
+2024-06-04 16:38:35 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 4 water from rain
+2024-06-04 16:38:35 INFO  WateringSystemLogger - Watered Carrot at position (3, 3) with 4 water from rain
+2024-06-04 16:38:43 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 3 water from rain
+2024-06-04 16:38:43 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 3 water from rain
+2024-06-04 16:38:43 INFO  WateringSystemLogger - Watered Carrot at position (3, 3) with 3 water from rain
+2024-06-04 16:38:51 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 7 water from rain
+2024-06-04 16:38:51 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 7 water from rain
+2024-06-04 16:38:51 INFO  WateringSystemLogger - Watered Carrot at position (3, 3) with 7 water from rain
+2024-06-04 16:38:59 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 1 water from rain
+2024-06-04 16:38:59 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 1 water from rain
+2024-06-04 16:38:59 INFO  WateringSystemLogger - Watered Carrot at position (3, 3) with 1 water from rain
+2024-06-04 16:39:07 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 7 water from rain
+2024-06-04 16:39:07 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 7 water from rain
+2024-06-04 16:39:07 INFO  WateringSystemLogger - Watered Carrot at position (3, 3) with 7 water from rain
+2024-06-04 16:39:15 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 6 water from rain
+2024-06-04 16:39:15 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 6 water from rain
+2024-06-04 16:39:15 INFO  WateringSystemLogger - Watered Carrot at position (3, 3) with 6 water from rain
+2024-06-04 16:39:23 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 1 water from rain
+2024-06-04 16:39:23 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 1 water from rain
+2024-06-04 16:39:23 INFO  WateringSystemLogger - Watered Carrot at position (3, 3) with 1 water from rain
+2024-06-04 16:39:31 INFO  WateringSystemLogger - Watered Carrot at position (1, 1) with 4 water from rain
+2024-06-04 16:39:31 INFO  WateringSystemLogger - Watered Carrot at position (2, 2) with 4 water from rain
+2024-06-04 16:39:31 INFO  WateringSystemLogger - Watered Carrot at position (3, 3) with 4 water from rain
+2024-06-04 16:42:00 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-04 16:42:08 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 16:42:08 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 2 water from rain
+2024-06-04 16:42:08 INFO  WateringSystemLogger - Watered Carrot at position (3, 2) with 2 water from rain
+2024-06-04 16:42:16 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 5 water from rain
+2024-06-04 16:42:16 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 5 water from rain
+2024-06-04 16:42:16 INFO  WateringSystemLogger - Watered Carrot at position (3, 2) with 5 water from rain
+2024-06-04 16:42:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 16:42:24 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 3 water from rain
+2024-06-04 16:42:24 INFO  WateringSystemLogger - Watered Carrot at position (3, 2) with 3 water from rain
+2024-06-04 16:42:32 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 2 water from rain
+2024-06-04 16:42:32 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 2 water from rain
+2024-06-04 16:42:32 INFO  WateringSystemLogger - Watered Carrot at position (3, 2) with 2 water from rain
+2024-06-04 16:42:40 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 3 water from rain
+2024-06-04 16:42:40 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 3 water from rain
+2024-06-04 16:42:40 INFO  WateringSystemLogger - Watered Carrot at position (3, 2) with 3 water from rain
+2024-06-04 16:42:48 INFO  WateringSystemLogger - Watered Carrot at position (0, 1) with 9 water from rain
+2024-06-04 16:42:48 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 9 water from rain
+2024-06-04 16:42:48 INFO  WateringSystemLogger - Watered Carrot at position (3, 2) with 9 water from rain

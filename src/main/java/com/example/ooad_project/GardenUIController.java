@@ -1,5 +1,6 @@
 package com.example.ooad_project;
 
+import com.example.ooad_project.Events.DisplayParasiteEvent;
 import com.example.ooad_project.Events.RainEvent;
 import com.example.ooad_project.Parasite.Parasite;
 import com.example.ooad_project.Parasite.ParasiteManager;
@@ -10,6 +11,7 @@ import com.example.ooad_project.Plant.Children.Vegetable;
 import com.example.ooad_project.Plant.PlantManager;
 import com.example.ooad_project.ThreadUtils.EventBus;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.MenuItem;
@@ -18,15 +20,21 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.RowConstraints;
+import javafx.animation.PauseTransition;
+import javafx.util.Duration;
 
 import java.util.Random;
 
+import javafx.scene.layout.StackPane;
 
 
 public class GardenUIController {
 
     @FXML
     private MenuButton parasiteMenuButton;
+
+    @FXML
+    private Button pestTestButton;
 
     @FXML
     private Label rainStatusLabel;
@@ -81,7 +89,35 @@ public class GardenUIController {
         loadParasitesData();
 
         EventBus.subscribe("RainEvent", event -> changeRainUI((RainEvent) event));
+        EventBus.subscribe("DisplayParasiteEvent", event -> handleDisplayParasiteEvent((DisplayParasiteEvent) event));
     }
+
+
+    private void handleDisplayParasiteEvent(DisplayParasiteEvent event) {
+        // Load the image for the rat
+        String imageName = "/images/" + event.getParasite().getImageName();
+        Image ratImage = new Image(getClass().getResourceAsStream(imageName));
+        ImageView ratImageView = new ImageView(ratImage);
+        ratImageView.setFitHeight(60);  // Match the cell size in the grid
+        ratImageView.setFitWidth(60);
+
+        // Use the row and column from the event
+        int row = event.getRow();
+        int col = event.getColumn();
+
+        // Place the rat image on the grid
+        gridPane.add(ratImageView, col, row);
+//        System.out.println("Rat placed at row " + row + " and column " + col);
+
+        // Create a pause transition of 5 seconds before removing the rat image
+        PauseTransition pause = new PauseTransition(Duration.seconds(5));
+        pause.setOnFinished(_ -> {
+            gridPane.getChildren().remove(ratImageView);  // Remove the rat image from the grid
+//            System.out.println("Rat removed from row " + row + " and column " + col);
+        });
+        pause.play();
+    }
+
 
     private void loadParasitesData() {
         for (Parasite parasite : parasiteManager.getParasites()) {
@@ -96,6 +132,10 @@ public class GardenUIController {
         // For example, display details or apply effects to the garden
         System.out.println("Selected parasite: " + parasite.getName() + " with damage: " + parasite.getDamage());
     }
+
+//
+    @FXML
+    public void showPestOnGrid() {}
 
 
     private void changeRainUI(RainEvent event) {

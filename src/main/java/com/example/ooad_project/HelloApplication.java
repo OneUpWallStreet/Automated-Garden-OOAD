@@ -66,7 +66,7 @@ public class HelloApplication extends Application {
         timeline2.play();
 
 //        Schedule parasite every 10 seconds
-        Timeline timeline3 = new Timeline(new KeyFrame(Duration.seconds(2), ev -> {
+        Timeline timeline3 = new Timeline(new KeyFrame(Duration.seconds(20), ev -> {
             api.parasite("Rat");
         }));
         timeline3.setCycleCount(Timeline.INDEFINITE);

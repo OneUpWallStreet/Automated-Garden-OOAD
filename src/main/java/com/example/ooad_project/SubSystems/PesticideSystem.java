@@ -1,5 +1,6 @@
 package com.example.ooad_project.SubSystems;
 
+import com.example.ooad_project.Events.DisplayParasiteEvent;
 import com.example.ooad_project.Events.ParasiteEvent;
 import com.example.ooad_project.GardenGrid;
 import com.example.ooad_project.Parasite.Parasite;
@@ -29,7 +30,14 @@ public class PesticideSystem implements Runnable{
             for (int j = 0; j < gardenGrid.getNumCols(); j++) {
                 Plant plant = gardenGrid.getPlant(i, j);
                 if (plant != null && parasite.getAffectedPlants().contains(plant.getName())) {
+
+                    System.out.println("Plant.getrow(): " + plant.getRow() + " Plant.getCol(): " + plant.getCol());
+                    System.out.println("i: " + i + " j: " + j);
+                    System.out.println("\n");
+
+
                     logger.info("Pesticide system applied {} to {} at position ({}, {})", parasite.getName(), plant.getName(), i, j);
+                    EventBus.publish("DisplayParasiteEvent", new DisplayParasiteEvent(parasite, i, j));
                     parasite.affectPlant(plant);
                 }
             }
