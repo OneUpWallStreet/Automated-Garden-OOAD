@@ -142,3 +142,16 @@
 2024-06-04 12:00:03 INFO  WateringSystemLogger - Watered Carrot at position (2, 0) with 4 water from rain
 2024-06-04 12:00:03 INFO  WateringSystemLogger - Watered Pine at position (3, 0) with 4 water from rain
 2024-06-04 12:00:03 INFO  WateringSystemLogger - Watered Maple at position (3, 1) with 4 water from rain
+2024-06-04 12:15:30 INFO  WateringSystemLogger - API called rain with amount: 4
+2024-06-04 12:15:38 INFO  WateringSystemLogger - API called rain with amount: 5
+2024-06-04 12:15:38 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 5 water from rain
+2024-06-04 12:15:38 INFO  WateringSystemLogger - Watered Maple at position (3, 0) with 5 water from rain
+2024-06-04 12:15:46 INFO  WateringSystemLogger - API called rain with amount: 9
+2024-06-04 12:15:46 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 9 water from rain
+2024-06-04 12:15:46 INFO  WateringSystemLogger - Watered Maple at position (3, 0) with 9 water from rain
+2024-06-04 12:15:54 INFO  WateringSystemLogger - API called rain with amount: 5
+2024-06-04 12:15:54 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 5 water from rain
+2024-06-04 12:15:54 INFO  WateringSystemLogger - Watered Maple at position (3, 0) with 5 water from rain
+2024-06-04 12:16:02 INFO  WateringSystemLogger - API called rain with amount: 7
+2024-06-04 12:16:02 INFO  WateringSystemLogger - Watered Carrot at position (0, 2) with 7 water from rain
+2024-06-04 12:16:02 INFO  WateringSystemLogger - Watered Maple at position (3, 0) with 7 water from rain

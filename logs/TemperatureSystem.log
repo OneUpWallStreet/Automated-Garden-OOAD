@@ -18,3 +18,9 @@
 2024-06-04 11:59:59 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 0) by 27 degrees F.
 2024-06-04 11:59:59 INFO  TemperatureSystemLogger - Temperature system heated Pine at position (3, 0) by 17 degrees F.
 2024-06-04 11:59:59 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (3, 1) by 27 degrees F.
+2024-06-04 12:15:42 INFO  TemperatureSystemLogger - API called temperature set to: 46
+2024-06-04 12:15:42 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 2) by 14 degrees F.
+2024-06-04 12:15:42 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (3, 0) by 14 degrees F.
+2024-06-04 12:16:02 INFO  TemperatureSystemLogger - API called temperature set to: 59
+2024-06-04 12:16:02 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 2) by 1 degrees F.
+2024-06-04 12:16:02 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (3, 0) by 1 degrees F.

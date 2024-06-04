@@ -123,8 +123,23 @@ public abstract class Plant {
         return healthFull;
     }
 
-    public int getCurrentHealth() {
+    /**
+     * Retrieves the current health of the plant.
+     * This method is synchronized to ensure thread safety.
+     * @return the current health of the plant.
+     */
+    public synchronized int getCurrentHealth() {
         return currentHealth;
+    }
+
+    /**
+     * Sets the current health of the plant.
+     * This method is synchronized to ensure that updates are atomic and changes
+     * are visible to other threads.
+     * @param health the new health value for the plant.
+     */
+    public synchronized void setCurrentHealth(int health) {
+        this.currentHealth = health;
     }
 
 

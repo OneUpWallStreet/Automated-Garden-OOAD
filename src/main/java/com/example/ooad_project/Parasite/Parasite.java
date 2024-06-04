@@ -17,6 +17,7 @@ public abstract class Parasite {
         this.affectedPlants = affectedPlants;
     }
 
+//    Virtual function to be implemented by children
     public abstract void affectPlant(Plant plant);
 
 
