@@ -24,19 +24,19 @@ public class GardenSimulationAPI implements GardenSimulationAPIInterface {
 
     @Override
     public void rain(int amount) {
-        logger.info("API called rain with amount: " + amount);
+        logger.info("API called rain with amount: {}", amount);
         EventBus.publish("RainEvent", new RainEvent(amount));
     }
 
     @Override
     public void temperature(int amount) {
-        logger.info("API called temperature set to: " + amount);
+        logger.info("API called temperature set to: {}", amount);
         EventBus.publish("TemperatureEvent", new TemperatureEvent(amount));
     }
 
     @Override
     public void parasite(String name) {
-        logger.info("API called to handle parasite: " + name);
+        logger.info("API called to handle parasite: {}", name);
     }
 
     @Override

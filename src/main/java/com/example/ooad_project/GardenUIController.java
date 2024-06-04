@@ -1,6 +1,8 @@
 package com.example.ooad_project;
 
 import com.example.ooad_project.Events.RainEvent;
+import com.example.ooad_project.Parasite.Parasite;
+import com.example.ooad_project.Parasite.ParasiteManager;
 import com.example.ooad_project.Plant.Children.Flower;
 import com.example.ooad_project.Plant.Plant;
 import com.example.ooad_project.Plant.Children.Tree;
@@ -24,6 +26,9 @@ import java.util.Random;
 public class GardenUIController {
 
     @FXML
+    private MenuButton parasiteMenuButton;
+
+    @FXML
     private Label rainStatusLabel;
     @FXML
     private GridPane gridPane;
@@ -37,8 +42,13 @@ public class GardenUIController {
 
     private final Random random = new Random();
     private GardenGrid gardenGrid;
+
+//    This is the plant manager that will be used to get the plant data
+//    from the JSON file, used to populate the menu buttons
     private PlantManager plantManager = PlantManager.getInstance();
 
+//    Same as above but for the parasites
+    private ParasiteManager parasiteManager = ParasiteManager.getInstance();
 
     public GardenUIController() {
         gardenGrid = GardenGrid.getInstance();
@@ -68,8 +78,25 @@ public class GardenUIController {
 
         // Load plants data from JSON file and populate MenuButtons
         loadPlantsData();
+        loadParasitesData();
+
         EventBus.subscribe("RainEvent", event -> changeRainUI((RainEvent) event));
     }
+
+    private void loadParasitesData() {
+        for (Parasite parasite : parasiteManager.getParasites()) {
+            MenuItem menuItem = new MenuItem(parasite.getName());
+            menuItem.setOnAction(e -> handleParasiteSelection(parasite));
+            parasiteMenuButton.getItems().add(menuItem);
+        }
+    }
+
+    private void handleParasiteSelection(Parasite parasite) {
+        // Implement what happens when a parasite is selected
+        // For example, display details or apply effects to the garden
+        System.out.println("Selected parasite: " + parasite.getName() + " with damage: " + parasite.getDamage());
+    }
+
 
     private void changeRainUI(RainEvent event) {
 //        Platform.runLater(() -> {
@@ -86,7 +113,6 @@ public class GardenUIController {
 //    This is the method that will populate the menu buttons with the plant data
     private void loadPlantsData() {
 
-        PlantManager plantManager = PlantManager.getInstance();
         for (Flower flower : plantManager.getFlowers()) {
             MenuItem menuItem = new MenuItem(flower.getName());
             menuItem.setOnAction(e -> addPlantToGrid(flower.getName(), flower.getImageName()));

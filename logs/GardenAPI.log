@@ -8,3 +8,10 @@
 2024-06-03 19:30:55 INFO  GardenSimulationAPILogger - API called rain with amount: 4
 2024-06-03 19:31:03 INFO  GardenSimulationAPILogger - API called rain with amount: 4
 2024-06-03 19:31:07 INFO  GardenSimulationAPILogger - API called temperature set to: 50
+2024-06-03 22:14:22 INFO  GardenSimulationAPILogger - API called rain with amount: 5
+2024-06-03 22:14:30 INFO  GardenSimulationAPILogger - API called rain with amount: 3
+2024-06-03 22:14:34 INFO  GardenSimulationAPILogger - API called temperature set to: 46
+2024-06-03 22:14:38 INFO  GardenSimulationAPILogger - API called rain with amount: 4
+2024-06-03 22:14:55 INFO  GardenSimulationAPILogger - API called rain with amount: 6
+2024-06-03 22:16:19 INFO  GardenSimulationAPILogger - API called rain with amount: 4
+2024-06-03 22:17:05 INFO  GardenSimulationAPILogger - API called rain with amount: 6

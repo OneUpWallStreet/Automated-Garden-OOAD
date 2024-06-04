@@ -4,3 +4,9 @@
 2024-06-03 19:31:41 INFO  WateringSystemLogger - Sprinkled Lily at position (2, 3) with 5 water from sprinklers
 2024-06-03 19:31:41 INFO  WateringSystemLogger - Sprinkled Maple at position (3, 1) with 15 water from sprinklers
 2024-06-03 19:31:41 INFO  WateringSystemLogger - Sprinkled 3 plants
+2024-06-03 22:14:22 INFO  WateringSystemLogger - API called rain with amount: 5
+2024-06-03 22:14:30 INFO  WateringSystemLogger - API called rain with amount: 3
+2024-06-03 22:14:38 INFO  WateringSystemLogger - API called rain with amount: 4
+2024-06-03 22:14:55 INFO  WateringSystemLogger - API called rain with amount: 6
+2024-06-03 22:16:19 INFO  WateringSystemLogger - API called rain with amount: 4
+2024-06-03 22:17:05 INFO  WateringSystemLogger - API called rain with amount: 6
