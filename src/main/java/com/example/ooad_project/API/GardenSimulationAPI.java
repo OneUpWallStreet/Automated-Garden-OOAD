@@ -1,5 +1,6 @@
 package com.example.ooad_project.API;
 
+import com.example.ooad_project.Events.ParasiteEvent;
 import com.example.ooad_project.Events.RainEvent;
 import com.example.ooad_project.Events.TemperatureEvent;
 import com.example.ooad_project.ThreadUtils.EventBus;
@@ -37,6 +38,7 @@ public class GardenSimulationAPI implements GardenSimulationAPIInterface {
     @Override
     public void parasite(String name) {
         logger.info("API called to handle parasite: {}", name);
+        EventBus.publish("ParasiteEvent", new ParasiteEvent(name));
     }
 
     @Override

@@ -10,3 +10,8 @@
 2024-06-03 22:14:55 INFO  WateringSystemLogger - API called rain with amount: 6
 2024-06-03 22:16:19 INFO  WateringSystemLogger - API called rain with amount: 4
 2024-06-03 22:17:05 INFO  WateringSystemLogger - API called rain with amount: 6
+2024-06-04 01:33:37 INFO  WateringSystemLogger - API called rain with amount: 6
+2024-06-04 01:33:45 INFO  WateringSystemLogger - API called rain with amount: 1
+2024-06-04 01:36:28 INFO  WateringSystemLogger - API called rain with amount: 2
+2024-06-04 01:47:46 INFO  WateringSystemLogger - API called rain with amount: 2
+2024-06-04 01:47:54 INFO  WateringSystemLogger - API called rain with amount: 0

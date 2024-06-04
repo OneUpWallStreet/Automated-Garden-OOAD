@@ -1,6 +1,7 @@
 package com.example.ooad_project;
 
 import com.example.ooad_project.API.GardenSimulationAPI;
+import com.example.ooad_project.SubSystems.PesticideSystem;
 import com.example.ooad_project.SubSystems.TemperatureSystem;
 import com.example.ooad_project.SubSystems.WateringSystem;
 import com.example.ooad_project.ThreadUtils.ThreadManager;
@@ -36,8 +37,10 @@ public class HelloApplication extends Application {
     private void initializeBackgroundServices() {
         Runnable wateringSystem = new WateringSystem();
         Runnable temperatureSystem = new TemperatureSystem();
+        Runnable pesticideSystem = new PesticideSystem();
         ThreadManager.run(wateringSystem);
         ThreadManager.run(temperatureSystem);
+        ThreadManager.run(pesticideSystem);
 
     }
 
@@ -61,6 +64,13 @@ public class HelloApplication extends Application {
         }));
         timeline2.setCycleCount(Timeline.INDEFINITE);
         timeline2.play();
+
+//        Schedule parasite every 10 seconds
+        Timeline timeline3 = new Timeline(new KeyFrame(Duration.seconds(2), ev -> {
+            api.parasite("Rat");
+        }));
+        timeline3.setCycleCount(Timeline.INDEFINITE);
+        timeline3.play();
 
     }
 
