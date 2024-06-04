@@ -68,23 +68,66 @@ public class PlantManager {
     private void loadFlowers(JSONArray flowerData) {
         for (int i = 0; i < flowerData.length(); i++) {
             JSONObject flower = flowerData.getJSONObject(i);
-            flowers.add(new Flower(flower.getString("name"), 100, flower.getInt("waterRequirement"), flower.getString("imageName"), flower.getInt("temperatureRequirement")));
+            ArrayList<String> vulnerableTo = new ArrayList<>();
+            JSONArray vulnerabilities = flower.getJSONArray("vulnerableTo");
+            for (int j = 0; j < vulnerabilities.length(); j++) {
+                vulnerableTo.add(vulnerabilities.getString(j));
+            }
+            flowers.add(new Flower(
+                    flower.getString("name"),
+                    flower.getInt("waterRequirement"),
+                    flower.getString("imageName"),
+                    flower.getInt("temperatureRequirement"),
+                    vulnerableTo,
+                    flower.getInt("healthSmall"),
+                    flower.getInt("healthMedium"),
+                    flower.getInt("healthFull")
+            ));
         }
     }
 
     private void loadTrees(JSONArray treeData) {
         for (int i = 0; i < treeData.length(); i++) {
             JSONObject tree = treeData.getJSONObject(i);
-            trees.add(new Tree(tree.getString("name"), 100, tree.getInt("waterRequirement"), tree.getString("imageName"), tree.getInt("temperatureRequirement")));
+            ArrayList<String> vulnerableTo = new ArrayList<>();
+            JSONArray vulnerabilities = tree.getJSONArray("vulnerableTo");
+            for (int j = 0; j < vulnerabilities.length(); j++) {
+                vulnerableTo.add(vulnerabilities.getString(j));
+            }
+            trees.add(new Tree(
+                    tree.getString("name"),
+                    tree.getInt("waterRequirement"),
+                    tree.getString("imageName"),
+                    tree.getInt("temperatureRequirement"),
+                    vulnerableTo,
+                    tree.getInt("healthSmall"),
+                    tree.getInt("healthMedium"),
+                    tree.getInt("healthFull")
+            ));
         }
     }
 
     private void loadVegetables(JSONArray vegetableData) {
         for (int i = 0; i < vegetableData.length(); i++) {
             JSONObject vegetable = vegetableData.getJSONObject(i);
-            vegetables.add(new Vegetable(vegetable.getString("name"), 100, vegetable.getInt("waterRequirement"), vegetable.getString("imageName"), vegetable.getInt("temperatureRequirement")));
+            ArrayList<String> vulnerableTo = new ArrayList<>();
+            JSONArray vulnerabilities = vegetable.getJSONArray("vulnerableTo");
+            for (int j = 0; j < vulnerabilities.length(); j++) {
+                vulnerableTo.add(vulnerabilities.getString(j));
+            }
+            vegetables.add(new Vegetable(
+                    vegetable.getString("name"),
+                    vegetable.getInt("waterRequirement"),
+                    vegetable.getString("imageName"),
+                    vegetable.getInt("temperatureRequirement"),
+                    vulnerableTo,
+                    vegetable.getInt("healthSmall"),
+                    vegetable.getInt("healthMedium"),
+                    vegetable.getInt("healthFull")
+            ));
         }
     }
+
 
     public List<Flower> getFlowers() {
         return flowers;

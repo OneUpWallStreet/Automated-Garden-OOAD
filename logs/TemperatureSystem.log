@@ -1,1 +1,15 @@
 2024-06-03 22:14:34 INFO  TemperatureSystemLogger - API called temperature set to: 46
+2024-06-04 10:44:36 INFO  TemperatureSystemLogger - API called temperature set to: 38
+2024-06-04 10:44:36 INFO  TemperatureSystemLogger - Temperature system heated Lily at position (1, 1) by 27 degrees F.
+2024-06-04 10:44:36 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (3, 0) by 22 degrees F.
+2024-06-04 10:44:36 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 2) by 22 degrees F.
+2024-06-04 11:30:38 INFO  TemperatureSystemLogger - API called temperature set to: 55
+2024-06-04 11:31:50 INFO  TemperatureSystemLogger - API called temperature set to: 21
+2024-06-04 11:32:21 INFO  TemperatureSystemLogger - API called temperature set to: 59
+2024-06-04 11:32:21 INFO  TemperatureSystemLogger - Temperature system heated Rose at position (0, 3) by 6 degrees F.
+2024-06-04 11:32:21 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 2) by 1 degrees F.
+2024-06-04 11:32:21 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (2, 0) by 1 degrees F.
+2024-06-04 11:32:21 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 3) by 1 degrees F.
+2024-06-04 11:37:19 INFO  TemperatureSystemLogger - API called temperature set to: 1
+2024-06-04 11:37:19 INFO  TemperatureSystemLogger - Temperature system heated Lily at position (1, 3) by 64 degrees F.
+2024-06-04 11:37:19 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 3) by 59 degrees F.

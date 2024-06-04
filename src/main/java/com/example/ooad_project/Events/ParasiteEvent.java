@@ -1,15 +1,17 @@
 package com.example.ooad_project.Events;
 
+import com.example.ooad_project.Parasite.Parasite;
+
 public class ParasiteEvent {
 
-    private final String parasiteName;
+    private final Parasite parasite;
 
-    public ParasiteEvent(String parasiteName) {
-        this.parasiteName = parasiteName;
+    public ParasiteEvent(Parasite parasite) {
+        this.parasite = parasite;
     }
 
-    public String getParasiteName() {
-        return parasiteName;
+    public Parasite getParasite() {
+        return parasite;
     }
 
 

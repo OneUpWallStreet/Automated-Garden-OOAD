@@ -1,6 +1,8 @@
 package com.example.ooad_project.Plant;
 
 
+import java.util.ArrayList;
+
 /**
  * This is abstract class that represents a plant in the garden.
  * It is the parent class for all the plants in the garden.
@@ -8,25 +10,39 @@ package com.example.ooad_project.Plant;
  */
 public abstract class Plant {
 
-    private String name;
-    private double health;
-    private int waterRequirement;
+    private final String name;
+    private final int waterRequirement;
     private String imageName;
     private Boolean isWatered = false;
     private int currentWater = 0;
-    private int temperatureRequirement;
+    private final int temperatureRequirement;
+
+
+    private final int healthSmall;
+    private final int healthMedium;
+    private final int healthFull;
+    private int currentHealth;
+
+    private ArrayList<String> vulnerableTo;
 
 //    Default row and col are -1
 //    i.e. the plant is not in the garden
     private int row = -1;
     private int col = -1;
 
-    public Plant(String name, double health, int waterRequirement, String imageName, int temperatureRequirement) {
+    public Plant(String name, int waterRequirement, String imageName, int temperatureRequirement, ArrayList<String> vulnerableTo, int healthSmall, int healthMedium, int healthFull) {
         this.name = name;
-        this.health = health;
         this.waterRequirement = waterRequirement;
         this.imageName = imageName;
         this.temperatureRequirement = temperatureRequirement;
+        this.vulnerableTo = vulnerableTo;
+        this.healthSmall = healthSmall;
+        this.healthMedium = healthMedium;
+        this.healthFull = healthFull;
+
+//        Plant starts at small health
+//        i.e. it is newly planted
+        this.currentHealth = healthSmall;
     }
 
     public synchronized void addWater(int amount) {
@@ -35,12 +51,13 @@ public abstract class Plant {
     }
 
     // Standard getters and setters
-    public String getName() {
-        return name;
+
+    public ArrayList<String> getVulnerableTo() {
+        return vulnerableTo;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getName() {
+        return name;
     }
 
     public Boolean getIsWatered() {
@@ -59,21 +76,12 @@ public abstract class Plant {
         this.currentWater = currentWater;
     }
 
-    public double getHealth() {
-        return health;
-    }
 
-    public void setHealth(double health) {
-        this.health = health;
-    }
 
     public int getWaterRequirement() {
         return waterRequirement;
     }
 
-    public void setWaterRequirement(int waterRequirement) {
-        this.waterRequirement = waterRequirement;
-    }
 
     public String getImageName() {
         return imageName;
@@ -85,10 +93,6 @@ public abstract class Plant {
 
     public int getTemperatureRequirement() {
         return temperatureRequirement;
-    }
-
-    public void setTemperatureRequirement(int temperatureRequirement) {
-        this.temperatureRequirement = temperatureRequirement;
     }
 
     public int getRow() {
@@ -106,6 +110,23 @@ public abstract class Plant {
     public void setCol(int col) {
         this.col = col;
     }
+
+    public int getHealthSmall() {
+        return healthSmall;
+    }
+
+    public int getHealthMedium() {
+        return healthMedium;
+    }
+
+    public int getHealthFull() {
+        return healthFull;
+    }
+
+    public int getCurrentHealth() {
+        return currentHealth;
+    }
+
 
 
 

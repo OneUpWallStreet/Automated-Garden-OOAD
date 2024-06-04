@@ -3,6 +3,8 @@ package com.example.ooad_project.API;
 import com.example.ooad_project.Events.ParasiteEvent;
 import com.example.ooad_project.Events.RainEvent;
 import com.example.ooad_project.Events.TemperatureEvent;
+import com.example.ooad_project.Parasite.Parasite;
+import com.example.ooad_project.Parasite.ParasiteManager;
 import com.example.ooad_project.ThreadUtils.EventBus;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -11,6 +13,7 @@ import java.util.Map;
 
 public class GardenSimulationAPI implements GardenSimulationAPIInterface {
     private static final Logger logger = LogManager.getLogger("GardenSimulationAPILogger");
+    private ParasiteManager parasiteManager = ParasiteManager.getInstance();
 
     @Override
     public void initializeGarden() {
@@ -38,7 +41,13 @@ public class GardenSimulationAPI implements GardenSimulationAPIInterface {
     @Override
     public void parasite(String name) {
         logger.info("API called to handle parasite: {}", name);
-        EventBus.publish("ParasiteEvent", new ParasiteEvent(name));
+        Parasite parasite = parasiteManager.getParasiteByName(name);
+        if(parasite == null) {
+            logger.info("API - Parasite with name {} not found", name);
+            return;
+        }
+        EventBus.publish("ParasiteEvent", new ParasiteEvent(parasite));
+
     }
 
     @Override

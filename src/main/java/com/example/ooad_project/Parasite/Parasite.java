@@ -17,8 +17,10 @@ public class Parasite {
         this.affectedPlants = affectedPlants;
     }
 
+
     public void affectPlant(Plant plant) {
         // Implementation depends on specific effects of parasite
+        System.out.println("CALLED AFFECT PLANT METHOD IN PARASITE CLASS. PLEASE OVERRIDE THIS METHOD IN CHILD CLASSES.");
     }
 
     public String getName() {
@@ -32,6 +34,7 @@ public class Parasite {
     public String getImageName() {
         return imageName;
     }
+
 
     public ArrayList<String> getAffectedPlants() {
         return affectedPlants;

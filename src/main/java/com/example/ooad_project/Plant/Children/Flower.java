@@ -3,6 +3,8 @@ package com.example.ooad_project.Plant.Children;
 
 import com.example.ooad_project.Plant.Plant;
 
+import java.util.ArrayList;
+
 /**
  * This class represents a flower in the garden.
  * It is a subclass of the Plant class.
@@ -10,8 +12,8 @@ import com.example.ooad_project.Plant.Plant;
  */
 public class Flower extends Plant {
 
-    public Flower(String name, double health, int waterRequirement, String imageName, int temperatureRequirement){
-        super(name, health, waterRequirement, imageName, temperatureRequirement);
+    public Flower(String name, int waterRequirement, String imageName, int temperatureRequirement, ArrayList<String> vulnerableTo,int healthSmall, int healthMedium, int healthFull){
+        super(name, waterRequirement, imageName, temperatureRequirement,vulnerableTo, healthSmall,  healthMedium,  healthFull);
     }
 
 }
