@@ -22,7 +22,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 640, 480);
-        stage.setTitle("Hello!");
+        stage.setTitle("OOAD - Project!");
         stage.setScene(scene);
         stage.show();
 
@@ -56,7 +56,7 @@ public class HelloApplication extends Application {
 
         Random rand = new Random();
 //        Schedule temperature every 10 seconds
-        Timeline timeline2 = new Timeline(new KeyFrame(Duration.seconds(1), ev -> {
+        Timeline timeline2 = new Timeline(new KeyFrame(Duration.seconds(20), ev -> {
             api.temperature(rand.nextInt(70));
         }));
         timeline2.setCycleCount(Timeline.INDEFINITE);

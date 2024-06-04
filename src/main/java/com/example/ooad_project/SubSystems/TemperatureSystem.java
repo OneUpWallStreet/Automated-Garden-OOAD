@@ -13,8 +13,6 @@ public class TemperatureSystem implements Runnable{
     private static final Logger logger = LogManager.getLogger("TemperatureSystemLogger");
 
 
-
-
     public TemperatureSystem() {
 //        Subscribe to the TemperatureEvent
 //        Published from GardenSimulationAPI
@@ -24,8 +22,7 @@ public class TemperatureSystem implements Runnable{
 
     private void handleTemperatureEvent(TemperatureEvent event) {
         int currentTemperature = event.getAmount();
-        logger.info("Temperature Event Handled: Current Temp = {}", currentTemperature);
-        System.out.println("Here");
+        logger.info("API called temperature set to: {}", currentTemperature);
 
         for (int i = 0; i < gardenGrid.getNumRows(); i++) {
             for (int j = 0; j < gardenGrid.getNumCols(); j++) {
