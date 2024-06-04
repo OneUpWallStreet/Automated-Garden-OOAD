@@ -44,24 +44,27 @@ public class ParasiteManager {
                 JSONObject parasiteJson = parasitesArray.getJSONObject(i);
                 JSONArray targetPlantsJsonArray = parasiteJson.getJSONArray("targetPlants");
                 ArrayList<String> targetPlants = new ArrayList<>();
-
-                // Explicitly cast each element to String
                 for (int j = 0; j < targetPlantsJsonArray.length(); j++) {
                     targetPlants.add(targetPlantsJsonArray.getString(j));
                 }
 
-                // Create a new Parasite instance and add it to the list
-                parasites.add(new Parasite(
+                // Use the factory to create the parasite instance
+                Parasite parasite = ParasiteFactory.createParasite(
                         parasiteJson.getString("name"),
                         parasiteJson.getInt("damage"),
                         parasiteJson.getString("imageName"),
                         targetPlants
-                ));
+                );
+                parasites.add(parasite);
             }
         } catch (IOException e) {
+//            Should Log the error
+//            Parasite Creation Failed
+//            Implement Logger later
             e.printStackTrace();
         }
     }
+
 
 
     public List<Parasite> getParasites() {
