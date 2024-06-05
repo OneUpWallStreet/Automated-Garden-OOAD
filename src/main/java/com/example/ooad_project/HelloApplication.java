@@ -75,7 +75,7 @@ public class HelloApplication extends Application {
         timeline2.play();
 
         // Schedule parasite every 20 seconds
-        Timeline timeline3 = new Timeline(new KeyFrame(Duration.seconds(20), ev -> {
+        Timeline timeline3 = new Timeline(new KeyFrame(Duration.seconds(6), ev -> {
             List<Parasite> parasites = parasiteManager.getParasites();
             if (!parasites.isEmpty()) {
                 Parasite randomParasite = parasites.get(rand.nextInt(parasites.size()));

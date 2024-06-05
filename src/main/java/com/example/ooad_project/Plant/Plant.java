@@ -1,6 +1,8 @@
 package com.example.ooad_project.Plant;
 
 
+import com.example.ooad_project.Events.PlantImageUpdateEvent;
+import com.example.ooad_project.ThreadUtils.EventBus;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -57,11 +59,63 @@ public abstract class Plant {
     }
 
     public synchronized void healPlant(int healAmount) {
+        int previousStage = getHealthStage();
         // Increase current health by the heal amount but do not exceed the maximum possible health
         this.currentHealth = Math.min(this.currentHealth + healAmount, this.healthFull);
+
+//        this.currentHealth += 10;
+        // Determine the new health stage after healing
+        int currentStage = getHealthStage();
+
+        // Update the plant image if the stage has changed due to healing
+        if (previousStage != currentStage) {
+            updatePlantImage(currentStage);
+            logger.info("Plant: {} at position ({}, {}) health stage changed to {}, updated image to {}",
+                    this.name, this.row, this.col, currentStage, this.currentImage);
+        }
+
         // Log the healing action
         System.out.println("Plant: " + this.name + " at position (" + this.row + ", " + this.col + ") healed by " + healAmount + " points, new health: " + this.currentHealth);
-        logger.info("Plant: {} at position ({}, {}) healed by {} points, new health: {}", this.name, this.row, this.col, healAmount, this.currentHealth);
+        logger.info("Plant: {} at position ({}, {}) healed by {} points, new health: {}",
+                this.name, this.row, this.col, healAmount, this.currentHealth);
+    }
+
+
+    public synchronized void setCurrentHealth(int health) {
+        int previousStage = getHealthStage();
+        this.currentHealth = health;
+        int currentStage = getHealthStage();
+
+        // Check if the health stage has changed, then update the image
+        if (previousStage != currentStage) {
+            updatePlantImage(currentStage);
+            logger.info("Plant: {} at position ({}, {}) updated to new health stage: {}, image updated to {}", this.name, this.row, this.col, currentStage, this.currentImage);
+        }
+    }
+
+    /**
+     * Updates the current image based on the health stage.
+     * @param stage the current health stage of the plant.
+     */
+    private void updatePlantImage(int stage) {
+        if (stage >= 0 && stage < this.allImages.size()) {
+            this.currentImage = this.allImages.get(stage);
+            EventBus.publish("PlantImageUpdateEvent", new PlantImageUpdateEvent(this));
+        }
+    }
+
+    /**
+     * Determines the health stage of the plant.
+     * @return an integer representing the stage: 0 for small, 1 for medium, 2 for full health.
+     */
+    private int getHealthStage() {
+        if (this.currentHealth < this.healthMedium) {
+            return 0; // Small
+        } else if (this.currentHealth < this.healthFull) {
+            return 1; // Medium
+        } else {
+            return 2; // Full
+        }
     }
 
 
@@ -153,15 +207,15 @@ public abstract class Plant {
         return currentHealth;
     }
 
-    /**
-     * Sets the current health of the plant.
-     * This method is synchronized to ensure that updates are atomic and changes
-     * are visible to other threads.
-     * @param health the new health value for the plant.
-     */
-    public synchronized void setCurrentHealth(int health) {
-        this.currentHealth = health;
-    }
+//    /**
+//     * Sets the current health of the plant.
+//     * This method is synchronized to ensure that updates are atomic and changes
+//     * are visible to other threads.
+//     * @param health the new health value for the plant.
+//     */
+//    public synchronized void setCurrentHealth(int health) {
+//        this.currentHealth = health;
+//    }
 
 
 

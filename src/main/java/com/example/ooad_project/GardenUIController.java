@@ -1,6 +1,7 @@
 package com.example.ooad_project;
 
 import com.example.ooad_project.Events.DisplayParasiteEvent;
+import com.example.ooad_project.Events.PlantImageUpdateEvent;
 import com.example.ooad_project.Events.RainEvent;
 import com.example.ooad_project.Parasite.Parasite;
 import com.example.ooad_project.Parasite.ParasiteManager;
@@ -97,6 +98,35 @@ public class GardenUIController {
 
         EventBus.subscribe("RainEvent", event -> changeRainUI((RainEvent) event));
         EventBus.subscribe("DisplayParasiteEvent", event -> handleDisplayParasiteEvent((DisplayParasiteEvent) event));
+        EventBus.subscribe("PlantImageUpdateEvent", event -> handlePlantImageUpdateEvent((PlantImageUpdateEvent) event));
+    }
+
+    private void handlePlantImageUpdateEvent(PlantImageUpdateEvent event) {
+        Plant plant = event.getPlant();
+
+        // Calculate the grid position
+        int row = plant.getRow();
+        int col = plant.getCol();
+
+        // Find the ImageView for the plant in the grid and remove it
+        gridPane.getChildren().removeIf(node -> {
+            if (GridPane.getRowIndex(node) != null && GridPane.getColumnIndex(node) != null) {
+                return GridPane.getRowIndex(node) == row && GridPane.getColumnIndex(node) == col && node instanceof ImageView;
+            }
+            return false;
+        });
+
+        // Load the new image for the plant
+        String imageName = plant.getCurrentImage();
+        Image newImage = new Image(getClass().getResourceAsStream("/images/" + imageName));
+        ImageView newImageView = new ImageView(newImage);
+        newImageView.setFitHeight(60);  // Match the cell size in the grid
+        newImageView.setFitWidth(60);
+
+        // Place the new image view in the grid
+        gridPane.add(newImageView, col, row);
+
+        System.out.println("Updated plant image at row " + row + " and column " + col + " to " + imageName);
     }
 
 
