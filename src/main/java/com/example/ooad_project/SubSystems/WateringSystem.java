@@ -55,9 +55,8 @@ public class WateringSystem implements Runnable {
             for (int j = 0; j < gardenGrid.getNumCols(); j++) {
                 Plant plant = gardenGrid.getPlant(i, j);
                 if (plant != null) {
-//                    Want to specify that the water is from rain
-                    logger.info("Watered {} at position ({}, {}) with {} water from rain", plant.getName(), i, j, event.getAmount());
                     plant.addWater(event.getAmount());
+                    logger.info("Watered {} at position ({}, {}) with {} water from rain", plant.getName(), i, j, event.getAmount());
                 }
             }
         }

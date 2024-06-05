@@ -32,6 +32,8 @@ public class TemperatureSystem implements Runnable{
                     int tempDiff = currentTemperature - plant.getTemperatureRequirement();
                     if (tempDiff > 0) {
                         logger.info("Temperature system cooled {} at position ({}, {}) by {} degrees F.", plant.getName(), i, j, Math.abs(tempDiff));
+//                        ADD DAMAGE LATER
+//                        plant.setCurrentHealth(plant.getCurrentHealth() - 1);
                     } else if (tempDiff < 0) {
                         logger.info("Temperature system heated {} at position ({}, {}) by {} degrees F.", plant.getName(), i, j, Math.abs(tempDiff));
                     } else {
@@ -47,7 +49,8 @@ public class TemperatureSystem implements Runnable{
 
         while (true) {
             try {
-                Thread.sleep(1000);
+                logger.info("All Levels are optimal");
+                Thread.sleep(20000);
 //                System.out.println("Temperature System is running");
             } catch (InterruptedException e) {
                 e.printStackTrace();

@@ -31,6 +31,9 @@ import javafx.scene.layout.StackPane;
 public class GardenUIController {
 
     @FXML
+    private Button sidButton;
+
+    @FXML
     private MenuButton parasiteMenuButton;
 
     @FXML
@@ -69,6 +72,11 @@ public class GardenUIController {
     }
 
     @FXML
+    public void sidButtonPressed() {
+        System.out.println("SID Button Pressed");
+    }
+
+    @FXML
     public void initialize() {
         // Add ColumnConstraints
         for (int col = 0; col < gardenGrid.getNumCols(); col++) {
@@ -97,22 +105,24 @@ public class GardenUIController {
         // Load the image for the rat
         String imageName = "/images/" + event.getParasite().getImageName();
         Image ratImage = new Image(getClass().getResourceAsStream(imageName));
-        ImageView ratImageView = new ImageView(ratImage);
-        ratImageView.setFitHeight(60);  // Match the cell size in the grid
-        ratImageView.setFitWidth(60);
+        ImageView parasiteImageView = new ImageView(ratImage);
+
+//        Change var name
+        parasiteImageView.setFitHeight(60);  // Match the cell size in the grid
+        parasiteImageView.setFitWidth(60);
 
         // Use the row and column from the event
         int row = event.getRow();
         int col = event.getColumn();
 
         // Place the rat image on the grid
-        gridPane.add(ratImageView, col, row);
+        gridPane.add(parasiteImageView, col, row);
 //        System.out.println("Rat placed at row " + row + " and column " + col);
 
         // Create a pause transition of 5 seconds before removing the rat image
         PauseTransition pause = new PauseTransition(Duration.seconds(5));
         pause.setOnFinished(_ -> {
-            gridPane.getChildren().remove(ratImageView);  // Remove the rat image from the grid
+            gridPane.getChildren().remove(parasiteImageView);  // Remove the rat image from the grid
 //            System.out.println("Rat removed from row " + row + " and column " + col);
         });
         pause.play();
@@ -139,16 +149,20 @@ public class GardenUIController {
 
 
     private void changeRainUI(RainEvent event) {
-//        Platform.runLater(() -> {
-            // Example: Update a label or change the UI appearance to reflect it's raining
+            // Update UI to reflect it's raining
             System.out.println("Changing UI to reflect rain event");
             rainStatusLabel.setText("Rain Amount: " + event.getAmount() + "mm");
 
-            // You might want to change the color or visibility of certain UI elements
-//            rainIndicator.setVisible(true);
-//            rainIndicator.setStyle("-fx-background-color: blue;");  // Example of changing style
-//        });
-    }
+            // Create a pause transition of 5 seconds
+            PauseTransition pause = new PauseTransition(Duration.seconds(5));
+            pause.setOnFinished(e -> {
+                // Update UI to reflect no rain after the event ends
+                rainStatusLabel.setText("No rain currently.");
+                System.out.println("Rain event ended, updating UI to show no rain.");
+            });
+            pause.play();
+        }
+
 
 //    This is the method that will populate the menu buttons with the plant data
     private void loadPlantsData() {

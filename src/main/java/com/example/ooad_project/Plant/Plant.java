@@ -1,6 +1,9 @@
 package com.example.ooad_project.Plant;
 
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.ArrayList;
 
 /**
@@ -16,6 +19,7 @@ public abstract class Plant {
     private Boolean isWatered = false;
     private int currentWater = 0;
     private final int temperatureRequirement;
+    private static final Logger logger = LogManager.getLogger("PesticideSystemLogger");
 
 
     private final int healthSmall;
@@ -45,10 +49,21 @@ public abstract class Plant {
         this.currentHealth = healthSmall;
     }
 
+//    Heal plant function
+
     public synchronized void addWater(int amount) {
         this.currentWater = Math.min(currentWater + amount, waterRequirement);
         this.isWatered = currentWater >= waterRequirement;
     }
+
+    public synchronized void healPlant(int healAmount) {
+        // Increase current health by the heal amount but do not exceed the maximum possible health
+        this.currentHealth = Math.min(this.currentHealth + healAmount, this.healthFull);
+        // Log the healing action
+        System.out.println("Plant: " + this.name + " at position (" + this.row + ", " + this.col + ") healed by " + healAmount + " points, new health: " + this.currentHealth);
+        logger.info("Plant: {} at position ({}, {}) healed by {} points, new health: {}", this.name, this.row, this.col, healAmount, this.currentHealth);
+    }
+
 
     // Standard getters and setters
 

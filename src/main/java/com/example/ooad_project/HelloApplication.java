@@ -1,16 +1,19 @@
 package com.example.ooad_project;
 
 import com.example.ooad_project.API.GardenSimulationAPI;
+import com.example.ooad_project.Parasite.Parasite;
 import com.example.ooad_project.SubSystems.PesticideSystem;
 import com.example.ooad_project.SubSystems.TemperatureSystem;
 import com.example.ooad_project.SubSystems.WateringSystem;
 import com.example.ooad_project.ThreadUtils.ThreadManager;
+import com.example.ooad_project.Parasite.ParasiteManager;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.Random;
 
 
@@ -44,15 +47,20 @@ public class HelloApplication extends Application {
 
     }
 
+
 //    This is for testing the API
 //    I assume Prof is going to do something similar
     private void runAPIScheduledTasks() {
         GardenSimulationAPI api = new GardenSimulationAPI();
         Random rand = new Random();
 
+//        This is for testing the parasites thread
+        ParasiteManager parasiteManager = ParasiteManager.getInstance();
+
 //        Schedule rain every 15 seconds
-        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(8), ev -> {
-            api.rain(rand.nextInt(10));
+        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(15), ev -> {
+//            the api.rain is from the GardenSimulationAPI
+            api.rain(rand.nextInt(50));
         }));
         timeline.setCycleCount(Timeline.INDEFINITE);
         timeline.play();
@@ -60,17 +68,25 @@ public class HelloApplication extends Application {
 
 //        Schedule temperature every 10 seconds
         Timeline timeline2 = new Timeline(new KeyFrame(Duration.seconds(20), ev -> {
+//            the api.temperature is from the GardenSimulationAPI
             api.temperature(rand.nextInt(70));
         }));
         timeline2.setCycleCount(Timeline.INDEFINITE);
         timeline2.play();
 
-//        Schedule parasite every 10 seconds
+        // Schedule parasite every 20 seconds
         Timeline timeline3 = new Timeline(new KeyFrame(Duration.seconds(20), ev -> {
-            api.parasite("Rat");
+            List<Parasite> parasites = parasiteManager.getParasites();
+            if (!parasites.isEmpty()) {
+                Parasite randomParasite = parasites.get(rand.nextInt(parasites.size()));
+                api.parasite(randomParasite.getName()); // Use a random parasite
+            } else {
+                System.out.println("No parasites available to simulate.");
+            }
         }));
         timeline3.setCycleCount(Timeline.INDEFINITE);
         timeline3.play();
+
 
     }
 
