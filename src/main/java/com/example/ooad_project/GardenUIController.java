@@ -25,8 +25,6 @@ import javafx.util.Duration;
 
 import java.util.Random;
 
-import javafx.scene.layout.StackPane;
-
 
 public class GardenUIController {
 
@@ -74,6 +72,7 @@ public class GardenUIController {
     @FXML
     public void sidButtonPressed() {
         System.out.println("SID Button Pressed");
+        plantManager.getVegetables().forEach(flower -> System.out.println(flower.getCurrentImage()));
     }
 
     @FXML
@@ -169,19 +168,19 @@ public class GardenUIController {
 
         for (Flower flower : plantManager.getFlowers()) {
             MenuItem menuItem = new MenuItem(flower.getName());
-            menuItem.setOnAction(e -> addPlantToGrid(flower.getName(), flower.getImageName()));
+            menuItem.setOnAction(e -> addPlantToGrid(flower.getName(), flower.getCurrentImage()));
             flowerMenuButton.getItems().add(menuItem);
         }
 
         for (Tree tree : plantManager.getTrees()) {
             MenuItem menuItem = new MenuItem(tree.getName());
-            menuItem.setOnAction(e -> addPlantToGrid(tree.getName(), tree.getImageName()));
+            menuItem.setOnAction(e -> addPlantToGrid(tree.getName(), tree.getCurrentImage()));
             treeMenuButton.getItems().add(menuItem);
         }
 
         for (Vegetable vegetable : plantManager.getVegetables()) {
             MenuItem menuItem = new MenuItem(vegetable.getName());
-            menuItem.setOnAction(e -> addPlantToGrid(vegetable.getName(), vegetable.getImageName()));
+            menuItem.setOnAction(e -> addPlantToGrid(vegetable.getName(), vegetable.getCurrentImage()));
             vegetableMenuButton.getItems().add(menuItem);
         }
 

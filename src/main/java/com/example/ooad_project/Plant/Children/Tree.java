@@ -6,8 +6,8 @@ import java.util.ArrayList;
 
 public class Tree extends Plant {
 
-    public Tree(String name, int waterRequirement, String imageName, int temperatureRequirement, ArrayList<String> vulnerableTo, int healthSmall, int healthMedium, int healthFull){
-        super(name, waterRequirement, imageName, temperatureRequirement,vulnerableTo, healthSmall,  healthMedium,  healthFull);
+    public Tree(String name, int waterRequirement, String imageName, int temperatureRequirement, ArrayList<String> vulnerableTo, int healthSmall, int healthMedium, int healthFull, ArrayList<String> allImages){
+        super(name, waterRequirement, imageName, temperatureRequirement,vulnerableTo, healthSmall,  healthMedium,  healthFull, allImages);
     }
 
 }

@@ -15,12 +15,12 @@ public abstract class Plant {
 
     private final String name;
     private final int waterRequirement;
-    private String imageName;
+    private String currentImage;
     private Boolean isWatered = false;
     private int currentWater = 0;
     private final int temperatureRequirement;
     private static final Logger logger = LogManager.getLogger("PesticideSystemLogger");
-
+    private ArrayList<String> allImages;
 
     private final int healthSmall;
     private final int healthMedium;
@@ -34,16 +34,16 @@ public abstract class Plant {
     private int row = -1;
     private int col = -1;
 
-    public Plant(String name, int waterRequirement, String imageName, int temperatureRequirement, ArrayList<String> vulnerableTo, int healthSmall, int healthMedium, int healthFull) {
+    public Plant(String name, int waterRequirement, String imageName, int temperatureRequirement, ArrayList<String> vulnerableTo, int healthSmall, int healthMedium, int healthFull, ArrayList<String> allImages) {
         this.name = name;
         this.waterRequirement = waterRequirement;
-        this.imageName = imageName;
+        this.currentImage = imageName;
         this.temperatureRequirement = temperatureRequirement;
         this.vulnerableTo = vulnerableTo;
         this.healthSmall = healthSmall;
         this.healthMedium = healthMedium;
         this.healthFull = healthFull;
-
+        this.allImages = allImages;
 //        Plant starts at small health
 //        i.e. it is newly planted
         this.currentHealth = healthSmall;
@@ -98,12 +98,12 @@ public abstract class Plant {
     }
 
 
-    public String getImageName() {
-        return imageName;
+    public String getCurrentImage() {
+        return currentImage;
     }
 
-    public void setImageName(String imageName) {
-        this.imageName = imageName;
+    public void setCurrentImage(String currentImage) {
+        this.currentImage = currentImage;
     }
 
     public int getTemperatureRequirement() {
@@ -137,6 +137,12 @@ public abstract class Plant {
     public int getHealthFull() {
         return healthFull;
     }
+
+    public ArrayList<String> getAllImages() {
+        return allImages;
+    }
+
+
 
     /**
      * Retrieves the current health of the plant.
