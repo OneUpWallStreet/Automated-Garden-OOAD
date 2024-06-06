@@ -4,6 +4,7 @@ module com.example.ooad_project {
     requires org.json;
     requires org.apache.logging.log4j;
     requires java.xml;
+    requires org.apache.logging.log4j.core;
 
 
     opens com.example.ooad_project to javafx.fxml;
