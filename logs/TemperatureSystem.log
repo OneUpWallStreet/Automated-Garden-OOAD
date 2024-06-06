@@ -1,0 +1,127 @@
+2024-06-05 15:27:44 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-05 15:27:44 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-05 15:27:44 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 15:27:44 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 15:27:49 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-05 15:27:49 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 15:28:09 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 15:28:09 INFO  TemperatureSystemLogger - API called temperature set to: 56
+2024-06-05 15:28:29 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 15:28:29 INFO  TemperatureSystemLogger - API called temperature set to: 45
+2024-06-05 15:28:49 INFO  TemperatureSystemLogger - API called temperature set to: 4
+2024-06-05 15:28:49 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 15:29:09 INFO  TemperatureSystemLogger - API called temperature set to: 16
+2024-06-05 15:29:09 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 15:29:29 INFO  TemperatureSystemLogger - API called temperature set to: 44
+2024-06-05 15:29:29 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 15:29:49 INFO  TemperatureSystemLogger - API called temperature set to: 36
+2024-06-05 15:29:49 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 15:29:52 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-05 15:29:52 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 15:30:12 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 15:30:12 INFO  TemperatureSystemLogger - API called temperature set to: 66
+2024-06-05 15:30:32 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 15:30:32 INFO  TemperatureSystemLogger - API called temperature set to: 6
+2024-06-05 15:30:52 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 15:30:52 INFO  TemperatureSystemLogger - API called temperature set to: 12
+2024-06-05 17:49:41 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-05 17:49:41 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:50:01 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:50:01 INFO  TemperatureSystemLogger - API called temperature set to: 51
+2024-06-05 17:50:21 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:50:21 INFO  TemperatureSystemLogger - API called temperature set to: 0
+2024-06-05 17:50:41 INFO  TemperatureSystemLogger - API called temperature set to: 38
+2024-06-05 17:50:41 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:51:01 INFO  TemperatureSystemLogger - API called temperature set to: 41
+2024-06-05 17:51:01 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:51:21 INFO  TemperatureSystemLogger - API called temperature set to: 59
+2024-06-05 17:51:21 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:51:37 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-05 17:51:37 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:51:57 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:51:57 INFO  TemperatureSystemLogger - API called temperature set to: 35
+2024-06-05 17:51:57 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 25 degrees F.
+2024-06-05 17:51:57 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 25 degrees F.
+2024-06-05 17:52:17 INFO  TemperatureSystemLogger - API called temperature set to: 42
+2024-06-05 17:52:17 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:52:17 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 18 degrees F.
+2024-06-05 17:52:17 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 1) by 18 degrees F.
+2024-06-05 17:52:17 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 18 degrees F.
+2024-06-05 17:52:37 INFO  TemperatureSystemLogger - API called temperature set to: 28
+2024-06-05 17:52:37 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 32 degrees F.
+2024-06-05 17:52:37 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 1) by 32 degrees F.
+2024-06-05 17:52:37 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 32 degrees F.
+2024-06-05 17:52:37 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:52:57 INFO  TemperatureSystemLogger - API called temperature set to: 36
+2024-06-05 17:52:57 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 24 degrees F.
+2024-06-05 17:52:57 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 1) by 24 degrees F.
+2024-06-05 17:52:57 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 24 degrees F.
+2024-06-05 17:52:57 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:53:17 INFO  TemperatureSystemLogger - API called temperature set to: 20
+2024-06-05 17:53:17 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 40 degrees F.
+2024-06-05 17:53:17 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 1) by 40 degrees F.
+2024-06-05 17:53:17 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 40 degrees F.
+2024-06-05 17:53:17 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:53:37 INFO  TemperatureSystemLogger - API called temperature set to: 50
+2024-06-05 17:53:37 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 10 degrees F.
+2024-06-05 17:53:37 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 1) by 10 degrees F.
+2024-06-05 17:53:37 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 10 degrees F.
+2024-06-05 17:53:37 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:53:57 INFO  TemperatureSystemLogger - API called temperature set to: 7
+2024-06-05 17:53:57 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 53 degrees F.
+2024-06-05 17:53:57 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 1) by 53 degrees F.
+2024-06-05 17:53:57 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 53 degrees F.
+2024-06-05 17:53:57 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:54:17 INFO  TemperatureSystemLogger - API called temperature set to: 47
+2024-06-05 17:54:17 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 13 degrees F.
+2024-06-05 17:54:17 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (2, 0) by 13 degrees F.
+2024-06-05 17:54:17 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 1) by 13 degrees F.
+2024-06-05 17:54:17 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 13 degrees F.
+2024-06-05 17:54:17 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:54:37 INFO  TemperatureSystemLogger - API called temperature set to: 41
+2024-06-05 17:54:37 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 19 degrees F.
+2024-06-05 17:54:37 INFO  TemperatureSystemLogger - Temperature system heated Cedar at position (0, 2) by 14 degrees F.
+2024-06-05 17:54:37 INFO  TemperatureSystemLogger - Temperature system heated Cedar at position (0, 3) by 14 degrees F.
+2024-06-05 17:54:37 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (1, 1) by 24 degrees F.
+2024-06-05 17:54:37 INFO  TemperatureSystemLogger - Temperature system heated Cedar at position (1, 2) by 14 degrees F.
+2024-06-05 17:54:37 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (2, 0) by 19 degrees F.
+2024-06-05 17:54:37 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 1) by 19 degrees F.
+2024-06-05 17:54:37 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 19 degrees F.
+2024-06-05 17:54:37 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:54:57 INFO  TemperatureSystemLogger - API called temperature set to: 24
+2024-06-05 17:54:57 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 36 degrees F.
+2024-06-05 17:54:57 INFO  TemperatureSystemLogger - Temperature system heated Cedar at position (0, 2) by 31 degrees F.
+2024-06-05 17:54:57 INFO  TemperatureSystemLogger - Temperature system heated Cedar at position (0, 3) by 31 degrees F.
+2024-06-05 17:54:57 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (1, 1) by 41 degrees F.
+2024-06-05 17:54:57 INFO  TemperatureSystemLogger - Temperature system heated Cedar at position (1, 2) by 31 degrees F.
+2024-06-05 17:54:57 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (2, 0) by 36 degrees F.
+2024-06-05 17:54:57 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 1) by 36 degrees F.
+2024-06-05 17:54:57 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 36 degrees F.
+2024-06-05 17:54:57 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:55:17 INFO  TemperatureSystemLogger - API called temperature set to: 58
+2024-06-05 17:55:17 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 2 degrees F.
+2024-06-05 17:55:17 INFO  TemperatureSystemLogger - Temperature system cooled Cedar at position (0, 2) by 3 degrees F.
+2024-06-05 17:55:17 INFO  TemperatureSystemLogger - Temperature system cooled Cedar at position (0, 3) by 3 degrees F.
+2024-06-05 17:55:17 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (1, 1) by 7 degrees F.
+2024-06-05 17:55:17 INFO  TemperatureSystemLogger - Temperature system cooled Cedar at position (1, 2) by 3 degrees F.
+2024-06-05 17:55:17 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (2, 0) by 2 degrees F.
+2024-06-05 17:55:17 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 1) by 2 degrees F.
+2024-06-05 17:55:17 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 2 degrees F.
+2024-06-05 17:55:17 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 17:55:37 INFO  TemperatureSystemLogger - API called temperature set to: 20
+2024-06-05 17:55:37 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (0, 1) by 40 degrees F.
+2024-06-05 17:55:37 INFO  TemperatureSystemLogger - Temperature system heated Cedar at position (0, 2) by 35 degrees F.
+2024-06-05 17:55:37 INFO  TemperatureSystemLogger - Temperature system heated Cedar at position (0, 3) by 35 degrees F.
+2024-06-05 17:55:37 INFO  TemperatureSystemLogger - Temperature system heated Tomato at position (1, 0) by 55 degrees F.
+2024-06-05 17:55:37 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (1, 1) by 45 degrees F.
+2024-06-05 17:55:37 INFO  TemperatureSystemLogger - Temperature system heated Cedar at position (1, 2) by 35 degrees F.
+2024-06-05 17:55:37 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (2, 0) by 40 degrees F.
+2024-06-05 17:55:37 INFO  TemperatureSystemLogger - Temperature system heated Lettuce at position (2, 1) by 40 degrees F.
+2024-06-05 17:55:37 INFO  TemperatureSystemLogger - Temperature system heated Lettuce at position (2, 2) by 40 degrees F.
+2024-06-05 17:55:37 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 1) by 40 degrees F.
+2024-06-05 17:55:37 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 3) by 40 degrees F.
+2024-06-05 17:55:37 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 18:02:43 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-05 18:02:43 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 18:03:03 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-05 18:03:03 INFO  TemperatureSystemLogger - API called temperature set to: 60

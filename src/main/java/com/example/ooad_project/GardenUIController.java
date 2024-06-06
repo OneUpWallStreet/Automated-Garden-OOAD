@@ -1,5 +1,6 @@
 package com.example.ooad_project;
 
+import com.example.ooad_project.Events.DayChangeEvent;
 import com.example.ooad_project.Events.DisplayParasiteEvent;
 import com.example.ooad_project.Events.PlantImageUpdateEvent;
 import com.example.ooad_project.Events.RainEvent;
@@ -11,6 +12,7 @@ import com.example.ooad_project.Plant.Children.Tree;
 import com.example.ooad_project.Plant.Children.Vegetable;
 import com.example.ooad_project.Plant.PlantManager;
 import com.example.ooad_project.ThreadUtils.EventBus;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -23,6 +25,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.RowConstraints;
 import javafx.animation.PauseTransition;
 import javafx.util.Duration;
+import org.w3c.dom.Text;
 
 import java.util.Random;
 
@@ -31,6 +34,9 @@ public class GardenUIController {
 
     @FXML
     private Button sidButton;
+
+    @FXML
+    private Label currentDay;
 
     @FXML
     private MenuButton parasiteMenuButton;
@@ -99,6 +105,14 @@ public class GardenUIController {
         EventBus.subscribe("RainEvent", event -> changeRainUI((RainEvent) event));
         EventBus.subscribe("DisplayParasiteEvent", event -> handleDisplayParasiteEvent((DisplayParasiteEvent) event));
         EventBus.subscribe("PlantImageUpdateEvent", event -> handlePlantImageUpdateEvent((PlantImageUpdateEvent) event));
+        EventBus.subscribe("DayChangeEvent",event -> handleDayChangeEvent((DayChangeEvent) event));
+    }
+
+    public void handleDayChangeEvent(DayChangeEvent event) {
+        Platform.runLater(() -> {
+            currentDay.setText("Day: " + event.getDay());
+            System.out.println("Day changed to: " + event.getDay());
+        });
     }
 
     private void handlePlantImageUpdateEvent(PlantImageUpdateEvent event) {

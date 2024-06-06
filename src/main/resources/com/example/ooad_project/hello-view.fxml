@@ -34,9 +34,14 @@
             <Font name="System Bold Italic" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="550.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Day 0 " />
+      <Label fx:id="currentDay" layoutX="736.0" layoutY="147.0"  text="Day 0" />
       <MenuButton fx:id="parasiteMenuButton" layoutX="550.0" layoutY="210.0" mnemonicParsing="false" text="Trigger Parasite" textFill="#cd0909" />
       <Button fx:id="pestTestButton" layoutX="550.0" layoutY="371.0" mnemonicParsing="false" onAction="#showPestOnGrid" text="Pest Test" />
       <Button fx:id="sidButton" layoutX="825.0" layoutY="198.0" mnemonicParsing="false" onAction="#sidButtonPressed" text="Button" />
+      <Text layoutX="736.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Day">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
     </children>
 </AnchorPane>

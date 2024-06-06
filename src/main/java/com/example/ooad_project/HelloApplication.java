@@ -41,6 +41,8 @@ public class HelloApplication extends Application {
         Runnable wateringSystem = new WateringSystem();
         Runnable temperatureSystem = new TemperatureSystem();
         Runnable pesticideSystem = new PesticideSystem();
+        DaySystem daySystem = DaySystem.getInstance();
+
         ThreadManager.run(wateringSystem);
         ThreadManager.run(temperatureSystem);
         ThreadManager.run(pesticideSystem);
