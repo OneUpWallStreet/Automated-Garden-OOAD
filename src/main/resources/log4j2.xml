@@ -19,14 +19,17 @@
         <File name="DayLogFile" fileName="logs/DayLogger.log">
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"/>
         </File>
+        <LoggerAppender name="LoggerAppender" />
     </Appenders>
     <Loggers>
         <Logger name="TemperatureSystemLogger" level="info" additivity="false">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="TemperatureLogFile"/>
+            <AppenderRef ref="LoggerAppender"/>
         </Logger>
         <Logger name="WateringSystemLogger" level="info" additivity="false">
             <AppenderRef ref="WateringSystemLogFile"/>
+            <AppenderRef ref="LoggerAppender"/>
         </Logger>
         <Logger name="GardenSimulationAPILogger" level="info" additivity="false">
             <AppenderRef ref="GardenAPILogFile"/>

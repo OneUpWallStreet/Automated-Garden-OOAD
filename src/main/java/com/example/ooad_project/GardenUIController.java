@@ -1,9 +1,6 @@
 package com.example.ooad_project;
 
-import com.example.ooad_project.Events.DayChangeEvent;
-import com.example.ooad_project.Events.DisplayParasiteEvent;
-import com.example.ooad_project.Events.PlantImageUpdateEvent;
-import com.example.ooad_project.Events.RainEvent;
+import com.example.ooad_project.Events.*;
 import com.example.ooad_project.Parasite.Parasite;
 import com.example.ooad_project.Parasite.ParasiteManager;
 import com.example.ooad_project.Plant.Children.Flower;
@@ -14,20 +11,22 @@ import com.example.ooad_project.Plant.PlantManager;
 import com.example.ooad_project.ThreadUtils.EventBus;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.MenuButton;
-import javafx.scene.control.MenuItem;
+import javafx.geometry.HPos;
+import javafx.geometry.VPos;
+import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.RowConstraints;
 import javafx.animation.PauseTransition;
+import javafx.scene.layout.StackPane;
 import javafx.util.Duration;
-import org.w3c.dom.Text;
 
 import java.util.Random;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 public class GardenUIController {
@@ -46,6 +45,11 @@ public class GardenUIController {
 
     @FXML
     private Label rainStatusLabel;
+    @FXML
+    private Label temperatureStatusLabel;
+    @FXML
+    private Label parasiteStatusLabel;
+
     @FXML
     private GridPane gridPane;
     @FXML
@@ -83,18 +87,27 @@ public class GardenUIController {
     }
 
     @FXML
+    private TextArea logTextArea;
+
+    private static final Logger logger = LogManager.getLogger(GardenUIController.class);
+
+
+    @FXML
     public void initialize() {
+
+        initializeLogger();
+
         // Add ColumnConstraints
         for (int col = 0; col < gardenGrid.getNumCols(); col++) {
             ColumnConstraints colConst = new ColumnConstraints();
-            colConst.setPrefWidth(60); // Adjust the width as needed
+            colConst.setPrefWidth(80); // Adjust the width as needed
             gridPane.getColumnConstraints().add(colConst);
         }
 
         // Add RowConstraints
         for (int row = 0; row < gardenGrid.getNumRows(); row++) {
             RowConstraints rowConst = new RowConstraints();
-            rowConst.setPrefHeight(60); // Adjust the height as needed
+            rowConst.setPrefHeight(80); // Adjust the height as needed
             gridPane.getRowConstraints().add(rowConst);
         }
 
@@ -102,10 +115,22 @@ public class GardenUIController {
         loadPlantsData();
         loadParasitesData();
 
+
+
         EventBus.subscribe("RainEvent", event -> changeRainUI((RainEvent) event));
         EventBus.subscribe("DisplayParasiteEvent", event -> handleDisplayParasiteEvent((DisplayParasiteEvent) event));
         EventBus.subscribe("PlantImageUpdateEvent", event -> handlePlantImageUpdateEvent((PlantImageUpdateEvent) event));
         EventBus.subscribe("DayChangeEvent",event -> handleDayChangeEvent((DayChangeEvent) event));
+        EventBus.subscribe("TemperatureEvent", event -> changeTemperatureUI((TemperatureEvent) event));
+        EventBus.subscribe("ParasiteEvent", event -> changeParasiteUI((ParasiteEvent) event));
+    }
+
+    private void initializeLogger() {
+        LoggerAppender.setController(this);
+    }
+
+    public void appendLogText(String text) {
+        Platform.runLater(() -> logTextArea.appendText(text + "\n"));
     }
 
     public void handleDayChangeEvent(DayChangeEvent event) {
@@ -134,11 +159,13 @@ public class GardenUIController {
         String imageName = plant.getCurrentImage();
         Image newImage = new Image(getClass().getResourceAsStream("/images/" + imageName));
         ImageView newImageView = new ImageView(newImage);
-        newImageView.setFitHeight(60);  // Match the cell size in the grid
-        newImageView.setFitWidth(60);
+        newImageView.setFitHeight(40);  // Match the cell size in the grid
+        newImageView.setFitWidth(40);
 
-        // Place the new image view in the grid
-        gridPane.add(newImageView, col, row);
+        // Create a pane to center the image
+        StackPane pane = new StackPane();
+        pane.getChildren().add(newImageView);
+        gridPane.add(pane, col, row);
 
         System.out.println("Updated plant image at row " + row + " and column " + col + " to " + imageName);
     }
@@ -151,16 +178,24 @@ public class GardenUIController {
         ImageView parasiteImageView = new ImageView(ratImage);
 
 //        Change var name
-        parasiteImageView.setFitHeight(60);  // Match the cell size in the grid
-        parasiteImageView.setFitWidth(60);
+        parasiteImageView.setFitHeight(20);  // Match the cell size in the grid
+        parasiteImageView.setFitWidth(20);
 
         // Use the row and column from the event
         int row = event.getRow();
         int col = event.getColumn();
 
         // Place the rat image on the grid
-        gridPane.add(parasiteImageView, col, row);
+//        gridPane.add(parasiteImageView, col, row);
 //        System.out.println("Rat placed at row " + row + " and column " + col);
+
+
+        // Place the parasite image on the grid in the same cell but with offset
+        GridPane.setRowIndex(parasiteImageView, row);
+        GridPane.setColumnIndex(parasiteImageView, col);
+        GridPane.setHalignment(parasiteImageView, HPos.RIGHT);  // Align to right
+        GridPane.setValignment(parasiteImageView, VPos.BOTTOM); // Align to bottom
+        gridPane.getChildren().add(parasiteImageView);
 
         // Create a pause transition of 5 seconds before removing the rat image
         PauseTransition pause = new PauseTransition(Duration.seconds(5));
@@ -194,20 +229,49 @@ public class GardenUIController {
     private void changeRainUI(RainEvent event) {
             // Update UI to reflect it's raining
             System.out.println("Changing UI to reflect rain event");
-            rainStatusLabel.setText("Rain Amount: " + event.getAmount() + "mm");
+            rainStatusLabel.setText("Rain amount: "+ event.getAmount() + "mm");
 
             // Create a pause transition of 5 seconds
             PauseTransition pause = new PauseTransition(Duration.seconds(5));
             pause.setOnFinished(e -> {
                 // Update UI to reflect no rain after the event ends
-                rainStatusLabel.setText("No rain currently.");
+                rainStatusLabel.setText("Sunny");
                 System.out.println("Rain event ended, updating UI to show no rain.");
             });
             pause.play();
         }
 
+    private void changeTemperatureUI(TemperatureEvent event) {
+        // Update UI to reflect the temperature change
+        System.out.println("Changing UI to reflect temperature event");
+        temperatureStatusLabel.setText(event.getAmount() + "°F");
 
-//    This is the method that will populate the menu buttons with the plant data
+        // Create a pause transition of 5 seconds
+        PauseTransition pause = new PauseTransition(Duration.seconds(5));
+        pause.setOnFinished(e -> {
+            // Update UI to reflect optimal temperature after the event ends
+            temperatureStatusLabel.setText("Optimal");
+            System.out.println("Temperature event ended, updating UI to show optimal temperature.");
+        });
+        pause.play();
+    }
+
+    private void changeParasiteUI(ParasiteEvent event) {
+        // Update UI to reflect parasite event
+        System.out.println("Changing UI to reflect parasite event");
+        parasiteStatusLabel.setText("Parasite: " + event.getParasite().getName() + " detected");
+
+        // Create a pause transition of 5 seconds
+        PauseTransition pause = new PauseTransition(Duration.seconds(5));
+        pause.setOnFinished(e -> {
+            // Update UI to reflect no parasites after the event ends
+            parasiteStatusLabel.setText("No Parasites");
+            System.out.println("Parasite event ended, updating UI to show no parasites.");
+        });
+        pause.play();
+    }
+
+    //    This is the method that will populate the menu buttons with the plant data
     private void loadPlantsData() {
 
         for (Flower flower : plantManager.getFlowers()) {
@@ -246,9 +310,13 @@ public class GardenUIController {
                     plant.setCol(col);
                     gardenGrid.addPlant(plant, row, col);
                     ImageView plantView = new ImageView(new Image(getClass().getResourceAsStream("/images/" + imageFile)));
-                    plantView.setFitHeight(60);
-                    plantView.setFitWidth(60);
-                    gridPane.add(plantView, col, row);
+                    plantView.setFitHeight(40);
+                    plantView.setFitWidth(40);
+
+                    // Create a pane to center the image
+                    StackPane pane = new StackPane();
+                    pane.getChildren().add(plantView);
+                    gridPane.add(pane, col, row);
                     placed = true;
                 }
                 attempts++;
