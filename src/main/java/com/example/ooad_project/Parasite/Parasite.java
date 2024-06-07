@@ -1,6 +1,8 @@
 package com.example.ooad_project.Parasite;
 
+import com.example.ooad_project.Events.ParasiteDamageEvent;
 import com.example.ooad_project.Plant.Plant;
+import com.example.ooad_project.ThreadUtils.EventBus;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -22,6 +24,11 @@ public abstract class Parasite {
 
 //    Virtual function to be implemented by children
     public abstract void affectPlant(Plant plant);
+
+
+    protected void publishDamageEvent(ParasiteDamageEvent event) {
+        EventBus.publish("ParasiteDamageEvent", event);
+    }
 
 
     public String getName() {

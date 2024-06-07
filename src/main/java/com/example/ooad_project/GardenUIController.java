@@ -92,6 +92,10 @@ public class GardenUIController {
     private static final Logger logger = LogManager.getLogger(GardenUIController.class);
 
 
+//    This is the UI Logger for the GardenUIController
+//    This is used to log events that happen in the UI
+    private Logger log4jLogger = LogManager.getLogger("GardenUIControllerLogger");
+
     @FXML
     public void initialize() {
 
@@ -115,6 +119,8 @@ public class GardenUIController {
         loadPlantsData();
         loadParasitesData();
 
+        log4jLogger.info("GardenUIController initialized");
+
 
 
         EventBus.subscribe("RainEvent", event -> changeRainUI((RainEvent) event));
@@ -123,6 +129,42 @@ public class GardenUIController {
         EventBus.subscribe("DayChangeEvent",event -> handleDayChangeEvent((DayChangeEvent) event));
         EventBus.subscribe("TemperatureEvent", event -> changeTemperatureUI((TemperatureEvent) event));
         EventBus.subscribe("ParasiteEvent", event -> changeParasiteUI((ParasiteEvent) event));
+
+//      Gives you row, col and waterneeded
+        EventBus.subscribe("SprinklerEvent", event -> handleSprinklerEvent((SprinklerEvent) event));
+
+
+//        When plant is cooled by x
+        EventBus.subscribe("TemperatureCoolEvent", event -> handleTemperatureCoolEvent((TemperatureCoolEvent) event));
+
+
+//      When plant is heated by x
+        EventBus.subscribe("TemperatureHeatEvent", event -> handleTemperatureHeatEvent((TemperatureHeatEvent) event));
+
+
+//        When plant is damaged by x
+//        Includes -> row, col, damage
+        EventBus.subscribe("ParasiteDamageEvent", event -> handleParasiteDamageEvent((ParasiteDamageEvent) event));
+    }
+
+//    Function that is called when the parasite damage event is published
+    private void handleParasiteDamageEvent(ParasiteDamageEvent event) {
+        System.out.println("ParasiteDamageEvent received");
+    }
+
+    private void handleTemperatureHeatEvent(TemperatureHeatEvent event) {
+        System.out.println("TemperatureHeatEvent received");
+    }
+
+
+//    Function that is called when the temperature cool event is published
+    private void handleTemperatureCoolEvent(TemperatureCoolEvent event) {
+        System.out.println("TemperatureCoolEvent received");
+    }
+
+//  Function that is called when the sprinkler event is published
+    private void handleSprinklerEvent(SprinklerEvent event) {
+        System.out.println("SprinklerEvent received");
     }
 
     private void initializeLogger() {
@@ -134,6 +176,7 @@ public class GardenUIController {
     }
 
     public void handleDayChangeEvent(DayChangeEvent event) {
+        System.out.println("day changed to: " + event.getDay());
         Platform.runLater(() -> {
             currentDay.setText("Day: " + event.getDay());
             System.out.println("Day changed to: " + event.getDay());
@@ -141,33 +184,40 @@ public class GardenUIController {
     }
 
     private void handlePlantImageUpdateEvent(PlantImageUpdateEvent event) {
-        Plant plant = event.getPlant();
 
-        // Calculate the grid position
-        int row = plant.getRow();
-        int col = plant.getCol();
+//        Be sure to wrap the code in Platform.runLater() to update the UI
+//        This is because the event is being handled in a different thread
+//        and we need to update the UI in the JavaFX Application Thread
+        Platform.runLater(() -> {
 
-        // Find the ImageView for the plant in the grid and remove it
-        gridPane.getChildren().removeIf(node -> {
-            if (GridPane.getRowIndex(node) != null && GridPane.getColumnIndex(node) != null) {
-                return GridPane.getRowIndex(node) == row && GridPane.getColumnIndex(node) == col && node instanceof ImageView;
-            }
-            return false;
-        });
+            Plant plant = event.getPlant();
 
-        // Load the new image for the plant
-        String imageName = plant.getCurrentImage();
-        Image newImage = new Image(getClass().getResourceAsStream("/images/" + imageName));
-        ImageView newImageView = new ImageView(newImage);
-        newImageView.setFitHeight(40);  // Match the cell size in the grid
-        newImageView.setFitWidth(40);
+            // Calculate the grid position
+            int row = plant.getRow();
+            int col = plant.getCol();
 
-        // Create a pane to center the image
-        StackPane pane = new StackPane();
-        pane.getChildren().add(newImageView);
-        gridPane.add(pane, col, row);
+            // Find the ImageView for the plant in the grid and remove it
+            gridPane.getChildren().removeIf(node -> {
+                if (GridPane.getRowIndex(node) != null && GridPane.getColumnIndex(node) != null) {
+                    return GridPane.getRowIndex(node) == row && GridPane.getColumnIndex(node) == col && node instanceof ImageView;
+                }
+                return false;
+            });
 
-        System.out.println("Updated plant image at row " + row + " and column " + col + " to " + imageName);
+            // Load the new image for the plant
+            String imageName = plant.getCurrentImage();
+            Image newImage = new Image(getClass().getResourceAsStream("/images/" + imageName));
+            ImageView newImageView = new ImageView(newImage);
+            newImageView.setFitHeight(40);  // Match the cell size in the grid
+            newImageView.setFitWidth(40);
+
+            // Create a pane to center the image
+            StackPane pane = new StackPane();
+            pane.getChildren().add(newImageView);
+            gridPane.add(pane, col, row);
+
+            System.out.println("Updated plant image at row " + row + " and column " + col + " to " + imageName);
+    });
     }
 
 

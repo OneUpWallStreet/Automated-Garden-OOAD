@@ -1,6 +1,8 @@
 package com.example.ooad_project.SubSystems;
 
+import com.example.ooad_project.Events.TemperatureCoolEvent;
 import com.example.ooad_project.Events.TemperatureEvent;
+import com.example.ooad_project.Events.TemperatureHeatEvent;
 import com.example.ooad_project.GardenGrid;
 import com.example.ooad_project.Plant.Plant;
 import com.example.ooad_project.ThreadUtils.EventBus;
@@ -31,10 +33,10 @@ public class TemperatureSystem implements Runnable{
                 if (plant != null) {
                     int tempDiff = currentTemperature - plant.getTemperatureRequirement();
                     if (tempDiff > 0) {
+                        EventBus.publish("TemperatureCoolEvent", new TemperatureCoolEvent(Math.abs(tempDiff)));
                         logger.info("Temperature system cooled {} at position ({}, {}) by {} degrees F.", plant.getName(), i, j, Math.abs(tempDiff));
-//                        ADD DAMAGE LATER
-//                        plant.setCurrentHealth(plant.getCurrentHealth() - 1);
                     } else if (tempDiff < 0) {
+                        EventBus.publish("TemperatureHeatEvent", new TemperatureHeatEvent(Math.abs(tempDiff)));
                         logger.info("Temperature system heated {} at position ({}, {}) by {} degrees F.", plant.getName(), i, j, Math.abs(tempDiff));
                     } else {
                         logger.info("{} at position ({}, {}) is at optimal temperature.", plant.getName(), i, j);

@@ -133,7 +133,7 @@ public abstract class Plant {
         return isWatered;
     }
 
-    public void setIsWatered(Boolean isWatered) {
+    public synchronized void  setIsWatered(Boolean isWatered) {
         this.isWatered = isWatered;
     }
 

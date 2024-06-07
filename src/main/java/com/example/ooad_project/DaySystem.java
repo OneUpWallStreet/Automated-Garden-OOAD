@@ -15,7 +15,7 @@ public class DaySystem {
     private final ScheduledExecutorService scheduler;
     private int currentDay;  // Variable to keep track of the current day
     private final Logger logger = LogManager.getLogger("DayLogger");
-
+    GardenGrid gardenGrid = GardenGrid.getInstance();
 
 
     private DaySystem() {
@@ -28,7 +28,9 @@ public class DaySystem {
 //      scheduler.scheduleAtFixedRate(this::endOfDayActions, 1, 1, TimeUnit.HOURS);
 
         // Schedule the end of day actions to run every 1 minute, treating each minute as a new day
-        scheduler.scheduleAtFixedRate(this::endOfDayActions, 0, 1, TimeUnit.MINUTES);
+//        scheduler.scheduleAtFixedRate(this::endOfDayActions, 0, 1, TimeUnit.MINUTES);
+
+        scheduler.scheduleAtFixedRate(this::endOfDayActions, 0, 10, TimeUnit.SECONDS);
     }
 
     public static synchronized DaySystem getInstance() {
@@ -39,29 +41,31 @@ public class DaySystem {
     }
 
     private void endOfDayActions() {
-        // Get the instance of the GardenGrid
-        GardenGrid gardenGrid = GardenGrid.getInstance();
+        try {
+            logger.info("End of Day: {}", currentDay);
 
 
-        logger.info("End of Day: {}", currentDay);
-
-        for (int i = 0; i < gardenGrid.getNumRows(); i++) {
-            for (int j = 0; j < gardenGrid.getNumCols(); j++) {
-                // Get the plant at the current position
-                Plant plant = gardenGrid.getPlant(i, j);
-
-                // If there is a plant at the current position, reset its isWatered property and heal it
-                if (plant != null) {
-                    plant.setIsWatered(false);
-
-                    plant.healPlant(5);
+//            Reset the watered status of all plants
+//            Heal all plants by 10
+            for (int i = 0; i < gardenGrid.getNumRows(); i++) {
+                for (int j = 0; j < gardenGrid.getNumCols(); j++) {
+                    Plant plant = gardenGrid.getPlant(i, j);
+                    if (plant != null) {
+                        plant.setIsWatered(false);
+                        plant.healPlant(6);
+                    }
                 }
             }
+
+            currentDay++;
+            EventBus.publish("DayChangeEvent", new DayChangeEvent(currentDay));
+            logger.info("Changed day to: {}", currentDay);
+
+        } catch (Exception e) {
+            logger.error("Error during end of day processing: ", e);
+            System.out.println("Error during end of day processing: " + e);
         }
-
-
-        logger.info("Changed day to: {}", currentDay + 1);
-        EventBus.publish("DayChangeEvent", new DayChangeEvent(currentDay + 1));
-        currentDay++;  // Increment the day count after each day ends
     }
+
+
 }

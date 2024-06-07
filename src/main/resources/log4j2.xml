@@ -19,6 +19,9 @@
         <File name="DayLogFile" fileName="logs/DayLogger.log">
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"/>
         </File>
+        <File name="GardenUIControllerLogFile" fileName="logs/GardenUIController.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"/>
+        </File>
         <LoggerAppender name="LoggerAppender" />
     </Appenders>
     <Loggers>
@@ -39,6 +42,10 @@
         </Logger>
         <Logger name="DayLogger" level="info" additivity="false">
             <AppenderRef ref="DayLogFile"/>
+        </Logger>
+        <Logger name="GardenUIControllerLogger" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="GardenUIControllerLogFile"/>
         </Logger>
         <Root level="error">
             <AppenderRef ref="Console"/>
