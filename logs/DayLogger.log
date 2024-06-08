@@ -1,302 +1,411 @@
-2024-06-05 17:49:41 INFO  DayLogger - Day System Initialized
-2024-06-05 17:49:41 INFO  DayLogger - End of Day: 0
-2024-06-05 17:49:41 INFO  DayLogger - Changed day to: 1
-2024-06-05 17:50:41 INFO  DayLogger - End of Day: 1
-2024-06-05 17:50:41 INFO  DayLogger - Changed day to: 2
-2024-06-05 17:51:37 INFO  DayLogger - Day System Initialized
-2024-06-05 17:51:37 INFO  DayLogger - End of Day: 0
-2024-06-05 17:51:37 INFO  DayLogger - Changed day to: 1
-2024-06-05 17:52:37 INFO  DayLogger - End of Day: 1
-2024-06-05 17:52:37 INFO  DayLogger - Changed day to: 2
-2024-06-05 17:53:37 INFO  DayLogger - End of Day: 2
-2024-06-05 17:53:37 INFO  DayLogger - Changed day to: 3
-2024-06-05 17:54:37 INFO  DayLogger - End of Day: 3
-2024-06-05 17:54:37 INFO  DayLogger - Changed day to: 4
-2024-06-05 17:55:37 INFO  DayLogger - End of Day: 4
-2024-06-05 17:55:37 INFO  DayLogger - Changed day to: 5
-2024-06-05 18:02:43 INFO  DayLogger - Day System Initialized
-2024-06-05 18:02:43 INFO  DayLogger - End of Day: 0
-2024-06-05 18:02:43 INFO  DayLogger - Changed day to: 1
-2024-06-05 18:34:50 INFO  DayLogger - Day System Initialized
-2024-06-05 18:34:50 INFO  DayLogger - End of Day: 0
-2024-06-05 18:34:50 INFO  DayLogger - Changed day to: 1
-2024-06-05 18:35:50 INFO  DayLogger - End of Day: 1
-2024-06-05 18:35:50 INFO  DayLogger - Changed day to: 2
-2024-06-05 18:36:45 INFO  DayLogger - Day System Initialized
-2024-06-05 18:36:45 INFO  DayLogger - End of Day: 0
-2024-06-05 18:36:45 INFO  DayLogger - Changed day to: 1
-2024-06-05 18:37:45 INFO  DayLogger - End of Day: 1
-2024-06-05 18:37:45 INFO  DayLogger - Changed day to: 2
-2024-06-05 19:04:45 INFO  DayLogger - Day System Initialized
-2024-06-05 19:04:45 INFO  DayLogger - End of Day: 0
-2024-06-05 19:04:45 INFO  DayLogger - Changed day to: 1
-2024-06-05 19:05:45 INFO  DayLogger - End of Day: 1
-2024-06-05 19:05:45 INFO  DayLogger - Changed day to: 2
-2024-06-05 19:13:26 INFO  DayLogger - Day System Initialized
-2024-06-05 19:13:26 INFO  DayLogger - End of Day: 0
-2024-06-05 19:13:26 INFO  DayLogger - Changed day to: 1
-2024-06-05 19:17:58 INFO  DayLogger - Day System Initialized
-2024-06-05 19:17:58 INFO  DayLogger - End of Day: 0
-2024-06-05 19:17:58 INFO  DayLogger - Changed day to: 1
-2024-06-05 19:18:58 INFO  DayLogger - End of Day: 1
-2024-06-05 19:18:58 INFO  DayLogger - Changed day to: 2
-2024-06-05 19:19:58 INFO  DayLogger - End of Day: 2
-2024-06-05 19:19:58 INFO  DayLogger - Changed day to: 3
-2024-06-05 19:20:58 INFO  DayLogger - End of Day: 3
-2024-06-05 19:20:58 INFO  DayLogger - Changed day to: 4
-2024-06-05 19:21:58 INFO  DayLogger - End of Day: 4
-2024-06-05 19:21:58 INFO  DayLogger - Changed day to: 5
-2024-06-05 19:22:52 INFO  DayLogger - Day System Initialized
-2024-06-05 19:22:52 INFO  DayLogger - End of Day: 0
-2024-06-05 19:22:52 INFO  DayLogger - Changed day to: 1
-2024-06-05 19:23:52 INFO  DayLogger - End of Day: 1
-2024-06-05 19:23:52 INFO  DayLogger - Changed day to: 2
-2024-06-05 19:28:04 INFO  DayLogger - Day System Initialized
-2024-06-05 19:28:04 INFO  DayLogger - End of Day: 0
-2024-06-05 19:28:04 INFO  DayLogger - Changed day to: 1
-2024-06-05 19:29:04 INFO  DayLogger - End of Day: 1
-2024-06-05 19:29:04 INFO  DayLogger - Changed day to: 2
-2024-06-05 19:30:04 INFO  DayLogger - End of Day: 2
-2024-06-05 19:30:04 INFO  DayLogger - Changed day to: 3
-2024-06-05 19:31:04 INFO  DayLogger - End of Day: 3
-2024-06-05 19:32:46 INFO  DayLogger - Day System Initialized
-2024-06-05 19:32:46 INFO  DayLogger - End of Day: 0
-2024-06-05 19:32:46 INFO  DayLogger - Changed day to: 1
-2024-06-05 19:33:51 INFO  DayLogger - Day System Initialized
-2024-06-05 19:33:51 INFO  DayLogger - End of Day: 0
-2024-06-05 19:33:51 INFO  DayLogger - Changed day to: 1
-2024-06-05 19:34:51 INFO  DayLogger - End of Day: 1
-2024-06-05 19:34:51 INFO  DayLogger - Changed day to: 2
-2024-06-05 19:46:24 INFO  DayLogger - Day System Initialized
-2024-06-05 19:46:24 INFO  DayLogger - End of Day: 0
-2024-06-05 19:46:24 INFO  DayLogger - Changed day to: 1
-2024-06-05 19:47:24 INFO  DayLogger - End of Day: 1
-2024-06-05 19:47:24 INFO  DayLogger - Changed day to: 2
-2024-06-05 19:48:24 INFO  DayLogger - End of Day: 2
-2024-06-05 19:48:24 INFO  DayLogger - Changed day to: 3
-2024-06-05 19:49:24 INFO  DayLogger - End of Day: 3
-2024-06-05 19:49:24 INFO  DayLogger - Changed day to: 4
-2024-06-05 19:50:24 INFO  DayLogger - End of Day: 4
-2024-06-05 19:50:24 INFO  DayLogger - Changed day to: 5
-2024-06-05 19:51:24 INFO  DayLogger - End of Day: 5
-2024-06-05 19:51:24 INFO  DayLogger - Changed day to: 6
-2024-06-05 19:52:24 INFO  DayLogger - End of Day: 6
-2024-06-05 19:52:36 INFO  DayLogger - Day System Initialized
-2024-06-05 19:52:36 INFO  DayLogger - End of Day: 0
-2024-06-05 19:52:36 INFO  DayLogger - Changed day to: 1
-2024-06-05 19:53:36 INFO  DayLogger - End of Day: 1
-2024-06-05 19:53:36 INFO  DayLogger - Changed day to: 2
-2024-06-05 19:56:51 INFO  DayLogger - Day System Initialized
-2024-06-05 19:56:51 INFO  DayLogger - End of Day: 0
-2024-06-05 19:56:51 INFO  DayLogger - Changed day to: 1
-2024-06-05 19:57:51 INFO  DayLogger - End of Day: 1
-2024-06-05 19:57:51 INFO  DayLogger - Changed day to: 2
-2024-06-05 19:58:51 INFO  DayLogger - End of Day: 2
-2024-06-05 19:58:51 INFO  DayLogger - Changed day to: 3
-2024-06-05 19:59:51 INFO  DayLogger - End of Day: 3
-2024-06-05 19:59:51 INFO  DayLogger - Changed day to: 4
-2024-06-05 20:00:18 INFO  DayLogger - Day System Initialized
-2024-06-05 20:00:18 INFO  DayLogger - End of Day: 0
-2024-06-05 20:00:18 INFO  DayLogger - Changed day to: 1
-2024-06-05 20:01:11 INFO  DayLogger - Day System Initialized
-2024-06-05 20:01:11 INFO  DayLogger - End of Day: 0
-2024-06-05 20:01:11 INFO  DayLogger - Changed day to: 1
-2024-06-05 20:02:14 INFO  DayLogger - Day System Initialized
-2024-06-05 20:02:14 INFO  DayLogger - End of Day: 0
-2024-06-05 20:02:14 INFO  DayLogger - Changed day to: 1
-2024-06-05 20:03:14 INFO  DayLogger - End of Day: 1
-2024-06-05 20:03:14 INFO  DayLogger - Changed day to: 2
-2024-06-05 20:04:14 INFO  DayLogger - End of Day: 2
-2024-06-05 20:04:14 INFO  DayLogger - Changed day to: 3
-2024-06-05 20:04:47 INFO  DayLogger - Day System Initialized
-2024-06-05 20:04:47 INFO  DayLogger - End of Day: 0
-2024-06-05 20:04:47 INFO  DayLogger - Changed day to: 1
-2024-06-05 20:05:53 INFO  DayLogger - Day System Initialized
-2024-06-05 20:05:53 INFO  DayLogger - End of Day: 0
-2024-06-05 20:05:53 INFO  DayLogger - Changed day to: 1
-2024-06-05 20:06:53 INFO  DayLogger - End of Day: 1
-2024-06-05 20:06:53 INFO  DayLogger - Changed day to: 2
-2024-06-05 22:28:26 INFO  DayLogger - Day System Initialized
-2024-06-05 22:28:27 INFO  DayLogger - End of Day: 0
-2024-06-05 22:28:27 INFO  DayLogger - Changed day to: 1
-2024-06-05 22:29:26 INFO  DayLogger - End of Day: 1
-2024-06-05 22:29:26 INFO  DayLogger - Changed day to: 2
-2024-06-05 22:47:48 INFO  DayLogger - Day System Initialized
-2024-06-05 22:47:48 INFO  DayLogger - End of Day: 0
-2024-06-05 22:47:48 INFO  DayLogger - Changed day to: 1
-2024-06-05 22:48:48 INFO  DayLogger - End of Day: 1
-2024-06-05 22:48:48 INFO  DayLogger - Changed day to: 2
-2024-06-05 22:49:48 INFO  DayLogger - End of Day: 2
-2024-06-05 22:49:48 INFO  DayLogger - Changed day to: 3
-2024-06-05 22:50:48 INFO  DayLogger - End of Day: 3
-2024-06-05 22:50:48 INFO  DayLogger - Changed day to: 4
-2024-06-05 22:51:48 INFO  DayLogger - End of Day: 4
-2024-06-05 22:51:48 INFO  DayLogger - Changed day to: 5
-2024-06-05 22:52:48 INFO  DayLogger - End of Day: 5
-2024-06-05 22:52:48 INFO  DayLogger - Changed day to: 6
-2024-06-05 22:53:44 INFO  DayLogger - Day System Initialized
-2024-06-05 22:53:44 INFO  DayLogger - End of Day: 0
-2024-06-05 22:53:44 INFO  DayLogger - Changed day to: 1
-2024-06-05 22:54:44 INFO  DayLogger - End of Day: 1
-2024-06-05 22:54:44 INFO  DayLogger - Changed day to: 2
-2024-06-05 22:55:44 INFO  DayLogger - End of Day: 2
-2024-06-05 22:55:44 INFO  DayLogger - Changed day to: 3
-2024-06-05 22:56:44 INFO  DayLogger - End of Day: 3
-2024-06-05 22:56:44 INFO  DayLogger - Changed day to: 4
-2024-06-05 22:57:44 INFO  DayLogger - End of Day: 4
-2024-06-05 22:57:44 INFO  DayLogger - Changed day to: 5
-2024-06-05 22:58:44 INFO  DayLogger - End of Day: 5
-2024-06-05 22:58:44 INFO  DayLogger - Changed day to: 6
-2024-06-05 22:59:44 INFO  DayLogger - End of Day: 6
-2024-06-05 22:59:44 INFO  DayLogger - Changed day to: 7
-2024-06-05 23:00:44 INFO  DayLogger - End of Day: 7
-2024-06-05 23:00:44 INFO  DayLogger - Changed day to: 8
-2024-06-05 23:01:44 INFO  DayLogger - End of Day: 8
-2024-06-05 23:01:44 INFO  DayLogger - Changed day to: 9
-2024-06-05 23:02:44 INFO  DayLogger - End of Day: 9
-2024-06-05 23:02:44 INFO  DayLogger - Changed day to: 10
-2024-06-05 23:03:44 INFO  DayLogger - End of Day: 10
-2024-06-05 23:03:44 INFO  DayLogger - Changed day to: 11
-2024-06-05 23:04:44 INFO  DayLogger - End of Day: 11
-2024-06-05 23:04:44 INFO  DayLogger - Changed day to: 12
-2024-06-05 23:05:44 INFO  DayLogger - End of Day: 12
-2024-06-05 23:05:44 INFO  DayLogger - Changed day to: 13
-2024-06-05 23:06:44 INFO  DayLogger - End of Day: 13
-2024-06-05 23:06:44 INFO  DayLogger - Changed day to: 14
-2024-06-05 23:07:44 INFO  DayLogger - End of Day: 14
-2024-06-05 23:07:44 INFO  DayLogger - Changed day to: 15
-2024-06-05 23:09:45 INFO  DayLogger - Day System Initialized
-2024-06-05 23:09:45 INFO  DayLogger - End of Day: 0
-2024-06-05 23:09:45 INFO  DayLogger - Changed day to: 1
-2024-06-05 23:10:45 INFO  DayLogger - End of Day: 1
-2024-06-05 23:10:45 INFO  DayLogger - Changed day to: 2
-2024-06-06 00:04:30 INFO  DayLogger - Day System Initialized
-2024-06-06 00:04:31 INFO  DayLogger - End of Day: 0
-2024-06-06 00:04:31 INFO  DayLogger - Changed day to: 1
-2024-06-06 00:05:30 INFO  DayLogger - End of Day: 1
-2024-06-06 00:05:30 INFO  DayLogger - Changed day to: 2
-2024-06-06 00:06:30 INFO  DayLogger - End of Day: 2
-2024-06-06 00:06:30 INFO  DayLogger - Changed day to: 3
-2024-06-06 00:16:43 INFO  DayLogger - Day System Initialized
-2024-06-06 00:16:43 INFO  DayLogger - End of Day: 0
-2024-06-06 00:16:43 INFO  DayLogger - Changed day to: 1
-2024-06-06 00:17:43 INFO  DayLogger - End of Day: 1
-2024-06-06 00:17:43 INFO  DayLogger - Changed day to: 2
-2024-06-06 00:18:43 INFO  DayLogger - End of Day: 2
-2024-06-06 00:18:43 INFO  DayLogger - Changed day to: 3
-2024-06-06 00:19:58 INFO  DayLogger - Day System Initialized
-2024-06-06 00:19:58 INFO  DayLogger - End of Day: 0
-2024-06-06 00:19:58 INFO  DayLogger - Changed day to: 1
-2024-06-06 00:20:58 INFO  DayLogger - End of Day: 1
-2024-06-06 00:20:58 INFO  DayLogger - Changed day to: 2
-2024-06-06 00:32:51 INFO  DayLogger - Day System Initialized
-2024-06-06 00:32:51 INFO  DayLogger - End of Day: 0
-2024-06-06 00:32:51 INFO  DayLogger - Changed day to: 1
-2024-06-06 00:34:39 INFO  DayLogger - Day System Initialized
-2024-06-06 00:34:39 INFO  DayLogger - End of Day: 0
-2024-06-06 00:34:39 INFO  DayLogger - Changed day to: 1
-2024-06-06 00:35:39 INFO  DayLogger - End of Day: 1
-2024-06-06 00:35:39 INFO  DayLogger - Changed day to: 2
-2024-06-06 00:36:39 INFO  DayLogger - End of Day: 2
-2024-06-06 00:36:39 INFO  DayLogger - Changed day to: 3
-2024-06-06 00:37:39 INFO  DayLogger - End of Day: 3
-2024-06-06 00:37:39 INFO  DayLogger - Changed day to: 4
-2024-06-06 00:38:39 INFO  DayLogger - End of Day: 4
-2024-06-06 00:38:39 INFO  DayLogger - Changed day to: 5
-2024-06-06 00:39:39 INFO  DayLogger - End of Day: 5
-2024-06-06 00:39:39 INFO  DayLogger - Changed day to: 6
-2024-06-06 00:40:39 INFO  DayLogger - End of Day: 6
-2024-06-06 00:40:39 INFO  DayLogger - Changed day to: 7
-2024-06-06 00:41:39 INFO  DayLogger - End of Day: 7
-2024-06-06 00:41:39 INFO  DayLogger - Changed day to: 8
-2024-06-06 00:42:39 INFO  DayLogger - End of Day: 8
-2024-06-06 00:42:39 INFO  DayLogger - Changed day to: 9
-2024-06-06 00:43:39 INFO  DayLogger - End of Day: 9
-2024-06-06 00:43:39 INFO  DayLogger - Changed day to: 10
-2024-06-06 00:44:39 INFO  DayLogger - End of Day: 10
-2024-06-06 00:44:39 INFO  DayLogger - Changed day to: 11
-2024-06-06 00:45:39 INFO  DayLogger - End of Day: 11
-2024-06-06 00:45:39 INFO  DayLogger - Changed day to: 12
-2024-06-06 00:46:39 INFO  DayLogger - End of Day: 12
-2024-06-06 00:46:39 INFO  DayLogger - Changed day to: 13
-2024-06-06 00:47:39 INFO  DayLogger - End of Day: 13
-2024-06-06 00:47:39 INFO  DayLogger - Changed day to: 14
-2024-06-06 00:48:39 INFO  DayLogger - End of Day: 14
-2024-06-06 00:48:39 INFO  DayLogger - Changed day to: 15
-2024-06-06 00:49:39 INFO  DayLogger - End of Day: 15
-2024-06-06 00:49:39 INFO  DayLogger - Changed day to: 16
-2024-06-06 00:50:39 INFO  DayLogger - End of Day: 16
-2024-06-06 00:50:39 INFO  DayLogger - Changed day to: 17
-2024-06-06 00:51:39 INFO  DayLogger - End of Day: 17
-2024-06-06 00:51:39 INFO  DayLogger - Changed day to: 18
-2024-06-06 00:52:39 INFO  DayLogger - End of Day: 18
-2024-06-06 00:52:39 INFO  DayLogger - Changed day to: 19
-2024-06-06 00:53:39 INFO  DayLogger - End of Day: 19
-2024-06-06 00:53:39 INFO  DayLogger - Changed day to: 20
-2024-06-06 00:55:08 INFO  DayLogger - Day System Initialized
-2024-06-06 00:55:08 INFO  DayLogger - End of Day: 0
-2024-06-06 00:55:08 INFO  DayLogger - Changed day to: 1
-2024-06-06 00:57:04 INFO  DayLogger - Day System Initialized
-2024-06-06 00:57:04 INFO  DayLogger - End of Day: 0
-2024-06-06 00:57:04 INFO  DayLogger - Changed day to: 1
-2024-06-06 01:16:44 INFO  DayLogger - Day System Initialized
-2024-06-06 01:16:45 INFO  DayLogger - End of Day: 0
-2024-06-06 01:16:45 INFO  DayLogger - Changed day to: 1
-2024-06-06 01:28:49 INFO  DayLogger - Day System Initialized
-2024-06-06 01:28:49 INFO  DayLogger - End of Day: 0
-2024-06-06 01:28:49 INFO  DayLogger - Changed day to: 1
-2024-06-06 01:30:26 INFO  DayLogger - Day System Initialized
-2024-06-06 01:30:26 INFO  DayLogger - End of Day: 0
-2024-06-06 01:30:26 INFO  DayLogger - Changed day to: 1
-2024-06-06 01:35:14 INFO  DayLogger - Day System Initialized
-2024-06-06 01:35:14 INFO  DayLogger - End of Day: 0
-2024-06-06 01:35:14 INFO  DayLogger - Changed day to: 1
-2024-06-06 01:37:41 INFO  DayLogger - Day System Initialized
-2024-06-06 01:37:41 INFO  DayLogger - End of Day: 0
-2024-06-06 01:37:41 INFO  DayLogger - Changed day to: 1
-2024-06-06 01:39:35 INFO  DayLogger - Day System Initialized
-2024-06-06 01:39:35 INFO  DayLogger - End of Day: 0
-2024-06-06 01:39:35 INFO  DayLogger - Changed day to: 1
-2024-06-06 01:48:47 INFO  DayLogger - Day System Initialized
-2024-06-06 01:48:47 INFO  DayLogger - End of Day: 0
-2024-06-06 01:48:47 INFO  DayLogger - Changed day to: 1
-2024-06-06 01:53:08 INFO  DayLogger - Day System Initialized
-2024-06-06 01:53:08 INFO  DayLogger - End of Day: 0
-2024-06-06 01:53:08 INFO  DayLogger - Changed day to: 1
-2024-06-06 01:56:46 INFO  DayLogger - Day System Initialized
-2024-06-06 01:56:46 INFO  DayLogger - End of Day: 0
-2024-06-06 01:56:46 INFO  DayLogger - Changed day to: 1
-2024-06-06 01:57:13 INFO  DayLogger - Day System Initialized
-2024-06-06 01:57:13 INFO  DayLogger - End of Day: 0
-2024-06-06 01:57:13 INFO  DayLogger - Changed day to: 1
-2024-06-06 01:58:12 INFO  DayLogger - Day System Initialized
-2024-06-06 01:58:12 INFO  DayLogger - End of Day: 0
-2024-06-06 01:58:12 INFO  DayLogger - Changed day to: 1
-2024-06-06 01:59:12 INFO  DayLogger - End of Day: 1
-2024-06-06 01:59:12 INFO  DayLogger - Changed day to: 2
-2024-06-06 02:00:00 INFO  DayLogger - Day System Initialized
-2024-06-06 02:00:00 INFO  DayLogger - End of Day: 0
-2024-06-06 02:00:00 INFO  DayLogger - Changed day to: 1
-2024-06-06 02:01:23 INFO  DayLogger - Day System Initialized
-2024-06-06 02:01:23 INFO  DayLogger - End of Day: 0
-2024-06-06 02:01:23 INFO  DayLogger - Changed day to: 1
-2024-06-06 02:01:52 INFO  DayLogger - Day System Initialized
-2024-06-06 02:01:52 INFO  DayLogger - End of Day: 0
-2024-06-06 02:01:52 INFO  DayLogger - Changed day to: 1
-2024-06-06 02:02:49 INFO  DayLogger - Day System Initialized
-2024-06-06 02:02:49 INFO  DayLogger - End of Day: 0
-2024-06-06 02:02:49 INFO  DayLogger - Changed day to: 1
-2024-06-06 16:08:33 INFO  DayLogger - Day System Initialized
-2024-06-06 16:08:33 INFO  DayLogger - End of Day: 0
-2024-06-06 16:08:33 INFO  DayLogger - Changed day to: 1
-2024-06-06 16:09:33 INFO  DayLogger - End of Day: 1
-2024-06-06 16:09:33 INFO  DayLogger - Changed day to: 2
-2024-06-06 16:10:33 INFO  DayLogger - End of Day: 2
-2024-06-07 18:29:18 INFO  DayLogger - Day System Initialized
-2024-06-07 18:29:18 INFO  DayLogger - End of Day: 0
-2024-06-07 18:29:18 INFO  DayLogger - Changed day to: 1
-2024-06-07 18:30:18 INFO  DayLogger - End of Day: 1
-2024-06-07 18:30:18 INFO  DayLogger - Changed day to: 2
-2024-06-07 18:30:44 INFO  DayLogger - Day System Initialized
-2024-06-07 18:30:44 INFO  DayLogger - End of Day: 0
-2024-06-07 18:30:44 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:32:41 INFO  DayLogger - Day System Initialized
+2024-06-06 19:32:41 INFO  DayLogger - End of Day: 0
+2024-06-06 19:32:41 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:32:51 INFO  DayLogger - End of Day: 1
+2024-06-06 19:32:51 INFO  DayLogger - Changed day to: 2
+2024-06-06 19:33:13 INFO  DayLogger - Day System Initialized
+2024-06-06 19:33:13 INFO  DayLogger - End of Day: 0
+2024-06-06 19:33:13 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:33:23 INFO  DayLogger - End of Day: 1
+2024-06-06 19:35:08 INFO  DayLogger - Day System Initialized
+2024-06-06 19:35:08 INFO  DayLogger - End of Day: 0
+2024-06-06 19:35:08 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:35:18 INFO  DayLogger - End of Day: 1
+2024-06-06 19:35:18 INFO  DayLogger - Changed day to: 2
+2024-06-06 19:35:28 INFO  DayLogger - End of Day: 2
+2024-06-06 19:35:28 INFO  DayLogger - Changed day to: 3
+2024-06-06 19:35:38 INFO  DayLogger - End of Day: 3
+2024-06-06 19:35:38 INFO  DayLogger - Changed day to: 4
+2024-06-06 19:35:48 INFO  DayLogger - End of Day: 4
+2024-06-06 19:35:48 INFO  DayLogger - Changed day to: 5
+2024-06-06 19:35:51 INFO  DayLogger - Day System Initialized
+2024-06-06 19:35:51 INFO  DayLogger - End of Day: 0
+2024-06-06 19:35:51 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:36:01 INFO  DayLogger - Day System Initialized
+2024-06-06 19:36:01 INFO  DayLogger - End of Day: 0
+2024-06-06 19:36:01 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:38:53 INFO  DayLogger - Day System Initialized
+2024-06-06 19:38:53 INFO  DayLogger - End of Day: 0
+2024-06-06 19:38:53 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:41:07 INFO  DayLogger - Day System Initialized
+2024-06-06 19:41:07 INFO  DayLogger - End of Day: 0
+2024-06-06 19:41:07 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:41:17 INFO  DayLogger - Day System Initialized
+2024-06-06 19:41:17 INFO  DayLogger - End of Day: 0
+2024-06-06 19:41:17 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:42:15 INFO  DayLogger - Day System Initialized
+2024-06-06 19:42:15 INFO  DayLogger - End of Day: 0
+2024-06-06 19:42:15 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:42:33 INFO  DayLogger - Day System Initialized
+2024-06-06 19:42:33 INFO  DayLogger - End of Day: 0
+2024-06-06 19:42:33 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:42:43 INFO  DayLogger - End of Day: 1
+2024-06-06 19:43:51 INFO  DayLogger - Day System Initialized
+2024-06-06 19:43:51 INFO  DayLogger - End of Day: 0
+2024-06-06 19:43:51 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:44:01 INFO  DayLogger - End of Day: 1
+2024-06-06 19:44:01 INFO  DayLogger - Changed day to: 2
+2024-06-06 19:44:11 INFO  DayLogger - End of Day: 2
+2024-06-06 19:44:11 INFO  DayLogger - Changed day to: 3
+2024-06-06 19:44:17 INFO  DayLogger - Day System Initialized
+2024-06-06 19:44:17 INFO  DayLogger - End of Day: 0
+2024-06-06 19:44:17 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:44:27 INFO  DayLogger - End of Day: 1
+2024-06-06 19:45:02 INFO  DayLogger - Day System Initialized
+2024-06-06 19:45:02 INFO  DayLogger - End of Day: 0
+2024-06-06 19:45:02 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:45:12 INFO  DayLogger - End of Day: 1
+2024-06-06 19:45:12 INFO  DayLogger - Changed day to: 2
+2024-06-06 19:46:58 INFO  DayLogger - Day System Initialized
+2024-06-06 19:46:58 INFO  DayLogger - End of Day: 0
+2024-06-06 19:46:58 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:47:08 INFO  DayLogger - End of Day: 1
+2024-06-06 19:47:08 INFO  DayLogger - Changed day to: 2
+2024-06-06 19:49:46 INFO  DayLogger - Day System Initialized
+2024-06-06 19:49:46 INFO  DayLogger - End of Day: 0
+2024-06-06 19:49:46 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:49:56 INFO  DayLogger - End of Day: 1
+2024-06-06 19:49:56 ERROR DayLogger - Error during end of day processing: 
+java.lang.IllegalStateException: Not on FX application thread; currentThread = pool-3-thread-1
+	at javafx.graphics/com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:294) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.Parent$3.onProposedChange(Parent.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.base/com.sun.javafx.collections.VetoableListDecorator.add(VetoableListDecorator.java:209) ~[javafx-base-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.layout.GridPane.add(GridPane.java:988) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.handlePlantImageUpdateEvent(GardenUIController.java:169) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.lambda$initialize$3(GardenUIController.java:122) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.lambda$publish$1(EventBus.java:20) ~[classes/:?]
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.publish(EventBus.java:20) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.updatePlantImage(Plant.java:103) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.healPlant(Plant.java:72) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.DaySystem.endOfDayActions(DaySystem.java:50) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-06-06 19:50:06 INFO  DayLogger - End of Day: 1
+2024-06-06 19:50:06 ERROR DayLogger - Error during end of day processing: 
+java.lang.IllegalStateException: Not on FX application thread; currentThread = pool-3-thread-1
+	at javafx.graphics/com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:294) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.Parent$3.onProposedChange(Parent.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.base/com.sun.javafx.collections.VetoableListDecorator.add(VetoableListDecorator.java:209) ~[javafx-base-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.layout.GridPane.add(GridPane.java:988) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.handlePlantImageUpdateEvent(GardenUIController.java:169) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.lambda$initialize$3(GardenUIController.java:122) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.lambda$publish$1(EventBus.java:20) ~[classes/:?]
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.publish(EventBus.java:20) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.updatePlantImage(Plant.java:103) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.healPlant(Plant.java:72) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.DaySystem.endOfDayActions(DaySystem.java:50) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-06-06 19:50:16 INFO  DayLogger - End of Day: 1
+2024-06-06 19:50:16 ERROR DayLogger - Error during end of day processing: 
+java.lang.IllegalStateException: Not on FX application thread; currentThread = pool-3-thread-1
+	at javafx.graphics/com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:294) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.Parent$3.onProposedChange(Parent.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.base/com.sun.javafx.collections.VetoableListDecorator.add(VetoableListDecorator.java:209) ~[javafx-base-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.layout.GridPane.add(GridPane.java:988) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.handlePlantImageUpdateEvent(GardenUIController.java:169) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.lambda$initialize$3(GardenUIController.java:122) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.lambda$publish$1(EventBus.java:20) ~[classes/:?]
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.publish(EventBus.java:20) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.updatePlantImage(Plant.java:103) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.healPlant(Plant.java:72) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.DaySystem.endOfDayActions(DaySystem.java:50) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-06-06 19:50:26 INFO  DayLogger - End of Day: 1
+2024-06-06 19:50:26 ERROR DayLogger - Error during end of day processing: 
+java.lang.IllegalStateException: Not on FX application thread; currentThread = pool-3-thread-1
+	at javafx.graphics/com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:294) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.Parent$3.onProposedChange(Parent.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.base/com.sun.javafx.collections.VetoableListDecorator$VetoableIteratorDecorator.remove(VetoableListDecorator.java:717) ~[javafx-base-22-ea+11-mac-aarch64.jar:?]
+	at java.base/java.util.Collection.removeIf(Collection.java:582) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.handlePlantImageUpdateEvent(GardenUIController.java:152) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.lambda$initialize$3(GardenUIController.java:122) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.lambda$publish$1(EventBus.java:20) ~[classes/:?]
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.publish(EventBus.java:20) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.updatePlantImage(Plant.java:103) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.healPlant(Plant.java:72) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.DaySystem.endOfDayActions(DaySystem.java:50) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-06-06 19:50:36 INFO  DayLogger - End of Day: 1
+2024-06-06 19:50:36 ERROR DayLogger - Error during end of day processing: 
+java.lang.IllegalStateException: Not on FX application thread; currentThread = pool-3-thread-1
+	at javafx.graphics/com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:294) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.Parent$3.onProposedChange(Parent.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.base/com.sun.javafx.collections.VetoableListDecorator.add(VetoableListDecorator.java:209) ~[javafx-base-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.layout.GridPane.add(GridPane.java:988) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.handlePlantImageUpdateEvent(GardenUIController.java:169) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.lambda$initialize$3(GardenUIController.java:122) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.lambda$publish$1(EventBus.java:20) ~[classes/:?]
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.publish(EventBus.java:20) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.updatePlantImage(Plant.java:103) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.healPlant(Plant.java:72) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.DaySystem.endOfDayActions(DaySystem.java:50) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-06-06 19:50:46 INFO  DayLogger - End of Day: 1
+2024-06-06 19:50:46 ERROR DayLogger - Error during end of day processing: 
+java.lang.IllegalStateException: Not on FX application thread; currentThread = pool-3-thread-1
+	at javafx.graphics/com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:294) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.Parent$3.onProposedChange(Parent.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.base/com.sun.javafx.collections.VetoableListDecorator.add(VetoableListDecorator.java:209) ~[javafx-base-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.layout.GridPane.add(GridPane.java:988) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.handlePlantImageUpdateEvent(GardenUIController.java:169) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.lambda$initialize$3(GardenUIController.java:122) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.lambda$publish$1(EventBus.java:20) ~[classes/:?]
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.publish(EventBus.java:20) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.updatePlantImage(Plant.java:103) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.healPlant(Plant.java:72) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.DaySystem.endOfDayActions(DaySystem.java:50) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-06-06 19:50:56 INFO  DayLogger - End of Day: 1
+2024-06-06 19:50:56 ERROR DayLogger - Error during end of day processing: 
+java.lang.IllegalStateException: Not on FX application thread; currentThread = pool-3-thread-1
+	at javafx.graphics/com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:294) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.Parent$3.onProposedChange(Parent.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.base/com.sun.javafx.collections.VetoableListDecorator.add(VetoableListDecorator.java:209) ~[javafx-base-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.layout.GridPane.add(GridPane.java:988) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.handlePlantImageUpdateEvent(GardenUIController.java:169) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.lambda$initialize$3(GardenUIController.java:122) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.lambda$publish$1(EventBus.java:20) ~[classes/:?]
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.publish(EventBus.java:20) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.updatePlantImage(Plant.java:103) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.healPlant(Plant.java:72) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.DaySystem.endOfDayActions(DaySystem.java:50) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-06-06 19:51:06 INFO  DayLogger - End of Day: 1
+2024-06-06 19:51:06 ERROR DayLogger - Error during end of day processing: 
+java.lang.IllegalStateException: Not on FX application thread; currentThread = pool-3-thread-1
+	at javafx.graphics/com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:294) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.Parent$3.onProposedChange(Parent.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.base/com.sun.javafx.collections.VetoableListDecorator$VetoableIteratorDecorator.remove(VetoableListDecorator.java:717) ~[javafx-base-22-ea+11-mac-aarch64.jar:?]
+	at java.base/java.util.Collection.removeIf(Collection.java:582) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.handlePlantImageUpdateEvent(GardenUIController.java:152) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.lambda$initialize$3(GardenUIController.java:122) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.lambda$publish$1(EventBus.java:20) ~[classes/:?]
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.publish(EventBus.java:20) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.updatePlantImage(Plant.java:103) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.healPlant(Plant.java:72) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.DaySystem.endOfDayActions(DaySystem.java:50) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-06-06 19:51:16 INFO  DayLogger - End of Day: 1
+2024-06-06 19:51:16 ERROR DayLogger - Error during end of day processing: 
+java.lang.IllegalStateException: Not on FX application thread; currentThread = pool-3-thread-1
+	at javafx.graphics/com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:294) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.Parent$3.onProposedChange(Parent.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.base/com.sun.javafx.collections.VetoableListDecorator.add(VetoableListDecorator.java:209) ~[javafx-base-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.layout.GridPane.add(GridPane.java:988) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.handlePlantImageUpdateEvent(GardenUIController.java:169) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.lambda$initialize$3(GardenUIController.java:122) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.lambda$publish$1(EventBus.java:20) ~[classes/:?]
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.publish(EventBus.java:20) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.updatePlantImage(Plant.java:103) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.healPlant(Plant.java:72) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.DaySystem.endOfDayActions(DaySystem.java:50) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-06-06 19:51:26 INFO  DayLogger - End of Day: 1
+2024-06-06 19:51:26 ERROR DayLogger - Error during end of day processing: 
+java.lang.IllegalStateException: Not on FX application thread; currentThread = pool-3-thread-1
+	at javafx.graphics/com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:294) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.Parent$3.onProposedChange(Parent.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.base/com.sun.javafx.collections.VetoableListDecorator.add(VetoableListDecorator.java:209) ~[javafx-base-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.layout.GridPane.add(GridPane.java:988) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.handlePlantImageUpdateEvent(GardenUIController.java:169) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.lambda$initialize$3(GardenUIController.java:122) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.lambda$publish$1(EventBus.java:20) ~[classes/:?]
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.publish(EventBus.java:20) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.updatePlantImage(Plant.java:103) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.healPlant(Plant.java:72) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.DaySystem.endOfDayActions(DaySystem.java:50) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-06-06 19:51:36 INFO  DayLogger - End of Day: 1
+2024-06-06 19:51:36 ERROR DayLogger - Error during end of day processing: 
+java.lang.IllegalStateException: Not on FX application thread; currentThread = pool-3-thread-1
+	at javafx.graphics/com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:294) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.Parent$3.onProposedChange(Parent.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.base/com.sun.javafx.collections.VetoableListDecorator.add(VetoableListDecorator.java:209) ~[javafx-base-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.layout.GridPane.add(GridPane.java:988) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.handlePlantImageUpdateEvent(GardenUIController.java:169) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.lambda$initialize$3(GardenUIController.java:122) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.lambda$publish$1(EventBus.java:20) ~[classes/:?]
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.publish(EventBus.java:20) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.updatePlantImage(Plant.java:103) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.healPlant(Plant.java:72) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.DaySystem.endOfDayActions(DaySystem.java:50) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-06-06 19:51:46 INFO  DayLogger - End of Day: 1
+2024-06-06 19:51:46 ERROR DayLogger - Error during end of day processing: 
+java.lang.IllegalStateException: Not on FX application thread; currentThread = pool-3-thread-1
+	at javafx.graphics/com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:294) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.Parent$3.onProposedChange(Parent.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.base/com.sun.javafx.collections.VetoableListDecorator.add(VetoableListDecorator.java:209) ~[javafx-base-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.layout.GridPane.add(GridPane.java:988) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.handlePlantImageUpdateEvent(GardenUIController.java:169) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.lambda$initialize$3(GardenUIController.java:122) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.lambda$publish$1(EventBus.java:20) ~[classes/:?]
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.publish(EventBus.java:20) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.updatePlantImage(Plant.java:103) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.healPlant(Plant.java:72) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.DaySystem.endOfDayActions(DaySystem.java:50) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-06-06 19:51:56 INFO  DayLogger - End of Day: 1
+2024-06-06 19:51:56 ERROR DayLogger - Error during end of day processing: 
+java.lang.IllegalStateException: Not on FX application thread; currentThread = pool-3-thread-1
+	at javafx.graphics/com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:294) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.Parent$3.onProposedChange(Parent.java:475) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at javafx.base/com.sun.javafx.collections.VetoableListDecorator.add(VetoableListDecorator.java:209) ~[javafx-base-22-ea+11-mac-aarch64.jar:?]
+	at javafx.graphics/javafx.scene.layout.GridPane.add(GridPane.java:988) ~[javafx-graphics-22-ea+11-mac-aarch64.jar:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.handlePlantImageUpdateEvent(GardenUIController.java:169) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.GardenUIController.lambda$initialize$3(GardenUIController.java:122) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.lambda$publish$1(EventBus.java:20) ~[classes/:?]
+	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:891) ~[?:?]
+	at com.example.ooad_project/com.example.ooad_project.ThreadUtils.EventBus.publish(EventBus.java:20) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.updatePlantImage(Plant.java:103) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.Plant.Plant.healPlant(Plant.java:72) ~[classes/:?]
+	at com.example.ooad_project/com.example.ooad_project.DaySystem.endOfDayActions(DaySystem.java:50) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-06-06 19:52:17 INFO  DayLogger - Day System Initialized
+2024-06-06 19:52:17 INFO  DayLogger - End of Day: 0
+2024-06-06 19:52:17 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:52:27 INFO  DayLogger - End of Day: 1
+2024-06-06 19:52:27 INFO  DayLogger - Changed day to: 2
+2024-06-06 19:52:37 INFO  DayLogger - End of Day: 2
+2024-06-06 19:52:37 INFO  DayLogger - Changed day to: 3
+2024-06-06 19:52:47 INFO  DayLogger - End of Day: 3
+2024-06-06 19:52:47 INFO  DayLogger - Changed day to: 4
+2024-06-06 19:52:57 INFO  DayLogger - End of Day: 4
+2024-06-06 19:52:57 INFO  DayLogger - Changed day to: 5
+2024-06-06 19:55:05 INFO  DayLogger - Day System Initialized
+2024-06-06 19:55:05 INFO  DayLogger - End of Day: 0
+2024-06-06 19:55:05 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:55:20 INFO  DayLogger - Day System Initialized
+2024-06-06 19:55:20 INFO  DayLogger - End of Day: 0
+2024-06-06 19:55:20 INFO  DayLogger - Changed day to: 1
+2024-06-06 19:55:30 INFO  DayLogger - End of Day: 1
+2024-06-06 19:55:30 INFO  DayLogger - Changed day to: 2
+2024-06-06 19:55:40 INFO  DayLogger - End of Day: 2
+2024-06-06 19:55:40 INFO  DayLogger - Changed day to: 3
+2024-06-06 19:55:50 INFO  DayLogger - End of Day: 3
+2024-06-06 19:55:50 INFO  DayLogger - Changed day to: 4
+2024-06-06 21:14:10 INFO  DayLogger - Day System Initialized
+2024-06-06 21:14:10 INFO  DayLogger - End of Day: 0
+2024-06-06 21:14:10 INFO  DayLogger - Changed day to: 1
+2024-06-06 21:14:20 INFO  DayLogger - End of Day: 1
+2024-06-06 21:14:20 INFO  DayLogger - Changed day to: 2
+2024-06-06 21:14:30 INFO  DayLogger - End of Day: 2
+2024-06-06 21:14:30 INFO  DayLogger - Changed day to: 3
+2024-06-06 21:14:40 INFO  DayLogger - End of Day: 3
+2024-06-06 21:14:40 INFO  DayLogger - Changed day to: 4
+2024-06-06 21:14:50 INFO  DayLogger - End of Day: 4
+2024-06-06 21:14:50 INFO  DayLogger - Changed day to: 5
+2024-06-06 21:15:00 INFO  DayLogger - End of Day: 5
+2024-06-06 21:15:00 INFO  DayLogger - Changed day to: 6
+2024-06-06 21:20:18 INFO  DayLogger - Day System Initialized
+2024-06-06 21:20:18 INFO  DayLogger - End of Day: 0
+2024-06-06 21:20:18 INFO  DayLogger - Changed day to: 1
+2024-06-06 21:20:28 INFO  DayLogger - End of Day: 1
+2024-06-06 21:20:28 INFO  DayLogger - Changed day to: 2
+2024-06-06 21:20:38 INFO  DayLogger - End of Day: 2
+2024-06-06 21:20:38 INFO  DayLogger - Changed day to: 3
+2024-06-06 21:20:48 INFO  DayLogger - End of Day: 3
+2024-06-06 21:20:48 INFO  DayLogger - Changed day to: 4
+2024-06-06 21:20:58 INFO  DayLogger - End of Day: 4
+2024-06-06 21:20:58 INFO  DayLogger - Changed day to: 5
+2024-06-06 21:21:08 INFO  DayLogger - End of Day: 5
+2024-06-06 21:21:08 INFO  DayLogger - Changed day to: 6
+2024-06-06 21:21:18 INFO  DayLogger - End of Day: 6
+2024-06-06 21:21:18 INFO  DayLogger - Changed day to: 7
+2024-06-06 21:21:28 INFO  DayLogger - End of Day: 7
+2024-06-06 21:21:28 INFO  DayLogger - Changed day to: 8
+2024-06-06 21:21:38 INFO  DayLogger - End of Day: 8
+2024-06-06 21:21:38 INFO  DayLogger - Changed day to: 9
+2024-06-06 21:21:48 INFO  DayLogger - End of Day: 9
+2024-06-06 21:21:48 INFO  DayLogger - Changed day to: 10
+2024-06-06 21:21:58 INFO  DayLogger - End of Day: 10
+2024-06-06 21:21:58 INFO  DayLogger - Changed day to: 11

@@ -6,6 +6,7 @@ import com.example.ooad_project.ThreadUtils.EventBus;
 import com.example.ooad_project.Events.RainEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import com.example.ooad_project.Events.SprinklerEvent;
 
 import java.time.LocalDateTime;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -56,6 +57,13 @@ public class WateringSystem implements Runnable {
                 Plant plant = gardenGrid.getPlant(i, j);
                 if (plant != null) {
                     plant.addWater(event.getAmount());
+
+
+//                    Publish Event anytime rain adds water
+
+//                    EventBus.publish(new PlantWateredEvent(plant, event.getAmount()));
+
+
                     logger.info("Watered {} at position ({}, {}) with {} water from rain", plant.getName(), i, j, event.getAmount());
                 }
             }
@@ -79,6 +87,12 @@ public class WateringSystem implements Runnable {
                 if (plant != null && !plant.getIsWatered()) {
                     int waterNeeded = plant.getWaterRequirement() - plant.getCurrentWater();
                     if (waterNeeded > 0) {
+
+//                        Publish water needed later
+
+                        EventBus.publish("SprinklerEvent", new SprinklerEvent(plant.getRow(), plant.getCol(), waterNeeded));
+
+
                         plant.addWater(waterNeeded);
 //                        Want to specify that the water is from sprinklers
                         logger.info("Sprinkled {} at position ({}, {}) with {} water from sprinklers", plant.getName(), i, j, waterNeeded);
