@@ -98,7 +98,7 @@ public class WateringSystem implements Runnable {
         }
 
         logger.info("In total Sprinkled {} plants", counter);
-        gardenGrid.printAllPlantStats();
+//        gardenGrid.printAllPlantStats();
     }
 }
 

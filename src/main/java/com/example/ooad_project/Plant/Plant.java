@@ -118,6 +118,15 @@ public abstract class Plant {
         }
     }
 
+    public String getGrowthStageDescription() {
+        if (this.getCurrentHealth() < this.getHealthMedium()) {
+            return "Small";
+        } else if (this.getCurrentHealth() < this.getHealthFull()) {
+            return "Medium";
+        } else {
+            return "Full";
+        }
+    }
 
     // Standard getters and setters
 

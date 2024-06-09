@@ -49,6 +49,19 @@ public class GardenGrid {
     }
 
 
+    public synchronized ArrayList<Plant> getPlants() {
+        ArrayList<Plant> plants = new ArrayList<>();
+        for (int i = 0; i < plantGrid.length; i++) {
+            for (int j = 0; j < plantGrid[i].length; j++) {
+                if (plantGrid[i][j] != null) {
+                    plants.add(plantGrid[i][j]);
+                }
+            }
+        }
+        return plants;
+    }
+
+
     public synchronized void addPlant(Plant plant, int row, int col) {
         if (plantGrid[row][col] == null) {
             plantGrid[row][col] = plant;
