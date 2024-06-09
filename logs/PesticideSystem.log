@@ -9082,3 +9082,109 @@
 2024-06-08 17:45:40 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 3) healed by 6 points, new health: 36
 2024-06-08 17:45:40 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) health stage changed to 1, updated image to mediumCarrot.png
 2024-06-08 17:45:40 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 6 points, new health: 44
+2024-06-08 17:50:28 INFO  PesticideSystemLogger - Pesticide System Initialized
+2024-06-08 17:50:52 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (0, 1) but missed.
+2024-06-08 17:50:52 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 1)
+2024-06-08 17:50:52 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 1) healed by 2 points, new health: 22
+2024-06-08 17:50:52 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 2). Old health: 20. New health: 16
+2024-06-08 17:50:52 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 2)
+2024-06-08 17:50:52 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 2) healed by 2 points, new health: 18
+2024-06-08 17:50:52 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 4). Old health: 20. New health: 16
+2024-06-08 17:50:52 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 4)
+2024-06-08 17:50:52 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 2 points, new health: 18
+2024-06-08 17:50:52 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 6). Old health: 20. New health: 16
+2024-06-08 17:50:52 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 6)
+2024-06-08 17:50:52 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 6) healed by 2 points, new health: 18
+2024-06-08 17:50:58 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 1) healed by 6 points, new health: 28
+2024-06-08 17:50:58 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 2) healed by 6 points, new health: 24
+2024-06-08 17:50:58 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 24
+2024-06-08 17:50:58 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 6) healed by 6 points, new health: 24
+2024-06-08 17:51:28 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 1) healed by 6 points, new health: 34
+2024-06-08 17:51:28 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 2) healed by 6 points, new health: 30
+2024-06-08 17:51:28 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 30
+2024-06-08 17:51:28 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 6) healed by 6 points, new health: 30
+2024-06-08 17:58:15 INFO  PesticideSystemLogger - Pesticide System Initialized
+2024-06-08 17:58:40 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (2, 7) but missed.
+2024-06-08 17:58:40 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 7)
+2024-06-08 17:58:40 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 2 points, new health: 22
+2024-06-08 17:58:40 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 2). Old health: 20. New health: 16
+2024-06-08 17:58:40 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 2)
+2024-06-08 17:58:40 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 2 points, new health: 18
+2024-06-08 17:58:40 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 7). Old health: 20. New health: 16
+2024-06-08 17:58:40 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 7)
+2024-06-08 17:58:40 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 2 points, new health: 18
+2024-06-08 17:58:45 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 6 points, new health: 28
+2024-06-08 17:58:45 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 6 points, new health: 24
+2024-06-08 17:58:45 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 6 points, new health: 24
+2024-06-08 17:58:52 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 7). Old health: 28. New health: 24
+2024-06-08 17:58:52 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 7)
+2024-06-08 17:58:52 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 2 points, new health: 26
+2024-06-08 17:58:52 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 2). Old health: 24. New health: 20
+2024-06-08 17:58:52 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 2)
+2024-06-08 17:58:52 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 2 points, new health: 22
+2024-06-08 17:58:52 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 7). Old health: 24. New health: 20
+2024-06-08 17:58:52 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 7)
+2024-06-08 17:58:52 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 2 points, new health: 22
+2024-06-08 17:58:58 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (2, 7). Old health: 26. New health: 18
+2024-06-08 17:58:58 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (2, 7)
+2024-06-08 17:58:58 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 4 points, new health: 22
+2024-06-08 17:58:58 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (4, 2). Old health: 22. New health: 14
+2024-06-08 17:58:58 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 2)
+2024-06-08 17:58:58 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 4 points, new health: 18
+2024-06-08 17:58:58 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 7). Old health: 22. New health: 14
+2024-06-08 17:58:58 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 7)
+2024-06-08 17:58:58 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 4 points, new health: 18
+2024-06-08 17:59:10 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 7). Old health: 22. New health: 18
+2024-06-08 17:59:10 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 7)
+2024-06-08 17:59:10 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 2 points, new health: 20
+2024-06-08 17:59:10 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 2). Old health: 18. New health: 14
+2024-06-08 17:59:10 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 2)
+2024-06-08 17:59:10 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 2 points, new health: 16
+2024-06-08 17:59:10 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 7). Old health: 18. New health: 14
+2024-06-08 17:59:10 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 7)
+2024-06-08 17:59:10 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 2 points, new health: 16
+2024-06-08 17:59:15 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 6 points, new health: 26
+2024-06-08 17:59:15 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 6 points, new health: 22
+2024-06-08 17:59:15 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 6 points, new health: 22
+2024-06-08 17:59:22 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (2, 7). Old health: 26. New health: 18
+2024-06-08 17:59:22 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (2, 7)
+2024-06-08 17:59:22 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 4 points, new health: 22
+2024-06-08 17:59:22 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (4, 2). Old health: 22. New health: 14
+2024-06-08 17:59:22 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 2)
+2024-06-08 17:59:22 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 4 points, new health: 18
+2024-06-08 17:59:22 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 7). Old health: 22. New health: 14
+2024-06-08 17:59:22 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 7)
+2024-06-08 17:59:22 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 4 points, new health: 18
+2024-06-08 17:59:45 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 6 points, new health: 28
+2024-06-08 17:59:45 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 6 points, new health: 24
+2024-06-08 17:59:45 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 6 points, new health: 24
+2024-06-08 17:59:58 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (2, 7). Old health: 28. New health: 20
+2024-06-08 17:59:58 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (2, 7)
+2024-06-08 17:59:58 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 4 points, new health: 24
+2024-06-08 17:59:58 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (4, 2). Old health: 24. New health: 16
+2024-06-08 17:59:58 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 2)
+2024-06-08 17:59:58 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 4 points, new health: 20
+2024-06-08 17:59:58 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 7). Old health: 24. New health: 16
+2024-06-08 17:59:58 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 7)
+2024-06-08 17:59:58 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 4 points, new health: 20
+2024-06-08 18:00:15 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 6 points, new health: 30
+2024-06-08 18:00:15 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 6 points, new health: 26
+2024-06-08 18:00:15 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 6 points, new health: 26
+2024-06-08 18:00:16 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 7). Old health: 30. New health: 26
+2024-06-08 18:00:16 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 7)
+2024-06-08 18:00:16 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 2 points, new health: 28
+2024-06-08 18:00:16 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 2). Old health: 26. New health: 22
+2024-06-08 18:00:16 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 2)
+2024-06-08 18:00:16 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 2 points, new health: 24
+2024-06-08 18:00:16 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 7). Old health: 26. New health: 22
+2024-06-08 18:00:16 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 7)
+2024-06-08 18:00:16 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 2 points, new health: 24
+2024-06-08 18:00:28 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 7). Old health: 28. New health: 24
+2024-06-08 18:00:28 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 7)
+2024-06-08 18:00:28 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 2 points, new health: 26
+2024-06-08 18:00:28 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 2). Old health: 24. New health: 20
+2024-06-08 18:00:28 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 2)
+2024-06-08 18:00:28 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 2 points, new health: 22
+2024-06-08 18:00:28 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 7). Old health: 24. New health: 20
+2024-06-08 18:00:28 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 7)
+2024-06-08 18:00:28 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 2 points, new health: 22

@@ -21,18 +21,6 @@ public class WateringSystem implements Runnable {
     public void run() {
         while (true) {
             try {
-
-                // Handle scheduled sprinkling every hour at the 59th minute
-//                if (LocalDateTime.now().getMinute() == 59) {
-//                    logger.info("Scheduled sprinkling at {}", LocalDateTime.now());
-//                    sprinkle();
-//                }
-
-                if (LocalDateTime.now().getSecond() == 29) {
-                    logger.info("Scheduled sprinkling at {}", LocalDateTime.now());
-                    sprinkle();
-                }
-
                 Thread.sleep(1000); // Check every second
             } catch (InterruptedException e) {
                 logger.error("Watering System interrupted");
@@ -46,7 +34,7 @@ public class WateringSystem implements Runnable {
 //        So our watering system is subscribed to the RainEvent
 //        When a rain event is published, the watering system will handle it
         EventBus.subscribe("RainEvent", event -> handleRain((RainEvent) event));
-
+        EventBus.subscribe("SprinklerActivationEvent", event -> sprinkle());
 //        Get the garden grid instance
 //        This is the grid that holds all the plants
         this.gardenGrid = GardenGrid.getInstance();

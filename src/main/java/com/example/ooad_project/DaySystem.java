@@ -44,6 +44,7 @@ public class DaySystem {
         try {
             logger.info("End of Day: {}", currentDay);
 
+            EventBus.publish("SprinklerActivationEvent", null);
 
 //            Reset the watered status of all plants
 //            Heal all plants by 10
