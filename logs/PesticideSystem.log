@@ -9188,3 +9188,1069 @@
 2024-06-08 18:00:28 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 7). Old health: 24. New health: 20
 2024-06-08 18:00:28 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 7)
 2024-06-08 18:00:28 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 2 points, new health: 22
+2024-06-08 18:00:45 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 6 points, new health: 32
+2024-06-08 18:00:45 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 6 points, new health: 28
+2024-06-08 18:00:45 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 6 points, new health: 28
+2024-06-08 18:00:52 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (2, 7). Old health: 32. New health: 24
+2024-06-08 18:00:52 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (2, 7)
+2024-06-08 18:00:52 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 7) healed by 4 points, new health: 28
+2024-06-08 18:00:52 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (4, 2). Old health: 28. New health: 20
+2024-06-08 18:00:52 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 2)
+2024-06-08 18:00:52 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 2) healed by 4 points, new health: 24
+2024-06-08 18:00:52 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 7). Old health: 28. New health: 20
+2024-06-08 18:00:52 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 7)
+2024-06-08 18:00:52 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 7) healed by 4 points, new health: 24
+2024-06-08 18:01:24 INFO  PesticideSystemLogger - Pesticide System Initialized
+2024-06-08 18:01:30 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (0, 3). Old health: 20. New health: 16
+2024-06-08 18:01:30 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-08 18:01:30 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 2 points, new health: 18
+2024-06-08 18:01:48 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (0, 3) but missed.
+2024-06-08 18:01:48 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:01:48 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 22
+2024-06-08 18:01:48 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (1, 4). Old health: 20. New health: 12
+2024-06-08 18:01:48 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:01:48 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 16
+2024-06-08 18:01:48 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (4, 6). Old health: 20. New health: 12
+2024-06-08 18:01:48 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:01:48 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 16
+2024-06-08 18:01:48 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (5, 0) but missed.
+2024-06-08 18:01:48 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:01:48 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 24
+2024-06-08 18:01:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 6 points, new health: 28
+2024-06-08 18:01:54 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 22
+2024-06-08 18:01:54 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 6 points, new health: 22
+2024-06-08 18:01:54 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 6 points, new health: 30
+2024-06-08 18:02:00 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (0, 3). Old health: 28. New health: 24
+2024-06-08 18:02:00 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-08 18:02:00 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 2 points, new health: 26
+2024-06-08 18:02:00 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 4). Old health: 22. New health: 18
+2024-06-08 18:02:00 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 4)
+2024-06-08 18:02:00 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 2 points, new health: 20
+2024-06-08 18:02:00 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 6). Old health: 22. New health: 18
+2024-06-08 18:02:00 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 6)
+2024-06-08 18:02:00 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 2 points, new health: 20
+2024-06-08 18:02:00 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 0). Old health: 30. New health: 26
+2024-06-08 18:02:00 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 0)
+2024-06-08 18:02:00 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 2 points, new health: 28
+2024-06-08 18:02:06 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (0, 3) but missed.
+2024-06-08 18:02:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-08 18:02:06 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 2 points, new health: 28
+2024-06-08 18:02:06 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (1, 4) but missed.
+2024-06-08 18:02:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 4)
+2024-06-08 18:02:06 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 2 points, new health: 22
+2024-06-08 18:02:06 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 6). Old health: 20. New health: 16
+2024-06-08 18:02:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 6)
+2024-06-08 18:02:06 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 2 points, new health: 18
+2024-06-08 18:02:06 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 0). Old health: 28. New health: 24
+2024-06-08 18:02:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 0)
+2024-06-08 18:02:06 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 2 points, new health: 26
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (0, 3) but missed.
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 32
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (1, 4). Old health: 22. New health: 14
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 18
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (4, 6) but missed.
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 22
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 0). Old health: 26. New health: 18
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 22
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Slug attempted to damage the plant Lettuce at position (5, 3) but missed.
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:02:18 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 14
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 6 points, new health: 38
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 24
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 6 points, new health: 26
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 6 points, new health: 26
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 6 points, new health: 41
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 6 points, new health: 56
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 6 points, new health: 28
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 6 points, new health: 56
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 6 points, new health: 28
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 6 points, new health: 20
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Jasmine at position (2, 1) but missed.
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (2, 1)
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 2 points, new health: 28
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (3, 4). Old health: 26. New health: 22
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (3, 4)
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 2 points, new health: 24
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (3, 6). Old health: 41. New health: 37
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (3, 6)
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 2 points, new health: 39
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (4, 3). Old health: 56. New health: 52
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (4, 3)
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 2 points, new health: 54
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (4, 7). Old health: 56. New health: 52
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (4, 7)
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 2 points, new health: 54
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (5, 3). Old health: 20. New health: 16
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (5, 3)
+2024-06-08 18:02:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 18
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (0, 3). Old health: 38. New health: 34
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 2 points, new health: 36
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 4). Old health: 24. New health: 20
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 4)
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 2 points, new health: 22
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (4, 6) but missed.
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 6)
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 2 points, new health: 30
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 0). Old health: 28. New health: 24
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 0)
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 2 points, new health: 26
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (5, 3). Old health: 18. New health: 14
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (5, 3)
+2024-06-08 18:02:36 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 16
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) health stage changed to 1, updated image to mediumCarrot.png
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 6 points, new health: 42
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 6 points, new health: 26
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 28
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 6 points, new health: 34
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 6 points, new health: 30
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 6 points, new health: 45
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 6 points, new health: 60
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 6 points, new health: 36
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 6 points, new health: 60
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 6 points, new health: 32
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 6 points, new health: 22
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) updated to new health stage: 0, image updated to smallCarrot.png
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (0, 3). Old health: 42. New health: 38
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) health stage changed to 1, updated image to mediumCarrot.png
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 2 points, new health: 40
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 4). Old health: 28. New health: 24
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 4)
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 2 points, new health: 26
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 6). Old health: 36. New health: 32
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 6)
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 2 points, new health: 34
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 0). Old health: 32. New health: 28
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 0)
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 2 points, new health: 30
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (5, 3). Old health: 22. New health: 18
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (5, 3)
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:02:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 20
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) updated to new health stage: 0, image updated to smallCarrot.png
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (0, 3). Old health: 40. New health: 32
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 36
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (1, 4). Old health: 26. New health: 18
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 22
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (4, 6) but missed.
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 38
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 0). Old health: 30. New health: 22
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 26
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Slug attempted to damage the plant Lettuce at position (5, 3) but missed.
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:03:00 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 24
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (0, 3). Old health: 36. New health: 32
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 2 points, new health: 34
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 4). Old health: 22. New health: 18
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 4)
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 2 points, new health: 20
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 6). Old health: 38. New health: 34
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 6)
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 2 points, new health: 36
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 0). Old health: 26. New health: 22
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 0)
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 2 points, new health: 24
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (5, 3). Old health: 24. New health: 20
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (5, 3)
+2024-06-08 18:03:06 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 22
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (0, 3). Old health: 34. New health: 26
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 30
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (1, 4). Old health: 20. New health: 12
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 16
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (4, 6) but missed.
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) health stage changed to 1, updated image to mediumCarrot.png
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 40
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 0). Old health: 24. New health: 16
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 20
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (5, 3). Old health: 22. New health: 14
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:03:18 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 18
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 6 points, new health: 36
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 6 points, new health: 32
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 22
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) health stage changed to 1, updated image to mediumJasmine.png
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 6 points, new health: 40
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 6 points, new health: 36
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 6 points, new health: 51
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 6 points, new health: 66
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 6 points, new health: 46
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 6 points, new health: 66
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 6 points, new health: 26
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 6 points, new health: 24
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (1, 2). Old health: 32. New health: 28
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (1, 2)
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 2 points, new health: 30
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) updated to new health stage: 0, image updated to smallJasmine.png
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (2, 1). Old health: 40. New health: 36
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (2, 1)
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 2 points, new health: 38
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (3, 4). Old health: 36. New health: 32
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (3, 4)
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 2 points, new health: 34
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (3, 6). Old health: 51. New health: 47
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (3, 6)
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 2 points, new health: 49
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (4, 3). Old health: 66. New health: 62
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (4, 3)
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 2 points, new health: 64
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (4, 7). Old health: 66. New health: 62
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (4, 7)
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 2 points, new health: 64
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (5, 3). Old health: 24. New health: 20
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (5, 3)
+2024-06-08 18:03:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 22
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (0, 3). Old health: 36. New health: 28
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 32
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (1, 4). Old health: 22. New health: 14
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 18
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) updated to new health stage: 0, image updated to smallCarrot.png
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (4, 6). Old health: 46. New health: 38
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) health stage changed to 1, updated image to mediumCarrot.png
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 42
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 0). Old health: 26. New health: 18
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 22
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (5, 3). Old health: 22. New health: 14
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:03:36 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 18
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 6 points, new health: 38
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 6 points, new health: 36
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 24
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) health stage changed to 1, updated image to mediumJasmine.png
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 6 points, new health: 44
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 6 points, new health: 36
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) health stage changed to 1, updated image to mediumJasmine.png
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 6 points, new health: 40
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 6 points, new health: 55
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 6 points, new health: 70
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 6 points, new health: 48
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 6 points, new health: 70
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 6 points, new health: 28
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:03:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 6 points, new health: 24
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (0, 3). Old health: 38. New health: 34
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 2 points, new health: 36
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 4). Old health: 24. New health: 20
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 4)
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 2 points, new health: 22
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (3, 3). Old health: 10. New health: 6
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (3, 3)
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 2 points, new health: 8
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 6). Old health: 48. New health: 44
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 6)
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 2 points, new health: 46
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 0). Old health: 28. New health: 24
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 0)
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 2 points, new health: 26
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Rat attempted to damage the plant Lettuce at position (5, 3) but missed.
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (5, 3)
+2024-06-08 18:04:00 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 26
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (0, 2). Old health: 50. New health: 46
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (0, 2)
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 2 points, new health: 48
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Rose at position (0, 7) but missed.
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (0, 7)
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 2 points, new health: 37
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (1, 2). Old health: 36. New health: 32
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (1, 2)
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 2 points, new health: 34
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (2, 1). Old health: 44. New health: 40
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (2, 1)
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 2 points, new health: 42
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (2, 2). Old health: 50. New health: 46
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (2, 2)
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 2 points, new health: 48
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (3, 0). Old health: 36. New health: 32
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (3, 0)
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 2 points, new health: 34
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (3, 3). Old health: 8. New health: 4
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (3, 3)
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 2 points, new health: 6
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) updated to new health stage: 0, image updated to smallJasmine.png
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (3, 4). Old health: 40. New health: 36
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (3, 4)
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 2 points, new health: 38
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (3, 6). Old health: 55. New health: 51
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (3, 6)
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 2 points, new health: 53
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Maple at position (4, 3) but missed.
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (4, 3)
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 2 points, new health: 72
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (4, 7). Old health: 70. New health: 66
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (4, 7)
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 2 points, new health: 68
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (5, 2). Old health: 50. New health: 46
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (5, 2)
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 2 points, new health: 48
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (5, 3). Old health: 26. New health: 22
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (5, 3)
+2024-06-08 18:04:12 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 24
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (0, 3) but missed.
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) health stage changed to 1, updated image to mediumCarrot.png
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 40
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (1, 4). Old health: 22. New health: 14
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 18
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (3, 3). Old health: 6. New health: 0
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (3, 3)
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 4 points, new health: 4
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (4, 6) but missed.
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 50
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 0). Old health: 26. New health: 18
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 22
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Slug attempted to damage the plant Lettuce at position (5, 3) but missed.
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:04:18 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 28
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 6 points, new health: 54
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 6 points, new health: 46
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 6 points, new health: 43
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) health stage changed to 1, updated image to mediumJasmine.png
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 6 points, new health: 40
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 24
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 6 points, new health: 48
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 6 points, new health: 54
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 6 points, new health: 40
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 6 points, new health: 10
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) health stage changed to 1, updated image to mediumJasmine.png
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 6 points, new health: 44
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 6 points, new health: 59
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) healed by 6 points, new health: 31
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 6 points, new health: 78
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 6 points, new health: 56
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 6 points, new health: 74
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 6 points, new health: 28
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 6 points, new health: 54
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) health stage changed to 2, updated image to largeLettuce.png
+2024-06-08 18:04:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 6 points, new health: 30
+2024-06-08 18:04:30 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (4, 1). Old health: 31. New health: 23
+2024-06-08 18:04:30 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (4, 1)
+2024-06-08 18:04:30 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) healed by 4 points, new health: 27
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) updated to new health stage: 0, image updated to smallCarrot.png
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (0, 3). Old health: 46. New health: 38
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) health stage changed to 1, updated image to mediumCarrot.png
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 42
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (1, 4). Old health: 24. New health: 16
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 20
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Slug attempted to damage the plant Lettuce at position (3, 3) but missed.
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (3, 3)
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 4 points, new health: 14
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (4, 6). Old health: 56. New health: 48
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 52
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 0). Old health: 28. New health: 20
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 24
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) updated to new health stage: 1, image updated to mediumLettuce.png
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (5, 3). Old health: 30. New health: 22
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:04:36 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 26
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 6 points, new health: 60
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 6 points, new health: 48
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 6 points, new health: 49
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 6 points, new health: 46
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 26
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 6 points, new health: 54
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 6 points, new health: 60
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 6 points, new health: 46
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 6 points, new health: 20
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 6 points, new health: 50
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 6 points, new health: 65
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) healed by 6 points, new health: 33
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 6 points, new health: 84
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 6 points, new health: 58
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 6 points, new health: 80
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 6 points, new health: 30
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 6 points, new health: 60
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) health stage changed to 2, updated image to largeLettuce.png
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 6 points, new health: 30
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (0, 2). Old health: 60. New health: 56
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (0, 2)
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 2 points, new health: 58
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (0, 7). Old health: 49. New health: 45
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (0, 7)
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 2 points, new health: 47
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (1, 2). Old health: 46. New health: 42
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (1, 2)
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 2 points, new health: 44
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (2, 1). Old health: 54. New health: 50
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (2, 1)
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 2 points, new health: 52
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (2, 2). Old health: 60. New health: 56
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (2, 2)
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 2 points, new health: 58
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (3, 0). Old health: 46. New health: 42
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (3, 0)
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 2 points, new health: 44
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (3, 3). Old health: 20. New health: 16
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (3, 3)
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 2 points, new health: 18
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (3, 4). Old health: 50. New health: 46
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (3, 4)
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 2 points, new health: 48
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (3, 6). Old health: 65. New health: 61
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (3, 6)
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 2 points, new health: 63
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Maple at position (4, 3) but missed.
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (4, 3)
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 2 points, new health: 86
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (4, 7). Old health: 80. New health: 76
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (4, 7)
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 2 points, new health: 78
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Maple at position (5, 2) but missed.
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (5, 2)
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 2 points, new health: 62
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) updated to new health stage: 1, image updated to mediumLettuce.png
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (5, 3). Old health: 30. New health: 26
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (5, 3)
+2024-06-08 18:04:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 28
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (0, 3) but missed.
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 52
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (1, 4) but missed.
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 30
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (3, 3). Old health: 18. New health: 10
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (3, 3)
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 4 points, new health: 14
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (4, 6). Old health: 58. New health: 50
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 54
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 0). Old health: 30. New health: 22
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 26
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (5, 3). Old health: 28. New health: 20
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:05:00 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 24
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (0, 3) but missed.
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 56
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (1, 4). Old health: 30. New health: 22
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 26
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (3, 3). Old health: 14. New health: 6
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (3, 3)
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 4 points, new health: 10
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (4, 6) but missed.
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 58
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 0). Old health: 26. New health: 18
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 22
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Slug attempted to damage the plant Lettuce at position (5, 3) but missed.
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:05:06 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 28
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (0, 3) but missed.
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) health stage changed to 2, updated image to largeCarrot.png
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 60
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (1, 4). Old health: 26. New health: 18
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 22
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Slug attempted to damage the plant Lettuce at position (3, 3) but missed.
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (3, 3)
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 4 points, new health: 14
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (4, 6) but missed.
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) health stage changed to 2, updated image to largeCarrot.png
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 60
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 0). Old health: 22. New health: 14
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 18
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Slug attempted to damage the plant Lettuce at position (5, 3) but missed.
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) health stage changed to 2, updated image to largeLettuce.png
+2024-06-08 18:05:18 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 30
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 6 points, new health: 64
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 6 points, new health: 60
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 6 points, new health: 53
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 6 points, new health: 50
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 28
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 6 points, new health: 58
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 6 points, new health: 64
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 6 points, new health: 50
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 6 points, new health: 20
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 6 points, new health: 54
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 6 points, new health: 69
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) healed by 6 points, new health: 39
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 6 points, new health: 92
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 6 points, new health: 60
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 6 points, new health: 84
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 6 points, new health: 24
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 6 points, new health: 68
+2024-06-08 18:05:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 6 points, new health: 30
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) updated to new health stage: 1, image updated to mediumCarrot.png
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (0, 3). Old health: 60. New health: 52
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 56
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (1, 4). Old health: 28. New health: 20
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 24
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (3, 3). Old health: 20. New health: 12
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (3, 3)
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 4 points, new health: 16
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (4, 6) but missed.
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 60
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 0). Old health: 24. New health: 16
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 20
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Slug attempted to damage the plant Lettuce at position (5, 3) but missed.
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:05:42 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 30
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (0, 3). Old health: 56. New health: 52
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 2 points, new health: 54
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (1, 4) but missed.
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 4)
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 2 points, new health: 26
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (3, 3). Old health: 16. New health: 12
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (3, 3)
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 2 points, new health: 14
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) updated to new health stage: 1, image updated to mediumCarrot.png
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 6). Old health: 60. New health: 56
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 6)
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 2 points, new health: 58
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (5, 0) but missed.
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 0)
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 2 points, new health: 22
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) updated to new health stage: 1, image updated to mediumLettuce.png
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (5, 3). Old health: 30. New health: 26
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (5, 3)
+2024-06-08 18:05:48 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 28
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 6 points, new health: 70
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) health stage changed to 2, updated image to largeCarrot.png
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 6 points, new health: 60
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 6 points, new health: 59
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 6 points, new health: 56
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 32
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) health stage changed to 2, updated image to largeJasmine.png
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 6 points, new health: 60
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 6 points, new health: 70
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 6 points, new health: 56
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 6 points, new health: 20
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) health stage changed to 2, updated image to largeJasmine.png
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 6 points, new health: 60
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) health stage changed to 1, updated image to mediumRose.png
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 6 points, new health: 75
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) healed by 6 points, new health: 45
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 6 points, new health: 98
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) health stage changed to 2, updated image to largeCarrot.png
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 6 points, new health: 60
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 6 points, new health: 90
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 6 points, new health: 28
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 6 points, new health: 74
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) health stage changed to 2, updated image to largeLettuce.png
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 6 points, new health: 30
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (0, 3) but missed.
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 60
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (1, 4) but missed.
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 36
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (3, 3). Old health: 20. New health: 12
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (3, 3)
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 4 points, new health: 16
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) updated to new health stage: 1, image updated to mediumCarrot.png
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (4, 6). Old health: 60. New health: 52
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 56
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 0). Old health: 28. New health: 20
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 24
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) updated to new health stage: 1, image updated to mediumLettuce.png
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (5, 3). Old health: 30. New health: 22
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:05:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 26
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (0, 2). Old health: 70. New health: 66
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (0, 2)
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 2 points, new health: 68
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (0, 7). Old health: 59. New health: 55
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (0, 7)
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 2 points, new health: 57
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (1, 2). Old health: 56. New health: 52
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (1, 2)
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 2 points, new health: 54
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) updated to new health stage: 1, image updated to mediumJasmine.png
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (2, 1). Old health: 60. New health: 56
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (2, 1)
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 2 points, new health: 58
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (2, 2). Old health: 70. New health: 66
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (2, 2)
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 2 points, new health: 68
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (3, 0). Old health: 56. New health: 52
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (3, 0)
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 2 points, new health: 54
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Lettuce at position (3, 3) but missed.
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (3, 3)
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 2 points, new health: 18
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) updated to new health stage: 1, image updated to mediumJasmine.png
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (3, 4). Old health: 60. New health: 56
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (3, 4)
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 2 points, new health: 58
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (3, 6). Old health: 75. New health: 71
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (3, 6)
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 2 points, new health: 73
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (4, 3). Old health: 98. New health: 94
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (4, 3)
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 2 points, new health: 96
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (4, 7). Old health: 90. New health: 86
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (4, 7)
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 2 points, new health: 88
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (5, 2). Old health: 74. New health: 70
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (5, 2)
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 2 points, new health: 72
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (5, 3). Old health: 26. New health: 22
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (5, 3)
+2024-06-08 18:06:00 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 24
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (0, 2). Old health: 68. New health: 64
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (0, 2)
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 2 points, new health: 66
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (0, 7). Old health: 57. New health: 53
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (0, 7)
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 2 points, new health: 55
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (1, 2). Old health: 54. New health: 50
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (1, 2)
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 2 points, new health: 52
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (2, 1). Old health: 58. New health: 54
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (2, 1)
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 2 points, new health: 56
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (2, 2). Old health: 68. New health: 64
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (2, 2)
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 2 points, new health: 66
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (3, 0). Old health: 54. New health: 50
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (3, 0)
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 2 points, new health: 52
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (3, 3). Old health: 18. New health: 14
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (3, 3)
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 2 points, new health: 16
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (3, 4). Old health: 58. New health: 54
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (3, 4)
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 2 points, new health: 56
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) updated to new health stage: 0, image updated to smallRose.png
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (3, 6). Old health: 73. New health: 69
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (3, 6)
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) health stage changed to 1, updated image to mediumRose.png
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 2 points, new health: 71
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (4, 3). Old health: 96. New health: 92
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (4, 3)
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 2 points, new health: 94
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (4, 7). Old health: 88. New health: 84
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (4, 7)
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 2 points, new health: 86
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (5, 2). Old health: 72. New health: 68
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (5, 2)
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 2 points, new health: 70
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (5, 3). Old health: 24. New health: 20
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (5, 3)
+2024-06-08 18:06:12 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 22
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 6 points, new health: 72
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 6 points, new health: 60
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 6 points, new health: 61
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 6 points, new health: 58
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) health stage changed to 1, updated image to mediumCarrot.png
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 42
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) health stage changed to 2, updated image to largeJasmine.png
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 6 points, new health: 60
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 6 points, new health: 72
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 6 points, new health: 58
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 6 points, new health: 22
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) health stage changed to 2, updated image to largeJasmine.png
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 6 points, new health: 60
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 6 points, new health: 77
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) health stage changed to 1, updated image to mediumSunflower.png
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) healed by 6 points, new health: 51
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) health stage changed to 1, updated image to mediumTree.png
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 6 points, new health: 100
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) health stage changed to 2, updated image to largeCarrot.png
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 6 points, new health: 60
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 6 points, new health: 92
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 6 points, new health: 30
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 6 points, new health: 76
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 6 points, new health: 28
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) updated to new health stage: 1, image updated to mediumCarrot.png
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (0, 3). Old health: 60. New health: 56
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 2 points, new health: 58
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (1, 4) but missed.
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 4)
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 2 points, new health: 44
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (3, 3). Old health: 22. New health: 18
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (3, 3)
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 2 points, new health: 20
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) updated to new health stage: 1, image updated to mediumCarrot.png
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 6). Old health: 60. New health: 56
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 6)
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 2 points, new health: 58
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 0). Old health: 30. New health: 26
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 0)
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 2 points, new health: 28
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Rat attempted to damage the plant Lettuce at position (5, 3) but missed.
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (5, 3)
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) health stage changed to 2, updated image to largeLettuce.png
+2024-06-08 18:06:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 30
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (0, 2). Old health: 72. New health: 68
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (0, 2)
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 2 points, new health: 70
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (0, 7). Old health: 61. New health: 57
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (0, 7)
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 2 points, new health: 59
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (1, 2). Old health: 58. New health: 54
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (1, 2)
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 2 points, new health: 56
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) updated to new health stage: 1, image updated to mediumJasmine.png
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (2, 1). Old health: 60. New health: 56
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (2, 1)
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 2 points, new health: 58
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (2, 2). Old health: 72. New health: 68
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (2, 2)
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 2 points, new health: 70
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (3, 0). Old health: 58. New health: 54
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (3, 0)
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 2 points, new health: 56
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Lettuce at position (3, 3) but missed.
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (3, 3)
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 2 points, new health: 22
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) updated to new health stage: 1, image updated to mediumJasmine.png
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (3, 4). Old health: 60. New health: 56
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (3, 4)
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 2 points, new health: 58
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (3, 6). Old health: 77. New health: 73
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (3, 6)
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 2 points, new health: 75
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) updated to new health stage: 0, image updated to smallTree.png
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (4, 3). Old health: 100. New health: 96
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (4, 3)
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 2 points, new health: 98
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (4, 7). Old health: 92. New health: 88
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (4, 7)
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 2 points, new health: 90
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (5, 2). Old health: 76. New health: 72
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (5, 2)
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 2 points, new health: 74
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) updated to new health stage: 1, image updated to mediumLettuce.png
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (5, 3). Old health: 30. New health: 26
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (5, 3)
+2024-06-08 18:06:30 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 28
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Maple at position (0, 2) but missed.
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (0, 2)
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 2 points, new health: 72
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (0, 7). Old health: 59. New health: 55
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (0, 7)
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 2 points, new health: 57
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (1, 2). Old health: 56. New health: 52
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (1, 2)
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 2 points, new health: 54
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (2, 1). Old health: 58. New health: 54
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (2, 1)
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 2 points, new health: 56
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (2, 2). Old health: 70. New health: 66
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (2, 2)
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 2 points, new health: 68
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (3, 0). Old health: 56. New health: 52
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (3, 0)
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 2 points, new health: 54
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (3, 3). Old health: 22. New health: 18
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (3, 3)
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 2 points, new health: 20
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (3, 4). Old health: 58. New health: 54
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (3, 4)
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 2 points, new health: 56
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (3, 6). Old health: 75. New health: 71
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (3, 6)
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 2 points, new health: 73
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Maple at position (4, 3) but missed.
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (4, 3)
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) health stage changed to 1, updated image to mediumTree.png
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 2 points, new health: 100
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (4, 7). Old health: 90. New health: 86
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (4, 7)
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 2 points, new health: 88
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (5, 2). Old health: 74. New health: 70
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (5, 2)
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 2 points, new health: 72
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (5, 3). Old health: 28. New health: 24
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (5, 3)
+2024-06-08 18:06:36 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 26
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (0, 3). Old health: 58. New health: 50
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 54
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (1, 4) but missed.
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 48
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Slug attempted to damage the plant Lettuce at position (3, 3) but missed.
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (3, 3)
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 4 points, new health: 24
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (4, 6). Old health: 58. New health: 50
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 54
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (5, 0) but missed.
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 32
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (5, 3). Old health: 26. New health: 18
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:06:42 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 22
+2024-06-08 18:06:48 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) updated to new health stage: 0, image updated to smallSunflower.png
+2024-06-08 18:06:48 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (4, 1). Old health: 51. New health: 43
+2024-06-08 18:06:48 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (4, 1)
+2024-06-08 18:06:48 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) healed by 4 points, new health: 47
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 6 points, new health: 78
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) health stage changed to 2, updated image to largeCarrot.png
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 6 points, new health: 60
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 6 points, new health: 63
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) health stage changed to 2, updated image to largeJasmine.png
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 6 points, new health: 60
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 54
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) health stage changed to 2, updated image to largeJasmine.png
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 6 points, new health: 60
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 6 points, new health: 74
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) health stage changed to 1, updated image to mediumTomato.png
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 6 points, new health: 60
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) health stage changed to 2, updated image to largeLettuce.png
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 6 points, new health: 30
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) health stage changed to 2, updated image to largeJasmine.png
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 6 points, new health: 60
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 6 points, new health: 79
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) health stage changed to 1, updated image to mediumSunflower.png
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) healed by 6 points, new health: 53
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 6 points, new health: 106
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) health stage changed to 2, updated image to largeCarrot.png
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 6 points, new health: 60
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 6 points, new health: 94
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 6 points, new health: 38
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 6 points, new health: 78
+2024-06-08 18:06:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 6 points, new health: 28
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) updated to new health stage: 1, image updated to mediumCarrot.png
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (0, 3). Old health: 60. New health: 52
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 56
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (1, 4). Old health: 54. New health: 46
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 50
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) updated to new health stage: 1, image updated to mediumLettuce.png
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (3, 3). Old health: 30. New health: 22
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (3, 3)
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 4 points, new health: 26
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) updated to new health stage: 1, image updated to mediumCarrot.png
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (4, 6). Old health: 60. New health: 52
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 56
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 0). Old health: 38. New health: 30
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 34
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (5, 3). Old health: 28. New health: 20
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:07:00 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 24
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (0, 3). Old health: 56. New health: 52
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 2 points, new health: 54
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (1, 4). Old health: 50. New health: 46
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 4)
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 2 points, new health: 48
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (3, 3). Old health: 26. New health: 22
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (3, 3)
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 2 points, new health: 24
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 6). Old health: 56. New health: 52
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 6)
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 2 points, new health: 54
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 0). Old health: 34. New health: 30
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 0)
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 2 points, new health: 32
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (5, 3). Old health: 24. New health: 20
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (5, 3)
+2024-06-08 18:07:06 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 22
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (0, 3). Old health: 54. New health: 46
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 50
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (1, 4). Old health: 48. New health: 40
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 44
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (3, 3). Old health: 24. New health: 16
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (3, 3)
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 4 points, new health: 20
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (4, 6). Old health: 54. New health: 46
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 50
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (5, 0). Old health: 32. New health: 24
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 28
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (5, 3). Old health: 22. New health: 14
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:07:12 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 18
+2024-06-08 18:07:18 INFO  PesticideSystemLogger - Crow attempted to damage the plant Sunflower at position (4, 1) but missed.
+2024-06-08 18:07:18 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (4, 1)
+2024-06-08 18:07:18 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) healed by 4 points, new health: 57
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 6 points, new health: 84
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 6 points, new health: 56
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 6 points, new health: 69
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 6 points, new health: 60
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 50
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 6 points, new health: 60
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 6 points, new health: 80
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 6 points, new health: 66
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 6 points, new health: 26
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 6 points, new health: 60
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 6 points, new health: 85
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) healed by 6 points, new health: 63
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 6 points, new health: 112
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 6 points, new health: 56
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) health stage changed to 1, updated image to mediumTree.png
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 6 points, new health: 100
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 6 points, new health: 34
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 6 points, new health: 84
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:07:24 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 6 points, new health: 24
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (0, 3). Old health: 56. New health: 48
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (0, 3)
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 4 points, new health: 52
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (1, 4). Old health: 50. New health: 42
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (1, 4)
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 4 points, new health: 46
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (3, 3). Old health: 26. New health: 18
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (3, 3)
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 4 points, new health: 22
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (4, 6). Old health: 56. New health: 48
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (4, 6)
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 4 points, new health: 52
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Slug attempted to damage the plant Carrot at position (5, 0) but missed.
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (5, 0)
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 4 points, new health: 38
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) updated to new health stage: 0, image updated to smallVegetable.png
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Lettuce at position (5, 3). Old health: 24. New health: 16
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (5, 3)
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) health stage changed to 1, updated image to mediumLettuce.png
+2024-06-08 18:07:42 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 4 points, new health: 20
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 6 points, new health: 90
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 6 points, new health: 58
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) health stage changed to 1, updated image to mediumRose.png
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 6 points, new health: 75
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 6 points, new health: 60
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 6 points, new health: 52
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 6 points, new health: 60
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 6 points, new health: 86
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 6 points, new health: 72
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 6 points, new health: 28
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 6 points, new health: 60
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 6 points, new health: 91
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) healed by 6 points, new health: 69
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 6 points, new health: 118
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 6 points, new health: 58
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 6 points, new health: 106
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) health stage changed to 1, updated image to mediumCarrot.png
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 6 points, new health: 44
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 6 points, new health: 90
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 6 points, new health: 26
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (0, 3). Old health: 58. New health: 54
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (0, 3)
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Carrot at position (0, 3) healed by 2 points, new health: 56
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (1, 4) but missed.
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (1, 4)
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Carrot at position (1, 4) healed by 2 points, new health: 54
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (3, 3). Old health: 28. New health: 24
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (3, 3)
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 2 points, new health: 26
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (4, 6). Old health: 58. New health: 54
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (4, 6)
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Carrot at position (4, 6) healed by 2 points, new health: 56
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (5, 0). Old health: 44. New health: 40
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (5, 0)
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Carrot at position (5, 0) healed by 2 points, new health: 42
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (5, 3). Old health: 26. New health: 22
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (5, 3)
+2024-06-08 18:07:54 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 24
+2024-06-08 18:08:00 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (4, 1). Old health: 69. New health: 61
+2024-06-08 18:08:00 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (4, 1)
+2024-06-08 18:08:00 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) healed by 4 points, new health: 65
+2024-06-08 18:08:06 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (4, 1). Old health: 65. New health: 57
+2024-06-08 18:08:06 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (4, 1)
+2024-06-08 18:08:06 INFO  PesticideSystemLogger - Plant: Sunflower at position (4, 1) healed by 4 points, new health: 61
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (0, 2). Old health: 90. New health: 86
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (0, 2)
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Maple at position (0, 2) healed by 2 points, new health: 88
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (0, 7). Old health: 75. New health: 71
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (0, 7)
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Rose at position (0, 7) healed by 2 points, new health: 73
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) updated to new health stage: 1, image updated to mediumJasmine.png
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (1, 2). Old health: 60. New health: 56
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (1, 2)
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Jasmine at position (1, 2) healed by 2 points, new health: 58
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) updated to new health stage: 1, image updated to mediumJasmine.png
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (2, 1). Old health: 60. New health: 56
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (2, 1)
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Jasmine at position (2, 1) healed by 2 points, new health: 58
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (2, 2). Old health: 86. New health: 82
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (2, 2)
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Maple at position (2, 2) healed by 2 points, new health: 84
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Tomato at position (3, 0) but missed.
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (3, 0)
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 2 points, new health: 74
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Lettuce at position (3, 3) but missed.
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (3, 3)
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Lettuce at position (3, 3) healed by 2 points, new health: 28
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) updated to new health stage: 1, image updated to mediumJasmine.png
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (3, 4). Old health: 60. New health: 56
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (3, 4)
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Jasmine at position (3, 4) healed by 2 points, new health: 58
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (3, 6). Old health: 91. New health: 87
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (3, 6)
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Rose at position (3, 6) healed by 2 points, new health: 89
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (4, 3). Old health: 118. New health: 114
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (4, 3)
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Maple at position (4, 3) healed by 2 points, new health: 116
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (4, 7). Old health: 106. New health: 102
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (4, 7)
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Oak at position (4, 7) healed by 2 points, new health: 104
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (5, 2). Old health: 90. New health: 86
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (5, 2)
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Maple at position (5, 2) healed by 2 points, new health: 88
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (5, 3). Old health: 24. New health: 20
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (5, 3)
+2024-06-08 18:08:18 INFO  PesticideSystemLogger - Plant: Lettuce at position (5, 3) healed by 2 points, new health: 22
+2024-06-08 18:09:13 INFO  PesticideSystemLogger - Pesticide System Initialized

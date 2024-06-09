@@ -3316,3 +3316,343 @@
 2024-06-08 18:00:29 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 2) with 65 water from sprinklers
 2024-06-08 18:00:29 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 7) with 65 water from sprinklers
 2024-06-08 18:00:29 INFO  WateringSystemLogger - In total Sprinkled 3 plants
+2024-06-08 18:00:45 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:00:45 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:00:46 INFO  WateringSystemLogger - Watered Carrot at position (2, 7) with 5 water from rain
+2024-06-08 18:00:46 INFO  WateringSystemLogger - Watered Carrot at position (4, 2) with 5 water from rain
+2024-06-08 18:00:46 INFO  WateringSystemLogger - Watered Carrot at position (5, 7) with 5 water from rain
+2024-06-08 18:01:24 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 18:01:24 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:01:24 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:01:54 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:01:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (0, 3) with 70 water from sprinklers
+2024-06-08 18:01:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 70 water from sprinklers
+2024-06-08 18:01:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 6) with 70 water from sprinklers
+2024-06-08 18:01:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 0) with 70 water from sprinklers
+2024-06-08 18:01:54 INFO  WateringSystemLogger - In total Sprinkled 4 plants
+2024-06-08 18:01:54 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 19 water from rain
+2024-06-08 18:01:54 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 19 water from rain
+2024-06-08 18:01:54 INFO  WateringSystemLogger - Watered Carrot at position (4, 6) with 19 water from rain
+2024-06-08 18:01:54 INFO  WateringSystemLogger - Watered Carrot at position (5, 0) with 19 water from rain
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (0, 3) with 51 water from sprinklers
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 51 water from sprinklers
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Sprinkled Jasmine at position (2, 1) with 5 water from sprinklers
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Sprinkled Jasmine at position (3, 4) with 5 water from sprinklers
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Sprinkled Rose at position (3, 6) with 7 water from sprinklers
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Sprinkled Maple at position (4, 3) with 15 water from sprinklers
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 6) with 51 water from sprinklers
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Sprinkled Oak at position (4, 7) with 20 water from sprinklers
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 0) with 51 water from sprinklers
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Sprinkled Lettuce at position (5, 3) with 6 water from sprinklers
+2024-06-08 18:02:24 INFO  WateringSystemLogger - In total Sprinkled 10 plants
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 25 water from rain
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 25 water from rain
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Watered Jasmine at position (2, 1) with 25 water from rain
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Watered Jasmine at position (3, 4) with 25 water from rain
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Watered Rose at position (3, 6) with 25 water from rain
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Watered Maple at position (4, 3) with 25 water from rain
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Watered Carrot at position (4, 6) with 25 water from rain
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Watered Oak at position (4, 7) with 25 water from rain
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Watered Carrot at position (5, 0) with 25 water from rain
+2024-06-08 18:02:24 INFO  WateringSystemLogger - Watered Lettuce at position (5, 3) with 25 water from rain
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (0, 3) with 45 water from sprinklers
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Sprinkled Jasmine at position (1, 2) with 5 water from sprinklers
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 45 water from sprinklers
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 6) with 45 water from sprinklers
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 0) with 45 water from sprinklers
+2024-06-08 18:02:54 INFO  WateringSystemLogger - In total Sprinkled 5 plants
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 29 water from rain
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Watered Jasmine at position (1, 2) with 29 water from rain
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 29 water from rain
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Watered Jasmine at position (2, 1) with 29 water from rain
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Watered Jasmine at position (3, 4) with 29 water from rain
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Watered Rose at position (3, 6) with 29 water from rain
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Watered Maple at position (4, 3) with 29 water from rain
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Watered Carrot at position (4, 6) with 29 water from rain
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Watered Oak at position (4, 7) with 29 water from rain
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Watered Carrot at position (5, 0) with 29 water from rain
+2024-06-08 18:02:54 INFO  WateringSystemLogger - Watered Lettuce at position (5, 3) with 29 water from rain
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (0, 3) with 41 water from sprinklers
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 41 water from sprinklers
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 6) with 41 water from sprinklers
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 0) with 41 water from sprinklers
+2024-06-08 18:03:24 INFO  WateringSystemLogger - In total Sprinkled 4 plants
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 27 water from rain
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Watered Jasmine at position (1, 2) with 27 water from rain
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 27 water from rain
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Watered Jasmine at position (2, 1) with 27 water from rain
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Watered Jasmine at position (3, 4) with 27 water from rain
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Watered Rose at position (3, 6) with 27 water from rain
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Watered Maple at position (4, 3) with 27 water from rain
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Watered Carrot at position (4, 6) with 27 water from rain
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Watered Oak at position (4, 7) with 27 water from rain
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Watered Carrot at position (5, 0) with 27 water from rain
+2024-06-08 18:03:24 INFO  WateringSystemLogger - Watered Lettuce at position (5, 3) with 27 water from rain
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (0, 3) with 43 water from sprinklers
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 43 water from sprinklers
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Sprinkled Tomato at position (3, 0) with 8 water from sprinklers
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 6) with 43 water from sprinklers
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 0) with 43 water from sprinklers
+2024-06-08 18:03:54 INFO  WateringSystemLogger - In total Sprinkled 5 plants
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 6 water from rain
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Watered Jasmine at position (1, 2) with 6 water from rain
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 6 water from rain
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Watered Jasmine at position (2, 1) with 6 water from rain
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Watered Tomato at position (3, 0) with 6 water from rain
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Watered Jasmine at position (3, 4) with 6 water from rain
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Watered Rose at position (3, 6) with 6 water from rain
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Watered Maple at position (4, 3) with 6 water from rain
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Watered Carrot at position (4, 6) with 6 water from rain
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Watered Oak at position (4, 7) with 6 water from rain
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Watered Carrot at position (5, 0) with 6 water from rain
+2024-06-08 18:03:54 INFO  WateringSystemLogger - Watered Lettuce at position (5, 3) with 6 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Maple at position (0, 2) with 15 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (0, 3) with 64 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Rose at position (0, 7) with 7 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 64 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Maple at position (2, 2) with 15 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Tomato at position (3, 0) with 2 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Lettuce at position (3, 3) with 6 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Rose at position (3, 6) with 1 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Sunflower at position (4, 1) with 6 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Maple at position (4, 3) with 9 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 6) with 64 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Oak at position (4, 7) with 14 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 0) with 64 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Sprinkled Maple at position (5, 2) with 15 water from sprinklers
+2024-06-08 18:04:24 INFO  WateringSystemLogger - In total Sprinkled 14 plants
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Maple at position (0, 2) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Rose at position (0, 7) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Jasmine at position (1, 2) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Jasmine at position (2, 1) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Maple at position (2, 2) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Tomato at position (3, 0) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Lettuce at position (3, 3) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Jasmine at position (3, 4) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Rose at position (3, 6) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Sunflower at position (4, 1) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Maple at position (4, 3) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Carrot at position (4, 6) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Oak at position (4, 7) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Carrot at position (5, 0) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Maple at position (5, 2) with 32 water from rain
+2024-06-08 18:04:24 INFO  WateringSystemLogger - Watered Lettuce at position (5, 3) with 32 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (0, 3) with 38 water from sprinklers
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 38 water from sprinklers
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 6) with 38 water from sprinklers
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 0) with 38 water from sprinklers
+2024-06-08 18:04:54 INFO  WateringSystemLogger - In total Sprinkled 4 plants
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Maple at position (0, 2) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Rose at position (0, 7) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Jasmine at position (1, 2) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Jasmine at position (2, 1) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Maple at position (2, 2) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Tomato at position (3, 0) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Lettuce at position (3, 3) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Jasmine at position (3, 4) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Rose at position (3, 6) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Sunflower at position (4, 1) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Maple at position (4, 3) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Carrot at position (4, 6) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Oak at position (4, 7) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Carrot at position (5, 0) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Maple at position (5, 2) with 2 water from rain
+2024-06-08 18:04:54 INFO  WateringSystemLogger - Watered Lettuce at position (5, 3) with 2 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Maple at position (0, 2) with 13 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (0, 3) with 68 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Rose at position (0, 7) with 5 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Jasmine at position (1, 2) with 3 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 68 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Jasmine at position (2, 1) with 3 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Maple at position (2, 2) with 13 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Tomato at position (3, 0) with 6 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Lettuce at position (3, 3) with 4 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Jasmine at position (3, 4) with 3 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Rose at position (3, 6) with 5 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Sunflower at position (4, 1) with 4 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Maple at position (4, 3) with 13 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 6) with 68 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Oak at position (4, 7) with 18 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 0) with 68 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Maple at position (5, 2) with 13 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Sprinkled Lettuce at position (5, 3) with 4 water from sprinklers
+2024-06-08 18:05:24 INFO  WateringSystemLogger - In total Sprinkled 18 plants
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Maple at position (0, 2) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Rose at position (0, 7) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Jasmine at position (1, 2) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Jasmine at position (2, 1) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Maple at position (2, 2) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Tomato at position (3, 0) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Lettuce at position (3, 3) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Jasmine at position (3, 4) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Rose at position (3, 6) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Sunflower at position (4, 1) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Maple at position (4, 3) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Carrot at position (4, 6) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Oak at position (4, 7) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Carrot at position (5, 0) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Maple at position (5, 2) with 33 water from rain
+2024-06-08 18:05:24 INFO  WateringSystemLogger - Watered Lettuce at position (5, 3) with 33 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (0, 3) with 37 water from sprinklers
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 37 water from sprinklers
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 6) with 37 water from sprinklers
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 0) with 37 water from sprinklers
+2024-06-08 18:05:54 INFO  WateringSystemLogger - In total Sprinkled 4 plants
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Maple at position (0, 2) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Rose at position (0, 7) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Jasmine at position (1, 2) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Jasmine at position (2, 1) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Maple at position (2, 2) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Tomato at position (3, 0) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Lettuce at position (3, 3) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Jasmine at position (3, 4) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Rose at position (3, 6) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Sunflower at position (4, 1) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Maple at position (4, 3) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Carrot at position (4, 6) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Oak at position (4, 7) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Carrot at position (5, 0) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Maple at position (5, 2) with 5 water from rain
+2024-06-08 18:05:54 INFO  WateringSystemLogger - Watered Lettuce at position (5, 3) with 5 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Maple at position (0, 2) with 10 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (0, 3) with 65 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Rose at position (0, 7) with 2 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 65 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Maple at position (2, 2) with 10 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Tomato at position (3, 0) with 3 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Lettuce at position (3, 3) with 1 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Rose at position (3, 6) with 2 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Sunflower at position (4, 1) with 1 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Maple at position (4, 3) with 10 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 6) with 65 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Oak at position (4, 7) with 15 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 0) with 65 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Maple at position (5, 2) with 10 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Sprinkled Lettuce at position (5, 3) with 1 water from sprinklers
+2024-06-08 18:06:24 INFO  WateringSystemLogger - In total Sprinkled 15 plants
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Maple at position (0, 2) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Rose at position (0, 7) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Jasmine at position (1, 2) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Jasmine at position (2, 1) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Maple at position (2, 2) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Tomato at position (3, 0) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Lettuce at position (3, 3) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Jasmine at position (3, 4) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Rose at position (3, 6) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Sunflower at position (4, 1) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Maple at position (4, 3) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Carrot at position (4, 6) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Oak at position (4, 7) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Carrot at position (5, 0) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Maple at position (5, 2) with 32 water from rain
+2024-06-08 18:06:24 INFO  WateringSystemLogger - Watered Lettuce at position (5, 3) with 32 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (0, 3) with 38 water from sprinklers
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 38 water from sprinklers
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 6) with 38 water from sprinklers
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 0) with 38 water from sprinklers
+2024-06-08 18:06:54 INFO  WateringSystemLogger - In total Sprinkled 4 plants
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Maple at position (0, 2) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Rose at position (0, 7) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Jasmine at position (1, 2) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Jasmine at position (2, 1) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Maple at position (2, 2) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Tomato at position (3, 0) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Lettuce at position (3, 3) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Jasmine at position (3, 4) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Rose at position (3, 6) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Sunflower at position (4, 1) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Maple at position (4, 3) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Carrot at position (4, 6) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Oak at position (4, 7) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Carrot at position (5, 0) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Maple at position (5, 2) with 37 water from rain
+2024-06-08 18:06:54 INFO  WateringSystemLogger - Watered Lettuce at position (5, 3) with 37 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (0, 3) with 33 water from sprinklers
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 33 water from sprinklers
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 6) with 33 water from sprinklers
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 0) with 33 water from sprinklers
+2024-06-08 18:07:24 INFO  WateringSystemLogger - In total Sprinkled 4 plants
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Maple at position (0, 2) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Rose at position (0, 7) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Jasmine at position (1, 2) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Jasmine at position (2, 1) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Maple at position (2, 2) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Tomato at position (3, 0) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Lettuce at position (3, 3) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Jasmine at position (3, 4) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Rose at position (3, 6) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Sunflower at position (4, 1) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Maple at position (4, 3) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Carrot at position (4, 6) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Oak at position (4, 7) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Carrot at position (5, 0) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Maple at position (5, 2) with 2 water from rain
+2024-06-08 18:07:24 INFO  WateringSystemLogger - Watered Lettuce at position (5, 3) with 2 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Maple at position (0, 2) with 13 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (0, 3) with 68 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Rose at position (0, 7) with 5 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Jasmine at position (1, 2) with 3 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 68 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Jasmine at position (2, 1) with 3 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Maple at position (2, 2) with 13 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Tomato at position (3, 0) with 6 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Lettuce at position (3, 3) with 4 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Jasmine at position (3, 4) with 3 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Rose at position (3, 6) with 5 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Sunflower at position (4, 1) with 4 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Maple at position (4, 3) with 13 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 6) with 68 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Oak at position (4, 7) with 18 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Carrot at position (5, 0) with 68 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Maple at position (5, 2) with 13 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Sprinkled Lettuce at position (5, 3) with 4 water from sprinklers
+2024-06-08 18:07:54 INFO  WateringSystemLogger - In total Sprinkled 18 plants
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Maple at position (0, 2) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Carrot at position (0, 3) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Rose at position (0, 7) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Jasmine at position (1, 2) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Jasmine at position (2, 1) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Maple at position (2, 2) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Tomato at position (3, 0) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Lettuce at position (3, 3) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Jasmine at position (3, 4) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Rose at position (3, 6) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Sunflower at position (4, 1) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Maple at position (4, 3) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Carrot at position (4, 6) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Oak at position (4, 7) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Carrot at position (5, 0) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Maple at position (5, 2) with 9 water from rain
+2024-06-08 18:07:54 INFO  WateringSystemLogger - Watered Lettuce at position (5, 3) with 9 water from rain
+2024-06-08 18:09:13 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 18:09:13 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:09:13 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:09:43 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:09:43 INFO  WateringSystemLogger - In total Sprinkled 0 plants

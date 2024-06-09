@@ -46,7 +46,7 @@
             </font>
         </Text>
         <Label fx:id="rainStatusLabel" layoutX="107.0" layoutY="250.0" text="Sunny" />
-        <MenuButton fx:id="parasiteMenuButton" layoutX="1060.0" layoutY="391.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" text="Trigger Parasite" textFill="#cd0909" />
+<!--        <MenuButton fx:id="parasiteMenuButton" layoutX="1060.0" layoutY="391.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" text="Trigger Parasite" textFill="#cd0909" />-->
         <Text layoutX="13.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WEATHER" />
         <Text layoutX="14.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PARASITE" />
         <Text layoutX="13.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEMPERATURE" />
