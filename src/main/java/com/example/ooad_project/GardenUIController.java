@@ -17,11 +17,8 @@ import javafx.geometry.VPos;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.ColumnConstraints;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.RowConstraints;
+import javafx.scene.layout.*;
 import javafx.animation.PauseTransition;
-import javafx.scene.layout.StackPane;
 import javafx.util.Duration;
 
 import java.util.Random;
@@ -62,6 +59,9 @@ public class GardenUIController {
     private MenuButton flowerMenuButton;
     @FXML
     private MenuButton treeMenuButton;
+
+    @FXML
+    private AnchorPane anchorPane;
 
 
     private final Random random = new Random();
@@ -112,6 +112,19 @@ public class GardenUIController {
     public void initialize() {
 
         initializeLogger();
+
+        // Load the background image
+        // Load the background image
+        Image backgroundImage = new Image("file:/C:/Users/SID/IdeaProjects/Automated-Garden-OOAD/src/main/resources/images/rain.png");
+
+        // Create an ImageView
+        ImageView imageView = new ImageView(backgroundImage);
+        imageView.setFitWidth(anchorPane.getPrefWidth());
+        imageView.setFitHeight(anchorPane.getPrefHeight());
+        imageView.setPreserveRatio(false);
+
+        // Add the ImageView as the first child of the AnchorPane
+        anchorPane.getChildren().add(0, imageView);
 
         // Add ColumnConstraints
         for (int col = 0; col < gardenGrid.getNumCols(); col++) {

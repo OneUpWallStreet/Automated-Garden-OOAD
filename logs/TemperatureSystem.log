@@ -630,3 +630,101 @@
 2024-06-08 19:29:59 INFO  TemperatureSystemLogger - Temperature system heated Jasmine at position (4, 7) by 27 degrees F.
 2024-06-08 19:29:59 INFO  TemperatureSystemLogger - Temperature system heated Sunflower at position (5, 3) by 32 degrees F.
 2024-06-08 19:29:59 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (5, 6) by 27 degrees F.
+2024-06-08 19:37:17 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 19:37:17 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 19:39:35 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 19:39:35 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - API called temperature set to: 68
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - Temperature system cooled Oak at position (0, 1) by 3 degrees F.
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - Temperature system cooled Maple at position (0, 5) by 8 degrees F.
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - Temperature system cooled Pine at position (0, 7) by 18 degrees F.
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - Temperature system cooled Lettuce at position (1, 0) by 8 degrees F.
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - Temperature system heated Tomato at position (1, 6) by 7 degrees F.
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - Temperature system cooled Carrot at position (2, 2) by 8 degrees F.
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - Temperature system heated Tomato at position (3, 0) by 7 degrees F.
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - Temperature system heated Sunflower at position (3, 1) by 2 degrees F.
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - Temperature system cooled Rose at position (4, 4) by 3 degrees F.
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - Temperature system cooled Jasmine at position (4, 7) by 3 degrees F.
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - Temperature system heated Sunflower at position (5, 3) by 2 degrees F.
+2024-06-08 19:39:55 INFO  TemperatureSystemLogger - Temperature system cooled Oak at position (5, 6) by 3 degrees F.
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - API called temperature set to: 58
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (0, 1) by 7 degrees F.
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (0, 5) by 2 degrees F.
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - Temperature system cooled Pine at position (0, 7) by 8 degrees F.
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - Temperature system heated Lettuce at position (1, 0) by 2 degrees F.
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - Temperature system heated Tomato at position (1, 6) by 17 degrees F.
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 2) by 2 degrees F.
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - Temperature system heated Tomato at position (3, 0) by 17 degrees F.
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - Temperature system heated Sunflower at position (3, 1) by 12 degrees F.
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - Temperature system heated Rose at position (4, 4) by 7 degrees F.
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - Temperature system heated Jasmine at position (4, 7) by 7 degrees F.
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - Temperature system heated Sunflower at position (5, 3) by 12 degrees F.
+2024-06-08 19:40:15 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (5, 6) by 7 degrees F.
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - API called temperature set to: 4
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (0, 1) by 61 degrees F.
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (0, 5) by 56 degrees F.
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - Temperature system heated Pine at position (0, 7) by 46 degrees F.
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - Temperature system heated Lettuce at position (1, 0) by 56 degrees F.
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - Temperature system heated Tomato at position (1, 6) by 71 degrees F.
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 2) by 56 degrees F.
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - Temperature system heated Tomato at position (3, 0) by 71 degrees F.
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - Temperature system heated Sunflower at position (3, 1) by 66 degrees F.
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - Temperature system heated Rose at position (4, 4) by 61 degrees F.
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - Temperature system heated Jasmine at position (4, 7) by 61 degrees F.
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - Temperature system heated Sunflower at position (5, 3) by 66 degrees F.
+2024-06-08 19:40:35 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (5, 6) by 61 degrees F.
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - API called temperature set to: 51
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (0, 1) by 14 degrees F.
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (0, 5) by 9 degrees F.
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - Temperature system cooled Pine at position (0, 7) by 1 degrees F.
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - Temperature system heated Lettuce at position (1, 0) by 9 degrees F.
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - Temperature system heated Tomato at position (1, 6) by 24 degrees F.
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 2) by 9 degrees F.
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - Temperature system heated Tomato at position (3, 0) by 24 degrees F.
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - Temperature system heated Sunflower at position (3, 1) by 19 degrees F.
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - Temperature system heated Rose at position (4, 4) by 14 degrees F.
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - Temperature system heated Jasmine at position (4, 7) by 14 degrees F.
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - Temperature system heated Sunflower at position (5, 3) by 19 degrees F.
+2024-06-08 19:40:55 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (5, 6) by 14 degrees F.
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - API called temperature set to: 30
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (0, 1) by 35 degrees F.
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (0, 5) by 30 degrees F.
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - Temperature system heated Pine at position (0, 7) by 20 degrees F.
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - Temperature system heated Lettuce at position (1, 0) by 30 degrees F.
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - Temperature system heated Tomato at position (1, 6) by 45 degrees F.
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 2) by 30 degrees F.
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - Temperature system heated Tomato at position (3, 0) by 45 degrees F.
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - Temperature system heated Sunflower at position (3, 1) by 40 degrees F.
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - Temperature system heated Rose at position (4, 4) by 35 degrees F.
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - Temperature system heated Jasmine at position (4, 7) by 35 degrees F.
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - Temperature system heated Sunflower at position (5, 3) by 40 degrees F.
+2024-06-08 19:41:15 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (5, 6) by 35 degrees F.
+2024-06-08 19:54:38 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 19:54:38 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - API called temperature set to: 47
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (0, 1) by 18 degrees F.
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - Temperature system heated Maple at position (0, 5) by 13 degrees F.
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - Temperature system heated Pine at position (0, 7) by 3 degrees F.
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - Temperature system heated Lettuce at position (1, 0) by 13 degrees F.
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - Temperature system heated Tomato at position (1, 6) by 28 degrees F.
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 2) by 13 degrees F.
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - Temperature system heated Tomato at position (3, 0) by 28 degrees F.
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - Temperature system heated Sunflower at position (3, 1) by 23 degrees F.
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - Temperature system heated Rose at position (4, 4) by 18 degrees F.
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - Temperature system heated Jasmine at position (4, 7) by 18 degrees F.
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - Temperature system heated Sunflower at position (5, 3) by 23 degrees F.
+2024-06-08 19:54:58 INFO  TemperatureSystemLogger - Temperature system heated Oak at position (5, 6) by 18 degrees F.
+2024-06-08 19:55:13 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 19:55:13 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 19:55:43 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 19:55:43 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 19:56:03 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 19:56:23 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 19:56:33 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 19:56:33 INFO  TemperatureSystemLogger - All Levels are optimal

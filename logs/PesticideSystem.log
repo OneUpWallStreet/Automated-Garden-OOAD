@@ -1974,3 +1974,306 @@
 2024-06-08 19:30:09 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (2, 2) but missed.
 2024-06-08 19:30:09 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 2)
 2024-06-08 19:30:09 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 2 points, new health: 30
+2024-06-08 19:37:17 INFO  PesticideSystemLogger - Pesticide System Initialized
+2024-06-08 19:37:23 INFO  PesticideSystemLogger - Slug attempted to damage the plant Lettuce at position (1, 0) but missed.
+2024-06-08 19:37:23 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Lettuce at position (1, 0)
+2024-06-08 19:37:23 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 4 points, new health: 14
+2024-06-08 19:37:23 INFO  PesticideSystemLogger - Slug has successfully damaged the plant Carrot at position (2, 2). Old health: 20. New health: 12
+2024-06-08 19:37:23 INFO  PesticideSystemLogger - Pesticide system applied Slugs to Carrot at position (2, 2)
+2024-06-08 19:37:23 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 4 points, new health: 16
+2024-06-08 19:39:35 INFO  PesticideSystemLogger - Pesticide System Initialized
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Oak at position (0, 1) but missed.
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (0, 1)
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Plant: Oak at position (0, 1) healed by 2 points, new health: 52
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (0, 5). Old health: 50. New health: 46
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (0, 5)
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Plant: Maple at position (0, 5) healed by 2 points, new health: 48
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (1, 0). Old health: 10. New health: 6
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (1, 0)
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 8
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Tomato at position (1, 6) but missed.
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (1, 6)
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Plant: Tomato at position (1, 6) healed by 2 points, new health: 32
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (3, 0). Old health: 30. New health: 26
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (3, 0)
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 2 points, new health: 28
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Rose at position (4, 4) but missed.
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (4, 4)
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Plant: Rose at position (4, 4) healed by 2 points, new health: 37
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (4, 7). Old health: 20. New health: 16
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (4, 7)
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Plant: Jasmine at position (4, 7) healed by 2 points, new health: 18
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (5, 6). Old health: 50. New health: 46
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (5, 6)
+2024-06-08 19:39:41 INFO  PesticideSystemLogger - Plant: Oak at position (5, 6) healed by 2 points, new health: 48
+2024-06-08 19:39:47 INFO  PesticideSystemLogger - Locust has successfully damaged the plant Pine at position (0, 7). Old health: 70. New health: 66
+2024-06-08 19:39:47 INFO  PesticideSystemLogger - Pesticide system applied Locust to Pine at position (0, 7)
+2024-06-08 19:39:47 INFO  PesticideSystemLogger - Plant: Pine at position (0, 7) healed by 2 points, new health: 68
+2024-06-08 19:39:53 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (3, 1). Old health: 25. New health: 17
+2024-06-08 19:39:53 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (3, 1)
+2024-06-08 19:39:53 INFO  PesticideSystemLogger - Plant: Sunflower at position (3, 1) healed by 4 points, new health: 21
+2024-06-08 19:39:53 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (5, 3). Old health: 25. New health: 17
+2024-06-08 19:39:53 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (5, 3)
+2024-06-08 19:39:53 INFO  PesticideSystemLogger - Plant: Sunflower at position (5, 3) healed by 4 points, new health: 21
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (0, 1). Old health: 52. New health: 48
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (0, 1)
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Plant: Oak at position (0, 1) healed by 2 points, new health: 50
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (0, 5). Old health: 48. New health: 44
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (0, 5)
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Plant: Maple at position (0, 5) healed by 2 points, new health: 46
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Lettuce at position (1, 0) but missed.
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (1, 0)
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 10
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (1, 6). Old health: 32. New health: 28
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (1, 6)
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Plant: Tomato at position (1, 6) healed by 2 points, new health: 30
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Tomato at position (3, 0) but missed.
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (3, 0)
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 2 points, new health: 30
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (4, 4). Old health: 37. New health: 33
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (4, 4)
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Plant: Rose at position (4, 4) healed by 2 points, new health: 35
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (4, 7). Old health: 18. New health: 14
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (4, 7)
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Plant: Jasmine at position (4, 7) healed by 2 points, new health: 16
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (5, 6). Old health: 48. New health: 44
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (5, 6)
+2024-06-08 19:39:59 INFO  PesticideSystemLogger - Plant: Oak at position (5, 6) healed by 2 points, new health: 46
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Oak at position (0, 1) healed by 6 points, new health: 56
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Maple at position (0, 5) healed by 6 points, new health: 52
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Pine at position (0, 7) healed by 6 points, new health: 74
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 6 points, new health: 16
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Tomato at position (1, 6) healed by 6 points, new health: 36
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 6 points, new health: 26
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 6 points, new health: 36
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Sunflower at position (3, 1) healed by 6 points, new health: 27
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Rose at position (4, 4) healed by 6 points, new health: 41
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Jasmine at position (4, 7) healed by 6 points, new health: 22
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Sunflower at position (5, 3) healed by 6 points, new health: 27
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Oak at position (5, 6) healed by 6 points, new health: 52
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (3, 1). Old health: 27. New health: 19
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (3, 1)
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Sunflower at position (3, 1) healed by 4 points, new health: 23
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (5, 3). Old health: 27. New health: 19
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (5, 3)
+2024-06-08 19:40:05 INFO  PesticideSystemLogger - Plant: Sunflower at position (5, 3) healed by 4 points, new health: 23
+2024-06-08 19:40:11 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (1, 0). Old health: 16. New health: 12
+2024-06-08 19:40:11 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (1, 0)
+2024-06-08 19:40:11 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 14
+2024-06-08 19:40:11 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 2). Old health: 26. New health: 22
+2024-06-08 19:40:11 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 2)
+2024-06-08 19:40:11 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 2 points, new health: 24
+2024-06-08 19:40:17 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (1, 0). Old health: 14. New health: 10
+2024-06-08 19:40:17 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (1, 0)
+2024-06-08 19:40:17 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 12
+2024-06-08 19:40:17 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 2). Old health: 24. New health: 20
+2024-06-08 19:40:17 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 2)
+2024-06-08 19:40:17 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 2 points, new health: 22
+2024-06-08 19:40:23 INFO  PesticideSystemLogger - Locust has successfully damaged the plant Pine at position (0, 7). Old health: 74. New health: 70
+2024-06-08 19:40:23 INFO  PesticideSystemLogger - Pesticide system applied Locust to Pine at position (0, 7)
+2024-06-08 19:40:23 INFO  PesticideSystemLogger - Plant: Pine at position (0, 7) healed by 2 points, new health: 72
+2024-06-08 19:40:29 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (1, 0). Old health: 12. New health: 8
+2024-06-08 19:40:29 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (1, 0)
+2024-06-08 19:40:29 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 10
+2024-06-08 19:40:29 INFO  PesticideSystemLogger - Rat attempted to damage the plant Carrot at position (2, 2) but missed.
+2024-06-08 19:40:29 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 2)
+2024-06-08 19:40:29 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 2 points, new health: 24
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Oak at position (0, 1) healed by 6 points, new health: 62
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Maple at position (0, 5) healed by 6 points, new health: 58
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Pine at position (0, 7) healed by 6 points, new health: 78
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 6 points, new health: 16
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Tomato at position (1, 6) healed by 6 points, new health: 42
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 6 points, new health: 30
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 6 points, new health: 42
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Sunflower at position (3, 1) healed by 6 points, new health: 29
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Rose at position (4, 4) healed by 6 points, new health: 47
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Jasmine at position (4, 7) healed by 6 points, new health: 28
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Sunflower at position (5, 3) healed by 6 points, new health: 29
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Oak at position (5, 6) healed by 6 points, new health: 58
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (0, 1). Old health: 62. New health: 58
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (0, 1)
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Oak at position (0, 1) healed by 2 points, new health: 60
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (0, 5). Old health: 58. New health: 54
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (0, 5)
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Maple at position (0, 5) healed by 2 points, new health: 56
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (1, 0). Old health: 16. New health: 12
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (1, 0)
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 14
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (1, 6). Old health: 42. New health: 38
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (1, 6)
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Tomato at position (1, 6) healed by 2 points, new health: 40
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Tomato at position (3, 0) but missed.
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (3, 0)
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 2 points, new health: 44
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (4, 4). Old health: 47. New health: 43
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (4, 4)
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Rose at position (4, 4) healed by 2 points, new health: 45
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (4, 7). Old health: 28. New health: 24
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (4, 7)
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Jasmine at position (4, 7) healed by 2 points, new health: 26
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (5, 6). Old health: 58. New health: 54
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (5, 6)
+2024-06-08 19:40:35 INFO  PesticideSystemLogger - Plant: Oak at position (5, 6) healed by 2 points, new health: 56
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (0, 1). Old health: 60. New health: 56
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (0, 1)
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Plant: Oak at position (0, 1) healed by 2 points, new health: 58
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (0, 5). Old health: 56. New health: 52
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (0, 5)
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Plant: Maple at position (0, 5) healed by 2 points, new health: 54
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (1, 0). Old health: 14. New health: 10
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (1, 0)
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 12
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (1, 6). Old health: 40. New health: 36
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (1, 6)
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Plant: Tomato at position (1, 6) healed by 2 points, new health: 38
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (3, 0). Old health: 44. New health: 40
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (3, 0)
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 2 points, new health: 42
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (4, 4). Old health: 45. New health: 41
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (4, 4)
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Plant: Rose at position (4, 4) healed by 2 points, new health: 43
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (4, 7). Old health: 26. New health: 22
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (4, 7)
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Plant: Jasmine at position (4, 7) healed by 2 points, new health: 24
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (5, 6). Old health: 56. New health: 52
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (5, 6)
+2024-06-08 19:40:41 INFO  PesticideSystemLogger - Plant: Oak at position (5, 6) healed by 2 points, new health: 54
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (0, 1). Old health: 58. New health: 54
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (0, 1)
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Plant: Oak at position (0, 1) healed by 2 points, new health: 56
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (0, 5). Old health: 54. New health: 50
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (0, 5)
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Plant: Maple at position (0, 5) healed by 2 points, new health: 52
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (1, 0). Old health: 12. New health: 8
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (1, 0)
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 10
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Aphid attempted to damage the plant Tomato at position (1, 6) but missed.
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (1, 6)
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Plant: Tomato at position (1, 6) healed by 2 points, new health: 40
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (3, 0). Old health: 42. New health: 38
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (3, 0)
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 2 points, new health: 40
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (4, 4). Old health: 43. New health: 39
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (4, 4)
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Plant: Rose at position (4, 4) healed by 2 points, new health: 41
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (4, 7). Old health: 24. New health: 20
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (4, 7)
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Plant: Jasmine at position (4, 7) healed by 2 points, new health: 22
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (5, 6). Old health: 54. New health: 50
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (5, 6)
+2024-06-08 19:40:47 INFO  PesticideSystemLogger - Plant: Oak at position (5, 6) healed by 2 points, new health: 52
+2024-06-08 19:40:53 INFO  PesticideSystemLogger - Locust attempted to damage the plant Pine at position (0, 7) but missed.
+2024-06-08 19:40:53 INFO  PesticideSystemLogger - Pesticide system applied Locust to Pine at position (0, 7)
+2024-06-08 19:40:53 INFO  PesticideSystemLogger - Plant: Pine at position (0, 7) healed by 2 points, new health: 80
+2024-06-08 19:40:59 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (1, 0). Old health: 10. New health: 6
+2024-06-08 19:40:59 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (1, 0)
+2024-06-08 19:40:59 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 8
+2024-06-08 19:40:59 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 2). Old health: 30. New health: 26
+2024-06-08 19:40:59 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 2)
+2024-06-08 19:40:59 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 2 points, new health: 28
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Oak at position (0, 1) healed by 6 points, new health: 62
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Maple at position (0, 5) healed by 6 points, new health: 58
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Pine at position (0, 7) healed by 6 points, new health: 86
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 6 points, new health: 14
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Tomato at position (1, 6) healed by 6 points, new health: 46
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 6 points, new health: 34
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 6 points, new health: 46
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Sunflower at position (3, 1) healed by 6 points, new health: 35
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Rose at position (4, 4) healed by 6 points, new health: 47
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Jasmine at position (4, 7) healed by 6 points, new health: 28
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Sunflower at position (5, 3) healed by 6 points, new health: 35
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Oak at position (5, 6) healed by 6 points, new health: 58
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (0, 1). Old health: 62. New health: 58
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (0, 1)
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Oak at position (0, 1) healed by 2 points, new health: 60
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Maple at position (0, 5). Old health: 58. New health: 54
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Maple at position (0, 5)
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Maple at position (0, 5) healed by 2 points, new health: 56
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Lettuce at position (1, 0). Old health: 14. New health: 10
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Lettuce at position (1, 0)
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 12
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (1, 6). Old health: 46. New health: 42
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (1, 6)
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Tomato at position (1, 6) healed by 2 points, new health: 44
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Tomato at position (3, 0). Old health: 46. New health: 42
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Tomato at position (3, 0)
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 2 points, new health: 44
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Rose at position (4, 4). Old health: 47. New health: 43
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Rose at position (4, 4)
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Rose at position (4, 4) healed by 2 points, new health: 45
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Jasmine at position (4, 7). Old health: 28. New health: 24
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Jasmine at position (4, 7)
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Jasmine at position (4, 7) healed by 2 points, new health: 26
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Aphid has successfully damaged the plant Oak at position (5, 6). Old health: 58. New health: 54
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Pesticide system applied Aphids to Oak at position (5, 6)
+2024-06-08 19:41:05 INFO  PesticideSystemLogger - Plant: Oak at position (5, 6) healed by 2 points, new health: 56
+2024-06-08 19:41:11 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (1, 0). Old health: 12. New health: 8
+2024-06-08 19:41:11 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (1, 0)
+2024-06-08 19:41:11 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 10
+2024-06-08 19:41:11 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 2). Old health: 34. New health: 30
+2024-06-08 19:41:11 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 2)
+2024-06-08 19:41:11 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 2 points, new health: 32
+2024-06-08 19:41:17 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (3, 1). Old health: 35. New health: 27
+2024-06-08 19:41:17 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (3, 1)
+2024-06-08 19:41:17 INFO  PesticideSystemLogger - Plant: Sunflower at position (3, 1) healed by 4 points, new health: 31
+2024-06-08 19:41:17 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (5, 3). Old health: 35. New health: 27
+2024-06-08 19:41:17 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (5, 3)
+2024-06-08 19:41:17 INFO  PesticideSystemLogger - Plant: Sunflower at position (5, 3) healed by 4 points, new health: 31
+2024-06-08 19:41:23 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (1, 0). Old health: 10. New health: 6
+2024-06-08 19:41:23 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (1, 0)
+2024-06-08 19:41:23 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 8
+2024-06-08 19:41:23 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 2). Old health: 32. New health: 28
+2024-06-08 19:41:23 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 2)
+2024-06-08 19:41:23 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 2 points, new health: 30
+2024-06-08 19:41:29 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (3, 1). Old health: 31. New health: 23
+2024-06-08 19:41:29 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (3, 1)
+2024-06-08 19:41:29 INFO  PesticideSystemLogger - Plant: Sunflower at position (3, 1) healed by 4 points, new health: 27
+2024-06-08 19:41:29 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (5, 3). Old health: 31. New health: 23
+2024-06-08 19:41:29 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (5, 3)
+2024-06-08 19:41:29 INFO  PesticideSystemLogger - Plant: Sunflower at position (5, 3) healed by 4 points, new health: 27
+2024-06-08 19:54:38 INFO  PesticideSystemLogger - Pesticide System Initialized
+2024-06-08 19:54:44 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (1, 0). Old health: 10. New health: 6
+2024-06-08 19:54:44 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (1, 0)
+2024-06-08 19:54:44 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 8
+2024-06-08 19:54:44 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 2). Old health: 20. New health: 16
+2024-06-08 19:54:44 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 2)
+2024-06-08 19:54:44 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 2 points, new health: 18
+2024-06-08 19:54:50 INFO  PesticideSystemLogger - Locust has successfully damaged the plant Pine at position (0, 7). Old health: 70. New health: 66
+2024-06-08 19:54:50 INFO  PesticideSystemLogger - Pesticide system applied Locust to Pine at position (0, 7)
+2024-06-08 19:54:50 INFO  PesticideSystemLogger - Plant: Pine at position (0, 7) healed by 2 points, new health: 68
+2024-06-08 19:54:56 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Lettuce at position (1, 0). Old health: 8. New health: 4
+2024-06-08 19:54:56 INFO  PesticideSystemLogger - Pesticide system applied Rat to Lettuce at position (1, 0)
+2024-06-08 19:54:56 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 2 points, new health: 6
+2024-06-08 19:54:56 INFO  PesticideSystemLogger - Rat has successfully damaged the plant Carrot at position (2, 2). Old health: 18. New health: 14
+2024-06-08 19:54:56 INFO  PesticideSystemLogger - Pesticide system applied Rat to Carrot at position (2, 2)
+2024-06-08 19:54:56 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 2 points, new health: 16
+2024-06-08 19:55:02 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (3, 1). Old health: 25. New health: 17
+2024-06-08 19:55:02 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (3, 1)
+2024-06-08 19:55:02 INFO  PesticideSystemLogger - Plant: Sunflower at position (3, 1) healed by 4 points, new health: 21
+2024-06-08 19:55:02 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (5, 3). Old health: 25. New health: 17
+2024-06-08 19:55:02 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (5, 3)
+2024-06-08 19:55:02 INFO  PesticideSystemLogger - Plant: Sunflower at position (5, 3) healed by 4 points, new health: 21
+2024-06-08 19:55:13 INFO  PesticideSystemLogger - Pesticide System Initialized
+2024-06-08 19:55:19 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (3, 1). Old health: 25. New health: 17
+2024-06-08 19:55:19 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (3, 1)
+2024-06-08 19:55:19 INFO  PesticideSystemLogger - Plant: Sunflower at position (3, 1) healed by 4 points, new health: 21
+2024-06-08 19:55:19 INFO  PesticideSystemLogger - Crow has successfully damaged the plant Sunflower at position (5, 3). Old health: 25. New health: 17
+2024-06-08 19:55:19 INFO  PesticideSystemLogger - Pesticide system applied Crow to Sunflower at position (5, 3)
+2024-06-08 19:55:19 INFO  PesticideSystemLogger - Plant: Sunflower at position (5, 3) healed by 4 points, new health: 21
+2024-06-08 19:55:43 INFO  PesticideSystemLogger - Pesticide System Initialized
+2024-06-08 19:56:13 INFO  PesticideSystemLogger - Plant: Oak at position (0, 1) healed by 6 points, new health: 56
+2024-06-08 19:56:13 INFO  PesticideSystemLogger - Plant: Maple at position (0, 5) healed by 6 points, new health: 56
+2024-06-08 19:56:13 INFO  PesticideSystemLogger - Plant: Pine at position (0, 7) healed by 6 points, new health: 76
+2024-06-08 19:56:13 INFO  PesticideSystemLogger - Plant: Lettuce at position (1, 0) healed by 6 points, new health: 16
+2024-06-08 19:56:13 INFO  PesticideSystemLogger - Plant: Tomato at position (1, 6) healed by 6 points, new health: 36
+2024-06-08 19:56:13 INFO  PesticideSystemLogger - Plant: Carrot at position (2, 2) healed by 6 points, new health: 26
+2024-06-08 19:56:13 INFO  PesticideSystemLogger - Plant: Tomato at position (3, 0) healed by 6 points, new health: 36
+2024-06-08 19:56:13 INFO  PesticideSystemLogger - Plant: Sunflower at position (3, 1) healed by 6 points, new health: 31
+2024-06-08 19:56:13 INFO  PesticideSystemLogger - Plant: Rose at position (4, 4) healed by 6 points, new health: 41
+2024-06-08 19:56:13 INFO  PesticideSystemLogger - Plant: Jasmine at position (4, 7) healed by 6 points, new health: 26
+2024-06-08 19:56:13 INFO  PesticideSystemLogger - Plant: Sunflower at position (5, 3) healed by 6 points, new health: 31
+2024-06-08 19:56:13 INFO  PesticideSystemLogger - Plant: Oak at position (5, 6) healed by 6 points, new health: 56
+2024-06-08 19:56:33 INFO  PesticideSystemLogger - Pesticide System Initialized
+2024-06-08 19:56:39 INFO  PesticideSystemLogger - Locust has successfully damaged the plant Pine at position (0, 7). Old health: 70. New health: 66
+2024-06-08 19:56:39 INFO  PesticideSystemLogger - Pesticide system applied Locust to Pine at position (0, 7)
+2024-06-08 19:56:39 INFO  PesticideSystemLogger - Plant: Pine at position (0, 7) healed by 2 points, new health: 68
