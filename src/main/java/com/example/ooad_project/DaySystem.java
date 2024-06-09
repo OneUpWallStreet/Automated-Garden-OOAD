@@ -30,7 +30,7 @@ public class DaySystem {
         // Schedule the end of day actions to run every 1 minute, treating each minute as a new day
 //        scheduler.scheduleAtFixedRate(this::endOfDayActions, 0, 1, TimeUnit.MINUTES);
 
-        scheduler.scheduleAtFixedRate(this::endOfDayActions, 0, 10, TimeUnit.SECONDS);
+        scheduler.scheduleAtFixedRate(this::endOfDayActions, 0, 30, TimeUnit.SECONDS);
     }
 
     public static synchronized DaySystem getInstance() {
@@ -53,6 +53,7 @@ public class DaySystem {
                     if (plant != null) {
                         plant.setIsWatered(false);
                         plant.healPlant(6);
+                        plant.setCurrentWater(0);
                     }
                 }
             }

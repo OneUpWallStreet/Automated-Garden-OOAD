@@ -33,10 +33,10 @@ public class TemperatureSystem implements Runnable{
                 if (plant != null) {
                     int tempDiff = currentTemperature - plant.getTemperatureRequirement();
                     if (tempDiff > 0) {
-                        EventBus.publish("TemperatureCoolEvent", new TemperatureCoolEvent(Math.abs(tempDiff)));
+                        EventBus.publish("TemperatureCoolEvent", new TemperatureCoolEvent(plant.getRow(), plant.getCol(), Math.abs(tempDiff)));
                         logger.info("Temperature system cooled {} at position ({}, {}) by {} degrees F.", plant.getName(), i, j, Math.abs(tempDiff));
                     } else if (tempDiff < 0) {
-                        EventBus.publish("TemperatureHeatEvent", new TemperatureHeatEvent(Math.abs(tempDiff)));
+                        EventBus.publish("TemperatureHeatEvent", new TemperatureHeatEvent(plant.getRow(), plant.getCol(), Math.abs(tempDiff)));
                         logger.info("Temperature system heated {} at position ({}, {}) by {} degrees F.", plant.getName(), i, j, Math.abs(tempDiff));
                     } else {
                         logger.info("{} at position ({}, {}) is at optimal temperature.", plant.getName(), i, j);

@@ -86,8 +86,8 @@ public class GardenUIController {
         plantManager.getVegetables().forEach(flower -> System.out.println(flower.getCurrentImage()));
     }
 
-    @FXML
-    private TextArea logTextArea;
+//    @FXML
+//    private TextArea logTextArea;
 
     private static final Logger logger = LogManager.getLogger(GardenUIController.class);
 
@@ -148,32 +148,107 @@ public class GardenUIController {
     }
 
 //    Function that is called when the parasite damage event is published
-    private void handleParasiteDamageEvent(ParasiteDamageEvent event) {
-        System.out.println("ParasiteDamageEvent received");
-    }
+private void handleParasiteDamageEvent(ParasiteDamageEvent event) {
+    Platform.runLater(() -> {
+        int row = event.getRow();
+        int col = event.getCol();
+        int damage = event.getDamage();
+
+        Label damageLabel = new Label(String.valueOf(damage));
+        damageLabel.setTextFill(javafx.scene.paint.Color.RED);
+        damageLabel.setStyle("-fx-font-weight: bold;");
+
+        GridPane.setRowIndex(damageLabel, row);
+        GridPane.setColumnIndex(damageLabel, col);
+        GridPane.setHalignment(damageLabel, HPos.RIGHT);  // Align to right
+        GridPane.setValignment(damageLabel, VPos.TOP); // Align to top
+        gridPane.getChildren().add(damageLabel);
+
+        PauseTransition pause = new PauseTransition(Duration.seconds(5)); // Set duration to 10 seconds
+        pause.setOnFinished(_ -> gridPane.getChildren().remove(damageLabel));
+        pause.play();
+    });
+}
 
     private void handleTemperatureHeatEvent(TemperatureHeatEvent event) {
-        System.out.println("TemperatureHeatEvent received");
+        Platform.runLater(() -> {
+            int row = event.getRow();
+            int col = event.getCol();
+
+            String imageName = "heat.png"; // Update this to your heat image name
+            Image heatImage = new Image(getClass().getResourceAsStream("/images/" + imageName));
+            ImageView heatImageView = new ImageView(heatImage);
+            heatImageView.setFitHeight(20);  // Match the cell size in the grid
+            heatImageView.setFitWidth(20);
+
+            GridPane.setRowIndex(heatImageView, row);
+            GridPane.setColumnIndex(heatImageView, col);
+            GridPane.setHalignment(heatImageView, HPos.LEFT);  // Align to left
+            GridPane.setValignment(heatImageView, VPos.TOP); // Align to top
+            gridPane.getChildren().add(heatImageView);
+
+            PauseTransition pause = new PauseTransition(Duration.seconds(5)); // Set duration to 10 seconds
+            pause.setOnFinished(_ -> gridPane.getChildren().remove(heatImageView));
+            pause.play();
+        });
     }
 
 
 //    Function that is called when the temperature cool event is published
-    private void handleTemperatureCoolEvent(TemperatureCoolEvent event) {
-        System.out.println("TemperatureCoolEvent received");
-    }
 
-//  Function that is called when the sprinkler event is published
-    private void handleSprinklerEvent(SprinklerEvent event) {
-        System.out.println("SprinklerEvent received");
+    private void handleTemperatureCoolEvent(TemperatureCoolEvent event) {
+        Platform.runLater(() -> {
+            int row = event.getRow();
+            int col = event.getCol();
+
+            String imageName = "cool.png"; // Update this to your cool image name
+            Image coolImage = new Image(getClass().getResourceAsStream("/images/" + imageName));
+            ImageView coolImageView = new ImageView(coolImage);
+            coolImageView.setFitHeight(20);  // Match the cell size in the grid
+            coolImageView.setFitWidth(20);
+
+            GridPane.setRowIndex(coolImageView, row);
+            GridPane.setColumnIndex(coolImageView, col);
+            GridPane.setHalignment(coolImageView, HPos.LEFT);  // Align to left
+            GridPane.setValignment(coolImageView, VPos.TOP); // Align to top
+            gridPane.getChildren().add(coolImageView);
+
+            PauseTransition pause = new PauseTransition(Duration.seconds(5)); // Set duration to 10 seconds
+            pause.setOnFinished(_ -> gridPane.getChildren().remove(coolImageView));
+            pause.play();
+        });
     }
+//  Function that is called when the sprinkler event is published
+private void handleSprinklerEvent(SprinklerEvent event) {
+    Platform.runLater(() -> {
+        int row = event.getRow();
+        int col = event.getCol();
+
+        String imageName = "sprinkler.png"; // Update this to your sprinkler image name
+        Image sprinklerImage = new Image(getClass().getResourceAsStream("/images/" + imageName));
+        ImageView sprinklerImageView = new ImageView(sprinklerImage);
+        sprinklerImageView.setFitHeight(20);  // Match the cell size in the grid
+        sprinklerImageView.setFitWidth(20);
+
+        GridPane.setRowIndex(sprinklerImageView, row);
+        GridPane.setColumnIndex(sprinklerImageView, col);
+        GridPane.setHalignment(sprinklerImageView, HPos.LEFT);  // Align to left
+        GridPane.setValignment(sprinklerImageView, VPos.BOTTOM); // Align to bottom
+        gridPane.getChildren().add(sprinklerImageView);
+
+        PauseTransition pause = new PauseTransition(Duration.seconds(10));
+        pause.setOnFinished(_ -> gridPane.getChildren().remove(sprinklerImageView));
+        pause.play();
+    });
+}
 
     private void initializeLogger() {
-        LoggerAppender.setController(this);
+//        LoggerAppender.setController(this);
     }
 
-    public void appendLogText(String text) {
-        Platform.runLater(() -> logTextArea.appendText(text + "\n"));
-    }
+//    public void appendLogText(String text) {
+//        Platform.runLater(() -> logTextArea.appendText(text + "\n"));
+//    }
 
     public void handleDayChangeEvent(DayChangeEvent event) {
         System.out.println("day changed to: " + event.getDay());

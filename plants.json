@@ -52,7 +52,7 @@
     },
     {
       "name": "Carrot",
-      "waterRequirement": 5,
+      "waterRequirement": 70,
       "growthRate": "Medium",
       "currentImage": "smallCarrot.png",
       "allImages": ["smallCarrot.png", "mediumCarrot.png", "largeCarrot.png"],
