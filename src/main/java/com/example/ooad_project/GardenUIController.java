@@ -37,11 +37,11 @@ public class GardenUIController {
     @FXML
     private Label currentDay;
 
-    @FXML
-    private MenuButton parasiteMenuButton;
+//    @FXML
+//    private MenuButton parasiteMenuButton;
 
-    @FXML
-    private Button pestTestButton;
+//    @FXML
+//    private Button pestTestButton;
 
     @FXML
     private Label rainStatusLabel;
@@ -117,7 +117,7 @@ public class GardenUIController {
 
         // Load plants data from JSON file and populate MenuButtons
         loadPlantsData();
-        loadParasitesData();
+//        loadParasitesData();
 
         log4jLogger.info("GardenUIController initialized");
 
@@ -332,13 +332,13 @@ private void handleSprinklerEvent(SprinklerEvent event) {
     }
 
 
-    private void loadParasitesData() {
-        for (Parasite parasite : parasiteManager.getParasites()) {
-            MenuItem menuItem = new MenuItem(parasite.getName());
-            menuItem.setOnAction(e -> handleParasiteSelection(parasite));
-            parasiteMenuButton.getItems().add(menuItem);
-        }
-    }
+//    private void loadParasitesData() {
+//        for (Parasite parasite : parasiteManager.getParasites()) {
+//            MenuItem menuItem = new MenuItem(parasite.getName());
+//            menuItem.setOnAction(e -> handleParasiteSelection(parasite));
+//            parasiteMenuButton.getItems().add(menuItem);
+//        }
+//    }
 
     private void handleParasiteSelection(Parasite parasite) {
         // Implement what happens when a parasite is selected
