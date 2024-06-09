@@ -54,6 +54,7 @@ public class HelloApplication extends Application {
 //    I assume Prof is going to do something similar
     private void runAPIScheduledTasks() {
         GardenSimulationAPI api = new GardenSimulationAPI();
+        api.initializeGarden();
         Random rand = new Random();
 
 //        This is for testing the parasites thread

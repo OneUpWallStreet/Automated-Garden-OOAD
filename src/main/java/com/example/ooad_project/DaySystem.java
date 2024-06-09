@@ -13,23 +13,14 @@ import java.util.concurrent.TimeUnit;
 public class DaySystem {
     private static DaySystem instance = null;
     private final ScheduledExecutorService scheduler;
-    private int currentDay;  // Variable to keep track of the current day
+    private volatile int currentDay;  // Use volatile to ensure visibility between threads
     private final Logger logger = LogManager.getLogger("DayLogger");
     GardenGrid gardenGrid = GardenGrid.getInstance();
 
-
     private DaySystem() {
-        System.out.println("Day System Initialized");
         logger.info("Day System Initialized");
-
         scheduler = Executors.newScheduledThreadPool(1);
         currentDay = 0;  // Start at Day 0
-
-//      scheduler.scheduleAtFixedRate(this::endOfDayActions, 1, 1, TimeUnit.HOURS);
-
-        // Schedule the end of day actions to run every 1 minute, treating each minute as a new day
-//        scheduler.scheduleAtFixedRate(this::endOfDayActions, 0, 1, TimeUnit.MINUTES);
-
         scheduler.scheduleAtFixedRate(this::endOfDayActions, 0, 30, TimeUnit.SECONDS);
     }
 
@@ -40,14 +31,18 @@ public class DaySystem {
         return instance;
     }
 
+    public synchronized int getCurrentDay() {
+        return currentDay;
+    }
+
+    private synchronized void incrementDay() {
+        currentDay++;
+    }
+
     private void endOfDayActions() {
         try {
-            logger.info("End of Day: {}", currentDay);
+            logger.info("End of Day: {}", getCurrentDay());
 
-            EventBus.publish("SprinklerActivationEvent", null);
-
-//            Reset the watered status of all plants
-//            Heal all plants by 10
             for (int i = 0; i < gardenGrid.getNumRows(); i++) {
                 for (int j = 0; j < gardenGrid.getNumCols(); j++) {
                     Plant plant = gardenGrid.getPlant(i, j);
@@ -59,15 +54,12 @@ public class DaySystem {
                 }
             }
 
-            currentDay++;
-            EventBus.publish("DayChangeEvent", new DayChangeEvent(currentDay));
-            logger.info("Changed day to: {}", currentDay);
+            incrementDay();
+            EventBus.publish("DayChangeEvent", new DayChangeEvent(getCurrentDay()));
+            logger.info("Changed day to: {}", getCurrentDay());
 
         } catch (Exception e) {
             logger.error("Error during end of day processing: ", e);
-            System.out.println("Error during end of day processing: " + e);
         }
     }
-
-
 }

@@ -1,5 +1,6 @@
 package com.example.ooad_project;
 
+import com.example.ooad_project.API.GardenSimulationAPI;
 import com.example.ooad_project.Events.*;
 import com.example.ooad_project.Parasite.Parasite;
 import com.example.ooad_project.Parasite.ParasiteManager;
@@ -42,6 +43,9 @@ public class GardenUIController {
 
 //    @FXML
 //    private Button pestTestButton;
+
+    @FXML
+    private Label getPLantButton;
 
     @FXML
     private Label rainStatusLabel;
@@ -90,6 +94,14 @@ public class GardenUIController {
 //    private TextArea logTextArea;
 
     private static final Logger logger = LogManager.getLogger(GardenUIController.class);
+
+
+    @FXML
+    public void getPLantButtonPressed() {
+        GardenSimulationAPI api = new GardenSimulationAPI();
+//        api.getPlants();
+        api.getState();
+    }
 
 
 //    This is the UI Logger for the GardenUIController
@@ -145,6 +157,53 @@ public class GardenUIController {
 //        When plant is damaged by x
 //        Includes -> row, col, damage
         EventBus.subscribe("ParasiteDamageEvent", event -> handleParasiteDamageEvent((ParasiteDamageEvent) event));
+
+        EventBus.subscribe("InitializeGarden", event -> handleInitializeGarden());
+
+    }
+
+    private void handleInitializeGarden() {
+        // Hard-coded positions for plants as specified in the layout
+        Object[][] gardenLayout = {
+                {"Oak", 0, 1}, {"Maple", 0, 5}, {"Pine", 0, 7},
+                {"Tomato", 1, 6}, {"Carrot", 2, 2}, {"Lettuce", 1, 0},
+                {"Sunflower", 3, 1}, {"Rose", 4, 4}, {"Jasmine", 4, 7},
+                {"Oak", 5, 6}, {"Tomato", 3, 0}, {"Sunflower", 5, 3}
+        };
+
+        Platform.runLater(() -> {
+            for (Object[] plantInfo : gardenLayout) {
+                String plantType = (String) plantInfo[0];
+                int row = (Integer) plantInfo[1];
+                int col = (Integer) plantInfo[2];
+
+                Plant plant = plantManager.getPlantByName(plantType);
+                if (plant != null) {
+                    plant.setRow(row);
+                    plant.setCol(col);
+                    try {
+                        gardenGrid.addPlant(plant, row, col);  // Add plant to the logical grid
+                        addPlantToGridUI(plant, row, col);    // Add plant to the UI
+                    } catch (Exception e) {
+                        logger.error("Failed to place plant: " + plant.getName() + " at (" + row + ", " + col + "): " + e.getMessage());
+                    }
+                }
+            }
+        });
+    }
+
+    private void addPlantToGridUI(Plant plant, int row, int col) {
+        String imageFile = plant.getCurrentImage();
+        Image image = new Image(getClass().getResourceAsStream("/images/" + imageFile));
+        ImageView imageView = new ImageView(image);
+        imageView.setFitHeight(40); // Fit the cell size
+        imageView.setFitWidth(40);
+
+        StackPane pane = new StackPane(imageView);
+        pane.setStyle("-fx-alignment: center;"); // Center the image in the pane
+        gridPane.add(pane, col, row); // Add the pane to the grid
+        GridPane.setHalignment(pane, HPos.CENTER); // Center align in grid cell
+        GridPane.setValignment(pane, VPos.CENTER);
     }
 
 //    Function that is called when the parasite damage event is published
