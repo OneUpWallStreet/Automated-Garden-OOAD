@@ -36,13 +36,13 @@ public class LoggerAppender extends AbstractAppender {
 
     @Override
     public void append(LogEvent event) {
-        if (controller != null) {
-            String message = new String(getLayout().toByteArray(event));
-            controller.appendLogText(message.trim());
-        }
+//        if (controller != null) {
+//            String message = new String(getLayout().toByteArray(event));
+//            controller.appendLogText(message.trim());
+//        }
     }
 
     public static void setController(GardenUIController controller) {
-        LoggerAppender.controller = controller;
+//        LoggerAppender.controller = controller;
     }
 }

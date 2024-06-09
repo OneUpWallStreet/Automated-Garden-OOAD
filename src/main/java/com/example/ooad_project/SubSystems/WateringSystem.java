@@ -23,7 +23,12 @@ public class WateringSystem implements Runnable {
             try {
 
                 // Handle scheduled sprinkling every hour at the 59th minute
-                if (LocalDateTime.now().getMinute() == 59) {
+//                if (LocalDateTime.now().getMinute() == 59) {
+//                    logger.info("Scheduled sprinkling at {}", LocalDateTime.now());
+//                    sprinkle();
+//                }
+
+                if (LocalDateTime.now().getSecond() == 29) {
                     logger.info("Scheduled sprinkling at {}", LocalDateTime.now());
                     sprinkle();
                 }

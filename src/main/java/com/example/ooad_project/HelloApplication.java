@@ -60,9 +60,9 @@ public class HelloApplication extends Application {
         ParasiteManager parasiteManager = ParasiteManager.getInstance();
 
 //        Schedule rain every 15 seconds
-        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(15), ev -> {
+        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(30), ev -> {
 //            the api.rain is from the GardenSimulationAPI
-            api.rain(rand.nextInt(50));
+            api.rain(rand.nextInt(40));
         }));
         timeline.setCycleCount(Timeline.INDEFINITE);
         timeline.play();

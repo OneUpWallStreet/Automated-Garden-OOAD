@@ -1,6 +1,6 @@
 package com.example.ooad_project.Events;
 
-public class SprinklerEvent {
+    public class SprinklerEvent {
 
 
     int waterNeeded;
