@@ -1079,3 +1079,108 @@ java.lang.IllegalStateException: Not on FX application thread; currentThread = p
 2024-06-08 17:45:10 INFO  DayLogger - Changed day to: 4
 2024-06-08 17:45:39 INFO  DayLogger - End of Day: 4
 2024-06-08 17:45:40 INFO  DayLogger - Changed day to: 5
+2024-06-08 17:50:53 INFO  DayLogger - Day System Initialized
+2024-06-08 17:50:53 INFO  DayLogger - End of Day: 0
+2024-06-08 17:50:53 INFO  DayLogger - Changed day to: 1
+2024-06-08 17:51:23 INFO  DayLogger - End of Day: 1
+2024-06-08 17:51:23 INFO  DayLogger - Changed day to: 2
+2024-06-08 17:51:31 INFO  DayLogger - Day System Initialized
+2024-06-08 17:51:31 INFO  DayLogger - End of Day: 0
+2024-06-08 17:51:31 INFO  DayLogger - Changed day to: 1
+2024-06-08 17:52:01 INFO  DayLogger - End of Day: 1
+2024-06-08 17:52:01 INFO  DayLogger - Changed day to: 2
+2024-06-08 17:52:31 INFO  DayLogger - End of Day: 2
+2024-06-08 17:52:31 INFO  DayLogger - Changed day to: 3
+2024-06-08 17:53:32 INFO  DayLogger - Day System Initialized
+2024-06-08 17:53:32 INFO  DayLogger - End of Day: 0
+2024-06-08 17:53:32 INFO  DayLogger - Changed day to: 1
+2024-06-08 17:54:02 INFO  DayLogger - End of Day: 1
+2024-06-08 17:54:02 INFO  DayLogger - Changed day to: 2
+2024-06-08 18:02:22 INFO  DayLogger - Day System Initialized
+2024-06-08 18:02:22 INFO  DayLogger - End of Day: 0
+2024-06-08 18:02:22 INFO  DayLogger - Changed day to: 1
+2024-06-08 18:05:52 INFO  DayLogger - Day System Initialized
+2024-06-08 18:05:52 INFO  DayLogger - End of Day: 0
+2024-06-08 18:05:52 INFO  DayLogger - Changed day to: 1
+2024-06-08 18:06:22 INFO  DayLogger - End of Day: 1
+2024-06-08 18:06:22 INFO  DayLogger - Changed day to: 2
+2024-06-08 18:06:52 INFO  DayLogger - End of Day: 2
+2024-06-08 18:06:52 INFO  DayLogger - Changed day to: 3
+2024-06-08 18:07:22 INFO  DayLogger - End of Day: 3
+2024-06-08 18:07:22 INFO  DayLogger - Changed day to: 4
+2024-06-08 18:07:39 INFO  DayLogger - Day System Initialized
+2024-06-08 18:07:39 INFO  DayLogger - End of Day: 0
+2024-06-08 18:07:39 INFO  DayLogger - Changed day to: 1
+2024-06-08 18:08:09 INFO  DayLogger - End of Day: 1
+2024-06-08 18:08:09 INFO  DayLogger - Changed day to: 2
+2024-06-08 18:08:39 INFO  DayLogger - End of Day: 2
+2024-06-08 18:08:39 INFO  DayLogger - Changed day to: 3
+2024-06-08 18:09:09 INFO  DayLogger - End of Day: 3
+2024-06-08 18:09:09 INFO  DayLogger - Changed day to: 4
+2024-06-08 18:09:39 INFO  DayLogger - End of Day: 4
+2024-06-08 18:09:39 INFO  DayLogger - Changed day to: 5
+2024-06-08 18:10:09 INFO  DayLogger - End of Day: 5
+2024-06-08 18:10:09 INFO  DayLogger - Changed day to: 6
+2024-06-08 18:10:39 INFO  DayLogger - End of Day: 6
+2024-06-08 18:10:39 INFO  DayLogger - Changed day to: 7
+2024-06-08 18:11:09 INFO  DayLogger - End of Day: 7
+2024-06-08 18:11:09 INFO  DayLogger - Changed day to: 8
+2024-06-08 18:11:39 INFO  DayLogger - End of Day: 8
+2024-06-08 18:11:39 INFO  DayLogger - Changed day to: 9
+2024-06-08 18:12:09 INFO  DayLogger - End of Day: 9
+2024-06-08 18:12:09 INFO  DayLogger - Changed day to: 10
+2024-06-08 18:12:39 INFO  DayLogger - End of Day: 10
+2024-06-08 18:12:39 INFO  DayLogger - Changed day to: 11
+2024-06-08 18:13:09 INFO  DayLogger - End of Day: 11
+2024-06-08 18:13:09 INFO  DayLogger - Changed day to: 12
+2024-06-08 18:13:39 INFO  DayLogger - End of Day: 12
+2024-06-08 18:13:39 INFO  DayLogger - Changed day to: 13
+2024-06-08 18:14:09 INFO  DayLogger - End of Day: 13
+2024-06-08 18:14:09 INFO  DayLogger - Changed day to: 14
+2024-06-08 18:14:39 INFO  DayLogger - End of Day: 14
+2024-06-08 18:14:39 INFO  DayLogger - Changed day to: 15
+2024-06-08 18:15:09 INFO  DayLogger - End of Day: 15
+2024-06-08 18:15:09 INFO  DayLogger - Changed day to: 16
+2024-06-08 18:15:58 INFO  DayLogger - Day System Initialized
+2024-06-08 18:15:58 INFO  DayLogger - End of Day: 0
+2024-06-08 18:15:58 INFO  DayLogger - Changed day to: 1
+2024-06-08 18:16:21 INFO  DayLogger - Day System Initialized
+2024-06-08 18:16:21 INFO  DayLogger - End of Day: 0
+2024-06-08 18:16:21 INFO  DayLogger - Changed day to: 1
+2024-06-08 18:16:51 INFO  DayLogger - End of Day: 1
+2024-06-08 18:16:51 INFO  DayLogger - Changed day to: 2
+2024-06-08 18:17:21 INFO  DayLogger - End of Day: 2
+2024-06-08 18:17:21 INFO  DayLogger - Changed day to: 3
+2024-06-08 18:17:51 INFO  DayLogger - End of Day: 3
+2024-06-08 18:17:51 INFO  DayLogger - Changed day to: 4
+2024-06-08 18:18:21 INFO  DayLogger - End of Day: 4
+2024-06-08 18:18:21 INFO  DayLogger - Changed day to: 5
+2024-06-08 18:18:51 INFO  DayLogger - End of Day: 5
+2024-06-08 18:18:51 INFO  DayLogger - Changed day to: 6
+2024-06-08 18:19:03 INFO  DayLogger - Day System Initialized
+2024-06-08 18:19:03 INFO  DayLogger - End of Day: 0
+2024-06-08 18:19:03 INFO  DayLogger - Changed day to: 1
+2024-06-08 18:19:53 INFO  DayLogger - Day System Initialized
+2024-06-08 18:19:53 INFO  DayLogger - End of Day: 0
+2024-06-08 18:19:53 INFO  DayLogger - Changed day to: 1
+2024-06-08 18:20:23 INFO  DayLogger - End of Day: 1
+2024-06-08 18:20:23 INFO  DayLogger - Changed day to: 2
+2024-06-08 18:20:53 INFO  DayLogger - End of Day: 2
+2024-06-08 18:20:53 INFO  DayLogger - Changed day to: 3
+2024-06-08 18:23:13 INFO  DayLogger - Day System Initialized
+2024-06-08 18:23:13 INFO  DayLogger - End of Day: 0
+2024-06-08 18:23:13 INFO  DayLogger - Changed day to: 1
+2024-06-08 18:23:43 INFO  DayLogger - End of Day: 1
+2024-06-08 18:23:43 INFO  DayLogger - Changed day to: 2
+2024-06-08 18:24:13 INFO  DayLogger - End of Day: 2
+2024-06-08 18:24:13 INFO  DayLogger - Changed day to: 3
+2024-06-08 18:24:43 INFO  DayLogger - End of Day: 3
+2024-06-08 18:24:43 INFO  DayLogger - Changed day to: 4
+2024-06-08 18:25:02 INFO  DayLogger - Day System Initialized
+2024-06-08 18:25:02 INFO  DayLogger - End of Day: 0
+2024-06-08 18:25:02 INFO  DayLogger - Changed day to: 1
+2024-06-08 18:25:32 INFO  DayLogger - End of Day: 1
+2024-06-08 18:25:32 INFO  DayLogger - Changed day to: 2
+2024-06-08 18:27:41 INFO  DayLogger - Day System Initialized
+2024-06-08 18:27:41 INFO  DayLogger - End of Day: 0
+2024-06-08 18:27:41 INFO  DayLogger - Changed day to: 1

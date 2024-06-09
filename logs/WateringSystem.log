@@ -3250,3 +3250,85 @@
 2024-06-08 17:45:40 INFO  WateringSystemLogger - Watered Carrot at position (4, 0) with 37 water from rain
 2024-06-08 17:45:40 INFO  WateringSystemLogger - Watered Carrot at position (4, 3) with 37 water from rain
 2024-06-08 17:45:40 INFO  WateringSystemLogger - Watered Carrot at position (5, 7) with 37 water from rain
+2024-06-08 17:50:52 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 17:51:31 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 17:52:01 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 37 water from rain
+2024-06-08 17:52:01 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 37 water from rain
+2024-06-08 17:52:01 INFO  WateringSystemLogger - Watered Carrot at position (2, 7) with 37 water from rain
+2024-06-08 17:52:01 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 37 water from rain
+2024-06-08 17:52:01 INFO  WateringSystemLogger - Watered Carrot at position (4, 7) with 37 water from rain
+2024-06-08 17:52:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T17:52:29.860756800
+2024-06-08 17:52:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 17:52:29 INFO  WateringSystemLogger - Sprinkled Carrot at position (1, 4) with 33 water from sprinklers
+2024-06-08 17:52:29 INFO  WateringSystemLogger - Sprinkled Carrot at position (2, 3) with 33 water from sprinklers
+2024-06-08 17:52:29 INFO  WateringSystemLogger - Sprinkled Carrot at position (2, 7) with 33 water from sprinklers
+2024-06-08 17:52:29 INFO  WateringSystemLogger - Sprinkled Carrot at position (3, 0) with 33 water from sprinklers
+2024-06-08 17:52:29 INFO  WateringSystemLogger - Sprinkled Carrot at position (4, 7) with 33 water from sprinklers
+2024-06-08 17:52:29 INFO  WateringSystemLogger - In total Sprinkled 5 plants
+2024-06-08 17:52:31 INFO  WateringSystemLogger - Watered Carrot at position (1, 4) with 15 water from rain
+2024-06-08 17:52:31 INFO  WateringSystemLogger - Watered Carrot at position (2, 3) with 15 water from rain
+2024-06-08 17:52:31 INFO  WateringSystemLogger - Watered Carrot at position (2, 7) with 15 water from rain
+2024-06-08 17:52:31 INFO  WateringSystemLogger - Watered Carrot at position (3, 0) with 15 water from rain
+2024-06-08 17:52:31 INFO  WateringSystemLogger - Watered Carrot at position (4, 7) with 15 water from rain
+2024-06-08 17:53:32 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 18:02:22 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 18:02:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:02:29.157172700
+2024-06-08 18:02:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:02:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:05:52 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 18:06:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:06:29.405348100
+2024-06-08 18:06:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:06:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:07:39 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 18:08:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:08:29.067684100
+2024-06-08 18:08:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:08:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:09:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:09:29.117162100
+2024-06-08 18:09:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:09:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:10:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:10:29.157182900
+2024-06-08 18:10:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:10:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:11:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:11:29.197668100
+2024-06-08 18:11:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:11:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:12:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:12:29.240227300
+2024-06-08 18:12:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:12:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:13:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:13:29.276305500
+2024-06-08 18:13:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:13:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:14:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:14:29.313810200
+2024-06-08 18:14:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:14:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:15:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:15:29.729008700
+2024-06-08 18:15:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:15:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:15:58 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 18:16:21 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 18:16:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:16:29.192671800
+2024-06-08 18:16:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:16:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:17:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:17:29.228484500
+2024-06-08 18:17:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:17:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:18:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:18:29.274062800
+2024-06-08 18:18:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:18:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:19:03 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 18:19:53 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 18:20:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:20:29.507615300
+2024-06-08 18:20:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:20:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:23:13 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 18:23:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:23:29.352020300
+2024-06-08 18:23:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:23:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:24:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:24:29.399245400
+2024-06-08 18:24:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:24:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:25:02 INFO  WateringSystemLogger - Watering System Initialized
+2024-06-08 18:25:29 INFO  WateringSystemLogger - Scheduled sprinkling at 2024-06-08T18:25:29.108664
+2024-06-08 18:25:29 INFO  WateringSystemLogger - Sprinklers activated!
+2024-06-08 18:25:29 INFO  WateringSystemLogger - In total Sprinkled 0 plants
+2024-06-08 18:27:41 INFO  WateringSystemLogger - Watering System Initialized

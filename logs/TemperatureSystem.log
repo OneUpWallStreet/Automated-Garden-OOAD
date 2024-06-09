@@ -3103,3 +3103,151 @@
 2024-06-08 17:45:40 INFO  TemperatureSystemLogger - Temperature system cooled Carrot at position (4, 0) by 9 degrees F.
 2024-06-08 17:45:40 INFO  TemperatureSystemLogger - Temperature system cooled Carrot at position (4, 3) by 9 degrees F.
 2024-06-08 17:45:40 INFO  TemperatureSystemLogger - Temperature system cooled Carrot at position (5, 7) by 9 degrees F.
+2024-06-08 17:50:53 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 17:50:53 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 17:51:13 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 17:51:13 INFO  TemperatureSystemLogger - API called temperature set to: 56
+2024-06-08 17:51:31 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 17:51:31 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 17:51:51 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 17:51:51 INFO  TemperatureSystemLogger - API called temperature set to: 35
+2024-06-08 17:51:51 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 4) by 25 degrees F.
+2024-06-08 17:51:51 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 3) by 25 degrees F.
+2024-06-08 17:51:51 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 7) by 25 degrees F.
+2024-06-08 17:51:51 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 0) by 25 degrees F.
+2024-06-08 17:51:51 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (4, 7) by 25 degrees F.
+2024-06-08 17:52:11 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 17:52:11 INFO  TemperatureSystemLogger - API called temperature set to: 53
+2024-06-08 17:52:11 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 4) by 7 degrees F.
+2024-06-08 17:52:11 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 3) by 7 degrees F.
+2024-06-08 17:52:11 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 7) by 7 degrees F.
+2024-06-08 17:52:11 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 0) by 7 degrees F.
+2024-06-08 17:52:11 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (4, 7) by 7 degrees F.
+2024-06-08 17:52:31 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 17:52:31 INFO  TemperatureSystemLogger - API called temperature set to: 7
+2024-06-08 17:52:31 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 4) by 53 degrees F.
+2024-06-08 17:52:31 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 3) by 53 degrees F.
+2024-06-08 17:52:31 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 7) by 53 degrees F.
+2024-06-08 17:52:31 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 0) by 53 degrees F.
+2024-06-08 17:52:31 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (4, 7) by 53 degrees F.
+2024-06-08 17:52:51 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 17:52:51 INFO  TemperatureSystemLogger - API called temperature set to: 34
+2024-06-08 17:52:51 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (1, 4) by 26 degrees F.
+2024-06-08 17:52:51 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 3) by 26 degrees F.
+2024-06-08 17:52:51 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (2, 7) by 26 degrees F.
+2024-06-08 17:52:51 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (3, 0) by 26 degrees F.
+2024-06-08 17:52:51 INFO  TemperatureSystemLogger - Temperature system heated Carrot at position (4, 7) by 26 degrees F.
+2024-06-08 17:53:32 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 17:53:32 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 17:53:52 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 17:53:52 INFO  TemperatureSystemLogger - API called temperature set to: 59
+2024-06-08 17:54:12 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 17:54:12 INFO  TemperatureSystemLogger - API called temperature set to: 6
+2024-06-08 18:02:22 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 18:02:22 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:02:42 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:02:42 INFO  TemperatureSystemLogger - API called temperature set to: 41
+2024-06-08 18:05:52 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 18:05:52 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:06:12 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:06:12 INFO  TemperatureSystemLogger - API called temperature set to: 27
+2024-06-08 18:06:32 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:06:32 INFO  TemperatureSystemLogger - API called temperature set to: 32
+2024-06-08 18:06:52 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:06:52 INFO  TemperatureSystemLogger - API called temperature set to: 58
+2024-06-08 18:07:12 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:07:12 INFO  TemperatureSystemLogger - API called temperature set to: 44
+2024-06-08 18:07:39 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 18:07:39 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:07:59 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:07:59 INFO  TemperatureSystemLogger - API called temperature set to: 62
+2024-06-08 18:08:19 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:08:19 INFO  TemperatureSystemLogger - API called temperature set to: 13
+2024-06-08 18:08:39 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:08:39 INFO  TemperatureSystemLogger - API called temperature set to: 46
+2024-06-08 18:08:59 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:08:59 INFO  TemperatureSystemLogger - API called temperature set to: 1
+2024-06-08 18:09:19 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:09:19 INFO  TemperatureSystemLogger - API called temperature set to: 36
+2024-06-08 18:09:39 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:09:39 INFO  TemperatureSystemLogger - API called temperature set to: 23
+2024-06-08 18:09:59 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:09:59 INFO  TemperatureSystemLogger - API called temperature set to: 43
+2024-06-08 18:10:19 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:10:19 INFO  TemperatureSystemLogger - API called temperature set to: 54
+2024-06-08 18:10:39 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:10:39 INFO  TemperatureSystemLogger - API called temperature set to: 1
+2024-06-08 18:10:59 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:10:59 INFO  TemperatureSystemLogger - API called temperature set to: 36
+2024-06-08 18:11:19 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:11:19 INFO  TemperatureSystemLogger - API called temperature set to: 57
+2024-06-08 18:11:39 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:11:39 INFO  TemperatureSystemLogger - API called temperature set to: 66
+2024-06-08 18:11:59 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:11:59 INFO  TemperatureSystemLogger - API called temperature set to: 57
+2024-06-08 18:12:19 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:12:19 INFO  TemperatureSystemLogger - API called temperature set to: 52
+2024-06-08 18:12:39 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:12:39 INFO  TemperatureSystemLogger - API called temperature set to: 48
+2024-06-08 18:12:59 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:12:59 INFO  TemperatureSystemLogger - API called temperature set to: 41
+2024-06-08 18:13:19 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:13:19 INFO  TemperatureSystemLogger - API called temperature set to: 33
+2024-06-08 18:13:39 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:13:39 INFO  TemperatureSystemLogger - API called temperature set to: 53
+2024-06-08 18:13:59 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:13:59 INFO  TemperatureSystemLogger - API called temperature set to: 4
+2024-06-08 18:14:19 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:14:19 INFO  TemperatureSystemLogger - API called temperature set to: 34
+2024-06-08 18:14:39 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:14:39 INFO  TemperatureSystemLogger - API called temperature set to: 34
+2024-06-08 18:14:59 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:15:19 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:15:58 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 18:15:58 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:16:21 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 18:16:21 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:16:41 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:16:41 INFO  TemperatureSystemLogger - API called temperature set to: 2
+2024-06-08 18:17:01 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:17:01 INFO  TemperatureSystemLogger - API called temperature set to: 67
+2024-06-08 18:17:21 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:17:21 INFO  TemperatureSystemLogger - API called temperature set to: 24
+2024-06-08 18:17:41 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:17:41 INFO  TemperatureSystemLogger - API called temperature set to: 38
+2024-06-08 18:18:01 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:18:01 INFO  TemperatureSystemLogger - API called temperature set to: 28
+2024-06-08 18:18:21 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:18:21 INFO  TemperatureSystemLogger - API called temperature set to: 25
+2024-06-08 18:18:41 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:18:41 INFO  TemperatureSystemLogger - API called temperature set to: 12
+2024-06-08 18:19:03 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 18:19:03 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:19:53 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 18:19:53 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:20:13 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:20:13 INFO  TemperatureSystemLogger - API called temperature set to: 43
+2024-06-08 18:20:33 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:20:33 INFO  TemperatureSystemLogger - API called temperature set to: 9
+2024-06-08 18:20:53 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:20:53 INFO  TemperatureSystemLogger - API called temperature set to: 35
+2024-06-08 18:23:13 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 18:23:13 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:23:33 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:23:33 INFO  TemperatureSystemLogger - API called temperature set to: 55
+2024-06-08 18:23:53 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:23:53 INFO  TemperatureSystemLogger - API called temperature set to: 64
+2024-06-08 18:24:13 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:24:13 INFO  TemperatureSystemLogger - API called temperature set to: 20
+2024-06-08 18:24:33 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:24:33 INFO  TemperatureSystemLogger - API called temperature set to: 7
+2024-06-08 18:24:53 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:24:53 INFO  TemperatureSystemLogger - API called temperature set to: 15
+2024-06-08 18:25:02 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 18:25:02 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:25:22 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:25:22 INFO  TemperatureSystemLogger - API called temperature set to: 47
+2024-06-08 18:25:42 INFO  TemperatureSystemLogger - All Levels are optimal
+2024-06-08 18:25:42 INFO  TemperatureSystemLogger - API called temperature set to: 69
+2024-06-08 18:27:41 INFO  TemperatureSystemLogger - Temperature System Initialized
+2024-06-08 18:27:41 INFO  TemperatureSystemLogger - All Levels are optimal
