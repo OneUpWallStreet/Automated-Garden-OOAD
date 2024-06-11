@@ -95,7 +95,7 @@ public class GardenUIController {
 //    @FXML
 //    private TextArea logTextArea;
 
-    private static final Logger logger = LogManager.getLogger(GardenUIController.class);
+    private static final Logger logger = LogManager.getLogger("GardenUIControllerLogger");
 
 
     @FXML
@@ -242,6 +242,9 @@ public class GardenUIController {
     }
 
     private void addPlantToGridUI(Plant plant, int row, int col) {
+
+        logger.info("Adding plant to grid: " + plant.getName() + " at row " + row + " and column " + col);
+
         String imageFile = plant.getCurrentImage();
         Image image = new Image(getClass().getResourceAsStream("/images/" + imageFile));
         ImageView imageView = new ImageView(image);
@@ -257,6 +260,9 @@ public class GardenUIController {
 
 //    Function that is called when the parasite damage event is published
 private void handleParasiteDamageEvent(ParasiteDamageEvent event) {
+
+        logger.info("Displayed plant damaged at row " + event.getRow() + " and column " + event.getCol() + " by " + event.getDamage());
+
     Platform.runLater(() -> {
         int row = event.getRow();
         int col = event.getCol();
@@ -283,6 +289,9 @@ private void handleParasiteDamageEvent(ParasiteDamageEvent event) {
 
 
     private void handleTemperatureHeatEvent(TemperatureHeatEvent event) {
+
+        logger.info("Displayed plant heated at row " + event.getRow() + " and column " + event.getCol() + " by " + event.getTempDiff());
+
         Platform.runLater(() -> {
             int row = event.getRow();
             int col = event.getCol();
@@ -309,6 +318,10 @@ private void handleParasiteDamageEvent(ParasiteDamageEvent event) {
 //    Function that is called when the temperature cool event is published
 
     private void handleTemperatureCoolEvent(TemperatureCoolEvent event) {
+
+
+        logger.info("Displayed plant cooled at row " + event.getRow() + " and column " + event.getCol() + " by " + event.getTempDiff());
+
         Platform.runLater(() -> {
             int row = event.getRow();
             int col = event.getCol();
@@ -332,6 +345,9 @@ private void handleParasiteDamageEvent(ParasiteDamageEvent event) {
     }
 //  Function that is called when the sprinkler event is published
 private void handleSprinklerEvent(SprinklerEvent event) {
+
+        logger.info("Displayed Sprinkler activated at row " + event.getRow() + " and column " + event.getCol() + " with water amount " + event.getWaterNeeded());
+
     Platform.runLater(() -> {
         int row = event.getRow();
         int col = event.getCol();
@@ -363,6 +379,9 @@ private void handleSprinklerEvent(SprinklerEvent event) {
 //    }
 
     public void handleDayChangeEvent(DayChangeEvent event) {
+
+        logger.info("Day changed to: " + event.getDay());
+
         System.out.println("day changed to: " + event.getDay());
         Platform.runLater(() -> {
             currentDay.setText("Day: " + event.getDay());
@@ -371,6 +390,8 @@ private void handleSprinklerEvent(SprinklerEvent event) {
     }
 
     private void handlePlantImageUpdateEvent(PlantImageUpdateEvent event) {
+
+        logger.info("Plant image updated at row " + event.getPlant().getRow() + " and column " + event.getPlant().getCol() + " to " + event.getPlant().getCurrentImage());
 
 //        Be sure to wrap the code in Platform.runLater() to update the UI
 //        This is because the event is being handled in a different thread
@@ -409,6 +430,9 @@ private void handleSprinklerEvent(SprinklerEvent event) {
 
 
     private void handleDisplayParasiteEvent(DisplayParasiteEvent event) {
+
+        logger.info("Parasite displayed at row " + event.getRow() + " and column " + event.getColumn() + " with name " + event.getParasite().getName());
+
         // Load the image for the rat
         String imageName = "/images/" + event.getParasite().getImageName();
         Image ratImage = new Image(getClass().getResourceAsStream(imageName));
@@ -464,6 +488,9 @@ private void handleSprinklerEvent(SprinklerEvent event) {
 
 
     private void changeRainUI(RainEvent event) {
+
+        logger.info("Displayed rain event with amount: " + event.getAmount() + "mm");
+
         Platform.runLater(() -> {
             // Update UI to reflect it's raining
             System.out.println("Changing UI to reflect rain event");
@@ -490,6 +517,9 @@ private void handleSprinklerEvent(SprinklerEvent event) {
     }
 
     private void showSunnyWeather() {
+
+        logger.info("Displayed sunny weather");
+
         Platform.runLater(() -> {
             // Create an ImageView for the sun icon
             Image sunImage = new Image(getClass().getResourceAsStream("/images/sun.png"));
@@ -505,6 +535,9 @@ private void handleSprinklerEvent(SprinklerEvent event) {
 
 
     private void changeTemperatureUI(TemperatureEvent event) {
+
+        logger.info("Temperature changed to: " + event.getAmount() + "°F");
+
         Platform.runLater(() -> {
             // Update UI to reflect the temperature change
             System.out.println("Changing UI to reflect temperature event");
@@ -531,6 +564,9 @@ private void handleSprinklerEvent(SprinklerEvent event) {
     }
 
     private void showOptimalTemperature() {
+
+        logger.info("Displayed optimal temperature");
+
         Platform.runLater(() -> {
             // Create an ImageView for the optimal temperature icon
             Image optimalImage = new Image(getClass().getResourceAsStream("/images/optimal.png"));
@@ -545,6 +581,9 @@ private void handleSprinklerEvent(SprinklerEvent event) {
     }
 
     private void changeParasiteUI(ParasiteEvent event) {
+
+        logger.info("Parasite event triggered: " + event.getParasite().getName());
+
         Platform.runLater(() -> {
             // Update UI to reflect parasite event
             System.out.println("Changing UI to reflect parasite event");
@@ -571,6 +610,9 @@ private void handleSprinklerEvent(SprinklerEvent event) {
     }
 
     private void showNoParasites() {
+
+        logger.info("Displayed no parasites status");
+
         Platform.runLater(() -> {
             // Create an ImageView for the happy icon
             Image happyImage = new Image(getClass().getResourceAsStream("/images/happy.png"));
@@ -586,6 +628,8 @@ private void handleSprinklerEvent(SprinklerEvent event) {
 
     //    This is the method that will populate the menu buttons with the plant data
     private void loadPlantsData() {
+
+        logger.info("Loading plant data from JSON file");
 
         for (Flower flower : plantManager.getFlowers()) {
             MenuItem menuItem = new MenuItem(flower.getName());
@@ -609,6 +653,9 @@ private void handleSprinklerEvent(SprinklerEvent event) {
     }
 
     private void addPlantToGrid(String name, String imageFile) {
+
+        logger.info("Adding plant to grid: " + name + " with image: " + imageFile);
+
         Plant plant = plantManager.getPlantByName(name); // Assume this method retrieves the correct plant
         if (plant != null) {
             boolean placed = false;

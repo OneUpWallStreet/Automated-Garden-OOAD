@@ -1,2 +1,62 @@
-2024-06-11 00:32:53 INFO  GardenUIControllerLogger - GardenUIController initialized
-2024-06-11 00:45:36 INFO  GardenUIControllerLogger - GardenUIController initialized
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Displayed sunny weather
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Displayed optimal temperature
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Displayed no parasites status
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Loading plant data from JSON file
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - GardenUIController initialized
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Day changed to: 1
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Adding plant to grid: Oak at row 0 and column 1
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Adding plant to grid: Maple at row 0 and column 5
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Adding plant to grid: Pine at row 0 and column 7
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Adding plant to grid: Tomato at row 1 and column 6
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Adding plant to grid: Carrot at row 2 and column 2
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Adding plant to grid: Lettuce at row 1 and column 0
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Adding plant to grid: Sunflower at row 3 and column 1
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Adding plant to grid: Rose at row 4 and column 4
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Adding plant to grid: Jasmine at row 4 and column 7
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Adding plant to grid: Oak at row 5 and column 6
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Adding plant to grid: Tomato at row 3 and column 0
+2024-06-11 13:21:19 INFO  GardenUIControllerLogger - Adding plant to grid: Sunflower at row 5 and column 3
+2024-06-11 13:21:25 INFO  GardenUIControllerLogger - Parasite event triggered: Aphids
+2024-06-11 13:21:25 INFO  GardenUIControllerLogger - Parasite displayed at row 0 and column 1 with name Aphids
+2024-06-11 13:21:25 INFO  GardenUIControllerLogger - Plant damaged at row 0 and column 1 by 4
+2024-06-11 13:21:25 INFO  GardenUIControllerLogger - Parasite displayed at row 0 and column 5 with name Aphids
+2024-06-11 13:21:25 INFO  GardenUIControllerLogger - Plant damaged at row 0 and column 5 by 4
+2024-06-11 13:21:25 INFO  GardenUIControllerLogger - Parasite displayed at row 1 and column 0 with name Aphids
+2024-06-11 13:21:25 INFO  GardenUIControllerLogger - Plant damaged at row 1 and column 0 by 4
+2024-06-11 13:21:25 INFO  GardenUIControllerLogger - Parasite displayed at row 1 and column 6 with name Aphids
+2024-06-11 13:21:25 INFO  GardenUIControllerLogger - Parasite displayed at row 3 and column 0 with name Aphids
+2024-06-11 13:21:25 INFO  GardenUIControllerLogger - Parasite displayed at row 4 and column 4 with name Aphids
+2024-06-11 13:21:25 INFO  GardenUIControllerLogger - Parasite displayed at row 4 and column 7 with name Aphids
+2024-06-11 13:21:25 INFO  GardenUIControllerLogger - Parasite displayed at row 5 and column 6 with name Aphids
+2024-06-11 13:21:25 INFO  GardenUIControllerLogger - Plant damaged at row 5 and column 6 by 4
+2024-06-11 13:21:30 INFO  GardenUIControllerLogger - Displayed no parasites status
+2024-06-11 13:21:31 INFO  GardenUIControllerLogger - Parasite event triggered: Crow
+2024-06-11 13:21:31 INFO  GardenUIControllerLogger - Parasite displayed at row 3 and column 1 with name Crow
+2024-06-11 13:21:31 INFO  GardenUIControllerLogger - Plant damaged at row 3 and column 1 by 8
+2024-06-11 13:21:31 INFO  GardenUIControllerLogger - Parasite displayed at row 5 and column 3 with name Crow
+2024-06-11 13:21:31 INFO  GardenUIControllerLogger - Plant damaged at row 5 and column 3 by 8
+2024-06-11 13:21:36 INFO  GardenUIControllerLogger - Displayed no parasites status
+2024-06-11 13:21:37 INFO  GardenUIControllerLogger - Parasite event triggered: Slugs
+2024-06-11 13:21:37 INFO  GardenUIControllerLogger - Parasite displayed at row 1 and column 0 with name Slugs
+2024-06-11 13:21:37 INFO  GardenUIControllerLogger - Plant damaged at row 1 and column 0 by 8
+2024-06-11 13:21:37 INFO  GardenUIControllerLogger - Parasite displayed at row 2 and column 2 with name Slugs
+2024-06-11 13:21:37 INFO  GardenUIControllerLogger - Plant damaged at row 2 and column 2 by 8
+2024-06-11 13:21:39 INFO  GardenUIControllerLogger - Temperature changed to: 34°F
+2024-06-11 13:21:39 INFO  GardenUIControllerLogger - Plant heated at row 0 and column 1 by 31
+2024-06-11 13:21:39 INFO  GardenUIControllerLogger - Plant heated at row 0 and column 5 by 26
+2024-06-11 13:21:39 INFO  GardenUIControllerLogger - Plant heated at row 0 and column 7 by 16
+2024-06-11 13:21:39 INFO  GardenUIControllerLogger - Plant heated at row 1 and column 0 by 26
+2024-06-11 13:21:39 INFO  GardenUIControllerLogger - Plant heated at row 1 and column 6 by 41
+2024-06-11 13:21:39 INFO  GardenUIControllerLogger - Plant heated at row 2 and column 2 by 26
+2024-06-11 13:21:39 INFO  GardenUIControllerLogger - Plant heated at row 3 and column 0 by 41
+2024-06-11 13:21:39 INFO  GardenUIControllerLogger - Plant heated at row 3 and column 1 by 36
+2024-06-11 13:21:39 INFO  GardenUIControllerLogger - Plant heated at row 4 and column 4 by 31
+2024-06-11 13:21:39 INFO  GardenUIControllerLogger - Plant heated at row 4 and column 7 by 31
+2024-06-11 13:21:39 INFO  GardenUIControllerLogger - Plant heated at row 5 and column 3 by 36
+2024-06-11 13:21:39 INFO  GardenUIControllerLogger - Plant heated at row 5 and column 6 by 31
+2024-06-11 13:21:42 INFO  GardenUIControllerLogger - Displayed no parasites status
+2024-06-11 13:21:43 INFO  GardenUIControllerLogger - Parasite event triggered: Rat
+2024-06-11 13:21:43 INFO  GardenUIControllerLogger - Parasite displayed at row 1 and column 0 with name Rat
+2024-06-11 13:21:43 INFO  GardenUIControllerLogger - Plant damaged at row 1 and column 0 by 4
+2024-06-11 13:21:43 INFO  GardenUIControllerLogger - Parasite displayed at row 2 and column 2 with name Rat
+2024-06-11 13:21:44 INFO  GardenUIControllerLogger - Displayed optimal temperature
