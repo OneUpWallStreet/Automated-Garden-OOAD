@@ -60,3 +60,24 @@
 2024-06-11 13:21:43 INFO  GardenUIControllerLogger - Plant damaged at row 1 and column 0 by 4
 2024-06-11 13:21:43 INFO  GardenUIControllerLogger - Parasite displayed at row 2 and column 2 with name Rat
 2024-06-11 13:21:44 INFO  GardenUIControllerLogger - Displayed optimal temperature
+2024-06-11 13:27:46 INFO  GardenUIControllerLogger - Displayed sunny weather
+2024-06-11 13:27:46 INFO  GardenUIControllerLogger - Displayed optimal temperature
+2024-06-11 13:27:46 INFO  GardenUIControllerLogger - Displayed no parasites status
+2024-06-11 13:27:46 INFO  GardenUIControllerLogger - Loading plant data from JSON file
+2024-06-11 13:27:46 INFO  GardenUIControllerLogger - GardenUIController initialized
+2024-06-11 13:27:46 INFO  GardenUIControllerLogger - Day changed to: 1
+2024-06-11 13:27:47 INFO  GardenUIControllerLogger - Adding plant to grid: Oak at row 0 and column 1
+2024-06-11 13:27:47 INFO  GardenUIControllerLogger - Adding plant to grid: Maple at row 0 and column 5
+2024-06-11 13:27:47 INFO  GardenUIControllerLogger - Adding plant to grid: Pine at row 0 and column 6
+2024-06-11 13:27:47 INFO  GardenUIControllerLogger - Adding plant to grid: Tomato at row 1 and column 6
+2024-06-11 13:27:47 INFO  GardenUIControllerLogger - Adding plant to grid: Carrot at row 2 and column 2
+2024-06-11 13:27:47 INFO  GardenUIControllerLogger - Adding plant to grid: Lettuce at row 1 and column 0
+2024-06-11 13:27:47 INFO  GardenUIControllerLogger - Adding plant to grid: Sunflower at row 3 and column 1
+2024-06-11 13:27:47 INFO  GardenUIControllerLogger - Adding plant to grid: Rose at row 4 and column 4
+2024-06-11 13:27:47 INFO  GardenUIControllerLogger - Adding plant to grid: Jasmine at row 4 and column 6
+2024-06-11 13:27:47 ERROR GardenUIControllerLogger - Failed to place plant: Oak at (5, 6): Index 5 out of bounds for length 5
+2024-06-11 13:27:47 INFO  GardenUIControllerLogger - Adding plant to grid: Tomato at row 3 and column 0
+2024-06-11 13:27:47 ERROR GardenUIControllerLogger - Failed to place plant: Sunflower at (5, 3): Index 5 out of bounds for length 5
+2024-06-11 13:27:53 INFO  GardenUIControllerLogger - Parasite event triggered: Locust
+2024-06-11 13:27:53 INFO  GardenUIControllerLogger - Parasite displayed at row 0 and column 6 with name Locust
+2024-06-11 13:27:53 INFO  GardenUIControllerLogger - Displayed plant damaged at row 0 and column 6 by 4

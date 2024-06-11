@@ -9,8 +9,8 @@ public class GardenGrid {
     private Plant[][] plantGrid;
 
 //    4x4 for now
-    private final int numRows = 6;
-    private final int numCols = 8;
+    private final int numRows = 5;
+    private final int numCols = 7;
 
 
     private GardenGrid() {

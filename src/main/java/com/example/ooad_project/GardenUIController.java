@@ -214,9 +214,9 @@ public class GardenUIController {
     private void handleInitializeGarden() {
         // Hard-coded positions for plants as specified in the layout
         Object[][] gardenLayout = {
-                {"Oak", 0, 1}, {"Maple", 0, 5}, {"Pine", 0, 7},
+                {"Oak", 0, 1}, {"Maple", 0, 5}, {"Pine", 0, 6},
                 {"Tomato", 1, 6}, {"Carrot", 2, 2}, {"Lettuce", 1, 0},
-                {"Sunflower", 3, 1}, {"Rose", 4, 4}, {"Jasmine", 4, 7},
+                {"Sunflower", 3, 1}, {"Rose", 4, 4}, {"Jasmine", 4, 6},
                 {"Oak", 5, 6}, {"Tomato", 3, 0}, {"Sunflower", 5, 3}
         };
 

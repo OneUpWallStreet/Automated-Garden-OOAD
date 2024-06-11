@@ -4,3 +4,5 @@
 2024-06-11 13:21:37 INFO  GardenSimulationAPILogger - API called to handle parasite: Slugs
 2024-06-11 13:21:39 INFO  GardenSimulationAPILogger - API called temperature set to: 34
 2024-06-11 13:21:43 INFO  GardenSimulationAPILogger - API called to handle parasite: Rat
+2024-06-11 13:27:46 INFO  GardenSimulationAPILogger - Initializing Garden
+2024-06-11 13:27:53 INFO  GardenSimulationAPILogger - API called to handle parasite: Locust
