@@ -43,6 +43,8 @@ public class DaySystem {
         try {
             logger.info("End of Day: {}", getCurrentDay());
 
+            EventBus.publish("SprinklerActivationEvent", null);
+
             for (int i = 0; i < gardenGrid.getNumRows(); i++) {
                 for (int j = 0; j < gardenGrid.getNumCols(); j++) {
                     Plant plant = gardenGrid.getPlant(i, j);
