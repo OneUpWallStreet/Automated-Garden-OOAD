@@ -89,6 +89,13 @@ public abstract class Plant {
 
         this.currentHealth = health;
 
+        if (this.currentHealth <= 0) {
+            this.currentHealth = 0;
+            EventBus.publish("PlantDeathEvent", this);
+            return;
+        }
+
+
         EventBus.publish("PlantHealthUpdateEvent", new PlantHealthUpdateEvent(this.row, this.col, oldHealth, this.currentHealth));
 
         int currentStage = getHealthStage();

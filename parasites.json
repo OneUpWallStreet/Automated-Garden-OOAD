@@ -8,25 +8,25 @@
     },
     {
       "name": "Crow",
-      "damage": 8,
+      "damage": 2,
       "imageName": "crow.png",
       "targetPlants": ["Sunflower"]
     },
     {
       "name": "Locust",
-      "damage": 4,
+      "damage": 8,
       "imageName": "locust.png",
       "targetPlants": ["Pine"]
     },
     {
       "name": "Aphids",
-      "damage": 4,
+      "damage": 2,
       "imageName": "aphids.png",
       "targetPlants": ["Rose", "Tomato", "Lettuce", "Oak", "Maple", "Cedar", "Jasmine"]
     },
     {
       "name": "Slugs",
-      "damage": 8,
+      "damage": 4,
       "imageName": "slugs.png",
       "targetPlants": ["Lettuce", "Carrot", "Lily"]
     }

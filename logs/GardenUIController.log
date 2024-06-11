@@ -81,3 +81,23 @@
 2024-06-11 13:27:53 INFO  GardenUIControllerLogger - Parasite event triggered: Locust
 2024-06-11 13:27:53 INFO  GardenUIControllerLogger - Parasite displayed at row 0 and column 6 with name Locust
 2024-06-11 13:27:53 INFO  GardenUIControllerLogger - Displayed plant damaged at row 0 and column 6 by 4
+2024-06-11 13:27:58 INFO  GardenUIControllerLogger - Displayed no parasites status
+2024-06-11 13:27:59 INFO  GardenUIControllerLogger - Parasite event triggered: Locust
+2024-06-11 13:27:59 INFO  GardenUIControllerLogger - Parasite displayed at row 0 and column 6 with name Locust
+2024-06-11 13:27:59 INFO  GardenUIControllerLogger - Displayed plant damaged at row 0 and column 6 by 4
+2024-06-11 13:28:04 INFO  GardenUIControllerLogger - Displayed no parasites status
+2024-06-11 13:28:05 INFO  GardenUIControllerLogger - Parasite event triggered: Locust
+2024-06-11 13:28:05 INFO  GardenUIControllerLogger - Parasite displayed at row 0 and column 6 with name Locust
+2024-06-11 13:28:05 INFO  GardenUIControllerLogger - Displayed plant damaged at row 0 and column 6 by 4
+2024-06-11 13:28:07 INFO  GardenUIControllerLogger - Temperature changed to: 32°F
+2024-06-11 13:28:07 INFO  GardenUIControllerLogger - Displayed plant heated at row 0 and column 1 by 33
+2024-06-11 13:28:07 INFO  GardenUIControllerLogger - Displayed plant heated at row 0 and column 5 by 28
+2024-06-11 13:28:07 INFO  GardenUIControllerLogger - Displayed plant heated at row 0 and column 6 by 18
+2024-06-11 13:28:07 INFO  GardenUIControllerLogger - Displayed plant heated at row 1 and column 0 by 28
+2024-06-11 13:28:07 INFO  GardenUIControllerLogger - Displayed plant heated at row 1 and column 6 by 43
+2024-06-11 13:28:07 INFO  GardenUIControllerLogger - Displayed plant heated at row 2 and column 2 by 28
+2024-06-11 13:28:07 INFO  GardenUIControllerLogger - Displayed plant heated at row 3 and column 0 by 43
+2024-06-11 13:28:07 INFO  GardenUIControllerLogger - Displayed plant heated at row 3 and column 1 by 38
+2024-06-11 13:28:07 INFO  GardenUIControllerLogger - Displayed plant heated at row 4 and column 4 by 33
+2024-06-11 13:28:07 INFO  GardenUIControllerLogger - Displayed plant heated at row 4 and column 6 by 33
+2024-06-11 13:28:10 INFO  GardenUIControllerLogger - Displayed no parasites status

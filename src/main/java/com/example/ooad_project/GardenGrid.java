@@ -1,6 +1,7 @@
 package com.example.ooad_project;
 
 import com.example.ooad_project.Plant.Plant;
+import com.example.ooad_project.ThreadUtils.EventBus;
 
 import java.util.ArrayList;
 
@@ -14,7 +15,16 @@ public class GardenGrid {
 
 
     private GardenGrid() {
+
         plantGrid = new Plant[numRows][numCols];
+//        EventBus.subscribe("SprinklerActivationEvent", event -> sprinkle());
+
+        EventBus.subscribe("PlantDeathEvent", event ->  handlePlantDeath((Plant) event));
+    }
+
+    private void handlePlantDeath(Plant plant) {
+        EventBus.publish("PlantDeathUIChangeEvent", plant);
+        plantGrid[plant.getRow()][plant.getCol()] = null;
     }
 
 

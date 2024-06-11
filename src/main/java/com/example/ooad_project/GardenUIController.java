@@ -205,6 +205,12 @@ public class GardenUIController {
 //        Event whenever there is change to plants health
         EventBus.subscribe("PlantHealthUpdateEvent", event -> handlePlantHealthUpdateEvent((PlantHealthUpdateEvent) event));
 
+        EventBus.subscribe("PlantDeathUIChangeEvent", event -> handlePlantDeathUIChangeEvent((Plant) event));
+
+    }
+
+    private void handlePlantDeathUIChangeEvent(Plant plant){
+
     }
 
     private void handlePlantHealthUpdateEvent(PlantHealthUpdateEvent event){

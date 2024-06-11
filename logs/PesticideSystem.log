@@ -45,3 +45,9 @@
 2024-06-11 13:27:53 INFO  PesticideSystemLogger - Locust has successfully damaged the plant Pine at position (0, 6). Old health: 70. New health: 66
 2024-06-11 13:27:53 INFO  PesticideSystemLogger - Pesticide system applied Locust to Pine at position (0, 6)
 2024-06-11 13:27:53 INFO  PesticideSystemLogger - Plant: Pine at position (0, 6) healed by 2 points, new health: 68
+2024-06-11 13:27:59 INFO  PesticideSystemLogger - Locust has successfully damaged the plant Pine at position (0, 6). Old health: 68. New health: 64
+2024-06-11 13:27:59 INFO  PesticideSystemLogger - Pesticide system applied Locust to Pine at position (0, 6)
+2024-06-11 13:27:59 INFO  PesticideSystemLogger - Plant: Pine at position (0, 6) healed by 2 points, new health: 66
+2024-06-11 13:28:05 INFO  PesticideSystemLogger - Locust has successfully damaged the plant Pine at position (0, 6). Old health: 66. New health: 62
+2024-06-11 13:28:05 INFO  PesticideSystemLogger - Pesticide system applied Locust to Pine at position (0, 6)
+2024-06-11 13:28:05 INFO  PesticideSystemLogger - Plant: Pine at position (0, 6) healed by 2 points, new health: 64

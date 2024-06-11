@@ -46,7 +46,7 @@
       "allImages": ["smallVegetable.png", "mediumTomato.png", "largeTomato.png"],
       "temperatureRequirement": 75,
       "vulnerableTo": ["Aphids"],
-      "healthSmall": 30,
+      "healthSmall": 40,
       "healthMedium": 60,
       "healthFull": 90
     },
@@ -58,9 +58,9 @@
       "allImages": ["smallCarrot.png", "mediumCarrot.png", "largeCarrot.png"],
       "temperatureRequirement": 60,
       "vulnerableTo": ["Rat", "Slugs"],
-      "healthSmall": 20,
-      "healthMedium": 40,
-      "healthFull": 60
+      "healthSmall": 40,
+      "healthMedium": 50,
+      "healthFull": 65
     },
     {
       "name": "Lettuce",
@@ -70,9 +70,9 @@
       "allImages": ["smallVegetable.png", "mediumLettuce.png", "largeLettuce.png"],
       "temperatureRequirement": 60,
       "vulnerableTo": ["Rat", "Aphids", "Slugs"],
-      "healthSmall": 10,
-      "healthMedium": 20,
-      "healthFull": 30
+      "healthSmall": 40,
+      "healthMedium": 50,
+      "healthFull": 70
     }
   ],
   "flowers": [
@@ -108,9 +108,9 @@
       "allImages": ["smallJasmine.png", "mediumJasmine.png", "largeJasmine.png"],
       "temperatureRequirement": 65,
       "vulnerableTo": ["Aphids"],
-      "healthSmall": 20,
-      "healthMedium": 40,
-      "healthFull": 60
+      "healthSmall": 30,
+      "healthMedium": 45,
+      "healthFull": 65
     }
   ]
 }
