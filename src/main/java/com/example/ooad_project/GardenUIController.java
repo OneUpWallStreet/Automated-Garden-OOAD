@@ -14,11 +14,13 @@ import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.geometry.HPos;
 import javafx.geometry.VPos;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.*;
 import javafx.animation.PauseTransition;
+import javafx.stage.Stage;
 import javafx.util.Duration;
 
 import java.util.Random;
@@ -113,18 +115,45 @@ public class GardenUIController {
 
         initializeLogger();
 
-        // Load the background image
-        // Load the background image
-        Image backgroundImage = new Image("file:/C:/Users/SID/IdeaProjects/Automated-Garden-OOAD/src/main/resources/images/rain.png");
+        showSunnyWeather();
+
+        showOptimalTemperature();
+
+        showNoParasites();
+
+//        Stage stage = (Stage) anchorPane.getScene().getWindow();
+//        Scene scene = anchorPane.getScene();
+//        anchorPane.prefWidthProperty().bind(scene.widthProperty());
+//        anchorPane.prefHeightProperty().bind(scene.heightProperty());
+//
+//         Load the background image
+//         Load the background image
+        Image backgroundImage = new Image("file:/C:/Users/SID/IdeaProjects/Automated-Garden-OOAD/src/main/resources/images/b5.png");
+
+//        // Create an ImageView
+//        ImageView imageView = new ImageView(backgroundImage);
+//        imageView.setFitWidth(anchorPane.getPrefWidth());
+//        imageView.setFitHeight(anchorPane.getPrefHeight());
+//        imageView.setPreserveRatio(false);
+//
+//        // Add the ImageView as the first child of the AnchorPane
+//        anchorPane.getChildren().add(0, imageView);
+
 
         // Create an ImageView
         ImageView imageView = new ImageView(backgroundImage);
-        imageView.setFitWidth(anchorPane.getPrefWidth());
-        imageView.setFitHeight(anchorPane.getPrefHeight());
         imageView.setPreserveRatio(false);
 
         // Add the ImageView as the first child of the AnchorPane
         anchorPane.getChildren().add(0, imageView);
+
+        // Bind ImageView's size to the AnchorPane's size
+        anchorPane.widthProperty().addListener((obs, oldVal, newVal) -> {
+            imageView.setFitWidth(newVal.doubleValue());
+        });
+        anchorPane.heightProperty().addListener((obs, oldVal, newVal) -> {
+            imageView.setFitHeight(newVal.doubleValue());
+        });
 
         // Add ColumnConstraints
         for (int col = 0; col < gardenGrid.getNumCols(); col++) {
@@ -308,7 +337,7 @@ private void handleSprinklerEvent(SprinklerEvent event) {
         GridPane.setValignment(sprinklerImageView, VPos.BOTTOM); // Align to bottom
         gridPane.getChildren().add(sprinklerImageView);
 
-        PauseTransition pause = new PauseTransition(Duration.seconds(10));
+        PauseTransition pause = new PauseTransition(Duration.seconds(5));
         pause.setOnFinished(_ -> gridPane.getChildren().remove(sprinklerImageView));
         pause.play();
     });
@@ -424,48 +453,124 @@ private void handleSprinklerEvent(SprinklerEvent event) {
 
 
     private void changeRainUI(RainEvent event) {
+        Platform.runLater(() -> {
             // Update UI to reflect it's raining
             System.out.println("Changing UI to reflect rain event");
-            rainStatusLabel.setText("Rain amount: "+ event.getAmount() + "mm");
+
+            // Create an ImageView for the rain icon
+            Image rainImage = new Image(getClass().getResourceAsStream("/images/rain.png"));
+            ImageView rainImageView = new ImageView(rainImage);
+            rainImageView.setFitHeight(20);
+            rainImageView.setFitWidth(20);
+
+            // Set the text with the rain amount
+            rainStatusLabel.setGraphic(rainImageView);
+            rainStatusLabel.setText(event.getAmount() + "mm");
 
             // Create a pause transition of 5 seconds
             PauseTransition pause = new PauseTransition(Duration.seconds(5));
             pause.setOnFinished(e -> {
                 // Update UI to reflect no rain after the event ends
-                rainStatusLabel.setText("Sunny");
-                System.out.println("Rain event ended, updating UI to show no rain.");
+                showSunnyWeather();
+                System.out.println("Rain event ended, updating UI to show sunny weather.");
             });
             pause.play();
-        }
+        });
+    }
+
+    private void showSunnyWeather() {
+        Platform.runLater(() -> {
+            // Create an ImageView for the sun icon
+            Image sunImage = new Image(getClass().getResourceAsStream("/images/sun.png"));
+            ImageView sunImageView = new ImageView(sunImage);
+            sunImageView.setFitHeight(20);
+            sunImageView.setFitWidth(20);
+
+            // Set the text with the sun status
+            rainStatusLabel.setGraphic(sunImageView);
+            rainStatusLabel.setText("Sunny");
+        });
+    }
+
 
     private void changeTemperatureUI(TemperatureEvent event) {
-        // Update UI to reflect the temperature change
-        System.out.println("Changing UI to reflect temperature event");
-        temperatureStatusLabel.setText(event.getAmount() + "°F");
+        Platform.runLater(() -> {
+            // Update UI to reflect the temperature change
+            System.out.println("Changing UI to reflect temperature event");
 
-        // Create a pause transition of 5 seconds
-        PauseTransition pause = new PauseTransition(Duration.seconds(5));
-        pause.setOnFinished(e -> {
-            // Update UI to reflect optimal temperature after the event ends
-            temperatureStatusLabel.setText("Optimal");
-            System.out.println("Temperature event ended, updating UI to show optimal temperature.");
+            // Create an ImageView for the temperature icon
+            Image tempImage = new Image(getClass().getResourceAsStream("/images/temperature.png"));
+            ImageView tempImageView = new ImageView(tempImage);
+            tempImageView.setFitHeight(20);
+            tempImageView.setFitWidth(20);
+
+            // Set the text with the temperature amount
+            temperatureStatusLabel.setGraphic(tempImageView);
+            temperatureStatusLabel.setText(event.getAmount() + "°F");
+
+            // Create a pause transition of 5 seconds
+            PauseTransition pause = new PauseTransition(Duration.seconds(5));
+            pause.setOnFinished(e -> {
+                // Update UI to reflect optimal temperature after the event ends
+                showOptimalTemperature();
+                System.out.println("Temperature event ended, updating UI to show optimal temperature.");
+            });
+            pause.play();
         });
-        pause.play();
+    }
+
+    private void showOptimalTemperature() {
+        Platform.runLater(() -> {
+            // Create an ImageView for the optimal temperature icon
+            Image optimalImage = new Image(getClass().getResourceAsStream("/images/optimal.png"));
+            ImageView optimalImageView = new ImageView(optimalImage);
+            optimalImageView.setFitHeight(15);
+            optimalImageView.setFitWidth(15);
+
+            // Set the text with the optimal status
+            temperatureStatusLabel.setGraphic(optimalImageView);
+            temperatureStatusLabel.setText("Optimal");
+        });
     }
 
     private void changeParasiteUI(ParasiteEvent event) {
-        // Update UI to reflect parasite event
-        System.out.println("Changing UI to reflect parasite event");
-        parasiteStatusLabel.setText("Parasite: " + event.getParasite().getName() + " detected");
+        Platform.runLater(() -> {
+            // Update UI to reflect parasite event
+            System.out.println("Changing UI to reflect parasite event");
 
-        // Create a pause transition of 5 seconds
-        PauseTransition pause = new PauseTransition(Duration.seconds(5));
-        pause.setOnFinished(e -> {
-            // Update UI to reflect no parasites after the event ends
-            parasiteStatusLabel.setText("No Parasites");
-            System.out.println("Parasite event ended, updating UI to show no parasites.");
+            // Create an ImageView for the sad icon
+            Image sadImage = new Image(getClass().getResourceAsStream("/images/sad.png"));
+            ImageView sadImageView = new ImageView(sadImage);
+            sadImageView.setFitHeight(20);
+            sadImageView.setFitWidth(20);
+
+            // Set the text with the parasite name
+            parasiteStatusLabel.setGraphic(sadImageView);
+            parasiteStatusLabel.setText(event.getParasite().getName() + " detected");
+
+            // Create a pause transition of 5 seconds
+            PauseTransition pause = new PauseTransition(Duration.seconds(5));
+            pause.setOnFinished(e -> {
+                // Update UI to reflect no parasites after the event ends
+                showNoParasites();
+                System.out.println("Parasite event ended, updating UI to show no parasites.");
+            });
+            pause.play();
         });
-        pause.play();
+    }
+
+    private void showNoParasites() {
+        Platform.runLater(() -> {
+            // Create an ImageView for the happy icon
+            Image happyImage = new Image(getClass().getResourceAsStream("/images/happy.png"));
+            ImageView happyImageView = new ImageView(happyImage);
+            happyImageView.setFitHeight(20);
+            happyImageView.setFitWidth(20);
+
+            // Set the text with the no parasites status
+            parasiteStatusLabel.setGraphic(happyImageView);
+            parasiteStatusLabel.setText("No Parasites");
+        });
     }
 
     //    This is the method that will populate the menu buttons with the plant data
