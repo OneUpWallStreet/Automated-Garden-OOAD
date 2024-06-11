@@ -255,21 +255,25 @@ private void handleParasiteDamageEvent(ParasiteDamageEvent event) {
         int col = event.getCol();
         int damage = event.getDamage();
 
-        Label damageLabel = new Label(String.valueOf(damage));
+        // Create a label with the damage value prefixed by a minus sign
+        Label damageLabel = new Label("-" + String.valueOf(damage));
         damageLabel.setTextFill(javafx.scene.paint.Color.RED);
         damageLabel.setStyle("-fx-font-weight: bold;");
 
+        // Set the label's position in the grid
         GridPane.setRowIndex(damageLabel, row);
         GridPane.setColumnIndex(damageLabel, col);
         GridPane.setHalignment(damageLabel, HPos.RIGHT);  // Align to right
-        GridPane.setValignment(damageLabel, VPos.TOP); // Align to top
+        GridPane.setValignment(damageLabel, VPos.TOP);    // Align to top
         gridPane.getChildren().add(damageLabel);
 
-        PauseTransition pause = new PauseTransition(Duration.seconds(5)); // Set duration to 10 seconds
+        // Remove the label after a pause
+        PauseTransition pause = new PauseTransition(Duration.seconds(5)); // Set duration to 5 seconds
         pause.setOnFinished(_ -> gridPane.getChildren().remove(damageLabel));
         pause.play();
     });
 }
+
 
     private void handleTemperatureHeatEvent(TemperatureHeatEvent event) {
         Platform.runLater(() -> {
