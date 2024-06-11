@@ -1,6 +1,7 @@
 package com.example.ooad_project.Plant;
 
 
+import com.example.ooad_project.Events.PlantHealthUpdateEvent;
 import com.example.ooad_project.Events.PlantImageUpdateEvent;
 import com.example.ooad_project.ThreadUtils.EventBus;
 import org.apache.logging.log4j.LogManager;
@@ -83,7 +84,13 @@ public abstract class Plant {
 
     public synchronized void setCurrentHealth(int health) {
         int previousStage = getHealthStage();
+
+        int oldHealth = this.currentHealth;
+
         this.currentHealth = health;
+
+        EventBus.publish("PlantHealthUpdateEvent", new PlantHealthUpdateEvent(this.row, this.col, oldHealth, this.currentHealth));
+
         int currentStage = getHealthStage();
 
         // Check if the health stage has changed, then update the image

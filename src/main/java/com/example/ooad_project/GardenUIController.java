@@ -202,6 +202,13 @@ public class GardenUIController {
 
         EventBus.subscribe("InitializeGarden", event -> handleInitializeGarden());
 
+//        Event whenever there is change to plants health
+        EventBus.subscribe("PlantHealthUpdateEvent", event -> handlePlantHealthUpdateEvent((PlantHealthUpdateEvent) event));
+
+    }
+
+    private void handlePlantHealthUpdateEvent(PlantHealthUpdateEvent event){
+        System.out.println("Plant health updated at row " + event.getRow() + " and column " + event.getCol() + " from " + event.getOldHealth() + " to " + event.getNewHealth());
     }
 
     private void handleInitializeGarden() {
